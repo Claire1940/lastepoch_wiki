@@ -10,14 +10,7 @@
       "twitterDescription": "Last Epoch Wiki with class guides, mastery builds, loot filters, crafting help, dungeon tips, and endgame updates for PC players."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",

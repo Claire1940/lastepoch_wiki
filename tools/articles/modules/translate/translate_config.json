@@ -9,29 +9,29 @@
   "retry_attempts": 2,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["ru", "es", "pt", "de", "ja", "fr", "ko"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Last Epoch",
+    "ru": "Last Epoch",
+    "es": "Last Epoch",
+    "pt": "Last Epoch",
+    "de": "Last Epoch",
+    "ja": "Last Epoch",
+    "fr": "Last Epoch",
+    "ko": "라스트 에포크"
   },
 
   "lang_names": {
     "ru": "Russian",
+    "es": "Spanish (Latin America)",
     "pt": "Portuguese (Brazil)",
     "de": "German",
-    "es": "Spanish (Latin America)",
     "ja": "Japanese",
-    "ko": "Korean",
-    "fr": "French"
+    "fr": "French",
+    "ko": "Korean"
   },
 
   "batch_size": 20,

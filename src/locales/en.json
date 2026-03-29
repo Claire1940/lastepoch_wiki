@@ -914,86 +914,276 @@
     },
     "lastEpochIdolsGuide": {
       "title": "Last Epoch Idols Guide",
-      "displayType": "cards",
-      "intro": "Idols are a unique equipment system in Last Epoch. They provide powerful passive bonuses and come in different shapes that fit into your idol inventory grid. Class-specific idol affixes make them a major source of build power.",
-      "cards": [
+      "eyebrow": "Endgame Items",
+      "displayType": "table",
+      "subtitle": "Idols use a separate inventory grid and add some of the most flexible power in the game. As shapes get bigger, they usually become more specialized, more class-focused, or more build-defining.",
+      "intro": "You unlock idol space as the campaign progresses, and the full grid reaches 20 slots after key main and side quest rewards. Small generic idols are easy to fit while leveling, while larger class-specific idols become the main source of targeted affixes once your build starts to take shape.",
+      "items": [
         {
-          "name": "Idol Slot Unlocks",
-          "description": "Idol slots are unlocked through campaign side quests. Completing all idol quests opens the full grid for maximum passive power."
+          "category": "Generic",
+          "idolFamily": "Small Idol",
+          "size": "1×1",
+          "classAccess": "Any class",
+          "dropLevel": "Drops from level 11+",
+          "typicalStats": "Damage over Time, Dodge, HP, Healing, Stun, non-elemental resistance, non-elemental damage",
+          "notes": "Best for filling single open slots in the idol grid."
         },
         {
-          "name": "Idol Shapes and Sizes",
-          "description": "Idols come in different rectangular shapes. Fitting them efficiently into your grid maximizes the number of active bonuses."
+          "category": "Generic",
+          "idolFamily": "Humble Idol",
+          "size": "2×1",
+          "classAccess": "Any class",
+          "dropLevel": "Drops from level 11+",
+          "typicalStats": "Bleed Chance, Poison Chance, Health on Kill, Stun Duration, Vitality, non-elemental resistance, non-elemental damage",
+          "notes": "A compact early-game option for utility and ailment setups."
         },
         {
-          "name": "Class-Specific Affixes",
-          "description": "Each class has access to unique idol affixes that can significantly boost specific skills and playstyles."
+          "category": "Generic",
+          "idolFamily": "Stout Idol",
+          "size": "1×2",
+          "classAccess": "Any class",
+          "dropLevel": "Drops from level 11+",
+          "typicalStats": "Ward, Ignite Chance, Shock Chance, Critical Strike Chance, Freeze Rate, Health, elemental resistance, elemental damage",
+          "notes": "A flexible generic shape for offense or defense."
+        },
+        {
+          "category": "Mixed",
+          "idolFamily": "Adorned Idol",
+          "size": "2×2",
+          "classAccess": "Mostly class-specific; also includes Adorned Silver Idol and Adorned Volcano Idol",
+          "dropLevel": "Drops from level 20+",
+          "typicalStats": "Mostly class-specific affixes",
+          "notes": "Entry point into larger specialized idol planning."
+        },
+        {
+          "category": "Class-specific",
+          "idolFamily": "Grand Idol",
+          "size": "3×1",
+          "classAccess": "Acolyte: Grand Bone, Mage: Grand Glass, Primalist: Grand Heorot, Rogue: Grand Majasan, Sentinel: Grand Solar",
+          "dropLevel": "Drops from level 25+",
+          "typicalStats": "Mostly class-specific affixes, plus non-elemental resistance and non-elemental damage",
+          "notes": "Wide format that starts to introduce stronger class-focused bonuses."
+        },
+        {
+          "category": "Class-specific",
+          "idolFamily": "Large Idol",
+          "size": "1×3",
+          "classAccess": "Mage: Large Arcane, Acolyte: Large Immortal, Primalist: Large Nomad, Sentinel: Large Rahyeh, Rogue: Large Shadow",
+          "dropLevel": "Drops from level 25+",
+          "typicalStats": "Mostly class-specific affixes, damage, defensive bonuses",
+          "notes": "Tall format for targeted class scaling."
+        },
+        {
+          "category": "Class-specific",
+          "idolFamily": "Ornate Idol",
+          "size": "4×1",
+          "classAccess": "Acolyte: Ornate Bone, Mage: Ornate Glass, Primalist: Ornate Heorot, Rogue: Ornate Majasan, Sentinel: Ornate Solar",
+          "dropLevel": "Drops from level 30+",
+          "typicalStats": "Class-specific offensive upgrades, buffs, ailments, non-elemental resistance, non-elemental damage",
+          "notes": "A late larger-width option for strong horizontal layouts."
+        },
+        {
+          "category": "Class-specific",
+          "idolFamily": "Huge Idol",
+          "size": "1×4",
+          "classAccess": "Mage: Huge Arcane, Acolyte: Huge Immortal, Primalist: Huge Nomad, Sentinel: Huge Rahyeh, Rogue: Huge Shadow",
+          "dropLevel": "Drops from level 30+",
+          "typicalStats": "Class-specific affixes, damage, status ailments, defensive bonuses",
+          "notes": "One of the most specialized vertical idol families."
+        },
+        {
+          "category": "Unique",
+          "idolFamily": "Singularity",
+          "size": "1×1",
+          "classAccess": "Any class",
+          "dropLevel": "Requires level 42; drops from level 11+",
+          "typicalStats": "More Hit Damage if only one Singularity is equipped; disables Critical Strikes",
+          "notes": "Obtained from the Stargazer's Collection one-shot cache in Titan's Canyon."
+        },
+        {
+          "category": "Unique",
+          "idolFamily": "Throne of Ambition",
+          "size": "2×2",
+          "classAccess": "Any class",
+          "dropLevel": "Requires level 1; drops from level 20+",
+          "typicalStats": "Gain Ambition stacks when hitting a boss or rare enemy; 2% more Fire Damage per stack",
+          "notes": "Obtained from God Hunter Argentus in The Stolen Lance timeline."
         }
       ]
     },
     "lastEpochWeaverTreeGuide": {
       "title": "Last Epoch Weaver Tree Guide",
-      "displayType": "cards",
-      "intro": "The Weaver Tree is a seasonal progression system that adds account-wide bonuses through node selection. Early pathing decisions between XP and loot nodes shape your entire seasonal progression.",
-      "cards": [
+      "eyebrow": "Monolith Planning",
+      "displayType": "steps",
+      "subtitle": "The Weaver Tree changes how your Monolith web behaves, so the best route depends on whether you want faster progression, more Woven resources, gold, or leveling efficiency.",
+      "intro": "The Weaver Tree is a Monolith-focused passive tree rather than a character tree. You gain up to 50 Weaver Tree points by increasing your rank with the Woven and by completing Woven Echoes for the first time, and the tree contains roughly 70 nodes that can change rewards, encounters, and routing inside the Monolith of Fate.",
+      "steps": [
         {
-          "name": "Early Node Pathing",
-          "description": "Prioritize XP nodes early in the season to accelerate character leveling. Switch to loot nodes once your build stabilizes."
+          "title": "Unlock the system and understand what it changes",
+          "description": "The Weaver Tree modifies Monolith of Fate content instead of your class, skills, or passive tree. Its nodes can change echo rewards, add or remove encounter types, improve specific drop patterns, and create more targeted farming routes.",
+          "highlights": [
+            "Maximum of 50 Weaver Tree points",
+            "Points come from Woven rank progression and first-time Woven Echo clears",
+            "The tree affects Monolith routing, reward density, and special encounters"
+          ]
         },
         {
-          "name": "XP vs Loot Choices",
-          "description": "XP nodes provide faster leveling while loot nodes improve drop quality. The optimal path depends on your seasonal goals."
+          "title": "Start left if your first goal is early economy and faster tree growth",
+          "description": "A common early route is the left side because it improves the flow of extra rewards and helps you snowball into more Weaver progression.",
+          "highlights": [
+            "Enthralling Bounty: chance for echo rewards to be doubled on completion",
+            "Entwined Spoils: chance for echoes to spawn a reward that grants Woven Echoes",
+            "Elder Sap: chance for echoes to spawn with the Memory Amber reward type"
+          ]
         },
         {
-          "name": "Seasonal Planning",
-          "description": "Plan your Weaver Tree path before committing points. The tree changes how Monolith farming and progression feel throughout the season."
+          "title": "Push into Tomb and Cemetery support if you want more Woven activity",
+          "description": "After the early economy package, many players continue north into the Tomb and Cemetery cluster because it improves access to Woven Echoes, increases density, and adds extra long-term payoff.",
+          "highlights": [
+            "Grand Catacombs: Tombs of the Erased become more common",
+            "Necropolis of the Weaver: rare enemies in Tombs and Cemeteries gain an extra chance to drop Woven Echoes",
+            "Burial Grounds: increased monster pack size in Tombs and Cemeteries",
+            "Bountiful Sarcophagy: rare enemies in Tombs and Cemeteries can drop that timeline's boss-specific rewards"
+          ]
+        },
+        {
+          "title": "Branch by faction and immediate goal",
+          "description": "The best next branch depends on whether you want more gold, more favor and rank progression, or more focused farming.",
+          "highlights": [
+            "Merchant's Guild players can justify picking the south-side gold nodes such as Zerrick's Aid and Golden Treasures",
+            "Circle of Fortune players can justify rushing XP-focused nodes on the right side because faster leveling also improves favor and rank gains",
+            "Imprint, Super Beacon, Nemesis, and arena-conversion nodes become more valuable once you know what content you want to target"
+          ]
+        },
+        {
+          "title": "Respec once your goal changes",
+          "description": "The early route does not need to be your forever route. Once you have the points and resources you want, you can move into boss farming, champion hunting, or more specialized Monolith manipulation.",
+          "highlights": [
+            "The tree can be respecced later",
+            "Economy-first is strong for early growth",
+            "XP-first is stronger when faster leveling is the real objective",
+            "Late routing can focus on encounter removal, targeted rewards, or higher-value special nodes"
+          ]
         }
+      ],
+      "quickTips": [
+        "Start left for economy snowball or right for faster XP depending on your seasonal priority.",
+        "Tomb and Cemetery nodes are the best mid-route investment for Woven Echo access.",
+        "Merchant's Guild and Circle of Fortune players should branch differently after the early nodes.",
+        "Respec the Weaver Tree once your farming goal shifts from progression to targeted content."
       ]
     },
     "lastEpochBossGuide": {
       "title": "Last Epoch Boss Guide",
-      "displayType": "cards",
-      "intro": "Last Epoch bosses test your build's defensive stats, damage uptime, and mechanical awareness. Campaign bosses introduce core mechanics while Monolith and Dungeon bosses demand refined builds.",
-      "cards": [
+      "eyebrow": "Boss Fights",
+      "displayType": "accordion",
+      "subtitle": "Boss walls in Last Epoch usually come down to reading telegraphs, capping the right resistances, and knowing which mechanics force movement.",
+      "intro": "Campaign and Monolith bosses stop progression when your build is underprepared or when a fight has one major mechanic you have not learned yet. The fastest way to stabilize bossing is to identify the damage type first, cap the matching resistances, and only then worry about damage uptime.",
+      "bosses": [
         {
-          "name": "Campaign Bosses",
-          "description": "Story bosses like Lagon test positioning and dodge skills. Focus on capping elemental resistances and maintaining health sustain."
+          "label": "Lagon — Ending the Storm",
+          "location": "Ending the Storm timeline, Eye of the Storm",
+          "summary": "A three-phase encounter and one of the biggest progression walls in the game.",
+          "defensiveChecks": [
+            "75% Lightning Resistance",
+            "75% Cold Resistance",
+            "High movement speed and reliable mobility skills"
+          ],
+          "mechanics": [
+            "Moon Beam (Channel): Lagon sweeps the arena with a massive Lightning and Cold beam; run hard to the opposite edge as soon as he turns",
+            "Moon Beam (Hit): after 65% HP, he fires a frontal beam; side-step when he lowers his head",
+            "Moon Blast: large white ground AoE that detonates for heavy Cold and Lightning damage",
+            "Tentacles: phase two requires killing tentacles while avoiding incoming cold waves and stun pressure"
+          ],
+          "lootHighlights": ["Alluvion", "Coral Aegis", "Stormcarved Testament", "Eye of Storms"]
         },
         {
-          "name": "Monolith Bosses",
-          "description": "Timeline bosses guard blessings and have fixed mechanics. Learning their patterns is essential for efficient blessing farming."
+          "label": "Volcanic Shaman — Spirits of Fire",
+          "location": "Spirits of Fire timeline, Shattered Fire Realm",
+          "summary": "A one-phase multi-boss fight against Bhuldar, Herkir, and Logi where overlap is the real danger.",
+          "defensiveChecks": [
+            "75% Fire Resistance",
+            "75% Necrotic Resistance",
+            "High movement speed and a dependable dash"
+          ],
+          "mechanics": [
+            "Lava Burst: expanding fire circles that punish standing still",
+            "Lava Beam: narrow but high-damage frontal fire beam",
+            "Lava X: delayed X-shaped ground eruption that is easy to dodge if you move early",
+            "Shaman Spirit: dead shamans persist as necrotic spirits until all three are down, adding explosions and shard fire"
+          ],
+          "lootHighlights": ["Bhuldar's Wrath", "Herkir's Vessel", "Logi's Hunger", "Trinity of Flames"]
         },
         {
-          "name": "Dungeon Bosses",
-          "description": "Julra, Mountain Beneath, and Cremorus each have unique fight mechanics tied to their dungeon's core system."
-        },
-        {
-          "name": "Defensive Stat Checks",
-          "description": "Most boss fights require capped resistances, adequate health pool, and at least one form of health sustain to survive reliably."
+          "label": "Emperor of Corpses — Reign of Dragons",
+          "location": "Reign of Dragons timeline, Rotting Hoard",
+          "summary": "A high-pressure necrotic boss with arena denial, add spawns, and repeated reposition checks.",
+          "defensiveChecks": [
+            "75% Necrotic Resistance",
+            "75% Physical Resistance",
+            "Strong movement speed and regular reposition tools"
+          ],
+          "mechanics": [
+            "Necrotic Nova: giant explosion followed by a dangerous plague zone on the outer edge of the arena",
+            "Terrifying Roar: applies maximum slow stacks at 70% HP and summons Slaughtered Thralls",
+            "Necrotic Projectile Spread: overlapping projectiles that punish poor movement and can stack damage quickly",
+            "Spirit Breath: wide cone attack with heavy Necrotic damage over time"
+          ],
+          "lootHighlights": ["Dragonflame Edict", "Symbol of Demise", "Twisted Heart of Uhkeiros", "Horns of Uhkeiros"]
         }
       ]
     },
     "lastEpochRespecGuide": {
       "title": "Last Epoch Respec Guide",
-      "displayType": "cards",
-      "intro": "Last Epoch allows flexible respeccing of passives and skills, with recent updates also enabling mastery respec. Understanding when and how to respec saves gold and avoids unnecessary character rerolls.",
-      "cards": [
+      "eyebrow": "Character Rebuild",
+      "displayType": "steps",
+      "subtitle": "Last Epoch now supports passive, skill, and mastery changes, but each layer works differently. The smart approach is to use light respecs for refinement and save mastery respec for a real build pivot.",
+      "intro": "Passive and skill respecs are part of normal character iteration, while mastery respec is a much bigger commitment because it resets your passive setup and becomes far more expensive as your level climbs. The cleanest rebuild path is to fix passives first, swap skills second, and only change mastery when you truly want a different version of the class.",
+      "steps": [
         {
-          "name": "Passive Respec",
-          "description": "Remove passive points one at a time for a small gold cost. The cost scales with character level but remains affordable."
+          "title": "Respec passive points through Chronomancer Lerinne",
+          "description": "Passive respec is handled by Chronomancer Lerinne. After speaking to her, you can reallocate passive points one point at a time without relearning them from scratch.",
+          "highlights": [
+            "Uses gold",
+            "You must keep 20 points in your base class tree",
+            "You cannot remove points that are required to keep deeper passive branches unlocked"
+          ]
         },
         {
-          "name": "Skill Respec",
-          "description": "Despecialize a skill to free its slot. The new skill starts at specialization level 1 and needs to be leveled through combat."
+          "title": "Respec skill trees directly from the Skills menu",
+          "description": "Skill respec does not need an NPC and can be done anywhere. Open the Skills menu, choose a specialized skill, and hit RESPEC in the upper-right corner of that skill tree.",
+          "highlights": [
+            "Remove Skill Points if you want to keep the same skill but change the node layout",
+            "Despecialize Skill if you want to replace it with a different specialized skill",
+            "Respecced skills return to their minimum specialized level rather than fully starting over",
+            "Skills normally cap at level 20, though gear can add bonus levels"
+          ]
         },
         {
-          "name": "Mastery Respec",
-          "description": "Recent updates allow mastery changes. This is a significant decision that resets mastery-specific passives and skills."
+          "title": "Use mastery respec at the End of Time for a full class pivot",
+          "description": "Since Season 2, players can pay to respec mastery at the End of Time by talking to Chronomancer Lerinne. This resets all passive points and lets you pick another mastery from the same base class.",
+          "highlights": [
+            "Mastery respec also resets all passive points",
+            "Your gear stays equipped, but it may no longer match the new mastery well",
+            "The cost scales hard with level: level 20 = 5,000g, level 50 = 30,000g, level 70 = 100,000g, level 100 = 1,000,000g"
+          ]
         },
         {
-          "name": "When to Respec vs Reroll",
-          "description": "Respec when adjusting within the same build archetype. Reroll a new character when you want a completely different class or playstyle."
+          "title": "Choose the right rebuild for the size of the change",
+          "description": "Not every problem needs a full reset. Passive and skill changes are the fastest way to repair a weak build, while mastery respec is better treated like a soft reroll inside the same class.",
+          "highlights": [
+            "Use passive respec for pathing, thresholds, and defensive cleanup",
+            "Use skill respec when the core skill is right but the node layout is wrong",
+            "Use mastery respec early if you want a different mastery, because the gold cost ramps up later",
+            "Plan to revisit gear and idols after a mastery change"
+          ]
         }
+      ],
+      "quickTips": [
+        "Passive respec through Chronomancer Lerinne is cheap and can be done one point at a time.",
+        "Skill respec does not require an NPC — open the Skills menu anywhere to despecialize or remove points.",
+        "Mastery respec resets all passives and costs scale hard with level — do it early if you plan to switch.",
+        "Fix passives first, then swap skills, and only change mastery when you truly want a different subclass."
       ]
     }
   },

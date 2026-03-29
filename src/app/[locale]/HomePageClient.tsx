@@ -7,6 +7,7 @@ import {
   Check,
   ChevronDown,
   Clock,
+  CircleAlert,
   Crown,
   ExternalLink,
   Filter,
@@ -1047,20 +1048,70 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
 
       {/* Module 13: Idols Guide */}
       <section id="idols-guide" className="scroll-mt-24 px-4 py-20">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
               <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span>Passive Power</span>
+              <span>{t.modules.lastEpochIdolsGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lastEpochIdolsGuide.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lastEpochIdolsGuide.intro}</p>
+            <p className="text-lg text-muted-foreground mb-2 max-w-3xl mx-auto">{t.modules.lastEpochIdolsGuide.subtitle}</p>
+            <p className="text-muted-foreground max-w-3xl mx-auto">{t.modules.lastEpochIdolsGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-4">
-            {t.modules.lastEpochIdolsGuide.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{card.name}</h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
+
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden lg:block overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="border-b border-[hsl(var(--nav-theme)/0.3)]">
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Idol Family</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Size</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Class Access</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Drop Level</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Category</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.lastEpochIdolsGuide.items.map((item: any, index: number) => (
+                  <tr key={index} className="border-b border-border/50 hover:bg-white/5 transition-colors">
+                    <td className="py-3 px-4 text-sm font-medium">{item.idolFamily}</td>
+                    <td className="py-3 px-4 text-sm text-[hsl(var(--nav-theme-light))]">{item.size}</td>
+                    <td className="py-3 px-4 text-sm text-muted-foreground max-w-[200px]">{item.classAccess}</td>
+                    <td className="py-3 px-4 text-sm text-muted-foreground">{item.dropLevel}</td>
+                    <td className="py-3 px-4">
+                      <span className={`text-xs px-2 py-1 rounded-full ${
+                        item.category === 'Generic' ? 'bg-green-500/10 text-green-400' :
+                        item.category === 'Class-specific' ? 'bg-blue-500/10 text-blue-400' :
+                        item.category === 'Mixed' ? 'bg-yellow-500/10 text-yellow-400' :
+                        'bg-purple-500/10 text-purple-400'
+                      }`}>{item.category}</span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile cards */}
+          <div className="scroll-reveal lg:hidden space-y-4">
+            {t.modules.lastEpochIdolsGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl">
+                <div className="flex items-center justify-between mb-3">
+                  <span className="text-sm font-medium">{item.idolFamily}</span>
+                  <span className={`text-xs px-2 py-1 rounded-full ${
+                    item.category === 'Generic' ? 'bg-green-500/10 text-green-400' :
+                    item.category === 'Class-specific' ? 'bg-blue-500/10 text-blue-400' :
+                    item.category === 'Mixed' ? 'bg-yellow-500/10 text-yellow-400' :
+                    'bg-purple-500/10 text-purple-400'
+                  }`}>{item.category}</span>
+                </div>
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-sm text-[hsl(var(--nav-theme-light))]">{item.size}</span>
+                  <span className="text-xs text-muted-foreground">•</span>
+                  <span className="text-sm text-muted-foreground">{item.dropLevel}</span>
+                </div>
+                <p className="text-sm text-muted-foreground mb-2">{item.classAccess}</p>
+                <p className="text-xs text-muted-foreground italic">{item.notes}</p>
               </div>
             ))}
           </div>
@@ -1073,18 +1124,52 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           <div className="text-center mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
               <GitBranch className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span>Seasonal System</span>
+              <span>{t.modules.lastEpochWeaverTreeGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lastEpochWeaverTreeGuide.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lastEpochWeaverTreeGuide.intro}</p>
+            <p className="text-lg text-muted-foreground mb-2 max-w-3xl mx-auto">{t.modules.lastEpochWeaverTreeGuide.subtitle}</p>
+            <p className="text-muted-foreground max-w-3xl mx-auto">{t.modules.lastEpochWeaverTreeGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-4">
-            {t.modules.lastEpochWeaverTreeGuide.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{card.name}</h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
+
+          {/* Steps */}
+          <div className="scroll-reveal space-y-4 mb-10">
+            {t.modules.lastEpochWeaverTreeGuide.steps.map((step: any, index: number) => (
+              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                  <p className="text-muted-foreground mb-3">{step.description}</p>
+                  {step.highlights && (
+                    <ul className="space-y-1">
+                      {step.highlights.map((hl: string, i: number) => (
+                        <li key={i} className="flex items-start gap-2">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                          <span className="text-sm text-muted-foreground">{hl}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               </div>
             ))}
+          </div>
+
+          {/* Quick Tips */}
+          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+            <div className="flex items-center gap-2 mb-4">
+              <Zap className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="font-bold text-lg">Quick Tips</h3>
+            </div>
+            <ul className="space-y-2">
+              {t.modules.lastEpochWeaverTreeGuide.quickTips.map((tip: string, index: number) => (
+                <li key={index} className="flex items-start gap-2">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground text-sm">{tip}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>
@@ -1095,16 +1180,82 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           <div className="text-center mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
               <Skull className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span>Fight Mechanics</span>
+              <span>{t.modules.lastEpochBossGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lastEpochBossGuide.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lastEpochBossGuide.intro}</p>
+            <p className="text-lg text-muted-foreground mb-2 max-w-3xl mx-auto">{t.modules.lastEpochBossGuide.subtitle}</p>
+            <p className="text-muted-foreground max-w-3xl mx-auto">{t.modules.lastEpochBossGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lastEpochBossGuide.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{card.name}</h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
+
+          {/* Boss Accordion Cards */}
+          <div className="scroll-reveal space-y-6">
+            {t.modules.lastEpochBossGuide.bosses.map((boss: any, index: number) => (
+              <div key={index} className="bg-white/5 border border-border rounded-xl overflow-hidden hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="p-6">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                      <Skull className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold mb-1">{boss.label}</h3>
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <MapPin className="w-3 h-3" />
+                        <span>{boss.location}</span>
+                      </div>
+                      <p className="text-muted-foreground mt-2">{boss.summary}</p>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+                    {/* Defensive Checks */}
+                    <div className="p-4 bg-white/5 rounded-lg border border-border">
+                      <div className="flex items-center gap-2 mb-3">
+                        <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                        <h4 className="font-semibold text-sm">Defensive Checks</h4>
+                      </div>
+                      <ul className="space-y-1">
+                        {boss.defensiveChecks.map((check: string, i: number) => (
+                          <li key={i} className="flex items-start gap-2">
+                            <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                            <span className="text-xs text-muted-foreground">{check}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {/* Mechanics */}
+                    <div className="p-4 bg-white/5 rounded-lg border border-border">
+                      <div className="flex items-center gap-2 mb-3">
+                        <CircleAlert className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                        <h4 className="font-semibold text-sm">Key Mechanics</h4>
+                      </div>
+                      <ul className="space-y-1">
+                        {boss.mechanics.map((mech: string, i: number) => (
+                          <li key={i} className="flex items-start gap-2">
+                            <Swords className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                            <span className="text-xs text-muted-foreground">{mech}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {/* Loot */}
+                    <div className="p-4 bg-white/5 rounded-lg border border-border">
+                      <div className="flex items-center gap-2 mb-3">
+                        <Gem className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                        <h4 className="font-semibold text-sm">Loot Highlights</h4>
+                      </div>
+                      <ul className="space-y-1">
+                        {boss.lootHighlights.map((loot: string, i: number) => (
+                          <li key={i} className="flex items-start gap-2">
+                            <Star className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                            <span className="text-xs text-muted-foreground">{loot}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -1117,18 +1268,52 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           <div className="text-center mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
               <RefreshCw className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span>Character Adjustment</span>
+              <span>{t.modules.lastEpochRespecGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lastEpochRespecGuide.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lastEpochRespecGuide.intro}</p>
+            <p className="text-lg text-muted-foreground mb-2 max-w-3xl mx-auto">{t.modules.lastEpochRespecGuide.subtitle}</p>
+            <p className="text-muted-foreground max-w-3xl mx-auto">{t.modules.lastEpochRespecGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lastEpochRespecGuide.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{card.name}</h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
+
+          {/* Steps */}
+          <div className="scroll-reveal space-y-4 mb-10">
+            {t.modules.lastEpochRespecGuide.steps.map((step: any, index: number) => (
+              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                  <p className="text-muted-foreground mb-3">{step.description}</p>
+                  {step.highlights && (
+                    <ul className="space-y-1">
+                      {step.highlights.map((hl: string, i: number) => (
+                        <li key={i} className="flex items-start gap-2">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                          <span className="text-sm text-muted-foreground">{hl}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               </div>
             ))}
+          </div>
+
+          {/* Quick Tips */}
+          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+            <div className="flex items-center gap-2 mb-4">
+              <Zap className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="font-bold text-lg">Quick Tips</h3>
+            </div>
+            <ul className="space-y-2">
+              {t.modules.lastEpochRespecGuide.quickTips.map((tip: string, index: number) => (
+                <li key={index} className="flex items-start gap-2">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground text-sm">{tip}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>

@@ -1,808 +1,9 @@
 {
-  "seo": {
-    "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
-    }
-  },
   "nav": {
     "guide": "ガイド",
     "builds": "ビルド",
     "classes-and-tier-list": "クラス＆ティアリスト",
     "season-4-and-updates": "シーズン4＆アップデート"
-  },
-  "common": {
-    "home": "ホーム",
-    "more": "もっと見る",
-    "playNow": "Steamでプレイ",
-    "switchLanguage": "言語を切り替える",
-    "switchTheme": "テーマを切り替える",
-    "lightMode": "ライトモード",
-    "darkMode": "ダークモード",
-    "notFound": "ページが見つかりません",
-    "notFoundDescription": "お探しのページは存在しません。",
-    "backToHome": "ホームに戻る",
-    "relatedArticles": "関連記事",
-    "readMore": "続きを読む"
-  },
-  "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
-    "stats": {
-      "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
-      },
-      "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
-      },
-      "stat3": {
-        "value": "97%",
-        "label": "好評"
-      },
-      "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
-      }
-    }
-  },
-  "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
-  },
-  "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "リソース",
-    "subtitle": "Lucid Blocksでの探索、クラフト、生存に必要なすべての情報",
-    "cards": [
-      {
-        "icon": "BookOpen",
-        "title": "初心者ガイド",
-        "description": "最初のステップ、探索、序盤の進め方"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis クラフト",
-        "description": "フリーフォーム・フュージョンシステムと序盤のレシピ"
-      },
-      {
-        "icon": "Hammer",
-        "title": "ツールと武器",
-        "description": "フロストピック、アズラエル、__PROTECTED_6a765cb2__、その他"
-      },
-      {
-        "icon": "Package",
-        "title": "ストレージとインベントリ",
-        "description": "キャッシュキューブ、キャビネット、クオリアストレージ"
-      },
-      {
-        "icon": "Home",
-        "title": "クオリアと拠点建築",
-        "description": "パーソナルクオリアと拠点のセットアップ"
-      },
-      {
-        "icon": "Eye",
-        "title": "ワールドエリア",
-        "description": "Fog Meadow、エッセンスの沼地、その他"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "クリーチャーと敵",
-        "description": "マネキン、クモ、そして生き残る方法"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "移動用装備",
-        "description": "__PROTECTED_6a765cb2__、グライダーグローブ、__PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "農業と成長",
-        "description": "種の進行と素材集め"
-      },
-      {
-        "icon": "Star",
-        "title": "序盤のおすすめアンロック",
-        "description": "プレイ開始1時間で優先すべきアップグレード"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "実績トラッカー",
-        "description": "全19個のSteamの実績と解除条件"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "シングルプレイヤーFAQ",
-        "description": "プラットフォーム、価格、協力プレイ、言語に関する質問"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deckとコントローラー",
-        "description": "Proton 9.0.4のセットアップとコントローラーのヒント"
-      },
-      {
-        "icon": "Settings",
-        "title": "設定とアクセシビリティ",
-        "description": "手の非表示、__PROTECTED_38625270__、表示オプション"
-      },
-      {
-        "icon": "Clock",
-        "title": "アップデートとパッチノート",
-        "description": "最近の修正とロードマップ"
-      },
-      {
-        "icon": "Shield",
-        "title": "クラッシュ修正",
-        "description": "__PROTECTED_38625270__の確認、ログのパス、バグ報告"
-      }
-    ]
-  },
-  "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks 初心者ガイド",
-      "displayType": "steps",
-      "intro": "まずは探索、融合、そして進行がどのように繋がっているかを学ぶことから始めましょう。Lucid Blocks では試行錯誤が報われます。序盤の進行は、珍しい素材を集め、組み合わせを試し、自分だけのクオリアを解放することから始まります。",
-      "steps": [
-        {
-          "title": "本格的に動く前に探索する",
-          "description": "外へ歩き出し、一般的なブロックを採掘し、見つけた奇妙なドロップアイテムはすべて取っておきましょう。序盤の進行は、決まったクエストをこなすことよりも、素材が何に変化するかを発見することに重点が置かれています。"
-        },
-        {
-          "title": "早めに自分専用のクオリアを解放する",
-          "description": "自分専用のクオリアは、序盤で最も重要なマイルストーンの一つです。体制を立て直し、拠点を構築するための信頼できる場所となります。"
-        },
-        {
-          "title": "序盤の素早い進行にオスミウムを活用する",
-          "description": "オスミウムは序盤で最も役立つ素材の一つです。オスミウムと棒を組み合わせて、素早い採掘が可能な「フロストピック」を作るのが人気の序盤ルートです。"
-        },
-        {
-          "title": "優れた融合を記録する",
-          "description": "成功した組み合わせはジャーナルに記録しておきましょう。Lucid Blocks には膨大な融合パターンがあるため、有用な結果を書き留めておくことで大幅な時間の節約になります。"
-        }
-      ],
-      "quickTips": [
-        "Apotheosis には固定のレシピリストは必要ありません。",
-        "無限に生成される世界では、より高く、あるいはより深く移動することで、全く異なる素材が見つかることがあります。",
-        "移動ツールやユーティリティ装備を解放し始めると、プレイの快適さが劇的に向上します。",
-        "序盤に迷うのは普通のことですが、最初の優れた融合が成功すれば、便利なツール、ストレージ、移動手段が次々と手に入るようになります。"
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis クラフト",
-      "displayType": "cards",
-      "intro": "Apotheosis は、このゲームの制限のない融合システムです。従来のレシピ本を暗記する代わりに、素材を組み合わせ、結果を観察し、時間をかけて自分だけのクラフト知識を築き上げていきます。",
-      "cards": [
-        {
-          "name": "フリーフォームな融合",
-          "description": "Apotheosis では、固定のレシピリストに従うことなく、さまざまなアイテムを融合させることができます。"
-        },
-        {
-          "name": "複数の有用な結果",
-          "description": "素材によって、特定の結果に繋がりやすい傾向があります。コミュニティの発見によれば、似たような投入素材からでも、実用的なツール、ストレージ、あるいは戦闘用のアップグレードを作成可能です。"
-        },
-        {
-          "name": "ジャーナル優先のクラフト",
-          "description": "Apotheosis を学ぶ最良の方法は、成功した組み合わせを記録することです。ジャーナルはすぐにあなた専用のクラフトリファレンスになります。"
-        },
-        {
-          "name": "コミュニティ検証済みの序盤の融合",
-          "description": "序盤の代表例としては、オスミウム＋棒で「フロストピック」、棒＋タングステンの付属肢で「アズラエル」、アズラエル＋磁鉄鉱で「触手レイピア」などが挙げられます。"
-        }
-      ],
-      "milestones": [
-        "アイテムを融合させる",
-        "害獣を融合させる",
-        "神聖なアーティファクトを融合させる"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks ツールと武器",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks では、公式のユーティリティ装備とコミュニティが発見した序盤の武器が混在しています。最適なセットアップは通常、素早い採掘、安全な移動、そして信頼できる戦闘手段を組み合わせたものです。",
-      "items": [
-        {
-          "name": "フロストピック",
-          "type": "採掘ツール",
-          "description": "オスミウムと棒から作られる、高速で安価な序盤用ピッケル。プレイヤーはこれを使って序盤の素材集めを加速させます。"
-        },
-        {
-          "name": "アズラエル",
-          "type": "初期武器",
-          "description": "棒とタングステンの付属肢からクラフトできる、実用的な序盤の武器ルートです。"
-        },
-        {
-          "name": "触手レイピア",
-          "type": "強化武器",
-          "description": "アズラエルと磁鉄鉱を組み合わせて作る強力な発展武器。プレイヤー間で共有されている、序盤から中盤にかけて最も有用な戦闘ルートの一つです。"
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "移動能力と垂直方向の探索を大幅に向上させる公式の移動アイテムです。"
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "より安全かつ効率的に距離を移動するのに役立つ公式の移動アイテムです。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ武器",
-          "description": "戦闘やパズルの選択肢を広げる公式の遠距離ユーティリティアイテムです。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "移動装備",
-          "description": "通常は探索が困難な場所へ到達するための公式ユーティリティアイテムです。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "中核となるツールセットの一部として公式に推奨されており、脅威や障害物を突破するのに役立ちます。"
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks ストレージとインベントリ",
-      "displayType": "solutionCards",
-      "intro": "Lucid Blocks では早い段階からインベントリが圧迫されるため、ストレージの構築を優先目標にすべきです。実際のプレイヤーによって検証されたいくつかの解決策がすでに確立されています。",
-      "solutions": [
-        {
-          "name": "キャッシュキューブ",
-          "role": "チェスト型ストレージ",
-          "description": "キャッシュキューブは最も初期に利用可能な実用的なストレージであり、プレイヤーの間ではゲーム内の主要なチェスト型コンテナとして扱われています。"
-        },
-        {
-          "name": "キャビネット",
-          "role": "簡易拠点ストレージ",
-          "description": "キャビネットも確認されているストレージの選択肢です。共有されている序盤のレシピでは、カットウッド1つと紐1つを使用します。"
-        },
-        {
-          "name": "個人用クオリア",
-          "role": "長期ストレージハブ",
-          "description": "解放されると、個人用クオリアは素材を整理し、落ち着いてクラフトを行い、拠点を拡張するための自然な拠点となります。"
-        },
-        {
-          "name": "ジャーナルによる追跡",
-          "role": "インベントリの効率化",
-          "description": "有用な組み合わせをジャーナルに記録することで、素材の無駄を減らし、インベントリ管理を大幅に楽にすることができます。"
-        }
-      ],
-      "managementTips": [
-        "レアなドロップ品を溜め込む前に、信頼できるストレージを一つ確保することを優先しましょう。",
-        "個人用クオリアが利用可能になったら、そこを中心に構築を進めましょう。",
-        "クラフト素材、戦闘ツール、移動装備を分けて保管することで、アップグレードの計画が立てやすくなります。",
-        "ジャーナルを単なるクラフトの発見用ではなく、インベントリ管理の一部として活用しましょう。"
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks クオリアと拠点建築",
-      "displayType": "cards",
-      "intro": "クオリアは Lucid Blocks における最も重要な進行マイルストーンの一つです。体制を整え、素材を保管し、探索の成果を徐々に本格的な拠点へと変えていくための個人空間を提供します。",
-      "cards": [
-        {
-          "name": "個人用クオリア",
-          "description": "クオリアの解放は序盤のマイルストーンであり、広い世界を探索する中で戻ってくるための信頼できる場所となります。"
-        },
-        {
-          "name": "ストレージ優先の建築",
-          "description": "多くのプレイヤーは、整理されたクラフトスペースや建築スペースを持つ大きな拠点にする前に、まずクオリアをストレージハブとして使い始めます。"
-        },
-        {
-          "name": "クリエイティブな自宅建築",
-          "description": "Lucid Blocks はクリエイティブな建築をサポートしており、プレイヤーはすでにクオリアの空間を利用して家やパーソナライズされたレイアウトを作成しています。"
-        },
-        {
-          "name": "進行のハブ",
-          "description": "強力な拠点は、探索で得た戦利品、クラフト素材、種、ツール、移動装備を分類するのに役立ち、次のアップグレード計画を容易にします。"
-        }
-      ],
-      "highlights": [
-        "クオリアに入る",
-        "素材を安全に保管する",
-        "実用性から装飾へと拡張する",
-        "拠点のスペースを活用してクラフトや農業を支援する"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks 世界の地域",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks は無限の世界生成を採用しているため、プレイヤーは常に新しい環境や構造物を発見し続けています。実績やコミュニティの議論には、すでにいくつかの地名が登場しています。",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "コミュニティ注目エリア",
-          "description": "Fog Meadow は、隠れた脅威や危険な遭遇に関連する緊張感のあるエリアとして、プレイヤーの間ですでに知られています。"
-        },
-        {
-          "name": "ティアマナ・レイライン",
-          "type": "発見ランドマーク",
-          "description": "ティアマナ・レイラインは独自の実績マイルストーンを持つほど重要であり、これまでに判明している中で最も明確な名前付きの発見場所の一つです。"
-        },
-        {
-          "name": "クロナクオリア",
-          "type": "建築スペース",
-          "description": "プレイヤーはすでにクロナクオリアを、家を建てたり、素材を保管したり、より永続的なレイアウトを試したりする場所として利用しています。"
-        },
-        {
-          "name": "エッセンスの沼地",
-          "type": "ファーミングエリア",
-          "description": "エッセンスの沼地は、特にスライムとの戦闘や経験値稼ぎに役立つファーミング場所としてプレイヤー間で共有されています。"
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks クリーチャーと敵",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks は超現実的なクリーチャーと現実的な危険が混ざり合っています。公式の説明やコミュニティの投稿は、奇妙な生命、敵対的な脅威、そしてプレイヤーがすぐに覚えるような印象的な遭遇に満ちた世界を指し示しています。",
-      "creatures": [
-        {
-          "name": "マネキン",
-          "role": "敵対的な敵",
-          "description": "マネキンはこの世界における公式な名前を持つ敵の一つであり、ゲームの超現実的な脅威リストの一部です。"
-        },
-        {
-          "name": "ぷにぷにジェル",
-          "role": "敵対的な敵",
-          "description": "ぷにぷにジェルも公式な名前を持つ敵タイプであり、ゲームの奇妙な生物学的スタイルを象徴しています。"
-        },
-        {
-          "name": "高次元の存在",
-          "role": "敵対的な敵",
-          "description": "これらの存在は、世界のより抽象的で不安をかき立てる敵ラインナップの一部として登場します。"
-        },
-        {
-          "name": "巨大クモ",
-          "role": "主要な脅威",
-          "description": "クモはコミュニティの議論で最も即座に恐れられている敵の一つであり、明らかに記憶に残る危険な存在です。"
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "名前付きクリーチャー",
-          "description": "__PROTECTED_26ee183b__ は独自の実績を持つほど注目に値し、ゲーム内で最も明確な名前付きクリーチャーとの遭遇の一つです。"
-        },
-        {
-          "name": "可愛い害獣",
-          "role": "インタラクティブな生物",
-          "description": "害獣は融合の進行に関わるだけでなく、名前を付けることもでき、標準的な敵よりも個人的な役割を持ちます。"
-        },
-        {
-          "name": "冒涜的なクリーチャー",
-          "role": "エリートの脅威",
-          "description": "冒涜的なクリーチャーは専用の戦闘実績に関連付けられており、重要な敵との遭遇として位置づけられています。"
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks 移動装備",
-      "displayType": "itemCards",
-      "intro": "移動手段のアップグレードは、Lucid Blocks におけるプレイの快適さを最も大きく向上させる要素の一つです。最初の移動ツールを解放すれば、探索はより速く、より安全に、そしてより実りあるものになります。",
-      "items": [
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、専用の実績も用意されています。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "type": "空中移動",
-          "description": "グライダーグローブはよりスムーズな移動を可能にし、独自の実績を持つもう一つの主要な進行マイルストーンです。"
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "ビィ・グライダーは、効率的に距離を移動するための移動ツールキットの一部として公式に推奨されています。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ装備",
-          "description": "ボールワンドは公式に推奨されている特殊ツールの一つで、世界を移動したり干渉したりする方法を広げてくれます。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "探索装備",
-          "description": "スキューバダイビングギアは、通常では探索が困難なエリアに到達するための中核的なユーティリティセットとして公式にリストされています。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "爆発物は公式に推奨されていると同時に実績マイルストーンにも関連付けられており、ゲームの中核的なユーティリティ進行の一部となっています。"
-        }
-      ],
-      "unlockMilestones": [
-        "フックショットを使いこなす",
-        "グライダーグローブで空を飛ぶ",
-        "投射物ワンドを構える",
-        "爆発物を構える"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks 農業と成長",
-      "displayType": "mixedCards",
-      "intro": "成長は Lucid Blocks における真の進行の一部です。農業は単に植えて収穫するだけでなく、ツール、武器、クラフトの選択肢を維持するための反復可能な素材ルートを確立することでもあります。",
-      "sections": [
-        {
-          "name": "種の進行",
-          "description": "種を植えて肥料を与えることはゲーム内の重要なマイルストーンであり、完全に成長したナッツを収穫することも同じ成長パスの一部です。"
-        },
-        {
-          "name": "素材ファーミング",
-          "description": "実用的な序盤のファーミングループは「水銀カプセル」を作成することです。これにより、反復可能なクラフト素材となる触手やグーをドロップする小さなスライムが出現します。"
-        },
-        {
-          "name": "ツールの維持",
-          "description": "オスミウム、ガラスの破片、植物、スライム素材を安定して集められるようになると、その後のクラフトのための資源ファーミングがより強力になります。"
-        },
-        {
-          "name": "拠点のルーチン",
-          "description": "最適な農業セットアップは食料以上のものを支えます。ストレージ、移動ツール、武器のアップグレード、そして将来の融合実験に供給されるべきです。"
-        }
-      ],
-      "growthMilestones": [
-        "種に肥料を与える",
-        "完全に成長したナッツを収穫する",
-        "反復可能な素材ループを作成する",
-        "農業を長期的な進行に組み込む"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks おすすめの序盤解放要素",
-      "displayType": "priorityCards",
-      "intro": "最強の序盤解放要素は、安全性、ストレージ、そして移動能力を向上させるものです。Lucid Blocks では、いくつかの実用的なアップグレードがその後のゲームプレイ全体を非常にスムーズにします。",
-      "priorities": [
-        {
-          "name": "個人用クオリア",
-          "priority": "必須",
-          "description": "個人用クオリアにアクセスできるようになると、プレイが格段に安定します。ストレージ、建築、体制の立て直しのための信頼できるハブとして機能します。"
-        },
-        {
-          "name": "フロストピック",
-          "priority": "極めて高い",
-          "description": "オスミウムと棒で作れる、高速で安価な序盤の採掘ツール。序盤の資源収集を加速させるために最も有用なアップグレードの一つです。"
-        },
-        {
-          "name": "キャッシュキューブ",
-          "priority": "極めて高い",
-          "description": "インベントリの圧迫は早くから始まるため、最初の信頼できるチェスト型コンテナを手に入れることは、プレイの快適さを大きく向上させます。"
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "高い",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、探索をより速く、より安全にします。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "priority": "高い",
-          "description": "グライダーグローブはもう一つの大きな機動力ブーストをもたらし、長距離の移動をはるかに効率的にします。"
-        },
-        {
-          "name": "投射物ワンドまたは爆弾",
-          "priority": "高い",
-          "description": "遠距離ツールや爆発物の選択肢を持つことで、危険な敵や試練形式の遭遇に対してより安全に対処できるようになります。"
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks 実績トラッカー",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks には現在 19 個の Steam 実績があり、それらは探索、クラフト、移動、戦闘、成長の進行に自然に分類されます。",
-      "groups": [
-        {
-          "name": "探索",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "クオリアに入る。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "ティアマナ・レイラインを発見する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "ティアマナの試練を乗り越える。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "隠し実績。"
-            }
-          ]
-        },
-        {
-          "name": "クラフトと召喚",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "アイテムを融合させる。"
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "害獣を融合させる。"
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "神聖なアーティファクトを融合させる。"
-            },
-            {
-              "title": "Archangel β",
-              "description": "信仰を召喚する。"
-            }
-          ]
-        },
-        {
-          "name": "移動とユーティリティ",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "グライダーグローブで空を飛ぶ。"
-            },
-            {
-              "title": "Virtue β",
-              "description": "フックショットを使いこなす。"
-            },
-            {
-              "title": "Archangel α",
-              "description": "投射物ワンドを構える。"
-            },
-            {
-              "title": "Archangel γ",
-              "description": "爆発物を構える。"
-            }
-          ]
-        },
-        {
-          "name": "戦闘とクリーチャー",
-          "achievements": [
-            {
-              "title": "__PROTECTED_26ee183b__ の虐殺",
-              "description": "罪のないバブルベアを倒す。"
-            },
-            {
-              "title": "Archangel δ",
-              "description": "冒涜的なクリーチャーを排除する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "死亡する。"
-            },
-            {
-              "title": "Dominion γ",
-              "description": "可愛い害獣に名前を付ける。"
-            }
-          ]
-        },
-        {
-          "name": "成長と農業",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "種に肥料を与える。"
-            },
-            {
-              "title": "Dominion β",
-              "description": "完全に成長したナッツを収穫する。"
-            },
-            {
-              "title": "Dominion δ",
-              "description": "隠し実績。"
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks シングルプレイヤーおよびプラットフォーム FAQ",
-      "displayType": "accordion",
-      "intro": "これらは、Lucid Blocks を購入する前にプレイヤーからよく寄せられる、プラットフォームとアクセスに関する核心的な質問です。",
-      "faqs": [
-        {
-          "question": "Lucid Blocks はシングルプレイヤーですか？",
-          "answer": "はい。Lucid Blocks はシングルプレイヤー専用ゲームです。"
-        },
-        {
-          "question": "マルチプレイヤーや協力プレイの予定はありますか？",
-          "answer": "いいえ。リリース時および将来のアップデートにおいて、マルチプレイヤーの予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はどこでプレイできますか？",
-          "answer": "現在は Windows 用に Steam で配信されています。"
-        },
-        {
-          "question": "Lucid Blocks の価格はいくらですか？",
-          "answer": "Steam で 9.99 ドルです。"
-        },
-        {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
-        },
-        {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Steam Deck では、Proton 9.0 または 9.0.4 の使用が一般的に推奨されています。"
-        },
-        {
-          "question": "Lucid Blocks は Linux で動作しますか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "Mac や Android はサポートされますか？",
-          "answer": "将来的にサポートされる可能性はありますが、現時点でのローンチプラットフォームではありません。"
-        },
-        {
-          "question": "Lucid Blocks に翻訳はありますか？",
-          "answer": "いいえ。現在、翻訳の予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はアップデートされ続けますか？",
-          "answer": "はい。リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck とコントローラー",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks は Steam Deck で動作しますが、デフォルト設定では調整が必要な場合があります。メニュー操作や一般的なプレイにおいては、キーボードとマウスの方がスムーズです。",
-      "faqs": [
-        {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Proton 9.0 で良好に動作します。また、Proton 9.0.4 は Steam Deck の問題に対する一般的な修正方法として共有されています。"
-        },
-        {
-          "question": "Steam Deck の操作が効かない場合はどうすればよいですか？",
-          "answer": "互換性設定を強制し、ゲームを Proton 9.0.4 に切り替えてください。デフォルト設定ではコントローラー入力が正しく受け付けられない場合があります。"
-        },
-        {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、ゲームのメニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
-        },
-        {
-          "question": "Linux のサポートは可能ですか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "最適な入力設定は何ですか？",
-          "answer": "メニューのナビゲーションや一般的なプレイにおいては、キーボードとマウスが最もスムーズな選択肢です。"
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks 設定とアクセシビリティ",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks には、プレイヤーが最初にゲームを起動した際に重要となる、いくつかの実用的な設定と互換性に関する注意点があります。",
-      "settings": [
-        {
-          "name": "ディスプレイ設定",
-          "type": "快適性オプション",
-          "description": "ディスプレイ設定には、画面上の手を表示しないようにするオプションが含まれています。"
-        },
-        {
-          "name": "グラフィックスの互換性",
-          "type": "システム要件",
-          "description": "グラフィックスを正しくレンダリングするには __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや深刻なグラフィックの不具合が発生する可能性があります。"
-        },
-        {
-          "name": "入力の好み",
-          "type": "操作設定",
-          "description": "コントローラーのサポートは存在しますが、メニューがコントローラー操作向けに構築されていないため、キーボードとマウスの方がスムーズな体験が得られます。"
-        },
-        {
-          "name": "言語サポート",
-          "type": "ローカライズ",
-          "description": "現在の設定は英語のみであり、現時点では翻訳の予定はありません。"
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks アップデートとパッチノート",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks では、リリース直後の迅速な修正や小規模なユーザビリティのアップデートがすでに行われています。",
-      "entries": [
-        {
-          "title": "アップデート 2.8.2",
-          "type": "UI アップデート",
-          "description": "メインメニューの「awaken（目覚める）」を「exit（終了）」に変更しました。"
-        },
-        {
-          "title": "起動時のクラッシュに関する小規模パッチ",
-          "type": "ホットフィックス",
-          "description": "起動時にゲームがクラッシュしていたプレイヤー向けに、専用のパッチがリリースされました。"
-        },
-        {
-          "title": "リリース後のコンテンツサポート",
-          "type": "ロードマップ注記",
-          "description": "リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks クラッシュ修正とトラブルシューティング",
-      "displayType": "steps",
-      "intro": "起動時やクラッシュに関する差し迫った問題は、パッチレベル、グラフィックスサポート、プラットフォームの互換性、ログの順に確認してください。",
-      "steps": [
-        {
-          "title": "最新のクラッシュホットフィックスをインストールする",
-          "description": "起動時にゲームがクラッシュする場合は、まずアップデートを行い、最新の起動クラッシュ用パッチで再度テストしてください。"
-        },
-        {
-          "title": "__PROTECTED_38625270__ のサポートを確認する",
-          "description": "Lucid Blocks には __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや重大なレンダリングの問題が発生する可能性があります。"
-        },
-        {
-          "title": "Steam Deck で Proton 9.0.4 を使用する",
-          "description": "Steam Deck で入力や起動の挙動に問題がある場合は、互換性設定を強制し、Proton 9.0.4 に切り替えてください。"
-        },
-        {
-          "title": "クラッシュログを収集する",
-          "description": "Windows の「ファイル名を指定して実行」を開き、「%APPDATA%」を貼り付けて、lucid blocks/logs フォルダに移動し、トラブルシューティング用の .txt ファイルを収集してください。"
-        },
-        {
-          "title": "問題を正しく報告する",
-          "description": "公式 Discord の bug-reports フォーラム、または Steam コミュニティページで、ログとデバイスの詳細を共有してください。"
-        }
-      ]
-    }
-  },
-  "faq": {
-    "title": "よくある",
-    "titleHighlight": "質問",
-    "subtitle": "Lucid Blocks に関するすべての情報",
-    "questions": [
-      {
-        "question": "Lucid Blocks はシングルプレイヤーゲームですか？",
-        "answer": "はい。Lucid Blocks はシングルプレイヤー専用のゲームであり、マルチプレイヤーや協力プレイの予定はありません。"
-      },
-      {
-        "question": "Lucid Blocks における Apotheosis システムとは何ですか？",
-        "answer": "Apotheosis は Lucid Blocks のフリーフォーム・フュージョン・クラフトシステムです。決まったレシピに従うのではなく、素材を組み合わせて独自のクラフトパスを発見していきます。"
-      },
-      {
-        "question": "Lucid Blocks はどこでプレイできますか？",
-        "answer": "Lucid Blocks は現在、Windows向けに Steam で配信されています。Linuxおよび Steam Deckへの対応は、Proton 9.0を通じて提供されています。"
-      },
-      {
-        "question": "Lucid Blocks の価格はいくらですか？",
-        "answer": "Lucid Blocks は Steam で9.99ドルです。"
-      },
-      {
-        "question": "Lucid Blocks はコントローラーに対応していますか？",
-        "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。キーボードとマウスの方がスムーズに操作できます。"
-      },
-      {
-        "question": "Lucid Blocks のアップデートはありますか？",
-        "answer": "はい。リリース後にいくつかのコンテンツアップデートを予定していますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-      }
-    ]
-  },
-  "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
-  },
-  "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
-    "resources": "リソース",
-    "community": "コミュニティ",
-    "legal": "法的情報",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
-    "privacy": "プライバシーポリシー",
-    "terms": "利用規約",
-    "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
   },
   "pages": {
     "guide": {
@@ -885,5 +86,1356 @@
       "featured": "注目・必須ニュース",
       "all": "すべてのシーズン＆アップデートニュース"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Last Epoch ウィキ - ビルド、クラス、エンドゲームガイド",
+      "description": "Last Epoch ウィキ：クラスガイド、Mastery ビルド、Loot Filter、クラフトのヒント、ダンジョンのコツ、派閥の選択、PCプレイヤー向けのエンドゲームアップデート。",
+      "keywords": "Last Epoch, PC, ビルド, クラス, エンドゲーム, Loot Filter, クラフト, 派閥, ダンジョン",
+      "ogTitle": "Last Epoch ウィキ - ビルド、クラス、エンドゲームガイド",
+      "ogDescription": "Last Epoch ウィキ：クラスガイド、Mastery ビルド、Loot Filter、クラフトのヒント、ダンジョンのコツ、派閥の選択、PCプレイヤー向けのエンドゲームアップデート。",
+      "twitterTitle": "Last Epoch ウィキ - ビルド、クラス、エンドゲームガイド",
+      "twitterDescription": "Last Epoch ウィキ：クラスガイド、Mastery ビルド、Loot Filter、クラフトのヒント、ダンジョンのコツ、PCプレイヤー向けのエンドゲームアップデート。"
+    }
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む"
+  },
+  "hero": {
+    "badge": "時を越えるルートARPG",
+    "title": "Last Epoch ウィキ",
+    "description": "PC版 Last Epoch プレイヤーのための、Mastery クラス、ビルド構築、ダンジョン進行、派閥の選択、Loot Filter、そしてエンドゲームの Monolith ガイド。",
+    "getFreeCodesCTA": "ビルドガイドを読む",
+    "playOnSteamCTA": "Steam でプレイ",
+    "stats": {
+      "stat1": {
+        "value": "2024年2月21日",
+        "label": "発売日"
+      },
+      "stat2": {
+        "value": "59055",
+        "label": "Steam レビュー"
+      },
+      "stat3": {
+        "value": "15",
+        "label": "Mastery クラス"
+      },
+      "stat4": {
+        "value": "120+",
+        "label": "スキル"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Last Epoch ゲームプレイ",
+    "description": "時を越え、15の Mastery クラスを極め、レジェンダリー装備をクラフトし、PCで楽しめるこの奥深いアクションRPGで Monolith of Fate を征服しましょう。"
+  },
+  "tools": {
+    "title": "Last Epoch",
+    "titleHighlight": "ガイドハブ",
+    "subtitle": "Last Epoch のビルド、クラス、クラフト、エンドゲームを極めるために必要なすべて",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Last Epoch 初心者ガイド",
+        "description": "クラス選択から Monolith までの初回プレイパス"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Last Epoch 最強ビルド",
+        "description": "Corruption、ボス戦、ファーミング向けのトップビルド"
+      },
+      {
+        "icon": "Users",
+        "title": "Last Epoch Mastery ガイド",
+        "description": "全15の Mastery を一目で比較"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Last Epoch レベリングガイド",
+        "description": "ビルドを崩さずに素早く進行"
+      },
+      {
+        "icon": "Target",
+        "title": "Last Epoch エンドゲームガイド",
+        "description": "Monolith、アリーナ、Corruption、装備の進行"
+      },
+      {
+        "icon": "Layers",
+        "title": "Last Epoch Monolith ガイド",
+        "description": "タイムラインの進行、安定度、そして Blessing"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Last Epoch クラフトガイド",
+        "description": "接辞、ルーン、グリフ、レジェンダリークラフト"
+      },
+      {
+        "icon": "Filter",
+        "title": "Last Epoch Loot Filter ガイド",
+        "description": "Loot Filter の作成、インポート、洗練"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Last Epoch Blessing ガイド",
+        "description": "タイムラインの Blessing と最適なファーミング"
+      },
+      {
+        "icon": "Flag",
+        "title": "Last Epoch 派閥ガイド",
+        "description": "Merchant's Guild vs Circle of Fortune"
+      },
+      {
+        "icon": "Sword",
+        "title": "Last Epoch ダンジョンガイド",
+        "description": "鍵、ギミック、ボス、ユニーク報酬"
+      },
+      {
+        "icon": "Gem",
+        "title": "Last Epoch ユニークアイテムガイド",
+        "description": "Legendary Potential と Eternity Cache クラフト"
+      },
+      {
+        "icon": "Shield",
+        "title": "Last Epoch Idol ガイド",
+        "description": "Idol スロット、形状、クラス専用の接辞"
+      },
+      {
+        "icon": "GitBranch",
+        "title": "Last Epoch Weaver Tree ガイド",
+        "description": "ノードの経路、経験値の選択、シーズン計画"
+      },
+      {
+        "icon": "Skull",
+        "title": "Last Epoch ボスガイド",
+        "description": "ボスのギミック、ステータスチェック、戦闘のコツ"
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Last Epoch リスペックガイド",
+        "description": "パッシブ、スキル、Mastery のリスペック解説"
+      }
+    ]
+  },
+  "modules": {
+    "lastEpochBeginnerGuide": {
+      "title": "Last Epoch 初心者ガイド",
+      "displayType": "steps",
+      "intro": "Last Epoch は、早い段階でいくつかの適切な判断を下したプレイヤーに報います。維持可能なプレイスタイルを選び、適切なタイミングで Mastery を確定させ、シンプルなクラフトで装備を最新の状態に保ち、散発的なアップグレードではなく、焦点を絞ったセットアップで Monolith へと進みましょう。",
+      "steps": [
+        {
+          "title": "最初のキャラクターとしてのアイデンティティが明確なクラスを選ぶ",
+          "description": "Last Epoch は5つの基本クラスと合計15の Mastery から始まります。スムーズな初回プレイには、センチネルからヴォイドナイトへの進展が最も安全で万能な推奨ルートですが、ソーサラーやパラディンも初心者向けの強力な選択肢です。",
+          "highlights": [
+            "センチネル：アーマー、シールド、強力な生存能力を備えたタフな近接職の基礎",
+            "メイジ：高速な画面クリアと強力な範囲攻撃（AoE）オプションを持つ遠距離魔法使い",
+            "アコライト、プライマリスト、ローグは、自分が望むファンタジーが決まれば、どれも最初のキャラクターとして実行可能なルートを持っています"
+          ]
+        },
+        {
+          "title": "序盤のゾーンで過剰に稼ぐのではなく、キャンペーンを進める",
+          "description": "初回プレイでは、ストーリーを進めるのが最善の骨組みとなります。スキルポイント、Idol スロット、重要な進行報酬が自然に手に入るからです。装備を早く完成させようとするのではなく、前進し続けましょう。",
+          "highlights": [
+            "パッシブポイントや Idol スロットを報酬としてくれるメインストーリーとサイドクエストを優先する",
+            "ゲームを熟知していない限り、初回プレイでのハードコアは避ける",
+            "共有倉庫、ゴールド、またはパーティプレイの柔軟性を求めるなら、ソロチャレンジ設定に縛られないようにする"
+          ]
+        },
+        {
+          "title": "第4章で可能になったらすぐに Mastery をアンロックする",
+          "description": "Mastery の選択がキャラクターを定義します。アンロックするには、基本クラスのパッシブツリーに20ポイントを振り、第4章の Mastery クエストを完了してから、時の果て（End of Time）にいる長老ガスパー（Elder Gaspar）と話してください。",
+          "highlights": [
+            "Mastery はそのキャラクターにとって永続的なものです",
+            "スキルやパッシブの振り直しは柔軟ですが、Mastery の選択は変更できません",
+            "最初の数レベルだけでなく、長期的なプレイスタイルに基づいて選んでください"
+          ]
+        },
+        {
+          "title": "5つの連携するスキルと1つのダメージ方向に絞ってビルドする",
+          "description": "最も速く、洗練されたキャラクターは、互いに補完し合い、同じダメージ系統を強化する5つの特化スキルを使用します。無関係なダメージタイプを混ぜると、レベリングが遅くなり、装備のアップグレード効果が弱まります。",
+          "highlights": [
+            "ヴォイド、火、壊死（Necrotic）、物理、出血など、1つの主要なダメージフォーカスを選ぶ",
+            "パワーを分散させるのではなく、スキルツリーを使用して1つのコアスキルをより強力にする",
+            "アクティブスキルは一度に1つずつ振り直すことで、ビルドの残りの部分が経験値とダメージを維持できるようにする"
+          ]
+        },
+        {
+          "title": "早めにクラフトを始め、武器を最新の状態に保つ",
+          "description": "クラフトは Last Epoch の最高のシステムの1つであり、エンドゲームだけでなくキャンペーン中も重要です。シンプルなアップグレードを使用して、ダメージと防御を適切に維持しましょう。",
+          "highlights": [
+            "可能な限り Rune of Shattering を購入し、有用な接辞（Affix）をシャードに分解する",
+            "希望のグリフ（Glyphs of Hope）を使用し、鍛造ポテンシャル（Forging Potential）が高いアイテムでクラフトする",
+            "武器は主要なダメージ源であるため、定期的にアップグレードする"
+          ]
+        },
+        {
+          "title": "難易度が急上昇する前にエンドゲームの準備をする",
+          "description": "本格的なエンドゲームに挑む前に、キャラクターを安定した状態にしましょう。レベル45から50あたりで、主要なキャンペーン報酬を完了し、パッシブを整理し、Idol スロットをアンロックして、焦点を絞ったセットアップで Monolith of Fate に進みます。",
+          "highlights": [
+            "エンドゲームモードは、時の果て（End of Time）のハブからアクセスできます",
+            "キャンペーン終了後の主な進行目標は Monolith of Fate です",
+            "ビルドが安定するにつれて、Empowered Monolith が長期的な目標になります"
+          ]
+        }
+      ],
+      "quickTips": [
+        "センチネルからヴォイドナイトへの進展は、新規プレイヤーにとって最も安全な最初のキャラクターの Mastery パスです。",
+        "エンドゲームに進む前に、必ずパッシブポイントと Idol スロットのサイドクエストを完了してください。",
+        "レベリング中、移動速度は真のパワー統計です。ブーツやリングで優先しましょう。",
+        "完璧なドロップを待つのではなく、早めに、そして頻繁にクラフトしましょう。"
+      ]
+    },
+    "lastEpochBestBuildsTierList": {
+      "title": "Last Epoch 最強ビルド ティアリスト",
+      "displayType": "tierGrid",
+      "intro": "Last Epoch において、最強のビルドは目的によって異なります。高 Corruption の Monolith 攻略に特化したもの、ボスを瞬殺するためのもの、あるいは他のどのビルドよりも早くエコーをクリアするものなどがあります。このモジュールでは、現在価値の高いアーキタイプを一目でわかるショートリストとして提供します。",
+      "categories": [
+        {
+          "name": "エンドゲーム Corruption",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "Falconer ボムランス",
+              "mastery": "Rogue / Falconer",
+              "summary": "高 Corruption 攻略において最強クラスのビルドの一つ。Falcon のスケーリング、Rogue の機動力、そして強力なインプリント作成のメリットを兼ね備えています。",
+              "highlights": [
+                "優れた Corruption スケーリング",
+                "素早い移動と強力な防御レイヤー",
+                "極めて高いダメージ天井"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "カース Warlock",
+              "mastery": "Acolyte / Warlock",
+              "summary": "乗算的な呪い（Curse）のスケーリングと強力な持続ダメージ（DoT）が特徴です。本格的なエンドゲームの深みを求めるキャスタープレイヤーに適しています。",
+              "highlights": [
+                "非常に強力な呪いのスタック",
+                "長期戦における高い DoT プレッシャー",
+                "より深い強化タイムラインで真価を発揮"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "エレメンタル Runemaster",
+              "mastery": "Mage / Runemaster",
+              "summary": "ルーンシステムを使いこなすことで、巨大な属性バーストと強力な戦場コントロールを実現します。高火力のキャスターにおける最高峰のビルドの一つです。",
+              "highlights": [
+                "圧倒的なバーストタイム",
+                "強力な防御パッシブの選択肢",
+                "適切なルーン管理による優れたスケーリング"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ボス攻略",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "エコー Void Knight",
+              "mastery": "Sentinel / Void Knight",
+              "summary": "信頼性の高い単体 Void ダメージと Sentinel の耐久力を備えたトップクラスのボス攻略ビルド。複数フェーズを持つボスの攻略を学ぶのに最適です。",
+              "highlights": [
+                "強力な単体火力",
+                "信頼性の高いダメージアップタイム",
+                "Sentinel の防御性能によりボス攻略がスムーズに"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "リーパーフォーム Lich",
+              "mastery": "Acolyte / Lich",
+              "summary": "安全性を犠牲にする代わりに、最高峰のボス攻略性能を手に入れます。サステインを適切に管理すれば、Reaper Form はこのクラスを最速のボス攻略特化ビルドへと変貌させます。",
+              "highlights": [
+                "非常に高いボスダメージの天井",
+                "ライフ吸収によるサステインで攻撃的な立ち回りが可能",
+                "ヘルス減少メカニクスに慣れているプレイヤーに最適"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "ホーリーオーラ Paladin",
+              "mastery": "Sentinel / Paladin",
+              "summary": "攻略重視のプレイヤーにとって最も扱いやすいボス攻略スペシャリスト。Holy Aura と Healing Hands の相乗効果により、並外れた生存能力を誇ります。",
+              "highlights": [
+                "優れたセルフサステイン",
+                "非常に安全な攻略の選択肢",
+                "最初の本格的なボス攻略キャラクターとして最適"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "スピード周回",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "シャドウカスケード Bladedancer",
+              "mastery": "Rogue / Bladedancer",
+              "summary": "エコーのクリアスピードにおける黄金律。影を多用するセットアップは、他のどの Mastery も及ばない速さで周回コンテンツを駆け抜けます。",
+              "highlights": [
+                "クラス最高の機動力とフロー",
+                "並外れたエコーのクリアスピード",
+                "時間あたりのドロップ効率を重視する周回に最適"
+              ]
+            },
+            {
+              "tier": "A",
+              "name": "ヘイルオブアロウズ Marksman",
+              "mastery": "Rogue / Marksman",
+              "summary": "Bladedancer よりも操作の忙しさが少なく、広範囲をカバーできます。より安全なポジショニングが可能な、最高のリモート周回ビルドの一つです。",
+              "highlights": [
+                "1キャストあたりの広大な AoE 範囲",
+                "強力な遠距離周回性能",
+                "近接スピードビルドよりも操作が容易"
+              ]
+            },
+            {
+              "tier": "A",
+              "name": "ストームトーテム Shaman",
+              "mastery": "Primalist / Shaman",
+              "summary": "トーテムや嵐のセットアップを好むプレイヤーにとって強力な周回ビルド。Tornado と Storm Totem が、プレイヤーの移動中もダメージを与え続けます。",
+              "highlights": [
+                "移動中も継続するダメージ",
+                "Primalist アーキタイプとして優れたマップ周回性能",
+                "ガラスキャノンビルドを好まないプレイヤーに強力な選択肢"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "lastEpochMasteryGuide": {
+      "title": "Last Epoch Mastery ガイド",
+      "displayType": "masteryGrid",
+      "intro": "Mastery は Last Epoch において最も重要なキャラクターの選択です。各基本クラスは3つの Mastery に分岐し、それぞれ独自の専用スキル、プレイパターン、エンドゲームのアイデンティティを持っています。エルダー・ガスパーに話しかける前に、ボード全体を比較しましょう。",
+      "groups": [
+        {
+          "name": "センチネル",
+          "masteries": [
+            {
+              "name": "フォージガード",
+              "playstyle": "防御的な近接ブルーザー",
+              "damageProfile": "物理および出血",
+              "signatureTools": [
+                "Forge Strike",
+                "Smelter's Wrath",
+                "Ring of Shields"
+              ],
+              "summary": "アーマー、防御、そして安定した武器ベースのダメージに特化した耐久力の高い Mastery です。"
+            },
+            {
+              "name": "パラディン",
+              "playstyle": "回復サポートを備えた火炎ハイブリッド",
+              "damageProfile": "火炎および防御ユーティリティ",
+              "signatureTools": [
+                "Judgement",
+                "Holy Aura"
+              ],
+              "summary": "優れた生存能力を持ち、新規プレイヤーにとって最も進めやすい進行プロファイルの一つを持つ Mastery です。"
+            },
+            {
+              "name": "ヴォイドナイト",
+              "playstyle": "攻撃的なヴォイド近接",
+              "damageProfile": "ヴォイドおよび近接バースト",
+              "signatureTools": [
+                "Erasing Strike",
+                "Anomaly"
+              ],
+              "summary": "主要なアクションを複製し、シンプルな近接ループに無料のダメージを追加する Echo メカニクスを中心に構築されています。"
+            }
+          ]
+        },
+        {
+          "name": "アコライト",
+          "masteries": [
+            {
+              "name": "リッチ",
+              "playstyle": "ハイリスク・ハイリターンのキャスター",
+              "damageProfile": "壊死、毒、生命吸収",
+              "signatureTools": [
+                "Reaper Form",
+                "Death Seal"
+              ],
+              "summary": "ヘルス管理を爆発的なダメージと強力なボス戦能力に変換する、ポテンシャルの高い Mastery です。"
+            },
+            {
+              "name": "ネクロマンサー",
+              "playstyle": "軍団の指揮官",
+              "damageProfile": "ミニオン、壊死、物理",
+              "signatureTools": [
+                "Summon Wraith",
+                "Dread Shade",
+                "Assemble Abomination"
+              ],
+              "summary": "大規模なミニオン軍団と分かりやすいスケーリングを中心に構築された、古典的なサモナールートです。"
+            },
+            {
+              "name": "ウォーロック",
+              "playstyle": "呪いキャスター",
+              "damageProfile": "呪い、壊死、DoT（継続ダメージ）",
+              "signatureTools": [
+                "Chaos Bolts",
+                "Profane Veil",
+                "Ghostflame"
+              ],
+              "summary": "敵を弱体化させ、呪いをスタックさせ、エンドゲームに向けて非常に良くスケールする、Corruption に焦点を当てた Mastery です。"
+            }
+          ]
+        },
+        {
+          "name": "メイジ",
+          "masteries": [
+            {
+              "name": "ソーサラー",
+              "playstyle": "純粋な遠距離スペルキャスター",
+              "damageProfile": "火炎、稲妻、冷気バースト",
+              "signatureTools": [
+                "Meteor",
+                "Black Hole",
+                "Arcane Ascendance"
+              ],
+              "summary": "明確な AoE パターンと分かりやすいダメージスケーリングにより、新規プレイヤーにとって最も入りやすいキャスターの一つです。"
+            },
+            {
+              "name": "Runemaster",
+              "playstyle": "戦術的なルーン魔術師",
+              "damageProfile": "属性バーストと多層的な防御",
+              "signatureTools": [
+                "Runic Invocation"
+              ],
+              "summary": "ルーンのシーケンスをゲーム内で最も強力なキャスターパッケージの一つに変える、ハイスキル・ハイリターンの Mastery です。"
+            },
+            {
+              "name": "スペルブレード",
+              "playstyle": "近接キャスターハイブリッド",
+              "damageProfile": "近接攻撃と属性トリガー",
+              "signatureTools": [
+                "Shatter Strike",
+                "Surge",
+                "Firebrand"
+              ],
+              "summary": "武器攻撃とスキルの発動を組み合わせ、よりアクティブなリズムで戦う近距離属性ファイターです。"
+            }
+          ]
+        },
+        {
+          "name": "プライマリスト",
+          "masteries": [
+            {
+              "name": "ドルイド",
+              "playstyle": "シェイプシフター",
+              "damageProfile": "近接、自然、変身",
+              "signatureTools": [
+                "Entangling Roots",
+                "Werebear Form",
+                "Spriggan Form"
+              ],
+              "summary": "形態を切り替えながら、タンク、ヒーラー、持続的な近接プレッシャーを担うことができる柔軟な Mastery です。"
+            },
+            {
+              "name": "ビーストマスター",
+              "playstyle": "コンパニオンの指揮官",
+              "damageProfile": "ミニオンと物理プレッシャー",
+              "signatureTools": [
+                "Summon Raptor",
+                "Summon Sabertooth",
+                "Summon Frenzy Totem"
+              ],
+              "summary": "一時的な群れやスペルトーテムではなく、永続的なコンパニオンと獣のシナジーに焦点を当てています。"
+            },
+            {
+              "name": "シャーマン",
+              "playstyle": "属性トーテムキャスター",
+              "damageProfile": "嵐、冷気、トーテムダメージ",
+              "signatureTools": [
+                "Avalanche",
+                "Summon Storm Totem"
+              ],
+              "summary": "繰り返される属性のセットアップと持続的なダメージ源によって勝利する、静的なコントロール Mastery です。"
+            }
+          ]
+        },
+        {
+          "name": "ローグ",
+          "masteries": [
+            {
+              "name": "ブレードダンサー",
+              "playstyle": "高速近接アサシン",
+              "damageProfile": "近接バースト、シャドウ、機動力",
+              "signatureTools": [
+                "Dancing Strikes",
+                "Lethal Mirage"
+              ],
+              "summary": "スピード、回避、爆発的なクリアパターンを中心に構築された、最もテンポの速い近接ローグの Mastery です。"
+            },
+            {
+              "name": "マークスマン",
+              "playstyle": "弓のスペシャリスト",
+              "damageProfile": "遠距離単体および AoE",
+              "signatureTools": [
+                "Hail of Arrows",
+                "Detonating Arrow"
+              ],
+              "summary": "安全なポジショニングと広い画面カバー範囲を求めるプレイヤー向けの、クリーンな遠距離 Mastery です。"
+            },
+            {
+              "name": "Falconer",
+              "playstyle": "罠とコンパニオンの戦術家",
+              "damageProfile": "罠バースト、機動力、ファルコンのスケーリング",
+              "signatureTools": [
+                "Falcon Strike",
+                "Explosive Trap"
+              ],
+              "summary": "セットアップツール、コンパニオンのプレッシャー、そして優れた Corruption パフォーマンスを兼ね備えたトップティアのローグ Mastery です。"
+            }
+          ]
+        }
+      ]
+    },
+    "lastEpochLevelingGuide": {
+      "title": "Last Epoch レベリングガイド",
+      "displayType": "steps",
+      "intro": "Last Epoch でのレベリングは、キャラクターレベルと特化スキルレベルという2つの進行バーを同時に進める作業です。最適なルートは、両方を並行して進め、移動速度を真のパワーステータスとして活用し、適切な Blessing とタイムラインの順序で Monolith へと移行することです。",
+      "steps": [
+        {
+          "title": "1つのダメージ系統を中心にキャンペーンを構築する",
+          "description": "5つの特化スキルは互いに補完し合うべきです。装備は、メインスキルが無関係な属性に分散するのではなく、すべて同じダメージプロファイルからスケールする場合に最も効果を発揮します。",
+          "highlights": [
+            "キャラクターレベルの上限は100です",
+            "特化スキルの上限は通常20です",
+            "レベリング中は、アクティブなセットアップを異なるダメージタイプに分散させないでください"
+          ]
+        },
+        {
+          "title": "ストーリーを進めて永続的な報酬を回収する",
+          "description": "パッシブポイントや Idol スロットを付与するメインストーリーの進行とサイドクエストは、早めに処理すべきです。これらの永続的な報酬により、その後のあらゆるレベリング方法がより効率的になります。",
+          "highlights": [
+            "クエスト、敵の撃破、Monolith、Arena、Echo はすべて経験値に寄与します",
+            "本格的な Monolith 周回を始める前に、パッシブポイントと Idol スロットのクエストを完了させてください",
+            "マップインターフェースから、未取得の永続的な報酬を確認できます"
+          ]
+        },
+        {
+          "title": "第4章で解放されたら Mastery を確定させる",
+          "description": "基本クラスツリーに20ポイントを振り、Mastery クエストを完了してから、End of Time でサブクラスを選択します。パワースパイクを遅らせることなく、Mastery のスケーリングにポイントを振り始めましょう。",
+          "highlights": [
+            "Mastery の選択は Elder Gaspar を通じて行われます",
+            "早めに Mastery を選択することで、レベリングビルドを適切な成長曲線に乗せることができます",
+            "必要に応じてパッシブやスキルを振り直しても構いませんが、コアとなるアイデンティティは安定させておきましょう"
+          ]
+        },
+        {
+          "title": "移動速度をレベリングステータスとして活用する",
+          "description": "移動速度は、キル率、ゾーンの攻略速度、そしてその後の進行システムへのアクセスを向上させるため、キャンペーンを加速させる最強の要素の1つです。",
+          "highlights": [
+            "Silver Ring は指輪1つにつき3〜8%の移動速度を付与します",
+            "Advent of the Erased（ブーツ）は最大20%の移動速度が付く可能性があります",
+            "Lessons of the Metropolis（ブーツ）は最大17%の移動速度が付く可能性があります"
+          ]
+        },
+        {
+          "title": "頻繁にクラフトし、弱い武器を更新し続ける",
+          "description": "武器のダメージや単純なクラフトの接辞は、完璧なドロップを待つよりもレベリング速度に大きく貢献します。クラフトベンチを通常のルートの一部として扱うことで、キャンペーンは格段にスムーズになります。",
+          "highlights": [
+            "Rune of Shattering を使用して、将来のアップグレードのためにシャードを蓄えましょう",
+            "クラフト中は Glyphs of Hope を使用してアイテムの耐久度を保護しましょう",
+            "運悪くドロップがない時だけでなく、主要なゾーンを抜けるたびにメイン武器を更新しましょう"
+          ]
+        },
+        {
+          "title": "Monolith の Arena ノードと最初の経験値 Blessing を活用する",
+          "description": "ストーリーを通じて Monolith が解放されると、Arena ノードはゲーム内で最高の経験値獲得源の1つになります。これらはレベル58付近まで効率的で、その後は最初の重要な Blessing の獲得へとルートを移します。",
+          "highlights": [
+            "レアおよびマジックモンスターは、通常の敵よりも50%多い経験値を与えます",
+            "Arena ノードでのファーミングはレベル58頃まで強力です",
+            "最初の Monolith ボスを倒すと、経験値の Blessing である Strength of Mind が得られます"
+          ]
+        },
+        {
+          "title": "レベル90前後で Empowered Monoliths を解放する",
+          "description": "Empowered Monoliths は、真の長期的なエンドゲームエンジンです。必要なタイムラインのシーケンスをクリアし、より高い報酬スケーリングで効率的なファーミングに戻りましょう。",
+          "highlights": [
+            "Fall of the Outcasts、Black Sun、End of the Storm、Reign of Dragons を完了します",
+            "次に Spirits of Fire、The Last Ruin、Age of Winter をクリアします",
+            "Empowered Monoliths を解放した後、Grand Strength of Mind を求めて再び Fall of the Outcasts を周回します"
+          ]
+        }
+      ],
+      "quickTips": [
+        "スムーズなキル速度を維持するために、数ゾーンごとに武器を更新しましょう。",
+        "ブーツや指輪の移動速度は、キャンペーンの進行を大幅に加速させます。",
+        "Monolith の Arena ノードは、レベル58までの最強の経験値ソースの1つです。",
+        "レベル90前後から始まる必要なタイムラインシーケンスを完了して、Empowered Monoliths を解放しましょう。"
+      ]
+    },
+    "lastEpochEndgameGuide": {
+      "title": "Last Epoch エンドゲームガイド",
+      "displayType": "cardList",
+      "intro": "Last Epoch のエンドゲームは、永続的なパワー、ターゲットファーム、そしてより困難な進行ループを報酬とする、繰り返し可能なシステムを中心に構築されています。どの活動が進行、ルート、またはビルドの限界に挑むポテンシャルを与えるかを理解することは、キャンペーン終了後の計画を立てるのに役立ちます。",
+      "cards": [
+        {
+          "name": "Monolith of Fate",
+          "description": "メインのエンドゲームシステムです。プレイヤーは End of Time から進入し、タイムライン内のエコーやクエスト目標をクリアし、タイムラインボスを撃破して、永続的な Blessing やボス固有のユニークドロップを獲得します。",
+          "highlights": [
+            "最初の Monolith ゾーンはレベル58から始まります",
+            "各タイムラインには独自のクエスト、エコー、ボス、および報酬プールがあります",
+            "Blessing はキャラクターのパワーやルートの質を永続的に向上させます"
+          ]
+        },
+        {
+          "name": "Empowered Monolith",
+          "description": "Empowered Monolith は、真の長期的なファーミングループです。これらははるかに高い難易度で開始され、プレイヤーは Corruption を通常のタイムラインをはるかに超えて高めることができ、通常の Blessing を Grand Blessing にアップグレードできます。",
+          "highlights": [
+            "The Age of Winter、The Last Ruin、The Spirits of Fire をクリアした後にアンロックされます",
+            "レベル100で進行します",
+            "無限の Corruption ファーミングと、より強力な Grand Blessing に対応しています"
+          ]
+        },
+        {
+          "name": "ダンジョン",
+          "description": "ダンジョンは、独自のメカニクスと報酬のアイデンティティを持つ、キー（鍵）で制限されたエンドゲームランです。各ダンジョンは、異なるルートやクラフトの目的を解決します。",
+          "highlights": [
+            "Lightless Arbor では、ゴールドを消費してチェスト報酬を得られる Vault が開かれます",
+            "Soulfire Bastion では、レアやユニークなルートを獲得できる Soul Gambler がアンロックされます",
+            "Temporal Sanctum では、Eternity Cache を通じてレジェンダリークラフトがアンロックされます"
+          ]
+        },
+        {
+          "name": "アリーナ",
+          "description": "アリーナは Last Epoch の耐久モードです。短いボス戦ではなく、長い戦闘ランを通じて、生存能力、スケーリングするダメージ、および一貫性をテストすることができます。",
+          "highlights": [
+            "Arena of Champions は40ウェーブとボス戦の後に終了します",
+            "Endless Arena はプレイヤーが撤退するか死亡するまでスケールアップします",
+            "記録はリーダーボードで比較できます"
+          ]
+        },
+        {
+          "name": "The Woven と Woven Echoes",
+          "description": "シーズン2では、Tombs、Cemeteries、Memory Amber、Woven Echoes、および Weaver Tree によって Monolith が拡張されました。このシステムは、プレイヤーが Monolith 内のエンカウントや報酬を再構築できるようにすることで、エンドゲームのルーティングにさらなる層を追加します。",
+          "highlights": [
+            "Memory Amber は Tombs や Cemeteries で獲得できます",
+            "Weaver Tree は最大50ポイントを付与します",
+            "約70の Weaver Tree ノードが Monolith の報酬やエンカウントを変化させます"
+          ]
+        },
+        {
+          "name": "シーズン4の Omens と Echo Chains",
+          "description": "シーズン4では、Omen Windows、Echo Chains、Timeglass Fragments、Runes of Corruption、Omen Idols、および Idol Altars が追加されました。これらのシステムは、戦闘、Monolith のルーティング、Idol の最適化、およびハイリスクなアイテムクラフトを統合します。",
+          "highlights": [
+            "シーズン4で5種類の Echo Chain タイプが登場しました",
+            "Omens からは Timeglass Fragments、Runes of Corruption、Corrupted アイテム、Omen Idols、および Idol Altars がドロップする可能性があります",
+            "Timeglass Fragments は Monolith の中心で使用できます"
+          ]
+        }
+      ]
+    },
+    "lastEpochMonolithGuide": {
+      "title": "Last Epoch Monolith of Fate ガイド",
+      "displayType": "steps",
+      "intro": "Monolith of Fate は Last Epoch のエンドゲーム進行の根幹です。このガイドでは、最初のレベル58タイムラインから、Empowered Monolith でのファーミング、ボスへの特化、そして Corruption の上昇までを解説します。",
+      "steps": [
+        {
+          "title": "End of Time から Monolith に入る",
+          "description": "Monolith of Fate はキャンペーン終了後に利用可能になります。最初のタイムラインはレベル58から始まるため、ここがキャラクターがストーリー進行から繰り返しのエンドゲームファーミングへと移行するポイントとなります。"
+        },
+        {
+          "title": "Echo をクリアしてタイムラインの安定度を高める",
+          "description": "各タイムラインは、ランダムな目的とモディファイアを持つ Echo で構成されています。これらを完了することでタイムラインの安定度が蓄積され、ウェブのより多くの部分が明らかになり、タイムラインのクエスト Echo へと進むことができます。"
+        },
+        {
+          "title": "タイムラインクエストを完了してボスを倒す",
+          "description": "すべてのタイムラインには、タイムラインボスへと続く3つのクエストステージが含まれています。ボスを倒すことで、Blessing やボス固有のルートへのアクセスを通じて、そのランがアカウントの永続的な進行状況へと変換されます。"
+        },
+        {
+          "title": "Blessing を獲得してより高いタイムラインへ移動する",
+          "description": "各ボスを倒した後、Blessing を選択します。一般的な進行のアドバイスは、ビルドに最も役立つ Blessing やボスドロップを収集しながら、Monolith の島々を右に進み、より高レベルのタイムラインを目指すことです。"
+        },
+        {
+          "title": "Empowered Monolith を解放する",
+          "description": "「The Age of Winter」、「The Last Ruin」、「The Spirits of Fire」のノーマル版をクリアして、Empowered Monolith を解放しましょう。Empowered タイムラインはレベル100で進行し、より高い Corruption から始まり、通常の Blessing がより強力な Grand Blessing に置き換わります。"
+        },
+        {
+          "title": "Shade of Orobyss で Corruption を上げる",
+          "description": "Corruption は Monolith 内における主要なリスクとリターンの調整役です。Corruption が高くなると敵や Echo が難しくなりますが、経験値やアイテムの質が向上するため、Shade of Orobyss は長期的なファーミングにおいて重要な戦いとなります。"
+        },
+        {
+          "title": "特殊な Echo、Woven システム、Echo チェーンを活用する",
+          "description": "現代の Monolith ルーティングには、Beacon Echo、Vessel Echo、Shade トリガー、Woven Echo、Tomb や Cemetery、そして現在は Echo チェーンや Omen ウィンドウが含まれます。これらの要素により、プレイヤーは安定度、エンカウント、Idol、Corruption ツール、および特化した報酬をより効率的に狙うことができます。"
+        }
+      ],
+      "quickTips": [
+        "Monolith の島々を右に移動し始め、高レベルのタイムラインを素早く解放しましょう。",
+        "他のタイムラインをファーミングする前に、常にメインビルドに役立つ Blessing を選択してください。",
+        "Empowered Monolith は、特定の3つのノーマルタイムラインをクリアした後に解放されます。",
+        "Shade of Orobyss を使用して Corruption を上げ、より良いドロップと経験値のスケーリングを狙いましょう。"
+      ]
+    },
+    "lastEpochCraftingGuide": {
+      "title": "Last Epoch クラフトガイド",
+      "displayType": "steps",
+      "intro": "クラフトは Last Epoch を象徴するシステムの1つであり、最初のアップグレードからハイエンドのレジェンダリーや Corruption クラフトに至るまで重要です。このガイドでは、鍛冶場（Forge）の仕組み、Forging Potential が重要な理由、そしてクラフトがどのようにエンドゲームの進行へと進化するかを解説します。",
+      "steps": [
+        {
+          "title": "鍛冶場（Forge）の基本を学ぶ",
+          "description": "どこでも F キーを押して鍛冶場を開くことができます。ほとんどのクラフト可能なアイテムは最大2つのプレフィックスと2つのサフィックスを使用しますが、Sealed Affixes を使用すると、通常の4つのアフィックス構造に加えて、さらにもう1つのロックされたアフィックススロットを追加できます。"
+        },
+        {
+          "title": "Forging Potential の管理",
+          "description": "Forging Potential（FP）はアイテムの耐久予算です。コモンからレアのアイテムは通常 20 から 40 程度の FP を持っていますが、Exalted アイテムはしばしば 40 以上持っているため、優れたクラフトとは、最も重要なアップグレードにその予算を優先的に費やすことにかかっています。"
+        },
+        {
+          "title": "コアアップグレードにシャードを使用する",
+          "description": "アフィックスシャードはクラフトの基本通貨です。これらは、体力、耐性、ダメージ、属性、ミニオンのモディファイアなどのステータスを追加またはアップグレードし、ゲーム内のほぼすべての装備改善パスの基礎となります。"
+        },
+        {
+          "title": "重要なグリフ（Glyph）を知る",
+          "description": "Glyph of Hope は FP コストを完全に回避する確率を 25% 付与します。Glyph of Order はティアを上げる際に数値ロールを維持し、Glyph of Chaos はアフィックスを別のアフィックスにリロールし、Glyph of Despair はアフィックスを封印し、Glyph of Envy はアップグレードされたアフィックスをそのままに、アイテムの他の部分を変更します。"
+        },
+        {
+          "title": "重要なルーン（Rune）を知る",
+          "description": "Rune of Shattering は装備をシャードに変換し、Rune of Removal はランダムなアフィックスを削除し、Rune of Discovery は空のスロットを埋め、Rune of Refinement はアフィックスの数値をリロールし、Rune of Shaping は固有プロパティ（Implicit）をリロールし、Rune of Ascendance は通常のアイテムを同じベースタイプのランダムなユニークまたはセットアイテムにアップグレードし、Rune of Creation はアイテムを複製して両方のコピーの FP を 0 に設定します。"
+        },
+        {
+          "title": "Exalted およびレジェンダリークラフトの追求",
+          "description": "Exalted アイテムは、少なくとも1つのティア6またはティア7のアフィックスを持つドロップ品です。レジェンダリークラフトでは、Temporal Sanctum 内にある Eternity Cache で、Legendary Potential（LP）を持つユニークアイテムと Exalted アイテムを合成します。LP1 から LP4 によって、転送できるアフィックスの数が決まります。"
+        },
+        {
+          "title": "Eternity Cache を正しく使用する",
+          "description": "Temporal Sanctum はレジェンダリークラフトのレベル上限を制御します。ティア1はレベル50までのユニークに対応し、ティア2はレベル65まで、ティア3はレベル75まで、ティア4はレベル制限を解除します。ティア2以上では、合成中に選択した1つのアフィックスを確定させることもできます。"
+        },
+        {
+          "title": "最新のエンドゲームクラフトシステムへの拡張",
+          "description": "シーズン2では、Woven Echoes、クラス Idol 用の Woven Enchanting、セットボーナスアフィックスのクラフト、および Exalted アイテムを修正するための Rune of Redemption サポートが追加されました。その後、シーズン4では Runes of Corruption と Corruption アイテムが追加され、通常の鍛冶場の上にリスクの高い新しいレイヤーが構築されました。"
+        }
+      ],
+      "quickTips": [
+        "Forging Potential がまだ高いうちに、常に最も重要なアフィックスを最初にクラフトしましょう。",
+        "Glyph of Hope は、レベリング中の予算を抑えたクラフトにおいて最高の味方です。",
+        "後でレジェンダリークラフトに使用するために、良いアフィックスの組み合わせを持つ Exalted アイテムを保存しておきましょう。",
+        "不要な装備に Rune of Shattering を使用するのが、クラフトシャードを蓄える最も早い方法です。"
+      ]
+    },
+    "lastEpochLootFilterGuide": {
+      "title": "Last Epoch Loot Filter ガイド",
+      "displayType": "steps",
+      "intro": "Loot Filter は、乱雑なドロップ品を読み取り可能な進行状況へと変えてくれるため、Last Epoch において最も価値の高い QoL（生活の質）システムの1つです。このガイドでは、何を表示し、何を非表示にし、いつフィルターを厳しくすべきかを理解するのに役立ちます。",
+      "steps": [
+        {
+          "title": "Loot Filter が実際に何をするのかを理解する",
+          "description": "Loot Filter は、関心のある接辞（Affix）やアイテムタイプを強調表示し、価値のあるドロップ品の色を変更し、価値の低い不要なアイテムを非表示にします。Last Epoch では、このシステムにより特定の接辞や複数の接辞グループを強調できるため、エンドゲームの深部でも地面のドロップ品が読み取りやすくなります。"
+        },
+        {
+          "title": "共有フィルターまたはシンプルなテンプレートから始める",
+          "description": "最初のステップとして、Last Epoch Tools の汎用フィルターやビルド用フィルターから始め、それを自分のクラスや目的に合わせて調整するのが良いでしょう。これはゼロから構築するよりも早く、新規プレイヤーに即座に機能する構成を提供します。"
+        },
+        {
+          "title": "ゲームにフィルターをインポートする",
+          "description": "Last Epoch Tools はフィルターのエクスポートとクリップボードへのコピーをサポートしています。通常の手順は、フィルターページを開き、「Export」を押してクリップボードにコピーし、ゲーム内の Loot Filter メニューに貼り付けることです。これにより、手動で XML を編集することなくフィルターを使用できるようになります。"
+        },
+        {
+          "title": "序盤の優先順位を設定する",
+          "description": "レベリング中は、ヘルス、耐性、移動速度、メインのダメージ接辞、および有用なクラス Idol を表示するようにします。この段階での目標は完璧さではなく、明らかなアップグレード品やシャード対象を見つけやすくすることです。"
+        },
+        {
+          "title": "Monolith やダンジョンに向けてフィルターを厳しくする",
+          "description": "Monolith の周回が始まったら、フィルターをより厳しくする必要があります。必要なベースアイテム、価値の高い Exalted 接辞、LP付きユニーク、クラス Idol、クラフト用シャード対象、そして自分のビルドが実際に追い求めているボスやタイムラインのドロップ品に焦点を当てましょう。"
+        },
+        {
+          "title": "レベリング用ルールとエンドゲーム用ルールを分ける",
+          "description": "キャンペーンで機能するフィルターは、強化された Monolith ではすぐに緩すぎることになります。多くのプレイヤーは、Exalted のドロップが一般的になると、画面が価値の低いレアアイテムで埋め尽くされないよう、専用のエンドゲーム用フィルターに切り替えます。"
+        },
+        {
+          "title": "新しいシーズン4のフィルターツールを使用する",
+          "description": "シーズン4ではルールの制限が200に引き上げられ、マップアイコンやアイテムビームの個別カスタマイズ、ルール番号の表示オプション、およびいくつかの新しい Loot Filter サウンドが追加されました。これらのアップグレードにより、現代のエンドゲーム周回に向けた精密なフィルター構築が非常に容易になりました。"
+        }
+      ],
+      "quickTips": [
+        "Last Epoch Tools のコミュニティフィルターから始めて、自分のビルドに合わせてカスタマイズしましょう。",
+        "画面が乱雑になるのを防ぐため、エンドゲームの新しいフェーズに入るたびにフィルターを更新してください。",
+        "ルールを整理しておくために、レベリング用とエンドゲーム用で別々のフィルタープロファイルを使用しましょう。",
+        "シーズン4ではルールの制限が200に引き上げられ、より精密なフィルタリングが可能になりました。"
+      ]
+    },
+    "lastEpochBlessingsGuide": {
+      "title": "Last Epoch Blessing ガイド",
+      "eyebrow": "Monolith 報酬",
+      "displayType": "table",
+      "subtitle": "ダメージ、防御、ファーミングに最適な Blessing を選ぶ",
+      "intro": "Blessing は、生存能力とファーミング効率の両方を左右する永続的な Monolith 報酬です。強化されたタイムラインに入ると、Grand Blessing はエンドゲームの最適化において主要な要素となります。このモジュールでは、基本的な Monolith の進行から強化されたファーミングへと移行する際に、プレイヤーが最も優先することの多い Blessing を紹介します。",
+      "items": [
+        {
+          "timeline": "黒い太陽 (The Black Sun)",
+          "blessing": "Grand Emptiness of Ash",
+          "effect": "+27% ～ 40% クリティカル倍率",
+          "role": "攻撃",
+          "bestFor": "クリティカルビルドおよびボスダメージ",
+          "why": "エンドゲームのクリティカル構成において、最も純粋にダメージを向上させる Blessing の一つです。"
+        },
+        {
+          "timeline": "嵐の終焉 (Ending the Storm)",
+          "blessing": "Grand Light of the Moon",
+          "effect": "+60 ～ 90 マナ",
+          "role": "リソース",
+          "bestFor": "マナ消費の激しい Mage、Runemaster、Spellblade ビルド",
+          "why": "スキル回しや防御ループが豊富なマナプールに依存している場合に、利便性を大きく向上させる Blessing です。"
+        },
+        {
+          "timeline": "竜の統治 (Reign of Dragons)",
+          "blessing": "Grand Resolve of Humanity",
+          "effect": "+13% ～ 20% 全耐性",
+          "role": "防御",
+          "bestFor": "強化 Monolith 序盤の進行と耐性の調整",
+          "why": "装備のサフィックス（接尾辞）の負担を軽減しつつ、より高難易度のコンテンツに向けてビルドを安定させる簡単な方法です。"
+        },
+        {
+          "timeline": "竜の統治 (Reign of Dragons)",
+          "blessing": "Grand Survival of Might",
+          "effect": "+50% ～ 70% クリティカル回避および +51 ～ 90 回避定格",
+          "role": "防御",
+          "bestFor": "全般的な生存能力の向上と序盤の Corruption 上げ",
+          "why": "2つの一般的な生存課題を一度に解決できるため、人気の高い防御的 Blessing です。"
+        },
+        {
+          "timeline": "冬の時代 (The Age of Winter)",
+          "blessing": "Grand Rage of Winter",
+          "effect": "+25% ～ 50% の確率でヒット時に冷気耐性を粉砕 (Shred Cold Resistance)",
+          "role": "攻撃",
+          "bestFor": "冷気ダメージビルド",
+          "why": "装備を変更せずにボスへのダメージを高めたい冷気ビルドにとって、非常に効率的な Blessing です。"
+        },
+        {
+          "timeline": "炎の精霊 (Spirits of Fire)",
+          "blessing": "Grand Body of Obsidian",
+          "effect": "+200 ～ 320 アーマー",
+          "role": "防御",
+          "bestFor": "アーマーベースのビルドおよび全般的な耐久力",
+          "why": "多くのクラスや装備段階において有用であり続ける、シンプルな防御オプションです。"
+        },
+        {
+          "timeline": "追放者の没落 (Fall of the Outcasts)",
+          "blessing": "Grand Winds of Fortune",
+          "effect": "16% ～ 22% ユニークアイテムドロップ率の上昇",
+          "role": "ファーミング",
+          "bestFor": "特定のユニークアイテムを狙ってファーミングするプレイヤー",
+          "why": "次のアップグレードが特定のユニークアイテムである場合、最も明確なファーミング用 Blessing の一つとなります。"
+        }
+      ]
+    },
+    "lastEpochFactionsGuide": {
+      "title": "Last Epoch 派閥ガイド",
+      "eyebrow": "アイテム派閥",
+      "displayType": "comparisonTable",
+      "subtitle": "Merchant's Guild か Circle of Fortune か？",
+      "intro": "派閥は、エンドゲームにおいてキャラクターがどのように装備を入手するかを決定します。この選択は、トレードへのアクセス、セルフファウンドの効率、進行のリズム、そしてビルドに最適なアイテムループに影響を与えます。どちらの派閥もランク、名声（Reputation）、Favorを使用しますが、報酬となるプレイスタイルは大きく異なります。",
+      "factionNames": {
+        "merchantsGuild": "Merchant's Guild",
+        "circleOfFortune": "Circle of Fortune"
+      },
+      "comparisons": [
+        {
+          "category": "核となる特徴",
+          "merchantsGuild": "バザーとプレイヤーの出品を中心とした、トレード重視の派閥。",
+          "circleOfFortune": "ドロップ品の質、Prophecy（予言）、パッシブなアイテムハントボーナスを中心とした、セルフファウンド重視の派閥。"
+        },
+        {
+          "category": "主な機能",
+          "merchantsGuild": "ゴールドによる取引に加え、Favorを使用してバザーで装備を売買する。",
+          "circleOfFortune": "Observatory（天文台）でFavorを消費してProphecyを入手し、Lens（レンズ）を使用して出現するものを調整する。"
+        },
+        {
+          "category": "進行",
+          "merchantsGuild": "全12ランク。通常のゲームプレイとトレード活動を通じて名声（Reputation）を獲得する。",
+          "circleOfFortune": "全12ランク。通常のゲームプレイとProphecyの達成を通じて名声（Reputation）を獲得する。"
+        },
+        {
+          "category": "おすすめのプレイヤー",
+          "merchantsGuild": "ビルドの早期完成、特定のアイテムの購入、市場主導の装備収集を求めるプレイヤー。",
+          "circleOfFortune": "自分で装備をファームし、ドロップ品に合わせて調整し、セルフファウンドの価値を最大化したいプレイヤー。"
+        },
+        {
+          "category": "重要な制限",
+          "merchantsGuild": "トレードで購入したアイテムの装備にはMerchant's Guildのランクが必要であり、購入したアイテムを再トレードすることはできない。",
+          "circleOfFortune": "Circle of Fortuneに所属している際に見つけたアイテムの装備には、Circle of Fortuneのランクが必要。"
+        },
+        {
+          "category": "変更とアカウントのルール",
+          "merchantsGuild": "派閥は変更可能だが、気軽な切り替えというよりはリスペックに近い。名声（Reputation）はアカウント全体で共有され、各サイクル（Cycle）ごとにリセットされ、サイクル終了後は恒久的な環境に引き継がれる。",
+          "circleOfFortune": "派閥は変更可能だが、気軽な切り替えというよりはリスペックに近い。名声（Reputation）はアカウント全体で共有され、各サイクル（Cycle）ごとにリセットされ、サイクル終了後は恒久的な環境に引き継がれる。"
+        }
+      ]
+    },
+    "lastEpochDungeonsGuide": {
+      "title": "Last Epoch ダンジョンガイド",
+      "eyebrow": "エンドゲームダンジョン",
+      "displayType": "dungeonCards",
+      "subtitle": "3つのダンジョン、3つの異なる報酬ループ",
+      "intro": "Last Epoch のダンジョンは、キー、ティアのスケーリング、独自のメカニクスを備えた、繰り返しプレイ可能なエンドゲームアクティビティです。ゴールド変換から特定のアイテムのギャンブル、レジェンダリー製作まで、それぞれが異なる種類の進行報酬を提供します。",
+      "rulesTitle": "ダンジョンルールの概要",
+      "rulesSummary": "すべてのダンジョンはキーが必要で、4つのティアと日替わりのモディファイアがある、繰り返しプレイ可能なエンドゲームコンテンツです。ティア2以降は、追加のモディファイアとより良い報酬が得られます。",
+      "rules": [
+        "各ダンジョンには、入場時に消費される特定のキーが必要です。",
+        "4つのティアがあり、下位のティアをクリアすると上位のティアがアンロックされます。",
+        "ティア2以降は、追加のモディファイアとより強力な報酬を受け取ることができます。",
+        "ダンジョンキーチャームは、ボスへ直接スキップできるポータルチャームなど、探索を変化させることができます。"
+      ],
+      "dungeons": [
+        {
+          "name": "ライトレス・アーバー (Lightless Arbor)",
+          "summary": "闇、探索、そしてランの最後に行うゴールド変換を中心とした、毒テーマのダンジョンです。",
+          "location": "崩壊した時代（Ruined Era）、地上への道（The Surface）ウェイポイント付近",
+          "key": "ライトレス・アーバーのキー",
+          "boss": "ザ・マウンテン・ビニース (The Mountain Beneath)",
+          "damageType": "毒",
+          "mechanic": "バーニング・アンバー",
+          "endReward": "不確かな運命の保管庫",
+          "bossDrops": [
+            "ティア 1+: Peak of the Mountain",
+            "ティア 2+: Foot of the Mountain",
+            "ティア 3+: Face of the Mountain",
+            "ティア 4+: Core of the Mountain"
+          ]
+        },
+        {
+          "name": "Soulfire Bastion",
+          "summary": "シールド管理とソウルの消費が攻略の鍵となる、火炎と壊死（Necrotic）テーマのダンジョンです。",
+          "location": "帝国時代（Imperial Era）、伐採された森（The Felled Wood）ウェイポイント付近",
+          "key": "Soulfire Bastion キー",
+          "boss": "火炎のリッチ・クレモルス",
+          "damageType": "火炎および壊死",
+          "mechanic": "ソウルファイア・ソウルとソウルファイア・シールド",
+          "endReward": "ソウル・ギャンブラー",
+          "bossDrops": [
+            "ティア 1+: Ashes of Mortality",
+            "ティア 2+: Lich's Envy",
+            "ティア 3+: Immolator's Oblation",
+            "ティア 4+: Pyre of Affliction"
+          ]
+        },
+        {
+          "name": "Temporal Sanctum",
+          "summary": "時代の切り替え、危険なボスのプレッシャー、そしてレジェンダリー製作への直接的なアクセスが可能な、価値の高いダンジョンです。",
+          "location": "崩壊した時代（Ruined Era）、荒廃した海岸（The Ruined Coast）ウェイポイント付近",
+          "key": "Temporal Sanctum キー",
+          "boss": "時の魔道士ジュルラ",
+          "damageType": "毒およびヴォイド",
+          "mechanic": "タイムシフト (Temporal Shift)",
+          "endReward": "エタニティ・キャッシュ",
+          "bossDrops": [
+            "ティア 1+: Julra's Stardial",
+            "ティア 2+: Somnia",
+            "ティア 3+: Julra's Obsession",
+            "ティア 4+: Vessel of Strife"
+          ]
+        }
+      ]
+    },
+    "lastEpochUniqueItemsGuide": {
+      "title": "Last Epoch ユニークおよびレジェンダリーアイテムガイド",
+      "eyebrow": "アイテムシステム",
+      "displayType": "systemTable",
+      "subtitle": "ユニークアイテムがいかにして長期的なエンドゲーム装備になるか",
+      "intro": "Last Epoch において、ユニークアイテムは単なる収集アイテムではありません。これらは、特に Temporal Sanctum を通じたレジェンダリー製作など、複数の後半ゲーム装備システムの基礎となります。このモジュールでは、プレイヤーが単純なアップグレードを超えてビルドを決定づける装備を追い求め始めた際、繰り返し検索することになるアイテムシステムについて解説します。",
+      "systems": [
+        {
+          "system": "ユニークアイテム",
+          "whatItIs": "レアや Exalted 装備には通常見られない効果を付与できる、固定されたビルド定義モディファイアを持つアイテム。",
+          "coreRule": "これらは多くの場合、エンドゲームの追及装備の出発点となり、多くのビルドは1つ以上の主要なユニークを中心に構成されます。",
+          "connection": "ボス、タイムライン、ダンジョン、および広範なルートシステムからターゲットファームが可能です。",
+          "whySearch": "プレイヤーは通常、ビルドに特定のアイテムが必要かどうかを判断する際や、装備の移行を計画する際にこれらを検索します。"
+        },
+        {
+          "system": "レジェンダリーポテンシャル (Legendary Potential)",
+          "whatItIs": "ユニークアイテムに備わる、0から4までの範囲の特性。",
+          "coreRule": "レジェンダリーポテンシャルは、レジェンダリーアイテムを作成する際に、Exalted アイテムからいくつアフィックスを継承できるかを決定します。",
+          "connection": "ベースとなるユニークが強力であるほど、たとえ 1 LP であってもその価値は高まります。",
+          "whySearch": "LPは、そのユニークが単に「使える」ものなのか、それとも真に「エンドゲームにふさわしい」ものなのかをプレイヤーが気にする主な理由です。"
+        },
+        {
+          "system": "Eternity Cache でのレジェンダリー製作",
+          "whatItIs": "Temporal Sanctum で Chronomancer Julra を倒した後に解放される製作システム。",
+          "coreRule": "レジェンダリーポテンシャルを持つユニークアイテムと、同種の Exalted アイテムを組み合わせてレジェンダリーアイテムを作成します。ティア2以上では、Eternity Cache によって1つのアフィックスを確定させることができます。",
+          "connection": "Temporal Sanctum は、ユニークのドロップと長期的なエンドゲーム装備の間の実用的な架け橋となります。",
+          "whySearch": "これは、優れたユニークを真の追及アイテムへと変えるための核心的なアップグレードパスです。"
+        },
+        {
+          "system": "Weaver's Will",
+          "whatItIs": "通常のレジェンダリーポテンシャルの代わりに Weaver's Will を使用する、特殊なユニークアイテムシステム。",
+          "coreRule": "Weaver ユニークは 5 から 28 の Weaver's Will を持ってドロップし、近くで敵を倒すとアフィックスを獲得したり、ティア7までのアップグレードを含むアフィックスティアの上昇が発生したりします。",
+          "connection": "これは、Eternity Cache に投入するのではなく、使用することでアイテムが進化するという、別の進行パスを作り出します。",
+          "whySearch": "プレイヤーは、Weaver アイテムを交換するのではなく、レベルを上げる価値があるかどうかを知りたいときにこれを検索します。"
+        },
+        {
+          "system": "Primordial ユニーク",
+          "whatItIs": "ゲーム後半に登場する、極めて強力なユニークアイテムのクラス。",
+          "coreRule": "一度に装備できる Primordial アイテムはいかなる種類でも1つだけです。",
+          "connection": "これらは単体でのパワー配分が大きいため、他のエンドゲームスロットの選択と直接競合します。",
+          "whySearch": "プレイヤーが最終装備を最適化し、どのスロットに単体で影響力の高いアイテムを充てるかを決定する際に重要となります。"
+        }
+      ]
+    },
+    "lastEpochIdolsGuide": {
+      "title": "Last Epoch Idol ガイド",
+      "eyebrow": "エンドゲームアイテム",
+      "displayType": "table",
+      "subtitle": "Idol は専用のインベントリグリッドを使用し、ゲーム内で最も柔軟なパワーを追加します。形状が大きくなるにつれて、通常、より専門化され、クラスに特化した、あるいはビルドを決定づけるものになります。",
+      "intro": "キャンペーンの進行に合わせて Idol スペースが解放され、主要なメインクエストやサイドクエストの報酬によって最終的にグリッドは20スロットに達します。レベリング中は汎用的な小型の Idol が組み込みやすく、ビルドが形になり始めると、特定の接辞を持つ大型のクラス専用 Idol が主な強化源となります。",
+      "items": [
+        {
+          "category": "汎用",
+          "idolFamily": "Small Idol",
+          "size": "1×1",
+          "classAccess": "全クラス",
+          "dropLevel": "レベル11以上でドロップ",
+          "typicalStats": "継続ダメージ、回避、HP、回復、スタン、非属性耐性、非属性ダメージ",
+          "notes": "Idol グリッドの空いた1スロットを埋めるのに最適です。"
+        },
+        {
+          "category": "汎用",
+          "idolFamily": "Humble Idol",
+          "size": "2×1",
+          "classAccess": "全クラス",
+          "dropLevel": "レベル11以上でドロップ",
+          "typicalStats": "出血確率、毒確率、キル時体力回復、スタン持続時間、活力、非属性耐性、非属性ダメージ",
+          "notes": "ユーティリティや状態異常のセットアップに適した、コンパクトな序盤向けの選択肢です。"
+        },
+        {
+          "category": "汎用",
+          "idolFamily": "Stout Idol",
+          "size": "1×2",
+          "classAccess": "全クラス",
+          "dropLevel": "レベル11以上でドロップ",
+          "typicalStats": "ワード、発火確率、感電確率、クリティカル率、凍結率、体力、属性耐性、属性ダメージ",
+          "notes": "攻撃面でも防御面でも柔軟に使える汎用的な形状です。"
+        },
+        {
+          "category": "混合",
+          "idolFamily": "Adorned Idol",
+          "size": "2×2",
+          "classAccess": "主にクラス専用。Adorned Silver Idol および Adorned Volcano Idol も含みます。",
+          "dropLevel": "レベル20以上でドロップ",
+          "typicalStats": "主にクラス専用の接辞",
+          "notes": "より大規模で専門的な Idol 構成への入り口となります。"
+        },
+        {
+          "category": "クラス専用",
+          "idolFamily": "Grand Idol",
+          "size": "3×1",
+          "classAccess": "アコライト: Grand Bone、メイジ: Grand Glass、プライマリスト: Grand Heorot、ローグ: Grand Majasan、センチネル: Grand Solar",
+          "dropLevel": "レベル25以上でドロップ",
+          "typicalStats": "主にクラス専用の接辞、および非属性耐性と非属性ダメージ",
+          "notes": "より強力なクラス特化ボーナスが導入され始める横長の形状です。"
+        },
+        {
+          "category": "クラス専用",
+          "idolFamily": "Large Idol",
+          "size": "1×3",
+          "classAccess": "メイジ: Large Arcane、アコライト: Large Immortal、プライマリスト: Large Nomad、センチネル: Large Rahyeh、ローグ: Large Shadow",
+          "dropLevel": "レベル25以上でドロップ",
+          "typicalStats": "主にクラス専用の接辞、ダメージ、防御ボーナス",
+          "notes": "特定のクラススケーリングに適した縦長の形状です。"
+        },
+        {
+          "category": "クラス専用",
+          "idolFamily": "Ornate Idol",
+          "size": "4×1",
+          "classAccess": "アコライト: Ornate Bone、メイジ: Ornate Glass、プライマリスト: Ornate Heorot、ローグ: Ornate Majasan、センチネル: Ornate Solar",
+          "dropLevel": "レベル30以上でドロップ",
+          "typicalStats": "クラス専用の攻撃アップグレード、バフ、状態異常、非属性耐性、非属性ダメージ",
+          "notes": "強力な横方向のレイアウトを可能にする、終盤向けの幅広な選択肢です。"
+        },
+        {
+          "category": "クラス専用",
+          "idolFamily": "Huge Idol",
+          "size": "1×4",
+          "classAccess": "メイジ: Huge Arcane、アコライト: Huge Immortal、プライマリスト: Huge Nomad、センチネル: Huge Rahyeh、ローグ: Huge Shadow",
+          "dropLevel": "レベル30以上でドロップ",
+          "typicalStats": "クラス専用の接辞、ダメージ、状態異常、防御ボーナス",
+          "notes": "最も専門化された縦長 Idol ファミリーの一つです。"
+        },
+        {
+          "category": "ユニーク",
+          "idolFamily": "Singularity",
+          "size": "1×1",
+          "classAccess": "全クラス",
+          "dropLevel": "レベル42が必要。レベル11以上でドロップ",
+          "typicalStats": "Singularity を1つだけ装備している場合、ヒットダメージがさらに増加 (More)。クリティカルヒットが発生しなくなります。",
+          "notes": "Titan's Canyon にある Stargazer's Collection のワンショットキャッシュから入手できます。"
+        },
+        {
+          "category": "ユニーク",
+          "idolFamily": "Throne of Ambition",
+          "size": "2×2",
+          "classAccess": "全クラス",
+          "dropLevel": "レベル1が必要。レベル20以上でドロップ",
+          "typicalStats": "ボスまたはレア敵へのヒット時に Ambition スタックを獲得。1スタックにつき火炎ダメージが2%さらに増加 (More)。",
+          "notes": "The Stolen Lance タイムラインの God Hunter Argentus から入手できます。"
+        }
+      ]
+    },
+    "lastEpochWeaverTreeGuide": {
+      "title": "Last Epoch Weaver Tree ガイド",
+      "eyebrow": "Monolith の計画",
+      "displayType": "steps",
+      "subtitle": "Weaver TreeはMonolithウェブの挙動を変化させるため、最適なルートは、進行速度、Wovenリソース、ゴールド、またはレベリング効率のどれを優先するかによって異なります。",
+      "intro": "Weaver Treeはキャラクターのツリーではなく、Monolithに特化したパッシブツリーです。Wovenのランクを上げたり、初めてWoven Echoesをクリアしたりすることで最大50のWeaver Treeポイントを獲得できます。このツリーには約70のノードが含まれており、Monolith of Fate内の報酬、エンカウント、ルート構築を変更することが可能です。",
+      "steps": [
+        {
+          "title": "システムをアンロックし、何が変化するかを理解する",
+          "description": "Weaver Treeはクラス、スキル、パッシブツリーではなく、Monolith of Fateのコンテンツを修正します。そのノードは、エコー報酬の変更、エンカウントタイプの追加や削除、特定のドロップパターンの改善、そしてよりターゲットを絞ったファーミングルートの作成を可能にします。",
+          "highlights": [
+            "最大50 Weaver Treeポイント",
+            "ポイントはWovenランクの進行と、初回Woven Echoesクリアから得られます",
+            "このツリーはMonolithのルート構築、報酬密度、特殊なエンカウントに影響を与えます"
+          ]
+        },
+        {
+          "title": "最初の目標が序盤の経済とツリーの迅速な成長である場合は、左側から開始する",
+          "description": "一般的な序盤のルートは左側です。追加報酬の流れが良くなり、Weaverの進行を雪だるま式に加速させるのに役立つからです。",
+          "highlights": [
+            "Enthralling Bounty：完了時にエコー報酬が2倍になる確率",
+            "Entwined Spoils：エコーがWoven Echoesを付与する報酬を生成する確率",
+            "Elder Sap：エコーがMemory Amber報酬タイプで生成される確率"
+          ]
+        },
+        {
+          "title": "Wovenのアクティビティを増やしたい場合は、TombとCemeteryのサポートに進む",
+          "description": "序盤の経済パッケージの後は、多くのプレイヤーが北のTombおよびCemeteryクラスターに進みます。これによりWoven Echoesへのアクセスが改善され、密度が増し、長期的な見返りが得られるからです。",
+          "highlights": [
+            "Grand Catacombs：Tombs of the Erasedの出現率が上昇",
+            "Necropolis of the Weaver：TombとCemetery内のレア敵がWoven Echoesをドロップする追加の確率を獲得",
+            "Burial Grounds：TombとCemetery内のモンスターパックサイズが増加",
+            "Bountiful Sarcophagy：TombとCemetery内のレア敵が、そのタイムラインのボス固有報酬をドロップする可能性"
+          ]
+        },
+        {
+          "title": "派閥と当面の目標によって分岐させる",
+          "description": "次の最適な分岐は、より多くのゴールド、より多くのFavor（恩寵）とランク進行、あるいはより集中したファーミングのどれを求めているかによって決まります。",
+          "highlights": [
+            "Merchant's Guildのプレイヤーは、Zerrick's AidやGolden Treasuresなどの南側のゴールドノードを選択するのが妥当です",
+            "Circle of Fortuneのプレイヤーは、レベリングの高速化がFavorやランク獲得の向上にもつながるため、右側のXP重視ノードを急ぐのが妥当です",
+            "Imprint、Super Beacon、Nemesis、アリーナ変換ノードは、ターゲットにしたいコンテンツが決まればより価値が高まります"
+          ]
+        },
+        {
+          "title": "目標が変わったらRespec（振り直し）する",
+          "description": "序盤のルートをずっと続ける必要はありません。必要なポイントとリソースが揃ったら、ボスファーミング、チャンピオン狩り、あるいはより専門的なMonolith操作へと移行できます。",
+          "highlights": [
+            "ツリーは後でRespec可能です",
+            "序盤の成長には経済優先が強力です",
+            "素早いレベリングが真の目的である場合は、XP優先の方が強力です",
+            "終盤のルート構築は、エンカウントの削除、ターゲット報酬、または価値の高い特殊ノードに焦点を当てることができます"
+          ]
+        }
+      ],
+      "quickTips": [
+        "シーズンの優先順位に応じて、経済の雪だるま式成長なら左から、素早いXP獲得なら右から開始しましょう。",
+        "TombとCemeteryのノードは、Woven Echoesへのアクセスのための最高の中盤ルート投資です。",
+        "Merchant's GuildとCircle of Fortuneのプレイヤーは、序盤のノードの後に異なる分岐をすべきです。",
+        "ファーミングの目標が進行から特定のコンテンツへと移ったら、Weaver TreeをRespecしましょう。"
+      ]
+    },
+    "lastEpochBossGuide": {
+      "title": "Last Epoch ボスガイド",
+      "eyebrow": "ボス戦",
+      "displayType": "accordion",
+      "subtitle": "Last Epoch におけるボスの壁は、通常、予備動作（テレグラフ）を読み、適切な耐性を最大まで上げ、どのギミックで移動が必要かを把握することで突破できます。",
+      "intro": "ビルドの準備不足や、まだ習得していない主要なギミックがある場合、キャンペーンや Monolith のボスで進行が止まってしまいます。ボス戦を安定させる最短の方法は、まずダメージタイプを特定し、対応する耐性を最大まで上げ、その後にダメージ効率（アップタイム）を考えることです。",
+      "bosses": [
+        {
+          "label": "Lagon — Ending the Storm",
+          "location": "Ending the Storm timeline, Eye of the Storm",
+          "summary": "3つのフェーズからなる戦闘で、ゲーム内でも最大の進行の壁の一つです。",
+          "defensiveChecks": [
+            "雷耐性 75%",
+            "冷気耐性 75%",
+            "高い移動速度と信頼できる移動スキル"
+          ],
+          "mechanics": [
+            "Moon Beam (チャネル): Lagon がアリーナを巨大な雷と冷気のビームでなぎ払います。彼が向きを変えたらすぐに反対側の端へ全力で走ってください",
+            "Moon Beam (ヒット): HP 65% 以下になると、正面にビームを放ちます。彼が頭を下げたら横に避けてください",
+            "Moon Blast: 地面に広がる白い円形の AoE で、爆発して強力な冷気と雷ダメージを与えます",
+            "Tentacles: フェーズ2では、迫りくる冷気の波やスタンの圧力を避けながら触手を倒す必要があります"
+          ],
+          "lootHighlights": [
+            "Alluvion",
+            "Coral Aegis",
+            "Stormcarved Testament",
+            "Eye of Storms"
+          ]
+        },
+        {
+          "label": "Volcanic Shaman — Spirits of Fire",
+          "location": "Spirits of Fire timeline, Shattered Fire Realm",
+          "summary": "Bhuldar、Herkir、Logi の3体と同時に戦う単一フェーズのボス戦で、攻撃の重なりが真の脅威となります。",
+          "defensiveChecks": [
+            "火炎耐性 75%",
+            "壊死耐性 75%",
+            "高い移動速度と信頼できるダッシュ"
+          ],
+          "mechanics": [
+            "Lava Burst: 立ち止まっているプレイヤーを狙う、拡大する火炎の円です",
+            "Lava Beam: 幅は狭いですが、高ダメージの正面火炎ビームです",
+            "Lava X: 時間差で X 字型に地面が噴火します。早めに動けば回避は容易です",
+            "Shaman Spirit: 倒されたシャーマンは、3体すべてが倒されるまで壊死の精霊として残り、爆発や破片攻撃を繰り出します"
+          ],
+          "lootHighlights": [
+            "Bhuldar's Wrath",
+            "Herkir's Vessel",
+            "Logi's Hunger",
+            "Trinity of Flames"
+          ]
+        },
+        {
+          "label": "Emperor of Corpses — Reign of Dragons",
+          "location": "Reign of Dragons timeline, Rotting Hoard",
+          "summary": "アリーナの制限、雑魚敵の召喚、そして繰り返される位置取りのチェックを伴う、プレッシャーの高い壊死属性のボスです。",
+          "defensiveChecks": [
+            "壊死耐性 75%",
+            "物理耐性 75%",
+            "強力な移動速度と定期的な位置調整ツール"
+          ],
+          "mechanics": [
+            "Necrotic Nova: 巨大な爆発の後、アリーナの外周に危険な疫病ゾーンが発生します",
+            "Terrifying Roar: HP 70% で移動速度低下（スロウ）のスタックを最大まで付与し、Slaughtered Thralls を召喚します",
+            "Necrotic Projectile Spread: 重なり合う発射体攻撃で、不適切な移動を咎め、ダメージが急速に蓄積します",
+            "Spirit Breath: 強力な壊死属性の継続ダメージ（DoT）を与える広範囲の扇形攻撃です"
+          ],
+          "lootHighlights": [
+            "Dragonflame Edict",
+            "Symbol of Demise",
+            "Twisted Heart of Uhkeiros",
+            "Horns of Uhkeiros"
+          ]
+        }
+      ]
+    },
+    "lastEpochRespecGuide": {
+      "title": "Last Epoch リスペックガイド",
+      "eyebrow": "キャラクターの再構築",
+      "displayType": "steps",
+      "subtitle": "Last Epoch ではパッシブ、スキル、Mastery の変更が可能になりましたが、それぞれの仕組みは異なります。賢いやり方は、微調整には軽いリスペックを利用し、ビルドを根本から変える場合に Mastery のリスペックを温存することです。",
+      "intro": "パッシブとスキルのリスペックは通常のキャラクター育成の一環ですが、Mastery のリスペックはパッシブ設定をリセットし、レベルが上がるにつれて費用も大幅に高くなるため、より大きな決断となります。最もスムーズな再構築の手順は、まずパッシブを修正し、次にスキルを入れ替え、クラスの別バージョンを本当に試したい時にのみ Mastery を変更することです。",
+      "steps": [
+        {
+          "title": "時の魔術師レリン（Chronomancer Lerinne）を通じてパッシブポイントをリスペックする",
+          "description": "パッシブのリスペックは時の魔術師レリンが担当します。彼女に話しかけた後、パッシブポイントを最初から学び直すことなく、1ポイントずつ振り直すことができます。",
+          "highlights": [
+            "ゴールドを使用",
+            "基本クラスツリーに20ポイントを維持する必要があります",
+            "より深いパッシブブランチのアンロックに必要なポイントは削除できません"
+          ]
+        },
+        {
+          "title": "スキルメニューから直接スキルツリーをリスペックする",
+          "description": "スキルのリスペックにNPCは不要で、どこでも行えます。スキルメニューを開き、特化したスキルを選択して、そのスキルツリーの右上にある「RESPEC」を押してください。",
+          "highlights": [
+            "同じスキルを使いつつノードの配置を変更したい場合は「Remove Skill Points」を選択",
+            "別の特化スキルに入れ替えたい場合は「Despecialize Skill」を選択",
+            "リスペックされたスキルは、完全に最初からやり直すのではなく、最低特化レベルに戻ります",
+            "スキルは通常レベル20が上限ですが、装備によってボーナスレベルを追加できます"
+          ]
+        },
+        {
+          "title": "クラスを完全に入れ替えるには、時の果て（End of Time）で Mastery リスペックを使用する",
+          "description": "シーズン2以降、プレイヤーは時の果てで時の魔術師レリンに話しかけることで、費用を払って Mastery をリスペックできるようになりました。これによりすべてのパッシブポイントがリセットされ、同じ基本クラスから別の Mastery を選択できます。",
+          "highlights": [
+            "Mastery のリスペックはすべてのパッシブポイントもリセットします",
+            "装備はそのままですが、新しい Mastery に合わなくなる可能性があります",
+            "費用はレベルに応じて大幅に上昇します：レベル20 = 5,000g、レベル50 = 30,000g、レベル70 = 100,000g、レベル100 = 1,000,000g"
+          ]
+        },
+        {
+          "title": "変更の規模に合わせて適切な再構築を選択する",
+          "description": "すべての問題にフルリセットが必要なわけではありません。パッシブとスキルの変更は弱いビルドを修正する最速の方法であり、Mastery のリスペックは同じクラス内でのソフトな作り直し（リロール）として扱うのが最適です。",
+          "highlights": [
+            "ルート取り、閾値、防御面の整理にはパッシブのリスペックを使用",
+            "コアスキルは正しいがノードの配置が間違っている場合はスキルのリスペックを使用",
+            "別の Mastery にしたい場合は、後でゴールド費用が高騰するため、早めに Mastery リスペックを使用",
+            "Mastery 変更後は、装備と Idol を見直す計画を立てましょう"
+          ]
+        }
+      ],
+      "quickTips": [
+        "時の魔術師レリンによるパッシブのリスペックは安価で、1ポイントずつ行えます。",
+        "スキルのリスペックにNPCは不要です。どこでもスキルメニューを開いて、特化解除やポイント削除が可能です。",
+        "Mastery のリスペックはすべてのパッシブをリセットし、費用はレベルに応じて大幅に上昇します。切り替える予定があるなら早めに行いましょう。",
+        "まずパッシブを修正し、次にスキルを入れ替え、本当に別のサブクラスにしたい時にのみ Mastery を変更してください。"
+      ]
+    }
+  },
+  "faq": {
+    "title": "Last Epoch",
+    "titleHighlight": "FAQ",
+    "subtitle": "Last Epoch のビルド、クラス、エンドゲームに関するよくある質問",
+    "questions": [
+      {
+        "question": "Last Epoch とは何ですか？",
+        "answer": "Last Epoch は Eleventh Hour Games によって開発されたタイムトラベル・アクションRPGです。5つの基本クラスと15の Mastery、奥深いクラフト、Loot Filter、そして Monolith of Fate、ダンジョン、アリーナを含むエンドゲームシステムが特徴です。"
+      },
+      {
+        "question": "Last Epoch にはいくつクラスがありますか？",
+        "answer": "Last Epoch には、Sentinel、Mage、Acolyte、Primalist、Rogue の5つの基本クラスがあります。各基本クラスは3つの Mastery に分岐し、合計15のユニークなサブクラスが存在します。"
+      },
+      {
+        "question": "Last Epoch で初心者におすすめのクラスは何ですか？",
+        "answer": "Last Epoch では、Sentinel から Void Knight への進路が、最初のキャラクターとして最も安全なルートであると広く考えられています。Paladin や Sorcerer も、扱いやすいメカニクスを持つ強力で初心者向けの選択肢です。"
+      },
+      {
+        "question": "Last Epoch のクラフトはどのように機能しますか？",
+        "answer": "Last Epoch のクラフトでは、シャードを使用して装備の接辞（アフィックス）を追加またはアップグレードします。各クラフトは Forging Potential を消費します。Glyph や Rune は追加のクラフトオプションを提供し、Temporal Sanctum ダンジョンではレジェンダリークラフトが可能です。"
+      },
+      {
+        "question": "Last Epoch のエンドゲームとは何ですか？",
+        "answer": "Last Epoch のエンドゲームは Monolith of Fate を中心としており、そこで Corruption を高め、Blessing を獲得します。追加のエンドゲームコンテンツには、独自のメカニクスを持つダンジョン、ウェーブ生存を目指すアリーナ、そして Merchant's Guild や Circle of Fortune を通じた派閥ベースの装備収集があります。"
+      },
+      {
+        "question": "Last Epoch でスキルなどの振り直し（リスペック）はできますか？",
+        "answer": "はい。Last Epoch では、少額のゴールドを支払うことで、いつでもパッシブやスキルの振り直しが可能です。最近のアップデートでは Mastery のリスペックも追加され、サブクラスを変更できるようになりました。"
+      },
+      {
+        "question": "Last Epoch はマルチプレイヤーに対応していますか？",
+        "answer": "はい。Last Epoch は最大4人までのオンライン協力プレイに対応しています。また、オフラインでのソロプレイや、共有スタッシュや取引を利用できるオンラインソロモードでもプレイ可能です。"
+      },
+      {
+        "question": "Last Epoch はどのプラットフォームで利用できますか？",
+        "answer": "Last Epoch は Steam を通じて PC で利用可能です。長期間の早期アクセスを経て、2024年2月21日に正式リリースされました。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Last Epochを極める準備はできていますか？",
+    "description": "ビルドやガイド、エンドゲームの議論のために、DiscordのLast Epochコミュニティに参加しましょう！",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "Steamでプレイする"
+  },
+  "footer": {
+    "title": "Last Epoch Wiki",
+    "description": "Last Epoch のビルド、クラス、クラフト、ダンジョン、派閥、エンドゲームガイドを網羅した総合リソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的事項",
+    "discord": "Discord",
+    "twitter": "Reddit",
+    "steamCommunity": "公式フォーラム",
+    "steamStore": "Steam ストア",
+    "about": "当サイトについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Last Epoch Wiki. Eleventh Hour Games とは提携していません。",
+    "disclaimer": "非公式のファン作成リソースウェブサイトです。"
   }
 }

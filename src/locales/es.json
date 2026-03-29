@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Wiki de Last Epoch - Builds, clases y guías de endgame",
+      "description": "Wiki de Last Epoch con guías de clases, builds de maestría, filtros de botín, ayuda de artesanía, consejos para mazmorras, facciones y actualizaciones de endgame para jugadores de PC.",
+      "keywords": "Last Epoch, PC, builds, clases, endgame, filtro de botín, artesanía, facciones, mazmorras",
+      "ogTitle": "Wiki de Last Epoch - Builds, clases y guías de endgame",
+      "ogDescription": "Wiki de Last Epoch con guías de clases, builds de maestría, filtros de botín, ayuda de artesanía, consejos para mazmorras, facciones y actualizaciones de endgame para jugadores de PC.",
+      "twitterTitle": "Wiki de Last Epoch - Builds, clases y guías de endgame",
+      "twitterDescription": "Wiki de Last Epoch con guías de clases, builds de maestría, filtros de botín, ayuda de artesanía, consejos para mazmorras y actualizaciones de endgame para jugadores de PC."
     }
   },
   "nav": {
@@ -31,778 +31,1330 @@
     "readMore": "Leer más"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "ARPG de botín y viajes en el tiempo",
+    "title": "Wiki de Last Epoch",
+    "description": "Domina las clases, la creación de builds, la progresión en mazmorras, las facciones, los filtros de botín y las guías de monolitos de endgame para jugadores de Last Epoch en PC.",
+    "getFreeCodesCTA": "Leer guías de builds",
+    "playOnSteamCTA": "Juega en Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "21 de feb. de 2024",
+        "label": "Fecha de lanzamiento"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "59055",
+        "label": "Reseñas en Steam"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "15",
+        "label": "Clases de Mastery"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "120+",
+        "label": "Habilidades"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Jugabilidad de Last Epoch",
+    "description": "Viaja a través del tiempo, domina 15 clases de maestría, crea equipo legendario y conquista el Monolith del Destino en este profundo RPG de acción para PC."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Last Epoch",
+    "titleHighlight": "Centro de guías",
+    "subtitle": "Todo lo que necesitas para dominar builds, clases, artesanía y el endgame en Last Epoch",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "Guía para principiantes de Last Epoch",
+        "description": "Camino inicial desde la elección de clase hasta el Monolith"
       },
       {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
+        "icon": "Trophy",
+        "title": "Mejores builds de Last Epoch",
+        "description": "Builds principales para corrupción, jefes y farmeo"
       },
       {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
-      },
-      {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
+        "icon": "Users",
+        "title": "Guía de Mastery de Last Epoch",
+        "description": "Comparación rápida de las 15 maestrías"
       },
       {
         "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
+        "title": "Guía de nivelación de Last Epoch",
+        "description": "Progresión rápida sin arruinar tu build"
       },
       {
-        "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
+        "icon": "Target",
+        "title": "Guía de endgame de Last Epoch",
+        "description": "Monolith, Arena, corrupción y progresión de equipo"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
+        "icon": "Layers",
+        "title": "Guía del Monolith de Last Epoch",
+        "description": "Progresión de líneas temporales, estabilidad y bendiciones"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "icon": "Hammer",
+        "title": "Guía de artesanía de Last Epoch",
+        "description": "Afijos, runas, glifos y creación legendaria"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
+        "icon": "Filter",
+        "title": "Guía de Loot Filter de Last Epoch",
+        "description": "Crea, importa y perfecciona filtros de botín"
       },
       {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
+        "icon": "Sparkles",
+        "title": "Guía de Blessings de Last Epoch",
+        "description": "Bendiciones de líneas temporales y farmeo óptimo"
       },
       {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "icon": "Flag",
+        "title": "Guía de facciones de Last Epoch",
+        "description": "Merchant's Guild vs Circle of Fortune"
+      },
+      {
+        "icon": "Sword",
+        "title": "Guía de mazmorras de Last Epoch",
+        "description": "Llaves, mecánicas, jefes y recompensas únicas"
+      },
+      {
+        "icon": "Gem",
+        "title": "Guía de objetos únicos de Last Epoch",
+        "description": "Legendary Potential y creación en la Reserva de la Eternidad"
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Guía de Idols de Last Epoch",
+        "description": "Espacios de Idol, formas y afijos específicos de clase"
+      },
+      {
+        "icon": "GitBranch",
+        "title": "Guía del Árbol del Tejedor de Last Epoch",
+        "description": "Rutas de nodos, opciones de XP y planificación estacional"
+      },
+      {
+        "icon": "Skull",
+        "title": "Guía de jefes de Last Epoch",
+        "description": "Mecánicas de jefes, chequeos de estadísticas y consejos de combate"
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Guía de respec de Last Epoch",
+        "description": "Explicación de respec de pasivas, habilidades y maestría"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
+    "lastEpochBeginnerGuide": {
+      "title": "Guía para principiantes de Last Epoch",
       "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+      "intro": "Last Epoch recompensa a los jugadores que toman buenas decisiones temprano: elige un estilo de juego sostenible, asegura tu maestría a tiempo, mantén tu equipo actualizado con artesanía simple y avanza hacia los Monoliths con una configuración enfocada en lugar de mejoras dispersas.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Elige una clase con una identidad clara para tu primer personaje",
+          "description": "Last Epoch comienza con 5 clases base y 15 maestrías en total. Para una primera partida fluida, Centinela hacia Void Knight es la recomendación más segura, mientras que Hechicero y Paladín también son opciones sólidas para principiantes.",
+          "highlights": [
+            "Centinela: base cuerpo a cuerpo resistente con armadura, escudos y gran supervivencia",
+            "Mago: lanzamiento de hechizos a distancia con limpieza rápida de pantalla y opciones de área",
+            "Acólito, Primordialista y Pícaro tienen rutas viables una vez que sepas qué estilo buscas"
+          ]
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Sigue la campaña en lugar de farmear zonas iniciales en exceso",
+          "description": "En la primera partida, la historia es la mejor base porque otorga naturalmente puntos de habilidad, espacios para ídolos y recompensas clave. Sigue avanzando en lugar de intentar perfeccionar el equipo demasiado pronto.",
+          "highlights": [
+            "Prioriza la historia principal y misiones secundarias que den puntos pasivos o espacios de ídolos",
+            "Evita el modo Hardcore en tu primera partida a menos que ya conozcas bien el juego",
+            "No te limites con desafíos en solitario si quieres compartir alijo, oro o jugar en grupo"
+          ]
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Desbloquea tu maestría tan pronto como el Capítulo 4 lo permita",
+          "description": "Tu elección de maestría define al personaje. Para desbloquearla, gasta 20 puntos en el árbol de pasivas de tu clase base, completa la misión de maestría del Capítulo 4 y habla con el Anciano Gaspar en el Fin de los Tiempos.",
+          "highlights": [
+            "La Mastery es permanente para ese personaje",
+            "Los respec de habilidades y pasivas son flexibles, pero la elección de maestría no",
+            "Elige basándote en el estilo de juego a largo plazo, no solo en los primeros niveles"
+          ]
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Construye alrededor de 5 habilidades vinculadas y una dirección de daño",
+          "description": "Los personajes más rápidos y eficientes usan cinco habilidades especializadas que se refuerzan entre sí y escalan con la misma familia de daño. Mezclar tipos de daño no relacionados ralentiza la nivelación.",
+          "highlights": [
+            "Elige un enfoque de daño principal como Vacío, Fuego, Necrótico, Físico o Sangrado",
+            "Usa tus árboles de habilidades para fortalecer una habilidad central en lugar de dispersar el poder",
+            "Reinicia una habilidad activa a la vez para que el resto de la build mantenga tu XP y daño"
+          ]
+        },
+        {
+          "title": "Empieza a fabricar temprano y mantén tu arma al día",
+          "description": "La artesanía es uno de los mejores sistemas de Last Epoch y es importante durante la campaña, no solo en el endgame. Usa mejoras simples para mantener el daño y las defensas equilibradas.",
+          "highlights": [
+            "Compra Runas de Desguace siempre que puedas y descompón afijos útiles en fragmentos",
+            "Usa Glifos de Esperanza y fabrica en objetos con buen Potencial de Forja",
+            "Actualiza tu arma regularmente porque es tu principal fuente de daño"
+          ]
+        },
+        {
+          "title": "Prepárate para el endgame antes del aumento de dificultad",
+          "description": "Antes de avanzar seriamente en el endgame, estabiliza a tu personaje. Alrededor del nivel 45 a 50, termina las recompensas clave de la campaña, ajusta tus pasivas, desbloquea espacios de ídolos y entra en el Monolith del Destino.",
+          "highlights": [
+            "Se accede a los modos de endgame desde el centro del Fin de los Tiempos",
+            "El Monolith del Destino es el objetivo principal tras la campaña",
+            "El Monolith Potenciado se convierte en la meta a largo plazo"
+          ]
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "Centinela hacia Void Knight es la ruta de maestría más segura para nuevos jugadores.",
+        "Completa siempre las misiones secundarias de puntos pasivos e ídolos antes de ir al endgame.",
+        "La velocidad de movimiento es una estadística de poder real: priorízala en botas y anillos.",
+        "Fabrica temprano y con frecuencia en lugar de esperar a que caiga el objeto perfecto."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
-      "cards": [
+    "lastEpochBestBuildsTierList": {
+      "title": "Tier List de las mejores builds de Last Epoch",
+      "displayType": "tierGrid",
+      "intro": "En Last Epoch, la mejor build depende de la tarea. Algunas dominan los Monoliths de alta corrupción, otras están hechas para eliminar jefes y otras ganan al limpiar ecos más rápido que nadie. Este módulo te ofrece una lista rápida de los arquetipos más valiosos actualmente.",
+      "categories": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "name": "Corruption de endgame",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "Falconer de Lanza Bomba",
+              "mastery": "Pícaro / Falconer",
+              "summary": "Uno de los mejores para progresar en alta corrupción. Combina el escalado del Halcón, la movilidad del Pícaro y el potencial de la creación de improntas.",
+              "highlights": [
+                "Excelente escalado de corrupción",
+                "Movimiento rápido y capas defensivas sólidas",
+                "Techo de daño extremadamente alto"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "Brujo de Maldiciones",
+              "mastery": "Acólito / Brujo",
+              "summary": "Destaca por el escalado multiplicativo de maldiciones y la presión de daño en el tiempo. Ideal para quienes buscan un lanzador de hechizos moderno con profundidad.",
+              "highlights": [
+                "Acumulación de maldiciones muy fuerte",
+                "Alta presión de DoT en combates largos",
+                "Escala muy bien en líneas temporales potenciadas profundas"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "Runemaster Elemental",
+              "mastery": "Mago / Runemaster",
+              "summary": "Ofrece una enorme ráfaga elemental y control del campo de batalla una vez que dominas el sistema de runas. Una de las mejores builds para lanzadores de alto rendimiento.",
+              "highlights": [
+                "Ventanas de ráfaga masivas",
+                "Opciones pasivas defensivas fuertes",
+                "Excelente escalado con una gestión de runas adecuada"
+              ]
+            }
+          ]
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "name": "Jefes",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "Void Knight de Eco",
+              "mastery": "Centinela / Void Knight",
+              "summary": "Un gran asesino de jefes basado en daño de Vacío a un solo objetivo y la durabilidad del Centinela. Una de las formas más limpias de aprender jefes multifase.",
+              "highlights": [
+                "Gran rendimiento contra un solo objetivo",
+                "Tiempo de actividad de daño confiable",
+                "Las defensas del Centinela facilitan la progresión contra jefes"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "Liche en Forma de Segador",
+              "mastery": "Acólito / Liche",
+              "summary": "Cambia seguridad por un techo de daño de élite contra jefes. Con el sustento adecuado, la Forma de Segador lo convierte en uno de los asesinos de jefes más rápidos.",
+              "highlights": [
+                "Techo de daño contra jefes muy alto",
+                "El robo de vida permite un tiempo de actividad agresivo",
+                "Ideal para jugadores cómodos con mecánicas de drenaje de vida"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "Paladín de Aura Sagrada",
+              "mastery": "Centinela / Paladín",
+              "summary": "El especialista en jefes más permisivo para jugadores enfocados en la progresión. Las interacciones de Aura Sagrada y Manos Curativas le dan una resistencia excepcional.",
+              "highlights": [
+                "Excelente autosustento",
+                "Opción de progresión muy segura",
+                "Excelente primer personaje serio para matar jefes"
+              ]
+            }
+          ]
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
-        },
-        {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
-        }
-      ],
-      "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
-      "items": [
-        {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
-        },
-        {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
-        },
-        {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
-      "solutions": [
-        {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
-        },
-        {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
-        },
-        {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
-        },
-        {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
-        }
-      ],
-      "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
-      "cards": [
-        {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
-        },
-        {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
-        },
-        {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
-        },
-        {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
-        }
-      ],
-      "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
-        },
-        {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
-        },
-        {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
+          "name": "Farmeo rápido",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "Danzarín de Hojas de Cascada de Sombras",
+              "mastery": "Pícaro / Danzarín de Hojas",
+              "summary": "El estándar de oro para la velocidad de limpieza de ecos. Las configuraciones basadas en sombras se mueven por el contenido de farmeo a un ritmo inigualable.",
+              "highlights": [
+                "Mejor movimiento y fluidez de su clase",
+                "Velocidad de limpieza de ecos excepcional",
+                "Ideal para farmeo enfocado en botín por hora"
+              ]
+            },
+            {
+              "tier": "A",
+              "name": "Tirador de Lluvia de Flechas",
+              "mastery": "Pícaro / Tirador",
+              "summary": "Amplia cobertura de pantalla con menos intensidad mecánica que el Danzarín de Hojas. Una de las mejores opciones de farmeo a distancia.",
+              "highlights": [
+                "Gran cobertura de área por lanzamiento",
+                "Perfil de farmeo a distancia sólido",
+                "Más fácil de pilotar que las configuraciones cuerpo a cuerpo rápidas"
+              ]
+            },
+            {
+              "tier": "A",
+              "name": "Chamán de Tótem de Tormenta",
+              "mastery": "Primordialista / Chamán",
+              "summary": "Una alternativa sólida para quienes prefieren tótems y tormentas elementales. Tornado y Tótem de Tormenta mantienen el daño mientras te mueves.",
+              "highlights": [
+                "Daño persistente mientras te reposicionas",
+                "Buen flujo de mapa para un arquetipo de Primordialista",
+                "Gran opción para quienes no gustan de builds tipo 'cañón de cristal'"
+              ]
+            }
+          ]
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
-        {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
-        },
-        {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
-        },
-        {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
-      "items": [
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
-        },
-        {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
-        }
-      ],
-      "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
-      "sections": [
-        {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
-        },
-        {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
-        },
-        {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
-        },
-        {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-      "priorities": [
-        {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
-        },
-        {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
-        },
-        {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
-        },
-        {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
+    "lastEpochMasteryGuide": {
+      "title": "Guía de Mastery de Last Epoch",
+      "displayType": "masteryGrid",
+      "intro": "La Mastery es el compromiso más importante del personaje en Last Epoch. Cada clase base se divide en tres maestrías, cada una con sus propias habilidades exclusivas, estilo de juego e identidad de endgame.",
       "groups": [
         {
-          "name": "Exploración",
-          "achievements": [
+          "name": "Centinela",
+          "masteries": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "name": "Guardia de la Forja",
+              "playstyle": "Luchador cuerpo a cuerpo defensivo",
+              "damageProfile": "Físico y Sangrado",
+              "signatureTools": [
+                "Golpe de Forja",
+                "Ira del Fundidor",
+                "Anillo de Escudos"
+              ],
+              "summary": "Una maestría duradera que se apoya en la armadura, la defensa y el daño constante basado en armas."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
+              "name": "Paladín",
+              "playstyle": "Híbrido de fuego con soporte de curación",
+              "damageProfile": "Fuego y utilidad defensiva",
+              "signatureTools": [
+                "Juicio",
+                "Aura Sagrada"
+              ],
+              "summary": "Una maestría permisiva con excelente sustento y uno de los mejores perfiles de progresión para nuevos jugadores."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "name": "Void Knight",
+              "playstyle": "Cuerpo a cuerpo agresivo de vacío",
+              "damageProfile": "Vacío y ráfaga cuerpo a cuerpo",
+              "signatureTools": [
+                "Golpe de Erradicación",
+                "Anomalía"
+              ],
+              "summary": "Basado en mecánicas de Eco que duplican acciones clave y añaden daño gratuito a un ciclo cuerpo a cuerpo simple."
             }
           ]
         },
         {
-          "name": "Artesanía e invocación",
-          "achievements": [
+          "name": "Acólito",
+          "masteries": [
             {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
+              "name": "Liche",
+              "playstyle": "Lanzador de riesgo-recompensa",
+              "damageProfile": "Necrótico, Veneno, drenaje de vida",
+              "signatureTools": [
+                "Forma de Segador",
+                "Sello de la Muerte"
+              ],
+              "summary": "Una maestría de alto nivel que convierte la gestión de la salud en daño explosivo y gran eficacia contra jefes."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
+              "name": "Nigromante",
+              "playstyle": "Comandante de ejército",
+              "damageProfile": "Esbirros, Necrótico, Físico",
+              "signatureTools": [
+                "Invocar Espectro",
+                "Sombra de Pavor",
+                "Ensamblar Abominación"
+              ],
+              "summary": "La ruta clásica de invocador, basada en grandes ejércitos de esbirros y un escalado fácil de entender."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
+              "name": "Brujo",
+              "playstyle": "Lanzador de maldiciones",
+              "damageProfile": "Maldición, Necrótico, DoT",
+              "signatureTools": [
+                "Proyectiles de Caos",
+                "Velo Profano",
+                "Llama Fantasmal"
+              ],
+              "summary": "Una maestría enfocada en la corrupción que debilita enemigos, acumula maldiciones y escala extremadamente bien en el endgame."
             }
           ]
         },
         {
-          "name": "Movilidad y utilidad",
-          "achievements": [
+          "name": "Mago",
+          "masteries": [
             {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
+              "name": "Hechicero",
+              "playstyle": "Lanzador de hechizos a distancia puro",
+              "damageProfile": "Ráfaga de Fuego, Rayo, Frío",
+              "signatureTools": [
+                "Meteoro",
+                "Agujero Negro",
+                "Ascendencia Arcana"
+              ],
+              "summary": "Una de las entradas más fáciles para nuevos jugadores gracias a patrones de área claros y escalado de daño directo."
             },
             {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
+              "name": "Runemaster",
+              "playstyle": "Mago de runas táctico",
+              "damageProfile": "Ráfaga elemental y defensas por capas",
+              "signatureTools": [
+                "Invocación Rúnica"
+              ],
+              "summary": "Una maestría de alta habilidad y recompensa que convierte la secuencia de runas en uno de los paquetes de lanzador más poderosos."
             },
             {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
+              "name": "Filo de Hechizo",
+              "playstyle": "Híbrido cuerpo a cuerpo y lanzador",
+              "damageProfile": "Cuerpo a cuerpo más activadores elementales",
+              "signatureTools": [
+                "Golpe de Fragmentación",
+                "Oleada",
+                "Marca de Fuego"
+              ],
+              "summary": "Un luchador elemental de corto alcance que mezcla golpes de arma con activaciones de hechizos para un ritmo más activo."
             }
           ]
         },
         {
-          "name": "Combate y criaturas",
-          "achievements": [
+          "name": "Primordialista",
+          "masteries": [
             {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
+              "name": "Druida",
+              "playstyle": "Cambiaformas",
+              "damageProfile": "Cuerpo a cuerpo, naturaleza, transformación",
+              "signatureTools": [
+                "Raíces Entrelazadas",
+                "Forma de Hombre Oso",
+                "Forma de Spriggan"
+              ],
+              "summary": "Una maestría flexible que cambia entre formas y puede cubrir roles de tanque, sanador y presión cuerpo a cuerpo constante."
             },
             {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
+              "name": "Maestro de Bestias",
+              "playstyle": "Comandante de compañeros",
+              "damageProfile": "Presión de esbirros y física",
+              "signatureTools": [
+                "Invocar Raptor",
+                "Invocar Dientes de Sable",
+                "Invocar Tótem de Frenesí"
+              ],
+              "summary": "Enfocado en compañeros permanentes y sinergia con bestias en lugar de hordas temporales o tótems de hechizos."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
+              "name": "Chamán",
+              "playstyle": "Lanzador de tótems elementales",
+              "damageProfile": "Tormenta, Frío, daño de tótem",
+              "signatureTools": [
+                "Avalancha",
+                "Invocar Tótem de Tormenta"
+              ],
+              "summary": "Una maestría de control estacionario que gana mediante configuraciones elementales repetidas y fuentes de daño persistentes."
             }
           ]
         },
         {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
+          "name": "Pícaro",
+          "masteries": [
             {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
+              "name": "Danzarín de Hojas",
+              "playstyle": "Asesino cuerpo a cuerpo rápido",
+              "damageProfile": "Ráfaga cuerpo a cuerpo, sombras, movilidad",
+              "signatureTools": [
+                "Golpes Danzantes",
+                "Espejismo Letal"
+              ],
+              "summary": "La maestría de Pícaro cuerpo a cuerpo de mayor ritmo, basada en velocidad, esquiva y patrones de limpieza explosivos."
             },
             {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
+              "name": "Tirador",
+              "playstyle": "Especialista en arco",
+              "damageProfile": "Daño a distancia a un objetivo y área",
+              "signatureTools": [
+                "Lluvia de Flechas",
+                "Flecha Detonante"
+              ],
+              "summary": "Una maestría a distancia limpia para jugadores que buscan un posicionamiento más seguro y amplia cobertura de pantalla."
             },
             {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
+              "name": "Falconer",
+              "playstyle": "Táctico de trampas y compañeros",
+              "damageProfile": "Ráfaga de trampas, movilidad, escalado de Halcón",
+              "signatureTools": [
+                "Golpe de Halcón",
+                "Trampa Explosiva"
+              ],
+              "summary": "Una maestría de Pícaro de primer nivel que mezcla herramientas de preparación, presión de compañeros y excelente rendimiento en corrupción."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
-        },
-        {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
-        },
-        {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
-        },
-        {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
-        },
-        {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
-        },
-        {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
-        {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
-        },
-        {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
-        },
-        {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
-        },
-        {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
-        {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
-        },
-        {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
-        },
-        {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
+    "lastEpochLevelingGuide": {
+      "title": "Guía de nivelación de Last Epoch",
       "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
+      "intro": "Nivelar en Last Epoch consiste en dos barras de progreso a la vez: el nivel de tu personaje y los niveles de tus habilidades especializadas. Las mejores rutas mantienen ambos en movimiento, usan la velocidad de movimiento como poder real y pivotan hacia los Monoliths con el orden correcto.",
       "steps": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "title": "Construye tu campaña alrededor de una familia de daño",
+          "description": "Tus 5 habilidades especializadas deben apoyarse entre sí. El equipo funciona mejor cuando tus habilidades principales escalan con el mismo perfil de daño en lugar de dividirse entre elementos no relacionados.",
+          "highlights": [
+            "El nivel máximo del personaje es 100",
+            "Las habilidades especializadas suelen llegar al nivel 20",
+            "No disperses tu configuración activa en diferentes tipos de daño mientras subes de nivel"
+          ]
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "title": "Sigue la ruta de la historia y recoge recompensas permanentes",
+          "description": "La progresión de la historia principal y las misiones secundarias que otorgan puntos pasivos o espacios de ídolos deben completarse temprano. Estas recompensas permanentes hacen que cualquier método de nivelación posterior sea más eficiente.",
+          "highlights": [
+            "Misiones, muertes de enemigos, Monoliths, Arena y Ecos contribuyen a la XP",
+            "Completa misiones de puntos pasivos e ídolos antes de farmear seriamente en el Monolith",
+            "Rastrea las recompensas permanentes faltantes desde la interfaz del mapa"
+          ]
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "title": "Asegura tu maestría cuando el Capítulo 4 la abra",
+          "description": "Gasta 20 puntos en el árbol de clase base, completa la misión de maestría y elige tu subclase en el Fin de los Tiempos. Empieza a invertir en el escalado de maestría en lugar de retrasar el aumento de poder.",
+          "highlights": [
+            "La selección de Mastery se hace a través del Anciano Gaspar",
+            "Elegir la maestría temprano mantiene tu build de nivelación equilibrada",
+            "Reinicia pasivas y habilidades cuando sea necesario, pero mantén estable la identidad central"
+          ]
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "title": "Usa la velocidad de movimiento como estadística de nivelación",
+          "description": "La velocidad de movimiento es uno de los aceleradores de campaña más fuertes porque mejora la tasa de muertes, la velocidad de finalización de zonas y el acceso a sistemas posteriores.",
+          "highlights": [
+            "El Anillo de Plata otorga de 3 a 8 por ciento de velocidad de movimiento por anillo",
+            "Las Botas de Advenimiento de los Borrados pueden tener hasta un 20 por ciento de velocidad",
+            "Las Botas de Lecciones de la Metrópolis pueden tener hasta un 17 por ciento de velocidad"
+          ]
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "title": "Fabrica a menudo y reemplaza las armas débiles",
+          "description": "El daño de arma y los afijos fabricados simples ayudan más a la velocidad de nivelación que esperar a que caiga el objeto perfecto. La campaña es mucho más fluida si tratas el banco de artesanía como parte de la ruta normal.",
+          "highlights": [
+            "Usa Runas de Desguace para acumular fragmentos para futuras mejoras",
+            "Usa Glifos de Esperanza para proteger la durabilidad del objeto al fabricar",
+            "Actualiza tu arma principal tras pasar zonas importantes"
+          ]
+        },
+        {
+          "title": "Usa los nodos de Arena del Monolith y la primera bendición de XP",
+          "description": "Una vez que los Monoliths se abren, los nodos de Arena son una de las mejores fuentes de XP. Siguen siendo eficientes hasta el nivel 58, luego la ruta cambia hacia la primera bendición clave.",
+          "highlights": [
+            "Los enemigos raros y mágicos otorgan un 50 por ciento más de XP que los normales",
+            "El farmeo de nodos de Arena es fuerte hasta aproximadamente el nivel 58",
+            "Derrotar al primer jefe del Monolith otorga Fuerza Mental, una bendición de experiencia"
+          ]
+        },
+        {
+          "title": "Desbloquea los Monoliths Potenciados alrededor del nivel 90",
+          "description": "Los Monoliths Potenciados son el verdadero motor del endgame. Completa la secuencia de líneas temporales requerida y luego regresa al farmeo eficiente con mayores recompensas.",
+          "highlights": [
+            "Completa Caída de los Marginados, El Sol Negro, El Fin de la Tormenta y El Reinado de los Dragones",
+            "Luego limpia Espíritus de Fuego, La Última Ruina y La Era del Invierno",
+            "Tras desbloquear los Potenciados, farmea Caída de los Marginados de nuevo para obtener Gran Fuerza Mental"
+          ]
         }
+      ],
+      "quickTips": [
+        "Mantén tu arma actualizada cada pocas zonas para mantener una velocidad de muerte fluida.",
+        "La velocidad de movimiento en botas y anillos acelera significativamente la progresión de la campaña.",
+        "Los nodos de Arena en el Monolith son una de las fuentes de XP más fuertes antes del nivel 58.",
+        "Desbloquea los Monoliths Potenciados completando la secuencia requerida alrededor del nivel 90."
+      ]
+    },
+    "lastEpochEndgameGuide": {
+      "title": "Guía de endgame de Last Epoch",
+      "displayType": "cardList",
+      "intro": "El endgame de Last Epoch se basa en sistemas repetibles que recompensan con poder permanente, farmeo dirigido y ciclos de progresión más difíciles. Entender qué actividad da progresión, botín o potencial de mejora te ayudará a planificar tu tiempo tras la campaña.",
+      "cards": [
+        {
+          "name": "Monolith del Destino",
+          "description": "El sistema principal de endgame. Los jugadores entran desde el Fin de los Tiempos, limpian ecos y objetivos dentro de líneas temporales, derrotan al jefe y ganan Blessings permanentes más botín único específico.",
+          "highlights": [
+            "La primera zona del Monolith comienza en el nivel 58",
+            "Cada línea temporal tiene sus propias misiones, ecos, jefe y botín",
+            "Las Blessings mejoran permanentemente el poder del personaje o la calidad del botín"
+          ]
+        },
+        {
+          "name": "Monolith Potenciado",
+          "description": "Los Monoliths Potenciados son el verdadero ciclo de farmeo a largo plazo. Tienen un nivel de desafío mucho mayor, permiten aumentar la corrupción y mejoran las Blessings normales a versiones Grandes.",
+          "highlights": [
+            "Se desbloquean tras limpiar La Era del Invierno, La Última Ruina y Los Espíritus de Fuego",
+            "Funcionan en el nivel 100",
+            "Permiten farmeo de corrupción infinita y Blessings Grandes más fuertes"
+          ]
+        },
+        {
+          "name": "Mazmorras",
+          "description": "Las mazmorras son estancias de endgame que requieren llaves, con mecánicas e identidades de recompensa propias. Cada una resuelve un objetivo de botín o artesanía diferente.",
+          "highlights": [
+            "Lightless Arbor abre la Cámara para recompensas de cofres basadas en oro",
+            "Soulfire Bastion desbloquea al Apostador de Almas para botín raro y único",
+            "Temporal Sanctum desbloquea la artesanía Legendaria a través de la Reserva de la Eternidad"
+          ]
+        },
+        {
+          "name": "Arena",
+          "description": "La Arena es el modo de resistencia de Last Epoch. Permite a los jugadores probar su supervivencia, escalado de daño y consistencia en combates largos.",
+          "highlights": [
+            "La Arena de Campeones termina tras 40 oleadas y un jefe",
+            "La Arena Infinita escala hasta que el jugador se retira o muere",
+            "Los resultados pueden compararse en la tabla de clasificación"
+          ]
+        },
+        {
+          "name": "Lo Tejido y Ecos Tejidos",
+          "description": "La Temporada 2 expandió el Monolith con Tumbas, Cementerios, Ámbar de Memoria, Ecos Tejidos y el Árbol del Tejedor. Este sistema permite remodelar encuentros y recompensas.",
+          "highlights": [
+            "El Ámbar de Memoria se gana en Tumbas y Cementerios",
+            "El Árbol del Tejedor otorga hasta 50 puntos",
+            "Unos 70 nodos del Árbol del Tejedor modifican recompensas y encuentros"
+          ]
+        },
+        {
+          "name": "Presagios y Cadenas de Ecos de la Temporada 4",
+          "description": "La Temporada 4 añadió Ventanas de Presagio, Cadenas de Ecos, Fragmentos de Reloj de Arena, Runas de Corruption, Idols de Presagio y Altares de Idol. Estos sistemas vinculan combate, rutas de monolitos y optimización de ídolos.",
+          "highlights": [
+            "Cinco tipos de Cadenas de Ecos lanzados con la Temporada 4",
+            "Los Presagios pueden soltar Fragmentos de Reloj de Arena, Runas de Corruption y objetos Corruptos",
+            "Los Fragmentos de Reloj de Arena se pueden gastar en el centro del Monolith"
+          ]
+        }
+      ]
+    },
+    "lastEpochMonolithGuide": {
+      "title": "Guía del Monolith del Destino de Last Epoch",
+      "displayType": "steps",
+      "intro": "El Monolith del Destino es la columna vertebral de la progresión de endgame en Last Epoch. Esta guía te lleva desde la primera línea temporal de nivel 58 hasta el farmeo potenciado y el aumento de corrupción.",
+      "steps": [
+        {
+          "title": "Entra al Monolith desde el Fin de los Tiempos",
+          "description": "El Monolith del Destino está disponible tras la campaña. Tu primera línea temporal comienza en el nivel 58, marcando la transición de la historia al farmeo repetible de endgame."
+        },
+        {
+          "title": "Limpia Ecos y genera Estabilidad de Línea Temporal",
+          "description": "Cada línea temporal está hecha de ecos con objetivos y modificadores aleatorios. Completarlos genera Estabilidad, revela más de la red y te acerca a los ecos de misión."
+        },
+        {
+          "title": "Termina las misiones de línea temporal y mata al jefe",
+          "description": "Cada línea temporal contiene tres etapas de misión que llevan al jefe. Derrotarlo convierte tu progreso en permanente mediante Blessings y acceso a botín específico."
+        },
+        {
+          "title": "Elige una Blessing y avanza a líneas temporales superiores",
+          "description": "Tras matar a cada jefe, elige una Blessing. El consejo general es seguir avanzando hacia la derecha por las islas del Monolith hacia líneas de mayor nivel mientras recoges las bendiciones que más ayuden a tu build."
+        },
+        {
+          "title": "Desbloquea los Monoliths Potenciados",
+          "description": "Limpia las versiones normales de La Era del Invierno, La Última Ruina y Los Espíritus de Fuego. Los potenciados funcionan en el nivel 100, tienen mucha más corrupción y ofrecen Blessings Grandes más fuertes."
+        },
+        {
+          "title": "Aumenta la Corruption con la Sombra de Orobyss",
+          "description": "La Corruption es la palanca principal de riesgo y recompensa. Una mayor corrupción hace a los enemigos más difíciles pero mejora la experiencia y la calidad de los objetos."
+        },
+        {
+          "title": "Usa Ecos Especiales, sistemas Tejidos y Cadenas de Ecos",
+          "description": "Las rutas modernas incluyen Ecos de Faro, Ecos de Vasija, activadores de Sombra, Ecos Tejidos y ahora Cadenas de Ecos. Estas capas permiten buscar estabilidad, ídolos y recompensas especializadas de forma más eficiente."
+        }
+      ],
+      "quickTips": [
+        "Avanza hacia la derecha en las islas del Monolith para desbloquear líneas de mayor nivel rápidamente.",
+        "Elige siempre la Blessing que beneficie a tu build principal antes de farmear otras líneas.",
+        "Los Monoliths Potenciados se desbloquean tras limpiar tres líneas temporales normales específicas.",
+        "Usa la Sombra de Orobyss para aumentar la corrupción y obtener mejores botines y XP."
+      ]
+    },
+    "lastEpochCraftingGuide": {
+      "title": "Guía de artesanía de Last Epoch",
+      "displayType": "steps",
+      "intro": "La artesanía es uno de los sistemas definitorios de Last Epoch, e importa desde la primera mejora hasta la creación legendaria de alto nivel. Esta guía muestra cómo funciona la Forja, por qué importa el Potencial de Forja y cómo evoluciona la artesanía.",
+      "steps": [
+        {
+          "title": "Aprende los conceptos básicos de la Forja",
+          "description": "Presiona F para abrir la Forja en cualquier lugar. La mayoría de los objetos fabricables usan hasta dos prefijos y dos sufijos, mientras que los afijos sellados pueden añadir un espacio bloqueado adicional."
+        },
+        {
+          "title": "Gestiona el Potencial de Forja",
+          "description": "El Potencial de Forja (PF) es el presupuesto de durabilidad de un objeto. Los objetos comunes a raros suelen tener entre 20 y 40 PF, mientras que los Exalted suelen tener 40 o más. La buena artesanía consiste en gastar ese presupuesto en las mejoras más importantes primero."
+        },
+        {
+          "title": "Usa fragmentos para mejoras principales",
+          "description": "Los fragmentos de afijo son la moneda base. Añaden o mejoran estadísticas como salud, resistencia, daño o atributos, y son la base de casi cualquier mejora de equipo en el juego."
+        },
+        {
+          "title": "Conoce los glifos importantes",
+          "description": "El Glifo de Esperanza da un 25% de probabilidad de no gastar PF. El Glifo de Orden preserva los valores al subir de nivel, el Glifo de Caos cambia un afijo por otro aleatorio, el Glifo de Desesperación sella un afijo y el Glifo de Envidia cambia el resto del objeto dejando intacto el afijo mejorado."
+        },
+        {
+          "title": "Conoce las runas importantes",
+          "description": "La Runa de Desguace convierte equipo en fragmentos, la Runa de Eliminación borra un afijo al azar, la Runa de Descubrimiento llena un espacio vacío, la Runa de Refinamiento cambia los valores de los afijos, la Runa de Moldeado cambia los implícitos, la Runa de Ascendencia convierte un objeto normal en un Único o Set aleatorio, y la Runa de Creación duplica un objeto."
+        },
+        {
+          "title": "Busca la artesanía Exalted y Legendaria",
+          "description": "Los objetos Exalted son botines con al menos un afijo de nivel 6 o 7. La artesanía legendaria combina un Único con Legendary Potential y un objeto Exalted en la Reserva de la Eternidad dentro de Temporal Sanctum."
+        },
+        {
+          "title": "Usa la Reserva de la Eternidad correctamente",
+          "description": "Temporal Sanctum controla el límite de nivel para la artesanía legendaria: el Nivel 1 admite Únicos hasta nivel 50, el Nivel 2 hasta 65, el Nivel 3 hasta 75 y el Nivel 4 elimina la restricción. El Nivel 2 y superiores también permiten asegurar un afijo elegido."
+        },
+        {
+          "title": "Expándete a los sistemas modernos de artesanía de endgame",
+          "description": "La Temporada 2 añadió Ecos Tejidos, Encantamiento Tejido para ídolos de clase y artesanía de afijos de bonificación de Set. La Temporada 4 añadió Runas de Corruption y objetos corruptos, creando una nueva capa de riesgo sobre la Forja normal."
+        }
+      ],
+      "quickTips": [
+        "Fabrica siempre el afijo más importante primero mientras el Potencial de Forja sea alto.",
+        "El Glifo de Esperanza es tu mejor amigo para fabricar con bajo presupuesto durante la nivelación.",
+        "Guarda objetos Exalted con buenas combinaciones de afijos para la artesanía legendaria posterior.",
+        "Usar la Runa de Desguace en equipo no deseado es la forma más rápida de acumular fragmentos de artesanía."
+      ]
+    },
+    "lastEpochLootFilterGuide": {
+      "title": "Guía de Loot Filter de Last Epoch",
+      "displayType": "steps",
+      "intro": "Los filtros de botín son uno de los sistemas de calidad de vida más valiosos en Last Epoch porque convierten el desorden en progresión legible. Esta guía te ayuda a entender qué mostrar, qué ocultar y cuándo hacer el filtro más estricto.",
+      "steps": [
+        {
+          "title": "Entiende qué hace realmente un Loot Filter",
+          "description": "Los filtros de botín resaltan los afijos y tipos de objetos que te interesan, cambian el color de los botines valiosos y ocultan el desorden de bajo valor. En Last Epoch, el sistema puede resaltar un afijo deseado o grupos de muchos afijos."
+        },
+        {
+          "title": "Comienza con un filtro compartido o una plantilla simple",
+          "description": "Un buen primer paso es empezar con un filtro general o uno de build de Last Epoch Tools, y luego ajustarlo para tu clase y objetivos. Esto es más rápido que construirlo desde cero."
+        },
+        {
+          "title": "Importa un filtro al juego",
+          "description": "Last Epoch Tools permite exportar y copiar filtros al portapapeles. El flujo normal es abrir la página del filtro, presionar Exportar, copiarlo y luego pegarlo en el menú de filtros de botín dentro del juego."
+        },
+        {
+          "title": "Establece prioridades para el inicio del juego",
+          "description": "Durante la nivelación, el filtro debe mostrar salud, resistencias, velocidad de movimiento, tus afijos de daño principales e ídolos de clase útiles. El objetivo es hacer que las mejoras obvias sean fáciles de detectar."
+        },
+        {
+          "title": "Ajusta el filtro para el Monolith y las mazmorras",
+          "description": "Una vez que comienza el farmeo en el Monolith, el filtro debe ser más estricto. Enfócate en bases deseadas, afijos Exalted de alto valor, Únicos con LP, ídolos de clase y los botines específicos que tu build busca."
+        },
+        {
+          "title": "Separa las reglas de nivelación de las de endgame",
+          "description": "Un filtro que funciona en la campaña se vuelve demasiado permisivo en los Monoliths Potenciados. Muchos jugadores cambian a un filtro dedicado de endgame una vez que los objetos Exalted se vuelven comunes."
+        },
+        {
+          "title": "Usa las nuevas herramientas de filtro de la Temporada 4",
+          "description": "La Temporada 4 aumentó el límite de reglas a 200 y añadió personalización separada para iconos de mapa y haces de luz de objetos, opciones de visualización de números de regla y nuevos sonidos de filtro."
+        }
+      ],
+      "quickTips": [
+        "Comienza con un filtro de la comunidad de Last Epoch Tools y personalízalo para tu build.",
+        "Actualiza tu filtro cada vez que entres en una nueva fase de endgame para evitar el desorden en pantalla.",
+        "Usa perfiles de filtro separados para nivelación y endgame para mantener las reglas limpias.",
+        "La Temporada 4 aumentó el límite de reglas a 200, dándote mucha más precisión de filtrado."
+      ]
+    },
+    "lastEpochBlessingsGuide": {
+      "title": "Guía de Blessings de Last Epoch",
+      "eyebrow": "Recompensas del Monolith",
+      "displayType": "table",
+      "subtitle": "Elige las Blessings adecuadas para daño, defensa y farmeo",
+      "intro": "Las Blessings son recompensas permanentes del Monolith que definen tanto la supervivencia como la eficiencia del farmeo. Una vez que entras en las líneas temporales potenciadas, las Blessings Grandes se vuelven una parte importante de la optimización.",
+      "items": [
+        {
+          "timeline": "El Sol Negro",
+          "blessing": "Gran Vacío de Ceniza",
+          "effect": "+27% a 40% de multiplicador de golpe crítico",
+          "role": "Ofensiva",
+          "bestFor": "Builds de crítico y daño a jefes",
+          "why": "Una de las bendiciones de daño puro más limpias para configuraciones de crítico en endgame."
+        },
+        {
+          "timeline": "El Fin de la Tormenta",
+          "blessing": "Gran Luz de la Luna",
+          "effect": "+60 a 90 de maná",
+          "role": "Recurso",
+          "bestFor": "Builds de Mago, Runemaster y Filo de Hechizo con alto consumo de maná",
+          "why": "Una bendición de calidad de vida fuerte cuando tu rotación o ciclo defensivo depende de una reserva de maná mayor."
+        },
+        {
+          "timeline": "El Reinado de los Dragones",
+          "blessing": "Gran Resolución de la Humanidad",
+          "effect": "+13% a 20% a todas las resistencias",
+          "role": "Defensa",
+          "bestFor": "Progresión inicial en potenciados y ajuste de resistencias",
+          "why": "Una forma fácil de liberar presión de sufijos en el equipo mientras estabilizas una build para contenido difícil."
+        },
+        {
+          "timeline": "El Reinado de los Dragones",
+          "blessing": "Gran Supervivencia del Poder",
+          "effect": "+50% a 70% de evasión de golpe crítico y +51 a 90 de índice de esquiva",
+          "role": "Defensa",
+          "bestFor": "Supervivencia general y progresión inicial de corrupción",
+          "why": "Una bendición defensiva popular porque soluciona dos problemas comunes de supervivencia a la vez."
+        },
+        {
+          "timeline": "La Era del Invierno",
+          "blessing": "Gran Furia del Invierno",
+          "effect": "+25% a 50% de probabilidad de aplicar Triturar Resistencia al Frío al golpear",
+          "role": "Ofensiva",
+          "bestFor": "Builds de daño de frío",
+          "why": "Una bendición muy eficiente para builds de frío que buscan más daño contra jefes sin cambiar de equipo."
+        },
+        {
+          "timeline": "Espíritus de Fuego",
+          "blessing": "Gran Cuerpo de Obsidiana",
+          "effect": "+200 a 320 de armadura",
+          "role": "Defensa",
+          "bestFor": "Builds basadas en armadura y durabilidad general",
+          "why": "Una opción defensiva directa que sigue siendo útil en muchas clases y etapas de equipamiento."
+        },
+        {
+          "timeline": "Caída de los Marginados",
+          "blessing": "Gran Vientos de Fortuna",
+          "effect": "16% a 22% de aumento en la tasa de caída de objetos únicos",
+          "role": "Farmeo",
+          "bestFor": "Jugadores que buscan farmear únicos específicos",
+          "why": "Una de las bendiciones de farmeo más claras cuando tu próxima mejora es un objeto único específico."
+        }
+      ]
+    },
+    "lastEpochFactionsGuide": {
+      "title": "Guía de facciones de Last Epoch",
+      "eyebrow": "Facciones de objetos",
+      "displayType": "comparisonTable",
+      "subtitle": "¿Merchant's Guild o Circle of Fortune?",
+      "intro": "Las facciones deciden cómo adquiere equipo tu personaje en el endgame. Esta elección afecta al acceso al comercio, la eficiencia de hallazgo propio, el ritmo de progresión y qué ciclo de objetos se siente mejor para tu build.",
+      "factionNames": {
+        "merchantsGuild": "Merchant's Guild",
+        "circleOfFortune": "Circle of Fortune"
+      },
+      "comparisons": [
+        {
+          "category": "Identidad central",
+          "merchantsGuild": "Facción enfocada en el comercio basada en el Bazar y listados de jugadores.",
+          "circleOfFortune": "Facción de hallazgo propio basada en la calidad del botín, profecías y bonificaciones pasivas de caza de objetos."
+        },
+        {
+          "category": "Característica principal",
+          "merchantsGuild": "Compra y vende equipo en el Bazar usando Favor junto con transacciones basadas en oro.",
+          "circleOfFortune": "Gasta Favor en el Observatorio para obtener Profecías, luego usa Lentes para moldear lo que ves."
+        },
+        {
+          "category": "Progresión",
+          "merchantsGuild": "12 rangos en total; gana reputación mediante el juego normal y la actividad comercial.",
+          "circleOfFortune": "12 rangos en total; gana reputación mediante el juego normal y la finalización de profecías."
+        },
+        {
+          "category": "Ideal para",
+          "merchantsGuild": "Jugadores que quieren completar su build más rápido, compras dirigidas y equipamiento impulsado por el mercado.",
+          "circleOfFortune": "Jugadores que prefieren farmear su propio equipo, adaptarse a los botines y maximizar el valor del hallazgo propio."
+        },
+        {
+          "category": "Restricción importante",
+          "merchantsGuild": "Los objetos comprados requieren rango del Merchant's Guild para equiparse y no pueden volver a comerciarse.",
+          "circleOfFortune": "Los objetos encontrados mientras estás alineado con el Circle of Fortune requieren rango del Circle of Fortune para equiparse."
+        },
+        {
+          "category": "Cambio y reglas de cuenta",
+          "merchantsGuild": "Puedes cambiar de facción, pero funciona más como un respec que como un interruptor casual. La reputación se comparte en toda la cuenta y se reinicia en cada Ciclo.",
+          "circleOfFortune": "Puedes cambiar de facción, pero funciona más como un respec que como un interruptor casual. La reputación se comparte en toda la cuenta y se reinicia en cada Ciclo."
+        }
+      ]
+    },
+    "lastEpochDungeonsGuide": {
+      "title": "Guía de mazmorras de Last Epoch",
+      "eyebrow": "Mazmorras de endgame",
+      "displayType": "dungeonCards",
+      "subtitle": "Tres mazmorras, tres ciclos de recompensa diferentes",
+      "intro": "Las mazmorras de Last Epoch son actividades de endgame repetibles con llaves, escalado de niveles y mecánicas únicas. Cada una recompensa un tipo diferente de progresión.",
+      "rulesTitle": "Reglas de las mazmorras de un vistazo",
+      "rulesSummary": "Todas las mazmorras requieren llaves, son contenido de endgame repetible con cuatro niveles y modificadores diarios.",
+      "rules": [
+        "Cada mazmorra requiere una llave específica que se consume al entrar.",
+        "Hay 4 niveles, y los niveles superiores se desbloquean tras limpiar los inferiores.",
+        "A partir del Nivel 2, recibes modificadores adicionales y mejores recompensas.",
+        "Los Amuletos de Llave de Mazmorra pueden modificar las incursiones, incluyendo un Amuleto de Portal que salta directamente al jefe."
+      ],
+      "dungeons": [
+        {
+          "name": "Lightless Arbor",
+          "summary": "Una mazmorra temática de veneno basada en la oscuridad, la navegación y la conversión de oro al final de la incursión.",
+          "location": "Era en Ruinas, cerca del Punto de Ruta de El Camino de la Superficie",
+          "key": "Llave de Lightless Arbor",
+          "boss": "La Montaña de Abajo",
+          "damageType": "Veneno",
+          "mechanic": "Ámbar Ardiente",
+          "endReward": "Cámara del Destino Incierto",
+          "bossDrops": [
+            "Nivel 1+: Cima de la Montaña",
+            "Nivel 2+: Pie de la Montaña",
+            "Nivel 3+: Cara de la Montaña",
+            "Nivel 4+: Núcleo de la Montaña"
+          ]
+        },
+        {
+          "name": "Soulfire Bastion",
+          "summary": "Una mazmorra de fuego y necrótico donde la gestión de escudos y el gasto de almas definen la incursión.",
+          "location": "Era Imperial, cerca del Punto de Ruta de El Bosque Talado",
+          "key": "Llave de Soulfire Bastion",
+          "boss": "Liche de Fuego Cremorus",
+          "damageType": "Fuego y Necrótico",
+          "mechanic": "Almas de Fuego del Alma y Escudo de Fuego del Alma",
+          "endReward": "Apostador de Almas",
+          "bossDrops": [
+            "Nivel 1+: Cenizas de Mortalidad",
+            "Nivel 2+: Envidia del Liche",
+            "Nivel 3+: Oblación del Inmolador",
+            "Nivel 4+: Pira de Aflicción"
+          ]
+        },
+        {
+          "name": "Temporal Sanctum",
+          "summary": "Una mazmorra de alto valor con cambio de eras, presión de jefe peligrosa y acceso directo a la artesanía legendaria.",
+          "location": "Era en Ruinas, cerca del Punto de Ruta de La Costa en Ruinas",
+          "key": "Llave de Temporal Sanctum",
+          "boss": "Cronomante Julra",
+          "damageType": "Veneno y Vacío",
+          "mechanic": "Cambio Temporal",
+          "endReward": "Reserva de la Eternidad",
+          "bossDrops": [
+            "Nivel 1+: Esfera Estelar de Julra",
+            "Nivel 2+: Somnia",
+            "Nivel 3+: Obsesión de Julra",
+            "Nivel 4+: Vasija de la Discordia"
+          ]
+        }
+      ]
+    },
+    "lastEpochUniqueItemsGuide": {
+      "title": "Guía de objetos Únicos y Legendarios de Last Epoch",
+      "eyebrow": "Itemización",
+      "displayType": "systemTable",
+      "subtitle": "Cómo los Únicos se convierten en equipo de endgame a largo plazo",
+      "intro": "En Last Epoch, los únicos no son solo objetos coleccionables. Son la base de varios sistemas de equipo de juego tardío, especialmente la artesanía Legendaria.",
+      "systems": [
+        {
+          "system": "Objetos Únicos",
+          "whatItIs": "Objetos con modificadores fijos que definen builds y pueden otorgar efectos que no se encuentran normalmente en equipo raro o exaltado.",
+          "coreRule": "Suelen ser el punto de partida para el equipo de endgame y muchas builds giran en torno a uno o más únicos clave.",
+          "connection": "Se farmean de jefes, líneas temporales, mazmorras y sistemas de botín generales.",
+          "whySearch": "Los jugadores los buscan para decidir si una build necesita un objeto específico o al planificar una transición de equipo."
+        },
+        {
+          "system": "Legendary Potential",
+          "whatItIs": "Una propiedad en objetos únicos que va de 0 a 4.",
+          "coreRule": "El Legendary Potential determina cuántos afijos de un objeto exaltado pueden transferirse al crear un objeto Legendario.",
+          "connection": "Cuanto más fuerte sea el único base, más valioso se vuelve incluso 1 LP.",
+          "whySearch": "El LP es la razón principal por la que a los jugadores les importa si un único es solo usable o digno del endgame."
+        },
+        {
+          "system": "Artesanía Legendaria en la Reserva de la Eternidad",
+          "whatItIs": "Un sistema de artesanía desbloqueado tras vencer a la Cronomante Julra en Temporal Sanctum.",
+          "coreRule": "Combinas un único con Legendary Potential y un objeto exaltado del mismo tipo para crear un objeto Legendario.",
+          "connection": "Temporal Sanctum es el puente práctico entre los botines únicos y el equipo de endgame a largo plazo.",
+          "whySearch": "Este es el camino de mejora principal para convertir un buen único en un objeto de élite."
+        },
+        {
+          "system": "Voluntad del Tejedor",
+          "whatItIs": "Un sistema especial de objetos únicos que usa Voluntad del Tejedor en lugar del Legendary Potential normal.",
+          "coreRule": "Los únicos del Tejedor caen con 5 a 28 de Voluntad del Tejedor y ganan afijos o mejoran sus niveles mientras matas enemigos cercanos.",
+          "connection": "Crea un camino de progresión separado donde el objeto evoluciona con el uso.",
+          "whySearch": "Los jugadores buscan esto cuando quieren saber si un objeto del Tejedor vale la pena subirlo de nivel."
+        },
+        {
+          "system": "Únicos Primordiales",
+          "whatItIs": "Una clase de objetos únicos extremadamente poderosos para el juego tardío.",
+          "coreRule": "Solo puedes equipar un objeto Primordial de cualquier tipo a la vez.",
+          "connection": "Estos compiten directamente con otras decisiones de espacios de endgame debido a su gran presupuesto de poder.",
+          "whySearch": "Importan cuando los jugadores están optimizando al máximo su equipo final."
+        }
+      ]
+    },
+    "lastEpochIdolsGuide": {
+      "title": "Guía de Idols de Last Epoch",
+      "eyebrow": "Objetos de endgame",
+      "displayType": "table",
+      "subtitle": "Los Idols usan una cuadrícula de inventario separada y añaden parte del poder más flexible del juego.",
+      "intro": "Desbloqueas espacio para ídolos a medida que avanza la campaña, y la cuadrícula completa alcanza los 20 espacios tras recompensas clave de misiones principales y secundarias.",
+      "items": [
+        {
+          "category": "Genérico",
+          "idolFamily": "Idol Pequeño",
+          "size": "1×1",
+          "classAccess": "Cualquier clase",
+          "dropLevel": "Cae desde nivel 11+",
+          "typicalStats": "Daño en el tiempo, Esquiva, HP, Curación, Aturdimiento, resistencia no elemental, daño no elemental",
+          "notes": "Ideal para llenar espacios individuales abiertos en la cuadrícula de ídolos."
+        },
+        {
+          "category": "Genérico",
+          "idolFamily": "Idol Humilde",
+          "size": "2×1",
+          "classAccess": "Cualquier clase",
+          "dropLevel": "Cae desde nivel 11+",
+          "typicalStats": "Probabilidad de sangrado, Probabilidad de veneno, Salud al matar, Duración de aturdimiento, Vitalidad",
+          "notes": "Una opción compacta de inicio de juego para utilidad y estados alterados."
+        },
+        {
+          "category": "Genérico",
+          "idolFamily": "Idol Robusto",
+          "size": "1×2",
+          "classAccess": "Cualquier clase",
+          "dropLevel": "Cae desde nivel 11+",
+          "typicalStats": "Protección, Probabilidad de ignición, Probabilidad de electrocución, Probabilidad de golpe crítico, Salud",
+          "notes": "Una forma genérica flexible para ofensiva o defensa."
+        },
+        {
+          "category": "Mixto",
+          "idolFamily": "Idol Adornado",
+          "size": "2×2",
+          "classAccess": "Mayormente específicos de clase",
+          "dropLevel": "Cae desde nivel 20+",
+          "typicalStats": "Mayormente afijos específicos de clase",
+          "notes": "Punto de entrada a la planificación de ídolos especializados más grandes."
+        },
+        {
+          "category": "Específico de clase",
+          "idolFamily": "Gran Idol",
+          "size": "3×1",
+          "classAccess": "Acólito: Hueso, Mago: Vidrio, Primordialista: Heorot, Pícaro: Majasan, Centinela: Solar",
+          "dropLevel": "Cae desde nivel 25+",
+          "typicalStats": "Mayormente afijos específicos de clase, más resistencia y daño no elemental",
+          "notes": "Formato ancho que introduce bonificaciones más fuertes enfocadas en la clase."
+        },
+        {
+          "category": "Específico de clase",
+          "idolFamily": "Idol Grande",
+          "size": "1×3",
+          "classAccess": "Mago: Arcano, Acólito: Inmortal, Primordialista: Nómada, Centinela: Rahyeh, Pícaro: Sombra",
+          "dropLevel": "Cae desde nivel 25+",
+          "typicalStats": "Mayormente afijos específicos de clase, daño, bonificaciones defensivas",
+          "notes": "Formato alto para un escalado de clase dirigido."
+        },
+        {
+          "category": "Específico de clase",
+          "idolFamily": "Idol Ornato",
+          "size": "4×1",
+          "classAccess": "Acólito: Hueso, Mago: Vidrio, Primordialista: Heorot, Pícaro: Majasan, Centinela: Solar",
+          "dropLevel": "Cae desde nivel 30+",
+          "typicalStats": "Mejoras ofensivas de clase, potenciadores, estados alterados",
+          "notes": "Una opción tardía de mayor anchura para diseños horizontales fuertes."
+        },
+        {
+          "category": "Específico de clase",
+          "idolFamily": "Idol Enorme",
+          "size": "1×4",
+          "classAccess": "Mago: Arcano, Acólito: Inmortal, Primordialista: Nómada, Centinela: Rahyeh, Pícaro: Sombra",
+          "dropLevel": "Cae desde nivel 30+",
+          "typicalStats": "Afijos específicos de clase, daño, estados alterados, bonificaciones defensivas",
+          "notes": "Una de las familias de ídolos verticales más especializadas."
+        },
+        {
+          "category": "Único",
+          "idolFamily": "Singularidad",
+          "size": "1×1",
+          "classAccess": "Cualquier clase",
+          "dropLevel": "Requiere nivel 42; cae desde nivel 11+",
+          "typicalStats": "Más daño de golpe si solo hay una Singularidad equipada; desactiva los golpes críticos",
+          "notes": "Obtenido del alijo de la Colección del Astrónomo en el Cañón del Titán."
+        },
+        {
+          "category": "Único",
+          "idolFamily": "Trono de la Ambición",
+          "size": "2×2",
+          "classAccess": "Cualquier clase",
+          "dropLevel": "Requiere nivel 1; cae desde nivel 20+",
+          "typicalStats": "Gana acumulaciones de Ambición al golpear a un jefe o enemigo raro; 2% más de daño de fuego por acumulación",
+          "notes": "Obtenido de Argentus, el Cazador de Dioses, en la línea temporal de La Lanza Robada."
+        }
+      ]
+    },
+    "lastEpochWeaverTreeGuide": {
+      "title": "Guía del Árbol del Tejedor de Last Epoch",
+      "eyebrow": "Planificación del Monolith",
+      "displayType": "steps",
+      "subtitle": "El Árbol del Tejedor cambia el comportamiento de tu red del Monolith.",
+      "intro": "El Árbol del Tejedor es un árbol pasivo enfocado en el Monolith en lugar del personaje. Ganas hasta 50 puntos del Árbol del Tejedor al aumentar tu rango con lo Tejido y al completar Ecos Tejidos por primera vez.",
+      "steps": [
+        {
+          "title": "Desbloquea el sistema y entiende qué cambia",
+          "description": "El Árbol del Tejedor modifica el contenido del Monolith del Destino en lugar de tu clase o habilidades. Sus nodos pueden cambiar las recompensas de los ecos, añadir o quitar tipos de encuentros y mejorar patrones de caída.",
+          "highlights": [
+            "Máximo de 50 puntos del Árbol del Tejedor",
+            "Los puntos provienen de la progresión de rango Tejido y primeras limpiezas de Ecos Tejidos",
+            "El árbol afecta a las rutas del Monolith, la densidad de recompensas y encuentros especiales"
+          ]
+        },
+        {
+          "title": "Comienza por la izquierda si tu objetivo es la economía temprana",
+          "description": "Una ruta inicial común es el lado izquierdo porque mejora el flujo de recompensas adicionales y ayuda a progresar más rápido en el Árbol del Tejedor.",
+          "highlights": [
+            "Botín Cautivador: probabilidad de que las recompensas de eco se dupliquen al completarse",
+            "Despojos Entrelazados: probabilidad de que los ecos generen una recompensa que otorgue Ecos Tejidos",
+            "Sabia de Anciano: probabilidad de que los ecos aparezcan con el tipo de recompensa Ámbar de Memoria"
+          ]
+        },
+        {
+          "title": "Avanza hacia el soporte de Tumbas y Cementerios para más actividad Tejida",
+          "description": "Tras el paquete de economía inicial, muchos jugadores continúan hacia el norte, al grupo de Tumbas y Cementerios, porque mejora el acceso a Ecos Tejidos y añade beneficios a largo plazo.",
+          "highlights": [
+            "Grandes Catacumbas: las Tumbas de los Borrados se vuelven más comunes",
+            "Necrópolis del Tejedor: los enemigos raros en Tumbas y Cementerios tienen una probabilidad extra de soltar Ecos Tejidos",
+            "Campos de Entierro: aumento del tamaño de los grupos de monstruos en Tumbas y Cementerios",
+            "Sarcofagia Abundante: los enemigos raros en Tumbas y Cementerios pueden soltar recompensas específicas de jefes"
+          ]
+        },
+        {
+          "title": "Ramifica según tu facción y objetivo inmediato",
+          "description": "La siguiente rama depende de si quieres más oro, más favor y progresión de rango, o un farmeo más enfocado.",
+          "highlights": [
+            "Jugadores del Merchant's Guild pueden justificar los nodos de oro del lado sur",
+            "Jugadores del Circle of Fortune pueden priorizar nodos de XP en el lado derecho",
+            "Los nodos de Impronta, Súper Faro, Némesis y conversión de Arena ganan valor según el contenido que busques"
+          ]
+        },
+        {
+          "title": "Reinicia cuando cambie tu objetivo",
+          "description": "La ruta inicial no tiene por qué ser la definitiva. Una vez que tengas los puntos y recursos deseados, puedes moverte hacia el farmeo de jefes o la caza de campeones.",
+          "highlights": [
+            "El árbol se puede reiniciar más tarde",
+            "La economía primero es fuerte para el crecimiento inicial",
+            "La XP primero es mejor cuando el objetivo real es subir de nivel rápido",
+            "Las rutas tardías pueden enfocarse en eliminar encuentros o recompensas dirigidas"
+          ]
+        }
+      ],
+      "quickTips": [
+        "Comienza por la izquierda para un efecto bola de nieve económico o por la derecha para XP rápida.",
+        "Los nodos de Tumba y Cementerio son la mejor inversión intermedia para acceder a Ecos Tejidos.",
+        "Los jugadores del Merchant's Guild y del Circle of Fortune deben ramificar de forma diferente tras los nodos iniciales.",
+        "Reinicia el Árbol del Tejedor una vez que tu objetivo de farmeo cambie de progresión a contenido dirigido."
+      ]
+    },
+    "lastEpochBossGuide": {
+      "title": "Guía de jefes de Last Epoch",
+      "eyebrow": "Combates contra jefes",
+      "displayType": "accordion",
+      "subtitle": "Superar a los jefes en Last Epoch suele depender de leer los avisos visuales, alcanzar el límite de las resistencias adecuadas y saber qué mecánicas obligan a moverse.",
+      "intro": "Los jefes de la campaña y del Monolith detienen la progresión cuando tu build no está preparada o cuando hay una mecánica importante que aún no has aprendido.",
+      "bosses": [
+        {
+          "label": "Lagon — El Fin de la Tormenta",
+          "location": "Línea temporal de El Fin de la Tormenta, Ojo de la Tormenta",
+          "summary": "Un encuentro de tres fases y uno de los mayores muros de progresión del juego.",
+          "defensiveChecks": [
+            "75% de Resistencia al Rayo",
+            "75% de Resistencia al Frío",
+            "Alta velocidad de movimiento y habilidades de movilidad confiables"
+          ],
+          "mechanics": [
+            "Rayo Lunar (Canalizado): Lagon barre la arena con un rayo masivo de Rayo y Frío; corre hacia el borde opuesto en cuanto gire",
+            "Rayo Lunar (Golpe): tras el 65% de HP, dispara un rayo frontal; esquiva lateralmente cuando baje la cabeza",
+            "Explosión Lunar: gran área blanca en el suelo que detona causando fuerte daño de Frío y Rayo",
+            "Tentáculos: la fase dos requiere matar tentáculos mientras evitas olas de frío y presión de aturdimiento"
+          ],
+          "lootHighlights": [
+            "Aluvión",
+            "Égida de Coral",
+            "Testamento Tallado por la Tormenta",
+            "Ojo de las Tormentas"
+          ]
+        },
+        {
+          "label": "Chamán Volcánico — Espíritus de Fuego",
+          "location": "Línea temporal de Espíritus de Fuego, Reino de Fuego Fragmentado",
+          "summary": "Un combate de una fase contra múltiples jefes (Bhuldar, Herkir y Logi) donde el solapamiento es el peligro real.",
+          "defensiveChecks": [
+            "75% de Resistencia al Fuego",
+            "75% de Resistencia Necrótica",
+            "Alta velocidad de movimiento y un desplazamiento confiable"
+          ],
+          "mechanics": [
+            "Ráfaga de Lava: círculos de fuego en expansión que castigan el estar quieto",
+            "Rayo de Lava: rayo de fuego frontal estrecho pero de gran daño",
+            "X de Lava: erupción en el suelo en forma de X con retardo, fácil de esquivar si te mueves pronto",
+            "Espíritu de Chamán: los chamanes muertos persisten como espíritus necróticos hasta que los tres caen"
+          ],
+          "lootHighlights": [
+            "Ira de Bhuldar",
+            "Vasija de Herkir",
+            "Hambre de Logi",
+            "Trinidad de Llamas"
+          ]
+        },
+        {
+          "label": "Emperador de Cadáveres — El Reinado de los Dragones",
+          "location": "Línea temporal de El Reinado de los Dragones, Horda Putrefacta",
+          "summary": "Un jefe necrótico de alta presión con denegación de arena, invocación de esbirros y chequeos constantes de reposicionamiento.",
+          "defensiveChecks": [
+            "75% de Resistencia Necrótica",
+            "75% de Resistencia Física",
+            "Gran velocidad de movimiento y herramientas de reposicionamiento regulares"
+          ],
+          "mechanics": [
+            "Nova Necrótica: explosión gigante seguida de una zona de plaga peligrosa en el borde exterior de la arena",
+            "Rugido Aterrador: aplica acumulaciones máximas de ralentización al 70% de HP e invoca Esclavos Sacrificados",
+            "Dispersión de Proyectiles Necróticos: proyectiles solapados que castigan el mal movimiento",
+            "Aliento Espiritual: ataque en cono ancho con fuerte daño necrótico en el tiempo"
+          ],
+          "lootHighlights": [
+            "Edicto de Llama de Dragón",
+            "Símbolo de Fallecimiento",
+            "Corazón Retorcido de Uhkeiros",
+            "Cuernos de Uhkeiros"
+          ]
+        }
+      ]
+    },
+    "lastEpochRespecGuide": {
+      "title": "Guía de respec de Last Epoch",
+      "eyebrow": "Reconstrucción de personaje",
+      "displayType": "steps",
+      "subtitle": "Last Epoch permite cambios de pasivas, habilidades y maestría, pero cada capa funciona de forma diferente.",
+      "intro": "Los respec de pasivas y habilidades son parte de la iteración normal del personaje, mientras que el respec de maestría es un compromiso mayor porque reinicia tu configuración pasiva y se vuelve mucho más caro al subir de nivel.",
+      "steps": [
+        {
+          "title": "Reinicia puntos pasivos a través de la Cronomante Lerinne",
+          "description": "El respec de pasivas lo gestiona la Cronomante Lerinne. Tras hablar con ella, puedes reasignar puntos pasivos uno a uno.",
+          "highlights": [
+            "Cuesta oro",
+            "Debes mantener 20 puntos en el árbol de tu clase base",
+            "No puedes quitar puntos necesarios para mantener desbloqueadas ramas pasivas más profundas"
+          ]
+        },
+        {
+          "title": "Reinicia árboles de habilidades directamente desde el menú de Habilidades",
+          "description": "El respec de habilidades no necesita un NPC y puede hacerse en cualquier lugar. Abre el menú de Habilidades, elige una habilidad especializada y pulsa REINICIAR en la esquina superior derecha.",
+          "highlights": [
+            "Quitar puntos de habilidad si quieres mantener la misma habilidad pero cambiar el diseño de nodos",
+            "Desespecializar habilidad si quieres reemplazarla por una habilidad especializada diferente",
+            "Las habilidades reiniciadas vuelven a su nivel mínimo especializado en lugar de empezar de cero",
+            "Las habilidades suelen tener un límite de nivel 20, aunque el equipo puede añadir niveles de bonificación"
+          ]
+        },
+        {
+          "title": "Usa el respec de maestría en el Fin de los Tiempos para un cambio total",
+          "description": "Desde la Temporada 2, los jugadores pueden pagar para reiniciar la maestría en el Fin de los Tiempos hablando con la Cronomante Lerinne. Esto reinicia todos los puntos pasivos y permite elegir otra maestría de la misma clase base.",
+          "highlights": [
+            "El respec de Mastery también reinicia todos los puntos pasivos",
+            "Tu equipo permanece equipado, pero puede que ya no encaje bien con la nueva maestría",
+            "El coste escala fuertemente con el nivel: nivel 20 = 5,000g, nivel 50 = 30,000g, nivel 70 = 100,000g, nivel 100 = 1,000,000g"
+          ]
+        },
+        {
+          "title": "Elige la reconstrucción adecuada según el tamaño del cambio",
+          "description": "No todos los problemas necesitan un reinicio total. Los cambios de pasivas y habilidades son la forma más rápida de reparar una build débil.",
+          "highlights": [
+            "Usa el respec pasivo para rutas, umbrales y limpieza defensiva",
+            "Usa el respec de habilidades cuando la habilidad principal es la correcta pero el diseño de nodos no",
+            "Usa el respec de maestría temprano si quieres una maestría diferente, porque el coste en oro aumenta después",
+            "Planifica revisar el equipo y los ídolos tras un cambio de maestría"
+          ]
+        }
+      ],
+      "quickTips": [
+        "El respec pasivo a través de la Cronomante Lerinne es barato y puede hacerse punto por punto.",
+        "El respec de habilidades no requiere un NPC: abre el menú de Habilidades en cualquier lugar para desespecializar o quitar puntos.",
+        "El respec de Mastery reinicia todas las pasivas y los costes escalan mucho con el nivel; hazlo temprano si planeas cambiar.",
+        "Arregla primero las pasivas, luego cambia las habilidades y solo cambia la maestría cuando realmente quieras una subclase diferente."
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "Last Epoch",
+    "titleHighlight": "Preguntas frecuentes",
+    "subtitle": "Preguntas comunes sobre builds, clases y endgame de Last Epoch",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Qué es Last Epoch?",
+        "answer": "Last Epoch es un RPG de acción de viajes en el tiempo desarrollado por Eleventh Hour Games. Cuenta con 5 clases base con 15 maestrías, artesanía profunda, filtros de botín y sistemas de endgame que incluyen el Monolith del Destino, Mazmorras y Arena."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Cuántas clases tiene Last Epoch?",
+        "answer": "Last Epoch tiene 5 clases base: Centinela, Mago, Acólito, Primordialista y Pícaro. Cada clase base se ramifica en 3 maestrías para un total de 15 subclases únicas."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Cuál es la mejor clase inicial en Last Epoch?",
+        "answer": "Centinela hacia Void Knight se considera ampliamente como la ruta más segura para el primer personaje en Last Epoch. Paladín y Hechicero también son opciones sólidas y amigables para principiantes con mecánicas permisivas."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Cómo funciona la artesanía en Last Epoch?",
+        "answer": "La artesanía de Last Epoch usa fragmentos para añadir o mejorar afijos en el equipo. Cada proceso consume Potencial de Forja. Los Glifos y Runas proporcionan opciones adicionales, y la mazmorra Temporal Sanctum permite la artesanía legendaria."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿Qué es el endgame de Last Epoch?",
+        "answer": "El endgame de Last Epoch se centra en el Monolith del Destino, donde aumentas la corrupción y ganas bendiciones. El contenido adicional incluye Mazmorras con mecánicas únicas, Arena para supervivencia por oleadas y equipamiento basado en facciones como el Merchant's Guild o el Circle of Fortune."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Se puede hacer respec en Last Epoch?",
+        "answer": "Sí. Last Epoch permite reiniciar pasivas y habilidades en cualquier momento por un pequeño coste de oro. Actualizaciones recientes también añadieron el respec de maestría, permitiendo a los jugadores cambiar su subclase."
+      },
+      {
+        "question": "¿Es Last Epoch multijugador?",
+        "answer": "Sí. Last Epoch admite cooperativo en línea para hasta 4 jugadores. También puedes jugar en solitario sin conexión o en modo solitario en línea con acceso al alijo compartido y comercio."
+      },
+      {
+        "question": "¿En qué plataformas está disponible Last Epoch?",
+        "answer": "Last Epoch está disponible en PC a través de Steam. El juego se lanzó en su versión completa el 21 de febrero de 2024, tras un extenso periodo de Acceso Anticipado."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para dominar Last Epoch?",
+    "description": "¡Únete a la comunidad de Last Epoch en Discord para builds, guías y discusiones de endgame!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Wiki de Last Epoch",
+    "description": "Tu centro de recursos completo para builds, clases, artesanía, mazmorras, facciones y guías de endgame de Last Epoch.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
+    "twitter": "Reddit",
+    "steamCommunity": "Foro oficial",
     "steamStore": "Tienda de Steam",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
     "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyright": "© 2026 Wiki de Last Epoch. No afiliado con Eleventh Hour Games.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
   },
   "pages": {
     "guide": {

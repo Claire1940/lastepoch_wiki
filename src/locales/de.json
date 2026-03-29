@@ -1,842 +1,9 @@
 {
-  "seo": {
-    "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
-    }
-  },
   "nav": {
     "guide": "Anleitungen",
     "builds": "Builds",
     "classes-and-tier-list": "Klassen & Tier-Liste",
     "season-4-and-updates": "Saison 4 & Updates"
-  },
-  "common": {
-    "home": "Startseite",
-    "more": "Mehr",
-    "playNow": "Demo herunterladen",
-    "switchLanguage": "Sprache wechseln",
-    "switchTheme": "Design wechseln",
-    "lightMode": "Heller Modus",
-    "darkMode": "Dunkler Modus",
-    "notFound": "Seite nicht gefunden",
-    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
-    "backToHome": "Zurück zur Startseite",
-    "relatedArticles": "Ähnliche Artikel",
-    "readMore": "Mehr lesen"
-  },
-  "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
-    "stats": {
-      "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
-      },
-      "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
-      },
-      "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
-      },
-      "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
-      }
-    }
-  },
-  "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
-  },
-  "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
-    "cards": [
-      {
-        "icon": "Herunterladen",
-        "title": "Demo-Download",
-        "description": "Hol dir die kostenlose Steam-Demo"
-      },
-      {
-        "icon": "Buch offen",
-        "title": "Anfängerleitfaden",
-        "description": "Kernschleife und häufige Fallstricke"
-      },
-      {
-        "icon": "Benutzer",
-        "title": "Koop-Leitfaden",
-        "description": "6-Spieler-Rollen und Rettungstaktiken"
-      },
-      {
-        "icon": "Klemmbrett-Check",
-        "title": "Aufgaben & Ziele",
-        "description": "Was High-Gnome von dir will"
-      },
-      {
-        "icon": "Tastatur",
-        "title": "Steuerung & Tastenbelegung",
-        "description": "Standardtasten und wie man sie ändert"
-      },
-      {
-        "icon": "Schild",
-        "title": "Inhaltseinstellungen",
-        "description": "Inhalte für Erwachsene und Umschaltoptionen"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Crafting & Ausrüstung",
-        "description": "Rüste dich mit gestohlenen Materialien aus"
-      },
-      {
-        "icon": "Paket",
-        "title": "Beute & Gegenstände",
-        "description": "Was man stehlen sollte und Trage-Tipps"
-      },
-      {
-        "icon": "Warndreieck",
-        "title": "Gegner & Gefahren",
-        "description": "Bedrohungen und wie man mit ihnen umgeht"
-      },
-      {
-        "icon": "Auge",
-        "title": "Stealth & Flucht",
-        "description": "Bleib versteckt und extrahiere sicher"
-      },
-      {
-        "icon": "Startseite",
-        "title": "Haus-Upgrades",
-        "description": "Verbessere deine schwebende Inselbasis"
-      },
-      {
-        "icon": "Sprechblase",
-        "title": "Community & Discord",
-        "description": "Offizielle Links und Gruppensuche"
-      },
-      {
-        "icon": "Einstellungen",
-        "title": "Mods & BepInEx",
-        "description": "Installiere Framework und Mod-Setup"
-      },
-      {
-        "icon": "Stern",
-        "title": "Beliebte Mods",
-        "description": "Top-Community-Auswahlen und -Funktionen"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Controller-Unterstützung",
-        "description": "Volle Gamepad-Steuerung mit UI-Cursor"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Spielerzahl & Trend",
-        "description": "Live-Statistiken und Peak-Tracking"
-      }
-    ]
-  },
-  "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
-      "subtitle": "Hol dir die kostenlose Demo auf Steam",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30. Januar 2026",
-      "price": "Kostenlos",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo herunterladen",
-      "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Wo man es herunterladen kann",
-          "items": [
-            "Öffne die offizielle Steam-Store-Seite und nutze den Abschnitt \"Demo herunterladen\".",
-            "Wenn Steam dich auffordert, dich anzumelden, melde dich zuerst an und versuche es erneut."
-          ]
-        },
-        {
-          "heading": "Schnelle Überprüfung von Installation und Start",
-          "items": [
-            "Standardinstallationsort: Steam-Bibliotheksordner → steamapps → common → (Spielordner).",
-            "Wenn es nicht startet: Überprüfe die Spieldateien in Steam und starte Steam neu."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
-      "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
-      "steps": [
-        {
-          "number": 1,
-          "title": "Betritt das Haus",
-          "description": "Lass dich von deiner schwebenden Inselbasis in ein menschliches Haus fallen. Spawne draußen und schleiche dich durch unverschlossene Türen oder Fenster hinein."
-        },
-        {
-          "number": 2,
-          "title": "Schließe Aufgaben ab",
-          "description": "Erledige High-Gnome-Aufgaben, bevor die Zeit abläuft. Überprüfe die Ziele über die Tab-Taste und priorisiere zuerst riskante Aufgaben."
-        },
-        {
-          "number": 3,
-          "title": "Stehle Gegenstände",
-          "description": "Sammle Wertgegenstände und Materialien zum Craften. Vermeide es, Lärm zu machen oder vom Hausbesitzer entdeckt zu werden."
-        },
-        {
-          "number": 4,
-          "title": "Flucht via Tornado",
-          "description": "Wenn der Timer endet, spawnt ein Tornado im Garten – erreiche ihn, um sicher zu extrahieren. Fang früh an, dich zu bewegen!"
-        },
-        {
-          "number": 5,
-          "title": "Upgrade & Wiederholung",
-          "description": "Verwende Belohnungen und Materialien, um Ausrüstung zu Hause herzustellen, und starte dann deinen nächsten Raubzug mit besserer Ausrüstung."
-        }
-      ],
-      "pitfalls": [
-        {
-          "title": "Erwischt werden",
-          "description": "Der Hausbesitzer wird dich verfolgen. Bleib versteckt, lenke ab und unterbreche die Sichtlinie, um zu entkommen.",
-          "icon": "Warndreieck"
-        },
-        {
-          "title": "Zeit läuft ab",
-          "description": "Der Tornado-Timer ist streng. Beginne frühzeitig mit dem Weg zur Extraktion, anstatt zu viel zu plündern.",
-          "icon": "Uhr"
-        },
-        {
-          "title": "Teamkollegen ignorieren",
-          "description": "Rette gefangene Verbündete schnell aus Kühl-/Ofenfallen – rufe sofort nach Rettung.",
-          "icon": "Benutzer"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
-      "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Späher",
-          "description": "Überprüfe auf Bedrohungen, markiere sichere Pfade und leite die Teambewegung",
-          "icon": "Auge"
-        },
-        {
-          "name": "Träger",
-          "description": "Konzentriere dich auf schwere Gegenstände mit Rucksack-Upgrades und sichere den Aufgabenfortschritt",
-          "icon": "Paket"
-        },
-        {
-          "name": "Ablenkung",
-          "description": "Locke Hausbesitzer/Haustiere vom Team weg, um sichere Fenster zu schaffen",
-          "icon": "Benutzer"
-        },
-        {
-          "name": "Retter",
-          "description": "Befreie gefangene Teamkollegen aus Kühl-/Ofen, bevor sie sterben",
-          "icon": "Schild"
-        }
-      ],
-      "threats": [
-        "Hausbesitzer (verfolgt und fängt dich)",
-        "Katzen & Mäuse (Patrouillenwege)",
-        "Staubsaugerroboter (sofortige Gefahr)",
-        "Zeitlimit (Tornado-Extraktion)"
-      ],
-      "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
-      "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
-      "taskTypes": [
-        {
-          "type": "Stehle Gegenstände",
-          "examples": [
-            "Schnapp dir bestimmte Gegenstände, die durch High-Gnome-Ziele markiert sind"
-          ]
-        },
-        {
-          "type": "Erreiche Orte",
-          "examples": [
-            "Navigiere zu bestimmten Bereichen im Haus"
-          ]
-        },
-        {
-          "type": "Verursache Unfug",
-          "examples": [
-            "Mach einen Fernseher kaputt",
-            "Überflute eine Toilette",
-            "Erzeuge Chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Erledige zuerst riskante Aufgaben, während das Team zusammen ist",
-        "Weise einem Träger Aufgabengegenstände zu, damit sie während der Verfolgungsjagden nicht verloren gehen",
-        "Beginne mit der Bewegung zur Extraktion, bevor die Zeit abläuft"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
-      "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
-      "keybinds": [
-        {
-          "action": "Nach links bewegen",
-          "key": "A"
-        },
-        {
-          "action": "Nach rechts bewegen",
-          "key": "D"
-        },
-        {
-          "action": "Nach vorne bewegen",
-          "key": "W"
-        },
-        {
-          "action": "Nach hinten bewegen",
-          "key": "S"
-        },
-        {
-          "action": "Ducken",
-          "key": "Linke Strg"
-        },
-        {
-          "action": "Angreifen",
-          "key": "Linksklick"
-        },
-        {
-          "action": "Rennen",
-          "key": "Linke Umschalttaste"
-        },
-        {
-          "action": "Gegenstand fallen lassen",
-          "key": "G"
-        },
-        {
-          "action": "Interagieren",
-          "key": "E"
-        },
-        {
-          "action": "Springen",
-          "key": "Leertaste"
-        },
-        {
-          "action": "Sprechen",
-          "key": "V"
-        },
-        {
-          "action": "Schieben",
-          "key": "Rechtsklick"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Ausrüstungsslot 1",
-          "key": "1"
-        },
-        {
-          "action": "Ausrüstungsslot 2",
-          "key": "2"
-        },
-        {
-          "action": "Ausrüstungsslot 3",
-          "key": "3"
-        },
-        {
-          "action": "Ausrüstungsslot 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventar",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
-      "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
-      "descriptors": [
-        "Etwas Nacktheit oder sexuelle Inhalte",
-        "Allgemeine Inhalte für Erwachsene"
-      ],
-      "details": [
-        {
-          "heading": "Was die Entwickler angeben",
-          "items": [
-            "Ein Mensch kann nackt erscheinen, während er Aktivitäten wie Baden ausübt.",
-            "Nacktheit wird zensiert und kann optional vollständig ausgeschaltet werden.",
-            "Gnome können zerstückelt werden und auf brutale Weise sterben."
-          ]
-        },
-        {
-          "heading": "Wenn Steam die Community-Seite blockiert",
-          "items": [
-            "Steam kann den Community-Hub je nach deinen Inhaltseinstellungen ausblenden.",
-            "Verwende Steams \"Inhaltseinstellungen aktualisieren\", um anzupassen, was Steam anzeigen darf."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
-      "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
-      "equipment": [
-        {
-          "item": "Rucksack",
-          "benefit": "Erweitert die Inventarkapazität für mehr Beute pro Durchgang"
-        },
-        {
-          "item": "Gnom-Handschuhe",
-          "benefit": "Ermöglicht es dir, Türen zu öffnen und mit mehr Objekten zu interagieren"
-        },
-        {
-          "item": "Springschuhe",
-          "benefit": "Verhindert Fallschaden bei hohen Stürzen während der Flucht"
-        },
-        {
-          "item": "Waffe",
-          "benefit": "Hilft dir, Bedrohungen wie Mäuse in die Enge zu treiben"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Wie Crafting mit Plündern zusammenhängt",
-          "items": [
-            "Stehle während eines Laufs Gegenstände und bringe sie als Crafting-Materialien zurück.",
-            "Nach der Extraktion unterstützen Belohnungen/Materialien neue Handwerke."
-          ]
-        },
-        {
-          "heading": "Basisverbesserung",
-          "items": [
-            "Stelle Möbel her und verbessere dein schwebendes Inselhaus (vollständige Spielfunktion)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
-      "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
-      "categories": [
-        {
-          "type": "Aufgabengegenstände",
-          "examples": [
-            "Gegenstände, die von High-Gnome für Ziele benötigt werden"
-          ]
-        },
-        {
-          "type": "Crafting-Materialien",
-          "examples": [
-            "Haushaltsgegenstände, die in Gnom-Ausrüstung und -Upgrades umgewandelt werden"
-          ]
-        },
-        {
-          "type": "Unfug-Ziele",
-          "examples": [
-            "Objekte, die an Aufgaben wie Zerstören oder Überfluten beteiligt sind"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Priorisiere den Aufgabenfortschritt und fülle dann die verbleibende Kapazität mit Crafting-Materialien",
-        "Wenn sich Bedrohungen in der Nähe befinden, bewege Gegenstände in kurzen, sicheren Sprüngen anstatt in langen, exponierten Tragen",
-        "Plane die Route zur Gartenextraktion, bevor der Timer endet"
-      ],
-      "riskLevels": [
-        {
-          "level": "Niedrig",
-          "description": "In der Nähe von Eingängen oder sicheren Ecken"
-        },
-        {
-          "level": "Mittel",
-          "description": "Tiefer gelegene Räume oder in der Nähe von umherziehenden Bedrohungen"
-        },
-        {
-          "level": "Hoch",
-          "description": "In der Nähe der Patrouille des Hausbesitzers oder des Staubsaugerroboters"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
-      "subtitle": "Wisse, was dich erwischen kann",
-      "threats": [
-        {
-          "name": "Der Hausbesitzer",
-          "trigger": "Beim Einbrechen oder Erledigen von Aufgaben entdeckt werden",
-          "behavior": "Er verfolgt dich und versucht, dich zu fangen",
-          "counter": "Bleib heimlich, unterbreche Sichtlinien und bleib als Team in Bewegung"
-        },
-        {
-          "name": "Katzen",
-          "trigger": "Zu nahe kommen oder ihren Weg kreuzen",
-          "behavior": "Sie werden zu einer direkten Bedrohung, während du dich schleichst",
-          "counter": "Vermeide ihre Routen und gehe leise vorbei"
-        },
-        {
-          "name": "Mäuse",
-          "trigger": "Bereiche betreten, in denen Mäuse umherstreifen",
-          "behavior": "Sie bedrohen zerbrechliche Gnome während der Läufe",
-          "counter": "Bleib wachsam in engen Räumen und sei bereit, dich zurückzuziehen"
-        },
-        {
-          "name": "Staubsaugerroboter",
-          "trigger": "Sich auf seinem Reinigungspfad befinden",
-          "behavior": "Er kann Gnome einsaugen",
-          "counter": "Höre auf ihn, halte dich von seiner Route fern und positioniere dich schnell neu"
-        },
-        {
-          "name": "Kühlschrank / Ofen-Falle",
-          "trigger": "Vom Hausbesitzer erwischt werden",
-          "behavior": "Du kannst darin eingesperrt werden; wenn Teamkollegen nicht rechtzeitig retten, stirbst du",
-          "counter": "Rufe sofort; Teamkollegen priorisieren die Rettungsroute"
-        },
-        {
-          "name": "Zeitlimit",
-          "trigger": "Der Lauf-Timer erreicht das Limit",
-          "behavior": "Der Extraktions-Tornado erscheint im Garten; du musst ihn erreichen, um zu entkommen",
-          "counter": "Hör auf, zu viel zu plündern, gruppiere dich neu und engagiere dich frühzeitig für die Extraktion"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
-      "subtitle": "Stehle mehr, stirb weniger",
-      "do": [
-        "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
-        "Nutze die Teamarbeit: rufe Bedrohungen aus und koordiniere Routen",
-        "Rette Teamkollegen schnell, wenn jemand gefangen oder am Boden ist",
-        "Reduziere deine Verluste und mache dich auf den Weg zur Extraktion, wenn der Timer knapp ist"
-      ],
-      "dont": [
-        "Werde gierig, wenn die Extraktion bevorsteht",
-        "Teile dich zu weit vom Team, wenn der Hausbesitzer aktiv ist",
-        "Ignoriere Staubsaugerroboterpfade oder Tierpatrouillen",
-        "Verzögere Rettungen, wenn ein Teamkollege eingesperrt ist"
-      ],
-      "quickTips": [
-        {
-          "title": "Die 3-Sekunden-Regel",
-          "text": "Wenn du deinen nächsten Zug nicht in 3 Sekunden erklären kannst, wirst du gleich entdeckt."
-        },
-        {
-          "title": "Rettung zuerst",
-          "text": "Eine schnelle Rettung hält den Lauf am Leben; Plündern kann warten."
-        },
-        {
-          "title": "Extraktionsdisziplin",
-          "text": "Gruppiere dich frühzeitig neu und engagiere dich für den Tornado, bevor Panik ausbricht."
-        }
-      ]
-    },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
-      "subtitle": "Craften, bauen, verbessern",
-      "branches": [
-        {
-          "branch": "Lagerung",
-          "summary": "Mehr tragen und mehr zurückbringen",
-          "items": [
-            "Rucksack (Inventarerweiterung)"
-          ]
-        },
-        {
-          "branch": "Dienstprogramm",
-          "summary": "Effektiver mit dem Haus interagieren",
-          "items": [
-            "Gnom-Handschuhe (ermöglichen es dir, Türen zu öffnen und mehr)"
-          ]
-        },
-        {
-          "branch": "Mobilität",
-          "summary": "Sicherer durch vertikale Räume bewegen",
-          "items": [
-            "Springschuhe (reduzieren Fallschaden)"
-          ]
-        },
-        {
-          "branch": "Verteidigung",
-          "summary": "Mit kleinen Bedrohungen umgehen, wenn nötig",
-          "items": [
-            "Waffen (für Bedrohungen wie Mäuse)"
-          ]
-        },
-        {
-          "branch": "Heimatbasis",
-          "summary": "Stelle Möbel her und verbessere dein schwebendes Inselhaus",
-          "items": [
-            "Funktionale Möbel-Upgrades"
-          ]
-        }
-      ],
-      "priority": [
-        {
-          "rank": 1,
-          "title": "Zuerst Lagerung",
-          "reason": "Mehr Tragfähigkeit verbessert die Auszahlung jedes Laufs"
-        },
-        {
-          "rank": 2,
-          "title": "Als nächstes Dienstprogramm",
-          "reason": "Bessere Interaktionen reduzieren die Zeit, die in Gefahrenzonen verbracht wird"
-        },
-        {
-          "rank": 3,
-          "title": "Mobilität zum Überleben",
-          "reason": "Fallschutz verhindert vermeidbare Todesfälle bei der Flucht"
-        }
-      ]
-    },
-    "community": {
-      "title": "Lucid Blocks Community & Discord",
-      "subtitle": "Finde Trupps, Updates, Diskussionen",
-      "links": [
-        {
-          "title": "Offizieller Discord",
-          "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
-        },
-        {
-          "title": "Offizielles X (Twitter)",
-          "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
-        },
-        {
-          "title": "Steam Community Hub",
-          "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
-        },
-        {
-          "title": "Steam Store Seite",
-          "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-        }
-      ]
-    },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
-      "subtitle": "Installiere Mods auf saubere Weise",
-      "steps": [
-        {
-          "step": 1,
-          "title": "Installiere BepInEx 5",
-          "text": "Lade BepInEx 5 herunter und entpacke es in den Spiel-Root-Ordner."
-        },
-        {
-          "step": 2,
-          "title": "Einmal starten, um Ordner zu generieren",
-          "text": "Starte das Spiel bis zum Hauptmenü und schließe es dann. Dadurch wird die BepInEx-Ordnerstruktur erstellt."
-        },
-        {
-          "step": 3,
-          "title": "Mods installieren",
-          "text": "Platziere Mod-.dll-Dateien in den Plugins-Ordner."
-        },
-        {
-          "step": 4,
-          "title": "Installation überprüfen",
-          "text": "Starte das Spiel neu und bestätige, dass die Mod-Funktion verfügbar ist (Kamera-Umschaltung, UI-Cursor usw.)."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
-    },
-    "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
-      "subtitle": "Top-Community-Auswahlen",
-      "mods": [
-        {
-          "title": "Spawn-Menü",
-          "tags": [
-            "Spaß",
-            "Werkzeuge",
-            "Nur Host"
-          ],
-          "description": "Fügt ein Element-Spawn-Menü mit einem Flugmodus hinzu.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Spawn-Menü öffnen"
-            },
-            {
-              "key": "V",
-              "action": "Fliegen aktivieren"
-            }
-          ],
-          "note": "Nur Host; andere müssen es nicht installieren, um beizutreten."
-        },
-        {
-          "title": "ThirdPerson-Ansicht",
-          "tags": [
-            "Kamera",
-            "QoL"
-          ],
-          "description": "Fügt eine Third-Person-Kameraansicht hinzu.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "First-Person / Third-Person umschalten"
-            }
-          ]
-        },
-        {
-          "title": "Mehr Hüte",
-          "tags": [
-            "Kosmetisch"
-          ],
-          "description": "Fügt zusätzliche Hutfarboptionen für Gnome hinzu.",
-          "colors": [
-            "Blau",
-            "Grün",
-            "Orange",
-            "Lila",
-            "Schwarz",
-            "Rot"
-          ]
-        },
-        {
-          "title": "DOOM im Fernsehen",
-          "tags": [
-            "Spaß",
-            "Minispiel"
-          ],
-          "description": "Spiele das Original-DOOM auf einem In-Game-Fernseher, wobei der Ton über den TV-Lautsprecher kommt.",
-          "highlights": [
-            "Funktioniert im Mehrspieler, sodass andere Spieler auf demselben Fernseher zusehen können",
-            "Enthält die Shareware-DOOM-Episodendaten (Episode 1)"
-          ]
-        }
-      ]
-    },
-    "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
-      "subtitle": "Volle Gamepad-Steuerung",
-      "native": {
-        "title": "In-Game-Einstellungen",
-        "description": "Verwende die Bindungs-/Einstellungsmenüs des Spiels, um die Steuerung anzupassen."
-      },
-      "mod": {
-        "title": "Controller-Support-Mod",
-        "description": "Fügt vollständige Gamepad-/Controller-Unterstützung und einen UI-Cursor für die Menünavigation hinzu."
-      },
-      "features": [
-        "Volle Gameplay-Steuerung: Bewegung, Kamera, Kampf, Interaktionen und Fähigkeiten, die dem Gamepad zugeordnet sind",
-        "UI-Cursor-Navigation: Ein weißer Kreiscursor erscheint in Menüs; drücke A, um zu klicken und Schieberegler zu ziehen",
-        "Inventarnavigation: Halte Select gedrückt, um das Inventar zu öffnen; verwende den rechten Stick, um zu navigieren, während du ihn hältst",
-        "Scrollbare Menüs: Der rechte Stick scrollt durch Crafting-Rezepte, Einstellungen und andere scrollbare UI-Bereiche",
-        "Hotbar-Cycling: D-Pad links/rechts wechselt durch 4 Hotbar-Slots",
-        "Nahtlose Eingabeumschaltung: Erkennt automatisch Tastatur/Maus vs. Controller"
-      ]
-    },
-    "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
-      "subtitle": "Live-Popularitäts-Schnappschuss",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Spieler gerade jetzt"
-        },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24-Stunden-Peak"
-        },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Allzeit-Peak"
-        }
-      },
-      "milestones": [
-        {
-          "date": "30. Jan. 2026",
-          "title": "Demo auf Steam veröffentlicht",
-          "detail": "Öffentliche Demo wurde auf PC (Steam) verfügbar."
-        },
-        {
-          "date": "8. Feb. 2026",
-          "title": "Allzeit-Peak erreicht",
-          "detail": "Die Demo erreichte ihre höchste aufgezeichnete Anzahl gleichzeitiger Spieler."
-        }
-      ]
-    }
-  },
-  "faq": {
-    "title": "Häufig gestellte",
-    "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
-    "questions": [
-      {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
-      },
-      {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
-      },
-      {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
-      },
-      {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
-      },
-      {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
-      },
-      {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
-      }
-    ]
-  },
-  "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
-  },
-  "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
-    "resources": "Ressourcen",
-    "community": "Community",
-    "legal": "Rechtliches",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
-    "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
   },
   "pages": {
     "guide": {
@@ -919,5 +86,1356 @@
       "featured": "Hervorgehoben & Essenziell",
       "all": "Alle Season- & Update-News"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Last Epoch Wiki - Builds, Klassen & Endgame-Guides",
+      "description": "Last Epoch Wiki mit Klassenguides, Mastery-Builds, Loot-Filtern, Crafting-Hilfe, Dungeon-Tipps, Fraktionswahl und Endgame-Updates für PC-Spieler.",
+      "keywords": "Last Epoch, PC, Builds, Klassen, Endgame, Loot-Filter, Crafting, Fraktionen, Dungeons",
+      "ogTitle": "Last Epoch Wiki - Builds, Klassen & Endgame-Guides",
+      "ogDescription": "Last Epoch Wiki mit Klassenguides, Mastery-Builds, Loot-Filtern, Crafting-Hilfe, Dungeon-Tipps, Fraktionswahl und Endgame-Updates für PC-Spieler.",
+      "twitterTitle": "Last Epoch Wiki - Builds, Klassen & Endgame-Guides",
+      "twitterDescription": "Last Epoch Wiki mit Klassenguides, Mastery-Builds, Loot-Filtern, Crafting-Hilfe, Dungeon-Tipps und Endgame-Updates für PC-Spieler."
+    }
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Steam spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die Seite, nach der Sie suchen, existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Mehr lesen"
+  },
+  "hero": {
+    "badge": "Zeitreise-Loot-ARPG",
+    "title": "Last Epoch Wiki",
+    "description": "Mastery-Klassen, Build-Crafting, Dungeon-Fortschritt, Fraktionsentscheidungen, Loot-Filter und Endgame-Monolith-Guides für Last Epoch Spieler auf dem PC.",
+    "getFreeCodesCTA": "Build-Guides lesen",
+    "playOnSteamCTA": "Auf Steam spielen",
+    "stats": {
+      "stat1": {
+        "value": "21. Feb. 2024",
+        "label": "Veröffentlichungsdatum"
+      },
+      "stat2": {
+        "value": "59055",
+        "label": "Steam-Rezensionen"
+      },
+      "stat3": {
+        "value": "15",
+        "label": "Mastery-Klassen"
+      },
+      "stat4": {
+        "value": "120+",
+        "label": "Skills"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Last Epoch Gameplay",
+    "description": "Reise durch die Zeit, meistere 15 Mastery-Klassen, schmiede legendäre Ausrüstung und erobere den Monolith des Schicksals in diesem tiefgründigen Action-RPG auf dem PC."
+  },
+  "tools": {
+    "title": "Last Epoch",
+    "titleHighlight": "Guide-Hub",
+    "subtitle": "Alles, was du brauchst, um Builds, Klassen, Crafting und das Endgame in Last Epoch zu meistern",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Last Epoch Anfänger-Guide",
+        "description": "Der Weg beim ersten Durchgang von der Klassenwahl bis zum Monolith"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Last Epoch Beste Builds",
+        "description": "Top-Builds für Corruption, Bossing und Farming"
+      },
+      {
+        "icon": "Users",
+        "title": "Last Epoch Mastery Guide",
+        "description": "Alle 15 Masteries im Überblick"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Last Epoch Leveling-Guide",
+        "description": "Schneller Fortschritt, ohne deinen Build zu ruinieren"
+      },
+      {
+        "icon": "Target",
+        "title": "Last Epoch Endgame-Guide",
+        "description": "Monolith, Arena, Corruption und Ausrüstungsfortschritt"
+      },
+      {
+        "icon": "Layers",
+        "title": "Last Epoch Monolith-Guide",
+        "description": "Zeitlinien-Fortschritt, Stabilität und Blessings"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Last Epoch Crafting-Guide",
+        "description": "Affixe, Runen, Glyphen und legendäres Crafting"
+      },
+      {
+        "icon": "Filter",
+        "title": "Last Epoch Loot-Filter-Guide",
+        "description": "Loot-Filter erstellen, importieren und verfeinern"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Last Epoch Blessings Guide",
+        "description": "Zeitlinien-Blessings und optimales Farming"
+      },
+      {
+        "icon": "Flag",
+        "title": "Last Epoch Fraktionen-Guide",
+        "description": "Merchant's Guild vs Circle of Fortune"
+      },
+      {
+        "icon": "Sword",
+        "title": "Last Epoch Dungeon-Guide",
+        "description": "Schlüssel, Mechaniken, Bosse und einzigartige Belohnungen"
+      },
+      {
+        "icon": "Gem",
+        "title": "Last Epoch Guide für einzigartige Gegenstände",
+        "description": "Legendary Potential und Schmieden im Ewigen Cache"
+      },
+      {
+        "icon": "Shield",
+        "title": "Last Epoch Idols Guide",
+        "description": "Idol-Plätze, Formen und klassenspezifische Affixe"
+      },
+      {
+        "icon": "GitBranch",
+        "title": "Last Epoch Weaver-Baum-Guide",
+        "description": "Knoten-Pfadfindung, EP-Entscheidungen und Saison-Planung"
+      },
+      {
+        "icon": "Skull",
+        "title": "Last Epoch Boss-Guide",
+        "description": "Boss-Mechaniken, Stat-Checks und Tipps für Kämpfe"
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Last Epoch Respec-Guide",
+        "description": "Respec von Passiven, Skills und Mastery erklärt"
+      }
+    ]
+  },
+  "modules": {
+    "lastEpochBeginnerGuide": {
+      "title": "Last Epoch Anfänger-Guide",
+      "displayType": "steps",
+      "intro": "Last Epoch belohnt Spieler, die früh ein paar gute Entscheidungen treffen: Wähle einen Spielstil, den du beibehalten kannst, lege deine Mastery rechtzeitig fest, halte deine Ausrüstung durch einfaches Crafting aktuell und wechsle mit einem fokussierten Setup in die Monoliths, anstatt auf verstreute Upgrades zu setzen.",
+      "steps": [
+        {
+          "title": "Wähle eine Klasse mit einer klaren Identität für den ersten Charakter",
+          "description": "Last Epoch beginnt mit 5 Basisklassen und insgesamt 15 Masteries. Für einen reibungslosen ersten Durchgang ist der Sentinel zum Void Knight die sicherste Allround-Empfehlung, während Sorcerer und Paladin ebenfalls starke, anfängerfreundliche Optionen sind.",
+          "highlights": [
+            "Sentinel: stabiles Nahkampf-Fundament mit Rüstung, Schilden und hoher Überlebensfähigkeit",
+            "Mage: Fernkampf-Zauberei mit schnellem Screen-Clear und starken AoE-Optionen",
+            "Acolyte, Primalist und Rogue haben alle praktikable Routen für den ersten Charakter, sobald du weißt, welchen Spielstil du bevorzugst"
+          ]
+        },
+        {
+          "title": "Folge der Kampagne, anstatt in frühen Zonen zu viel zu farmen",
+          "description": "Beim ersten Durchspielen ist die Story-Route das beste Rückgrat, da sie dich ganz natürlich mit Skillpunkten, Idol-Slots und wichtigen Belohnungen für den Fortschritt versorgt. Bewege dich weiter vorwärts, anstatt zu versuchen, die Ausrüstung zu früh zu perfektionieren.",
+          "highlights": [
+            "Priorisiere die Hauptstory und Nebenquests, die Passivpunkte oder Idol-Slots gewähren",
+            "Vermeide Hardcore für den ersten Durchgang, es sei denn, du kennst das Spiel bereits gut",
+            "Lege dich nicht auf Solo-Herausforderungseinstellungen fest, wenn du eine gemeinsame Truhe, Gold oder Flexibilität bei der Gruppenbildung wünscht"
+          ]
+        },
+        {
+          "title": "Schalte deine Mastery frei, sobald Kapitel 4 es erlaubt",
+          "description": "Deine Mastery-Wahl definiert den Charakter. Um sie freizuschalten, gibst du 20 Punkte im passiven Baum deiner Basisklasse aus, schließt die Mastery-Quest in Kapitel 4 ab und sprichst dann mit Elder Gaspar am End of Time.",
+          "highlights": [
+            "Die Mastery ist für diesen Charakter dauerhaft",
+            "Das Zurücksetzen von Skills und Passiven ist flexibel, die Wahl der Mastery jedoch nicht",
+            "Wähle basierend auf dem langfristigen Spielstil, nicht nur nach den ersten paar Leveln"
+          ]
+        },
+        {
+          "title": "Baue deinen Charakter um 5 verknüpfte Skills und eine Schadensrichtung auf",
+          "description": "Die schnellsten und effizientesten Charaktere nutzen fünf spezialisierte Skills, die sich gegenseitig verstärken und mit derselben Schadensfamilie skalieren. Das Mischen nicht zusammenhängender Schadensarten verlangsamt das Leveln und schwächt Ausrüstungs-Upgrades ab.",
+          "highlights": [
+            "Wähle einen Hauptschadensfokus wie Void, Fire, Necrotic, Physical oder Bleed",
+            "Nutze deine Skill-Bäume, um einen Kern-Skill zu stärken, anstatt die Kraft überall zu verteilen",
+            "Setze jeweils nur einen aktiven Skill auf einmal zurück, damit der Rest des Builds weiterhin für EP und Schaden sorgt"
+          ]
+        },
+        {
+          "title": "Beginne früh mit dem Crafting und halte deine Waffe aktuell",
+          "description": "Crafting ist eines der besten Systeme von Last Epoch und ist bereits während der Kampagne wichtig, nicht erst im Endgame. Nutze einfache Upgrades, um Schaden und Verteidigung auf Kurs zu halten.",
+          "highlights": [
+            "Kaufe Rune of Shattering, wann immer du kannst, und zerlege nützliche Affixe in Splitter",
+            "Verwende Glyphs of Hope und crafte auf Gegenständen mit gutem Forging Potential",
+            "Verbessere deine Waffe regelmäßig, da sie deine Hauptschadensquelle ist"
+          ]
+        },
+        {
+          "title": "Bereite dich auf das Endgame vor, bevor der Schwierigkeitsgrad ansteigt",
+          "description": "Bevor du dich ernsthaft dem Endgame widmest, bringe deinen Charakter in einen stabilen Zustand. Schließe etwa zwischen Level 45 und 50 die wichtigsten Kampagnenbelohnungen ab, optimiere deine Passiven, schalte Idol-Slots frei und wechsle mit einem fokussierten Setup in den Monolith of Fate.",
+          "highlights": [
+            "Der Zugriff auf Endgame-Modi erfolgt über den Hub am End of Time",
+            "Monolith of Fate ist das Hauptziel für den Fortschritt, sobald die Kampagne abgeschlossen ist",
+            "Empowered Monolith wird zum langfristigen Ziel, sobald sich dein Build stabilisiert"
+          ]
+        }
+      ],
+      "quickTips": [
+        "Der Sentinel zum Void Knight ist der sicherste Mastery-Pfad für den ersten Charakter für neue Spieler.",
+        "Schließe immer die Nebenquests für Passivpunkte und Idol-Slots ab, bevor du ins Endgame wechselst.",
+        "Lauftempo ist ein echter Power-Stat während des Levelns: Priorisiere es auf Stiefeln und Ringen.",
+        "Crafte früh und oft, anstatt darauf zu warten, dass perfekte Drops fallen."
+      ]
+    },
+    "lastEpochBestBuildsTierList": {
+      "title": "Last Epoch Best Builds Tier List",
+      "displayType": "tierGrid",
+      "intro": "In Last Epoch hängt der beste Build von der Aufgabe ab. Einige Builds dominieren das Pushing in Monolithen mit hoher Corruption, andere sind darauf ausgelegt, Bosse zu vernichten, und wieder andere gewinnen, indem sie Echoes schneller klären als alles andere. Dieses Modul bietet dir eine übersichtliche Kurzliste der aktuellen hochkarätigen Archetypen.",
+      "categories": [
+        {
+          "name": "Endgame Corruption",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "Falkner-Bombenlanze",
+              "mastery": "Schurke / Falkner",
+              "summary": "Einer der stärksten Pusher für hohe Corruption. Kombiniert Falkner-Skalierung, Schurken-Mobilität und leistungsstarkes Imprint-Crafting-Potenzial.",
+              "highlights": [
+                "Exzellente Corruption-Skalierung",
+                "Schnelle Bewegung und starke defensive Schichten",
+                "Extrem hohe Schadensgrenze"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "Fluch-Warlock",
+              "mastery": "Akolythin / Warlock",
+              "summary": "Besticht durch multiplikative Fluch-Skalierung und starken Schaden-über-Zeit-Druck. Belohnt Spieler, die einen modernen Zauberer mit echter Endgame-Tiefe suchen.",
+              "highlights": [
+                "Sehr starkes Stapeln von Flüchen",
+                "Hoher DoT-Druck in langen Kämpfen",
+                "Skaliert stark in tiefere ermächtigte Zeitlinien"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "Elementarer Runemaster",
+              "mastery": "Magier / Runemaster",
+              "summary": "Liefert gewaltigen Elementar-Burst und starke Schlachtfeldkontrolle, sobald das Runensystem klickt. Einer der besten Builds für Zauberer mit hohem Output.",
+              "highlights": [
+                "Massive Burst-Fenster",
+                "Starke defensive passive Optionen",
+                "Exzellente Skalierung bei richtigem Runen-Management"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bossing",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "Echo Void Knight",
+              "mastery": "Wächter / Void Knight",
+              "summary": "Ein erstklassiger Boss-Killer, der auf zuverlässigem Einzelziel-Void-Schaden und der Zähigkeit des Wächters basiert. Eine der saubersten Methoden, um Bosse mit mehreren Phasen zu lernen.",
+              "highlights": [
+                "Starker Einzelziel-Output",
+                "Zuverlässige Schadens-Uptime",
+                "Wächter-Verteidigungen machen den Boss-Fortschritt reibungsloser"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "Schnittergestalt-Lich",
+              "mastery": "Akolythin / Lich",
+              "summary": "Tauscht Sicherheit gegen ein Elite-Bossing-Potenzial ein. Bei korrektem Sustain verwandelt die Schnittergestalt die Klasse in einen der schnellsten spezialisierten Boss-Killer.",
+              "highlights": [
+                "Sehr hohe Schadensgrenze gegen Bosse",
+                "Lebensraub-Sustain ermöglicht aggressive Uptime",
+                "Ideal für Spieler, die mit Lebensentzug-Mechaniken vertraut sind"
+              ]
+            },
+            {
+              "tier": "S",
+              "name": "Heilige Aura Paladin",
+              "mastery": "Wächter / Paladin",
+              "summary": "Der nachsichtigste Bossing-Spezialist für progressionsorientierte Spieler. Interaktionen zwischen Heiliger Aura und Heilenden Händen verleihen ihm außergewöhnliches Durchhaltevermögen.",
+              "highlights": [
+                "Exzellenter Self-Sustain",
+                "Sehr sichere Wahl für den Fortschritt",
+                "Hervorragender erster ernsthafter Bossing-Charakter"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Speed Farming",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "Schattenkaskade-Klingentänzer",
+              "mastery": "Schurke / Klingentänzer",
+              "summary": "Der Goldstandard für Echo-Clear-Geschwindigkeit. Schatten-fokussierte Setups bewegen sich in einem Tempo durch reguläre Farming-Inhalte, mit dem nur wenige andere Mastery-Klassen mithalten können.",
+              "highlights": [
+                "Klassenbeste Bewegung und Flow",
+                "Außergewöhnliche Echo-Clear-Geschwindigkeit",
+                "Ideal für Farming mit Fokus auf Loot pro Stunde"
+              ]
+            },
+            {
+              "tier": "A",
+              "name": "Pfeilhagel-Scharfschütze",
+              "mastery": "Schurke / Scharfschütze",
+              "summary": "Breite Bildschirmabdeckung mit weniger mechanischer Intensität als der Klingentänzer. Eine der besten Fernkampf-Farming-Optionen für saubereres Positionieren.",
+              "highlights": [
+                "Große AoE-Abdeckung pro Zauber",
+                "Starkes Fernkampf-Farming-Profil",
+                "Einfacher zu steuern als Nahkampf-Speed-Setups"
+              ]
+            },
+            {
+              "tier": "A",
+              "name": "Sturmtotem-Schamane",
+              "mastery": "Primalist / Schamane",
+              "summary": "Eine starke Farming-Alternative für Spieler, die Totems und Elementarsturm-Setups bevorzugen. Tornado und Sturmtotem halten den Schaden aufrecht, während der Spieler sich bewegt.",
+              "highlights": [
+                "Anhaltender Schaden während der Neupositionierung",
+                "Guter Map-Flow für einen Primalisten-Archetyp",
+                "Starke Option für Spieler, die keine Glass-Cannon-Builds mögen"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "lastEpochMasteryGuide": {
+      "title": "Last Epoch Mastery Guide",
+      "displayType": "masteryGrid",
+      "intro": "Die Mastery ist die wichtigste Entscheidung für deinen Charakter in Last Epoch. Jede Basisklasse verzweigt sich in drei Masteries, jede mit ihren eigenen exklusiven Fertigkeiten, Spielweisen und einer eigenen Endgame-Identität. Vergleiche die gesamte Übersicht, bevor du mit Ältester Gaspar sprichst.",
+      "groups": [
+        {
+          "name": "Wächter",
+          "masteries": [
+            {
+              "name": "Schmiedegarde",
+              "playstyle": "Defensiver Nahkampf-Bruiser",
+              "damageProfile": "Physisch und Bluten",
+              "signatureTools": [
+                "Schmiedeschlag",
+                "Zorn des Schmelzers",
+                "Schildring"
+              ],
+              "summary": "Eine widerstandsfähige Mastery, die auf Rüstung, Verteidigung und stetigen waffenbasierten Schaden setzt."
+            },
+            {
+              "name": "Paladin",
+              "playstyle": "Feuer-Hybrid mit Heilungs-Unterstützung",
+              "damageProfile": "Feuer und defensive Nützlichkeit",
+              "signatureTools": [
+                "Urteil",
+                "Heilige Aura"
+              ],
+              "summary": "Eine fehlerverzeihende Mastery mit exzellenter Ausdauer und einem der besten Progressionsprofile für neue Spieler."
+            },
+            {
+              "name": "Void Knight",
+              "playstyle": "Aggressiver Leeren-Nahkämpfer",
+              "damageProfile": "Leere und Nahkampf-Burst",
+              "signatureTools": [
+                "Auslöschender Schlag",
+                "Anomalie"
+              ],
+              "summary": "Basiert auf Echo-Mechaniken, die Schlüsselaktionen duplizieren und einer einfachen Nahkampf-Rotation kostenlosen Schaden hinzufügen."
+            }
+          ]
+        },
+        {
+          "name": "Akolythin",
+          "masteries": [
+            {
+              "name": "Lich",
+              "playstyle": "Risiko-Belohnung-Zauberer",
+              "damageProfile": "Nekrotisch, Gift, Lebensentzug",
+              "signatureTools": [
+                "Schnittergestalt",
+                "Siegel des Todes"
+              ],
+              "summary": "Eine Mastery mit hohem Potenzial, die Gesundheitsmanagement in explosiven Schaden und starke Bosskämpfe verwandelt."
+            },
+            {
+              "name": "Nekromant",
+              "playstyle": "Armeekommandant",
+              "damageProfile": "Diener, Nekrotisch, Physisch",
+              "signatureTools": [
+                "Geist beschwören",
+                "Schreckensschatten",
+                "Abscheulichkeit zusammensetzen"
+              ],
+              "summary": "Der klassische Beschwörer-Pfad, der auf großen Dienerarmeen und einfach zu verstehender Skalierung basiert."
+            },
+            {
+              "name": "Hexenmeister",
+              "playstyle": "Fluch-Zauberer",
+              "damageProfile": "Fluch, Nekrotisch, DoT",
+              "signatureTools": [
+                "Chaosgeschosse",
+                "Profaner Schleier",
+                "Geisterflamme"
+              ],
+              "summary": "Eine auf Corruption ausgerichtete Mastery, die Gegner schwächt, Flüche stapelt und extrem gut ins Endgame skaliert."
+            }
+          ]
+        },
+        {
+          "name": "Magier",
+          "masteries": [
+            {
+              "name": "Zauberer",
+              "playstyle": "Reiner Fernkampf-Zauberer",
+              "damageProfile": "Feuer-, Blitz- und Kälte-Burst",
+              "signatureTools": [
+                "Meteor",
+                "Schwarzes Loch",
+                "Arkaner Aufstieg"
+              ],
+              "summary": "Einer der einfachsten Einstiege für Zauberer-Neulinge dank klarer AoE-Muster und unkomplizierter Schadensskalierung."
+            },
+            {
+              "name": "Runemaster",
+              "playstyle": "Taktischer Runenmagier",
+              "damageProfile": "Elementarer Burst und vielschichtige Verteidigung",
+              "signatureTools": [
+                "Runenbeschwörung"
+              ],
+              "summary": "Eine anspruchsvolle Mastery mit hoher Belohnung, die Runen-Sequenzierung in eines der mächtigsten Zauberer-Pakete im Spiel verwandelt."
+            },
+            {
+              "name": "Zauberklinge",
+              "playstyle": "Nahkampf-Zauber-Hybrid",
+              "damageProfile": "Nahkampf plus Elementar-Trigger",
+              "signatureTools": [
+                "Zertrümmernder Schlag",
+                "Woge",
+                "Feuerbrand"
+              ],
+              "summary": "Ein Elementarkämpfer für kurze Distanzen, der Waffentreffer mit Zauber-Procs für einen aktiveren Rhythmus kombiniert."
+            }
+          ]
+        },
+        {
+          "name": "Primalist",
+          "masteries": [
+            {
+              "name": "Druide",
+              "playstyle": "Gestaltwandler",
+              "damageProfile": "Nahkampf, Natur, Transformation",
+              "signatureTools": [
+                "Umschlingende Wurzeln",
+                "Werbärgestalt",
+                "Sprigganygestalt"
+              ],
+              "summary": "Eine flexible Mastery, die zwischen Formen wechselt und Tanking, Heilung sowie anhaltenden Nahkampfdruck abdecken kann."
+            },
+            {
+              "name": "Bestienmeister",
+              "playstyle": "Gefährten-Kommandant",
+              "damageProfile": "Diener und physischer Druck",
+              "signatureTools": [
+                "Raptor beschwören",
+                "Säbelzahn beschwören",
+                "Rasereitotem beschwören"
+              ],
+              "summary": "Konzentriert sich auf permanente Gefährten und Bestien-Synergien anstatt auf temporäre Schwärme oder Zaubertotems."
+            },
+            {
+              "name": "Schamane",
+              "playstyle": "Elementarer Totem-Zauberer",
+              "damageProfile": "Sturm, Kälte, Totem-Schaden",
+              "signatureTools": [
+                "Lawine",
+                "Sturmtotem beschwören"
+              ],
+              "summary": "Eine Mastery für stationäre Kontrolle, die durch wiederholte Elementar-Setups und beständige Schadensquellen gewinnt."
+            }
+          ]
+        },
+        {
+          "name": "Vagabundin",
+          "masteries": [
+            {
+              "name": "Klingentänzerin",
+              "playstyle": "Schnelle Nahkampf-Assassine",
+              "damageProfile": "Nahkampf-Burst, Schatten, Mobilität",
+              "signatureTools": [
+                "Tanzende Schläge",
+                "Tödliches Trugbild"
+              ],
+              "summary": "Die temporeichste Nahkampf-Vagabundin-Mastery, aufgebaut auf Geschwindigkeit, Ausweichen und explosiven Clear-Mustern."
+            },
+            {
+              "name": "Schützin",
+              "playstyle": "Bogenspezialistin",
+              "damageProfile": "Fernkampf-Einzelziel und AoE",
+              "signatureTools": [
+                "Pfeilhagel",
+                "Explosionspfeil"
+              ],
+              "summary": "Eine saubere Fernkampf-Mastery für Spieler, die eine sicherere Positionierung und eine breite Abdeckung des Bildschirms wünschen."
+            },
+            {
+              "name": "Falknerin",
+              "playstyle": "Fallen- und Gefährten-Taktikerin",
+              "damageProfile": "Fallen-Burst, Mobilität, Falken-Skalierung",
+              "signatureTools": [
+                "Falkenschlag",
+                "Explosivfalle"
+              ],
+              "summary": "Eine erstklassige Vagabundin-Mastery, die Setup-Tools, Gefährten-Druck und exzellente Corruption-Leistung kombiniert."
+            }
+          ]
+        }
+      ]
+    },
+    "lastEpochLevelingGuide": {
+      "title": "Last Epoch Leveling Guide",
+      "displayType": "steps",
+      "intro": "Das Leveln in Last Epoch besteht aus zwei Fortschrittsbalken gleichzeitig: deiner Charakterstufe und deinen spezialisierten Fertigkeitsstufen. Die besten Routen halten beide in Bewegung, nutzen Bewegungsgeschwindigkeit als echten Power-Stat und wechseln mit der richtigen Blessing und Timeline-Reihenfolge in die Monolithen.",
+      "steps": [
+        {
+          "title": "Baue deine Kampagne um eine Schadensfamilie auf",
+          "description": "Deine 5 spezialisierten Fertigkeiten sollten sich gegenseitig unterstützen. Ausrüstung funktioniert am besten, wenn alle deine Hauptfertigkeiten mit demselben Schadensprofil skalieren, anstatt sich auf verschiedene Elemente aufzuteilen.",
+          "highlights": [
+            "Die Charakterstufe ist auf 100 begrenzt",
+            "Spezialisierte Fertigkeiten sind normalerweise auf 20 begrenzt",
+            "Verteile dein aktives Setup während des Levelns nicht auf verschiedene Schadensarten"
+          ]
+        },
+        {
+          "title": "Folge der Story-Route und sammle permanente Belohnungen",
+          "description": "Der Fortschritt in der Hauptstory und Nebenquests, die Passivpunkte oder Idol-Plätze gewähren, sollten frühzeitig erledigt werden. Diese permanenten Belohnungen machen jede spätere Leveling-Methode effizienter.",
+          "highlights": [
+            "Quests, Kills, Monolithen, Arena und Echos tragen alle zu den EP bei",
+            "Schließe Quests für Passivpunkte und Idol-Plätze ab, bevor du ernsthaft Monolithen farmst",
+            "Verfolge fehlende permanente Belohnungen über das Karten-Interface"
+          ]
+        },
+        {
+          "title": "Lege deine Mastery fest, sobald Kapitel 4 sie freischaltet",
+          "description": "Investiere 20 Punkte in den Basisklassen-Baum, schließe die Mastery-Quest ab und wähle dann deine Unterklasse am Ende der Zeit. Investiere in die Mastery-Skalierung, anstatt den Power-Spike zu verzögern.",
+          "highlights": [
+            "Die Auswahl der Mastery erfolgt über Ältester Gaspar",
+            "Die frühzeitige Wahl der Mastery hält deinen Leveling-Build auf Kurs",
+            "Setze Passivpunkte und Fertigkeiten bei Bedarf zurück, aber halte die Kernidentität stabil"
+          ]
+        },
+        {
+          "title": "Nutze Bewegungsgeschwindigkeit als Leveling-Stat",
+          "description": "Bewegungsgeschwindigkeit ist einer der stärksten Beschleuniger für die Kampagne, da sie die Kill-Rate, die Geschwindigkeit beim Abschluss von Zonen und den Zugang zu späteren Fortschrittssystemen verbessert.",
+          "highlights": [
+            "Silberring gibt 3 bis 8 Prozent Bewegungsgeschwindigkeit pro Ring",
+            "Advent of the Erased Stiefel können bis zu 20 Prozent Bewegungsgeschwindigkeit rollen",
+            "Lessons of the Metropolis Stiefel können bis zu 17 Prozent Bewegungsgeschwindigkeit rollen"
+          ]
+        },
+        {
+          "title": "Crafte oft und ersetze schwache Waffen regelmäßig",
+          "description": "Waffenschaden und einfache gecraftete Affixe tragen mehr zur Leveling-Geschwindigkeit bei, als auf perfekte Drops zu warten. Die Kampagne wird viel reibungsloser, wenn du die Schmiede als Teil der normalen Route betrachtest.",
+          "highlights": [
+            "Nutze Rune of Shattering, um Splitter für zukünftige Upgrades zu sammeln",
+            "Nutze Glyphs of Hope, um die Gegenstandshaltbarkeit beim Craften zu schützen",
+            "Aktualisiere deine Hauptwaffe nach wichtigen Zonen, anstatt nur nach langen Durststrecken"
+          ]
+        },
+        {
+          "title": "Nutze Monolith-Arena-Knoten und die erste EP-Blessing",
+          "description": "Sobald sich Monolithen durch die Story öffnen, sind Arena-Knoten einer der besten EP-Schübe im Spiel. Sie bleiben bis etwa Stufe 58 effizient, danach verschiebt sich die Route zur ersten wichtigen Blessing.",
+          "highlights": [
+            "Seltene und magische Gegner gewähren 50 Prozent mehr EP als normale Gegner",
+            "Das Farmen von Arena-Knoten bleibt bis etwa Stufe 58 stark",
+            "Das Besiegen des ersten Monolith-Bosses gewährt Strength of Mind, eine Erfahrungs-Blessing"
+          ]
+        },
+        {
+          "title": "Schalte Empowered Monoliths um Stufe 90 frei",
+          "description": "Empowered Monoliths sind der eigentliche Langzeit-Endgame-Motor. Schließe die erforderliche Timeline-Sequenz ab und kehre dann zum effizienten Farmen mit höherer Belohnungsskalierung zurück.",
+          "highlights": [
+            "Schließe Fall of the Outcasts, Black Sun, End of the Storm und Reign of Dragons ab",
+            "Schließe dann Spirits of Fire, The Last Ruin und Age of Winter ab",
+            "Nach dem Freischalten von Empowered Monoliths farme erneut Fall of the Outcasts für Grand Strength of Mind"
+          ]
+        }
+      ],
+      "quickTips": [
+        "Halte deine Waffe alle paar Zonen auf dem neuesten Stand, um eine flüssige Kill-Geschwindigkeit beizubehalten.",
+        "Bewegungsgeschwindigkeit auf Stiefeln und Ringen beschleunigt den Fortschritt in der Kampagne erheblich.",
+        "Arena-Knoten im Monolith sind eine der stärksten EP-Quellen vor Stufe 58.",
+        "Schalte Empowered Monoliths frei, indem du die erforderliche Timeline-Sequenz ab etwa Stufe 90 abschließt."
+      ]
+    },
+    "lastEpochEndgameGuide": {
+      "title": "Last Epoch Endgame Guide",
+      "displayType": "cardList",
+      "intro": "Das Endgame von Last Epoch basiert auf wiederholbaren Systemen, die permanente Macht, gezieltes Farming und schwierigere Progressionsschleifen belohnen. Zu verstehen, welche Aktivität Fortschritt, Beute oder Potenzial zur Build-Optimierung bietet, hilft dir bei der Planung deiner Zeit nach der Kampagne.",
+      "cards": [
+        {
+          "name": "Monolith of Fate",
+          "description": "Das Haupt-Endgame-System. Spieler betreten es vom Ende der Zeit aus, schließen Echos und Questziele innerhalb von Zeitlinien ab, besiegen den Zeitlinien-Boss und verdienen permanente Blessings sowie boss-spezifische Unique-Drops.",
+          "highlights": [
+            "Die erste Monolith-Zone beginnt auf Stufe 58",
+            "Jede Zeitlinie hat ihre eigenen Quests, Echos, Bosse und Belohnungspools",
+            "Blessings verbessern permanent die Charakterstärke oder die Beutequalität"
+          ]
+        },
+        {
+          "name": "Empowered Monolith",
+          "description": "Empowered Monoliths sind die wahre langfristige Farming-Schleife. Sie beginnen auf einem viel höheren Schwierigkeitsgrad, ermöglichen es den Spielern, Corruption weit über normale Zeitlinien hinaus zu treiben, und werten normale Blessings zu Grand Blessings auf.",
+          "highlights": [
+            "Freigeschaltet nach dem Abschluss von The Age of Winter, The Last Ruin und The Spirits of Fire",
+            "Läuft auf Stufe 100",
+            "Unterstützt unendliches Corruption-Farming und stärkere Grand Blessings"
+          ]
+        },
+        {
+          "name": "Dungeons",
+          "description": "Dungeons sind schlüsselgebundene Endgame-Runs mit eigenen Mechaniken und Belohnungsidentitäten. Jeder Dungeon verfolgt ein anderes Beute- oder Crafting-Ziel.",
+          "highlights": [
+            "Lightless Arbor öffnet den Tresor für goldbasierte Truhenbelohnungen",
+            "Soulfire Bastion schaltet den Seelen-Glücksspieler für seltene und einzigartige Beute frei",
+            "Temporal Sanctum schaltet das legendäre Crafting durch den Ewigkeits-Cache frei"
+          ]
+        },
+        {
+          "name": "Arena",
+          "description": "Die Arena ist der Ausdauermodus von Last Epoch. Sie ermöglicht es Spielern, Überlebensfähigkeit, skalierenden Schaden und Beständigkeit in langen Kämpfen zu testen, anstatt nur in kurzen Boss-Phasen.",
+          "highlights": [
+            "Die Arena der Champions endet nach 40 Wellen und einem Boss",
+            "Die Endlose Arena skaliert, bis der Spieler sich zurückzieht oder stirbt",
+            "Runs können auf der Bestenliste verglichen werden"
+          ]
+        },
+        {
+          "name": "The Woven and Woven Echoes",
+          "description": "Saison 2 erweiterte den Monolith um Gräber, Friedhöfe, Memory Amber, Woven Echoes und den Weaver Tree. Dieses System fügt eine weitere Ebene des Endgame-Routings hinzu, indem es Spielern ermöglicht, Begegnungen und Belohnungen innerhalb des Monoliths neu zu gestalten.",
+          "highlights": [
+            "Memory Amber wird in Gräbern und Friedhöfen verdient",
+            "Der Weaver Tree gewährt bis zu 50 Punkte",
+            "Etwa 70 Weaver Tree-Knoten modifizieren Monolith-Belohnungen und Begegnungen"
+          ]
+        },
+        {
+          "name": "Season 4 Omens and Echo Chains",
+          "description": "Saison 4 fügte Omen-Fenster, Echo Chains, Timeglass Fragments, Runes of Corruption, Omen Idols und Idol-Altäre hinzu. Diese Systeme verbinden Kampf, Monolith-Routing, Idol-Optimierung und risikoreiches Item-Crafting miteinander.",
+          "highlights": [
+            "Fünf Echo Chain-Typen wurden mit Saison 4 eingeführt",
+            "Omens können Timeglass Fragments, Runes of Corruption, korrumpierte Gegenstände, Omen Idols und Idol-Altäre fallen lassen",
+            "Timeglass Fragments können im Zentrum des Monoliths ausgegeben werden"
+          ]
+        }
+      ]
+    },
+    "lastEpochMonolithGuide": {
+      "title": "Last Epoch Monolith of Fate Leitfaden",
+      "displayType": "steps",
+      "intro": "Der Monolith of Fate ist das Rückgrat des Endgame-Fortschritts in Last Epoch. Dieser Leitfaden führt dich von der ersten Level-58-Timeline bis zum Farmen von Empowered Monoliths, Boss-Targeting und dem Erhöhen der Corruption.",
+      "steps": [
+        {
+          "title": "Betritt den Monolith vom Ende der Zeit aus",
+          "description": "Der Monolith of Fate wird nach der Kampagne verfügbar. Deine erste Timeline beginnt auf Level 58, dies ist also der Punkt, an dem dein Charakter vom Story-Fortschritt zum wiederholbaren Endgame-Farming übergeht."
+        },
+        {
+          "title": "Schließe Echos ab und baue Timeline Stability auf",
+          "description": "Jede Timeline besteht aus Echos mit zufälligen Zielen und Modifikatoren. Das Abschließen dieser Echos baut Timeline Stability auf, enthüllt mehr vom Netz und führt dich zu den Quest-Echos der Timeline."
+        },
+        {
+          "title": "Beende die Timeline-Quests und töte den Boss",
+          "description": "Jede Timeline enthält drei Quest-Stufen, die zum Timeline-Boss führen. Das Besiegen des Bosses wandelt deinen Run durch Blessings und den Zugang zu boss-spezifischem Loot in permanenten Account-Fortschritt um."
+        },
+        {
+          "title": "Wähle eine Blessing und ziehe weiter zu höheren Timelines",
+          "description": "Wähle nach jedem Boss-Kill eine Blessing. Der allgemeine Rat für den Fortschritt ist, sich über die Monolith-Inseln nach rechts zu den höherstufigen Timelines zu bewegen, während du die Blessings und Boss-Drops sammelst, die deinem Build am meisten helfen."
+        },
+        {
+          "title": "Schalte Empowered Monoliths frei",
+          "description": "Schließe die normalen Versionen von The Age of Winter, The Last Ruin und The Spirits of Fire ab, um den Empowered Monolith freizuschalten. Empowered Timelines laufen auf Level 100, starten mit viel höherer Corruption und ersetzen normale Blessings durch stärkere Grand Blessings."
+        },
+        {
+          "title": "Erhöhe die Corruption mit dem Shade of Orobyss",
+          "description": "Corruption ist der wichtigste Risiko-Belohnungs-Hebel innerhalb des Monoliths. Höhere Corruption macht Gegner und Echos schwieriger, verbessert aber die Erfahrung und Item-Qualität, was den Shade of Orobyss zu einem Schlüsselkampf für langfristiges Farming macht."
+        },
+        {
+          "title": "Nutze spezielle Echos, Woven-Systeme und Echo-Ketten",
+          "description": "Modernes Monolith-Routing umfasst Beacon Echoes, Vessel Echoes, Shade-Trigger, Woven Echoes, Tombs und Cemeteries sowie jetzt Echo Chains und Omen Windows. Diese Ebenen ermöglichen es Spielern, Stability, Begegnungen, Idols, Corruption-Tools und spezialisierte Belohnungen effizienter anzuvisieren."
+        }
+      ],
+      "quickTips": [
+        "Bewege dich auf den Monolith-Inseln nach rechts, um schnell höherstufige Timelines freizuschalten.",
+        "Wähle immer die Blessing, die deinem Haupt-Build nützt, bevor du andere Timelines farmst.",
+        "Empowered Monoliths werden nach dem Abschluss von drei spezifischen normalen Timelines freigeschaltet.",
+        "Nutze den Shade of Orobyss, um die Corruption für bessere Drops und XP-Skalierung zu erhöhen."
+      ]
+    },
+    "lastEpochCraftingGuide": {
+      "title": "Last Epoch Crafting Guide",
+      "displayType": "steps",
+      "intro": "Crafting ist eines der prägenden Systeme von Last Epoch und spielt vom ersten Upgrade bis hin zum High-End-Crafting mit Legendary Potential und Corruption eine wichtige Rolle. Dieser Guide zeigt, wie die Schmiede funktioniert, warum Schmiedepotenzial wichtig ist und wie sich das Crafting in die Endgame-Progression einfügt.",
+      "steps": [
+        {
+          "title": "Lerne die Grundlagen der Schmiede",
+          "description": "Drücke überall F, um die Schmiede zu öffnen. Die meisten craftbaren Gegenstände nutzen bis zu zwei Präfixe und zwei Suffixe, während versiegelte Affixe einen zusätzlichen gesperrten Affix-Slot über die normale Struktur von vier Affixen hinaus hinzufügen können."
+        },
+        {
+          "title": "Verwalte das Schmiedepotenzial",
+          "description": "Schmiedepotenzial ist das Haltbarkeitsbudget eines Gegenstands. Gewöhnliche bis seltene Gegenstände haben normalerweise etwa 20 bis 40 Schmiedepotenzial, während Exalted Gegenstände oft 40 oder mehr haben. Gutes Crafting bedeutet also vor allem, dieses Budget zuerst für die wichtigsten Upgrades auszugeben."
+        },
+        {
+          "title": "Nutze Splitter für Kern-Upgrades",
+          "description": "Affix-Splitter sind die Basiswährung des Craftings. Sie fügen Werte wie Gesundheit, Widerstand, Schaden, Attribute oder Diener-Modifikatoren hinzu oder werten diese auf und bilden das Fundament für fast jeden Weg zur Ausrüstungsverbesserung im Spiel."
+        },
+        {
+          "title": "Kenne die wichtigen Glyphen",
+          "description": "Die Glyphe der Hoffnung bietet eine Chance von 25 Prozent, die Kosten für Schmiedepotenzial komplett zu vermeiden. Die Glyphe der Ordnung bewahrt die Wert-Rolls beim Erhöhen der Tiers, die Glyphe des Chaos rollt ein Affix in ein anderes Affix um, die Glyphe der Verzweiflung versiegelt ein Affix und die Glyphe des Neides verändert den Rest des Gegenstands, während das aufgewertete Affix unberührt bleibt."
+        },
+        {
+          "title": "Kenne die wichtigen Runen",
+          "description": "Die Rune der Zerschmetterung verwandelt Ausrüstung in Splitter, die Rune der Entfernung löscht ein zufälliges Affix, die Rune der Entdeckung füllt einen leeren Slot, die Rune der Veredelung rollt Affix-Werte neu aus, die Rune der Formung rollt Implizit-Werte neu aus, die Rune des Aufstiegs wertet einen normalen Gegenstand in einen zufälligen Unique- oder Set-Gegenstand desselben Basistyps auf und die Rune der Erschaffung dupliziert einen Gegenstand und setzt bei beiden Kopien das Schmiedepotenzial auf Null."
+        },
+        {
+          "title": "Strebe nach Exalted und legendärem Crafting",
+          "description": "Exalted Gegenstände sind Drops mit mindestens einem Tier 6 oder Tier 7 Affix. Legendäres Crafting kombiniert dann ein Unique mit Legendary Potential und einen Exalted Gegenstand im Ewigkeits-Cache innerhalb des Temporalen Sanktums, wobei LP1 bis LP4 steuern, wie viele Affixe übertragen werden können."
+        },
+        {
+          "title": "Nutze den Ewigkeits-Cache korrekt",
+          "description": "Das Temporale Sanktum steuert die Level-Obergrenze für legendäres Crafting: Tier 1 unterstützt Uniques bis Level 50, Tier 2 bis Level 65, Tier 3 bis Level 75 und Tier 4 hebt die Level-Beschränkung auf. Ab Tier 2 können Spieler zudem ein ausgewähltes Affix während des Slams festlegen."
+        },
+        {
+          "title": "Erweitere auf moderne Endgame-Crafting-Systeme",
+          "description": "Saison 2 fügte Gewebte Echos, Gewebte Verzauberung für Klassen-Idol-Gegenstände, Set-Bonus-Affix-Crafting und die Rune der Erlösung zur Rettung von Exalted Gegenständen hinzu. Saison 4 ergänzte Runen der Corruption und korrumpierte Gegenstände, was eine neue, risikoreiche Ebene über der normalen Schmiede schafft."
+        }
+      ],
+      "quickTips": [
+        "Crafte immer zuerst das wichtigste Affix, solange das Schmiedepotenzial noch hoch ist.",
+        "Die Glyphe der Hoffnung ist dein bester Freund für budgetbewusstes Crafting während des Levelns.",
+        "Hebe Exalted Gegenstände mit guten Affix-Kombinationen für späteres legendäres Crafting auf.",
+        "Die Rune der Zerschmetterung auf unerwünschter Ausrüstung ist der schnellste Weg, um Crafting-Splitter zu sammeln."
+      ]
+    },
+    "lastEpochLootFilterGuide": {
+      "title": "Last Epoch Loot-Filter-Guide",
+      "displayType": "steps",
+      "intro": "Loot-Filter sind eines der wertvollsten Quality-of-Life-Systeme in Last Epoch, da sie Unordnung in lesbaren Fortschritt verwandeln. Dieser Guide hilft dir zu verstehen, was du anzeigen, was du verbergen und wann du den Filter strenger einstellen solltest.",
+      "steps": [
+        {
+          "title": "Verstehe, was ein Loot-Filter eigentlich macht",
+          "description": "Loot-Filter heben die Affixe und Gegenstandstypen hervor, die dir wichtig sind, färben wertvolle Drops um und verbergen minderwertigen Müll. In Last Epoch kann das System ein gewünschtes Affix oder Gruppen von vielen Affixen hervorheben, wodurch die Beute am Boden selbst tief im Endgame lesbar bleibt."
+        },
+        {
+          "title": "Beginne mit einem geteilten Filter oder einer einfachen Vorlage",
+          "description": "Ein guter erster Schritt ist es, mit einem allgemeinen Filter oder einem Build-Filter von Last Epoch Tools zu beginnen und diesen dann für deine Klasse und Ziele anzupassen. Das geht schneller, als ihn von Grund auf neu zu erstellen, und gibt neueren Spielern sofort eine funktionierende Struktur."
+        },
+        {
+          "title": "Importiere einen Filter in das Spiel",
+          "description": "Last Epoch Tools unterstützt den Export und das Kopieren in die Zwischenablage für Filter. Der normale Ablauf besteht darin, die Filterseite zu öffnen, auf Export zu drücken, ihn in die Zwischenablage zu kopieren und ihn dann im Loot-Filter-Menü im Spiel einzufügen, damit der Filter ohne manuelle XML-Bearbeitung bereit ist."
+        },
+        {
+          "title": "Setze Prioritäten für das Early-Game",
+          "description": "Während des Levelns sollte der Filter Leben, Resistenzen, Lauftempo, deine Hauptschadens-Affixe und nützliche Klassen-Idol anzeigen. In dieser Phase ist das Ziel nicht Perfektion; es geht darum, offensichtliche Upgrades und Ziele für Splitter leicht erkennbar zu machen."
+        },
+        {
+          "title": "Verschärfe den Filter für Monolithe und Dungeons",
+          "description": "Sobald das Farmen im Monolith beginnt, sollte der Filter strenger werden. Konzentriere dich auf gewünschte Basen, hochwertige Exalted Affixe, LP Uniques, Klassen-Idol, Ziele für Crafting-Splitter und die Boss- oder Timeline-Drops, die dein Build tatsächlich verfolgt."
+        },
+        {
+          "title": "Trenne Leveling-Regeln von Endgame-Regeln",
+          "description": "Ein Filter, der in der Kampagne funktioniert, wird in Ermächtigten Monolithen schnell zu locker. Viele Spieler wechseln zu einem speziellen Endgame-Filter, sobald Exalted Drops häufiger werden, damit der Bildschirm nicht mit minderwertigen Rares überflutet wird."
+        },
+        {
+          "title": "Nutze die neuen Filter-Tools aus Saison 4",
+          "description": "Saison 4 hat das Regel-Limit auf 200 erhöht und separate Anpassungsmöglichkeiten für Karten-Icons und Gegenstandsstrahlen, Anzeigeoptionen für Regelnummern sowie mehrere neue Loot-Filter-Sounds hinzugefügt. Diese Upgrades machen es viel einfacher, präzise Filter für das moderne Endgame-Farming zu erstellen."
+        }
+      ],
+      "quickTips": [
+        "Beginne mit einem Community-Filter von Last Epoch Tools und passe ihn für deinen Build an.",
+        "Aktualisiere deinen Filter jedes Mal, wenn du eine neue Endgame-Phase betrittst, um Bildschirm-Unordnung zu vermeiden.",
+        "Verwende separate Filterprofile für das Leveln und das Endgame, um die Regeln übersichtlich zu halten.",
+        "Saison 4 hat das Regel-Limit auf 200 erhöht, was dir eine viel höhere Präzision beim Filtern ermöglicht."
+      ]
+    },
+    "lastEpochBlessingsGuide": {
+      "title": "Last Epoch Blessing-Leitfaden",
+      "eyebrow": "Monolith-Belohnungen",
+      "displayType": "Tabelle",
+      "subtitle": "Wähle die richtigen Blessing für Schaden, Verteidigung und Farming",
+      "intro": "Blessing sind permanente Monolith-Belohnungen, die sowohl die Überlebensfähigkeit als auch die Farming-Effizienz beeinflussen. Sobald du ermächtigte Timelines betrittst, werden Grand Blessing zu einem wichtigen Bestandteil der Endgame-Optimierung. Dieses Modul hebt die Blessing hervor, die Spieler am häufigsten priorisieren, wenn sie vom grundlegenden Monolith-Fortschritt zum ermächtigten Farming übergehen.",
+      "items": [
+        {
+          "timeline": "Die Schwarze Sonne",
+          "blessing": "Grand Emptiness of Ash",
+          "effect": "+27 % bis 40 % Kritischer Trefferschaden-Multiplikator",
+          "role": "Offensive",
+          "bestFor": "Crit-Builds und Boss-Schaden",
+          "why": "Eines der reinsten Blessing für rohen Schaden in Endgame-Crit-Setups."
+        },
+        {
+          "timeline": "Das Ende des Sturms",
+          "blessing": "Grand Light of the Moon",
+          "effect": "+60 bis 90 Mana",
+          "role": "Ressource",
+          "bestFor": "Mana-hungrige Magier-, Runemaster- und Spellblade-Builds",
+          "why": "Ein starkes Quality-of-Life-Blessing, wenn deine Rotation oder dein defensiver Kreislauf von einem größeren Manapool abhängt."
+        },
+        {
+          "timeline": "Herrschaft der Drachen",
+          "blessing": "Grand Resolve of Humanity",
+          "effect": "+13 % bis 20 % auf alle Resistenzen",
+          "role": "Verteidigung",
+          "bestFor": "Früher Fortschritt in ermächtigten Timelines und Ausgleich von Resistenzen",
+          "why": "Ein einfacher Weg, um den Suffix-Druck auf der Ausrüstung zu verringern und gleichzeitig einen Build für härtere Inhalte zu stabilisieren."
+        },
+        {
+          "timeline": "Herrschaft der Drachen",
+          "blessing": "Grand Survival of Might",
+          "effect": "+50 % bis 70 % Kritische Treffervermeidung und +51 bis 90 Ausweichwert",
+          "role": "Verteidigung",
+          "bestFor": "Allgemeine Überlebensfähigkeit und frühes Corruption-Pushing",
+          "why": "Ein beliebtes defensives Blessing, da es zwei häufige Überlebensprobleme gleichzeitig behebt."
+        },
+        {
+          "timeline": "Das Zeitalter des Winters",
+          "blessing": "Grand Rage of Winter",
+          "effect": "+25 % bis 50 % Chance, Kälteresistenz-Schreddern bei Treffer anzuwenden",
+          "role": "Offensive",
+          "bestFor": "Kälteschaden-Builds",
+          "why": "Ein hocheffizientes Blessing für Kälte-Builds, die mehr Boss-Schaden ohne Ausrüstungswechsel anstreben."
+        },
+        {
+          "timeline": "Geister des Feuers",
+          "blessing": "Grand Body of Obsidian",
+          "effect": "+200 bis 320 Rüstung",
+          "role": "Verteidigung",
+          "bestFor": "Rüstungsbasierte Builds und allgemeine Haltbarkeit",
+          "why": "Eine unkomplizierte defensive Option, die über viele Klassen und Ausrüstungsstufen hinweg nützlich bleibt."
+        },
+        {
+          "timeline": "Fall der Ausgestoßenen",
+          "blessing": "Grand Winds of Fortune",
+          "effect": "16 % bis 22 % erhöhte Droprate für Unique-Gegenstände",
+          "role": "Farming",
+          "bestFor": "Spieler, die gezielt Uniques farmen",
+          "why": "Eines der klarsten Farming-Blessing, wenn dein nächstes Upgrade ein bestimmter Unique-Gegenstand ist."
+        }
+      ]
+    },
+    "lastEpochFactionsGuide": {
+      "title": "Last Epoch Fraktions-Guide",
+      "eyebrow": "Gegenstands-Fraktionen",
+      "displayType": "comparisonTable",
+      "subtitle": "Merchant's Guild oder Circle of Fortune?",
+      "intro": "Fraktionen entscheiden, wie dein Charakter im Endgame Ausrüstung erhält. Diese Wahl beeinflusst den Zugang zum Handel, die Effizienz beim Selberfinden, den Fortschrittsrhythmus und welcher Item-Loop sich am besten für deinen Build anfühlt. Beide Fraktionen nutzen Ränge, Ruf und Gunst, belohnen aber sehr unterschiedliche Spielstile.",
+      "factionNames": {
+        "merchantsGuild": "Merchant's Guild",
+        "circleOfFortune": "Circle of Fortune"
+      },
+      "comparisons": [
+        {
+          "category": "Kernidentität",
+          "merchantsGuild": "Handelsorientierte Fraktion, die auf dem Basar und Spielerangeboten basiert.",
+          "circleOfFortune": "Self-found-Fraktion, die auf Beutequalität, Prophezeiungen und passiven Boni für die Gegenstandssuche basiert."
+        },
+        {
+          "category": "Hauptmerkmal",
+          "merchantsGuild": "Kaufe und verkaufe Ausrüstung über den Basar unter Verwendung von Gunst sowie goldbasierten Transaktionen.",
+          "circleOfFortune": "Gib Gunst im Observatorium aus, um Prophezeiungen zu erhalten, und nutze dann Linsen, um zu beeinflussen, was du siehst."
+        },
+        {
+          "category": "Fortschritt",
+          "merchantsGuild": "Insgesamt 12 Ränge; erhalte Ruf durch normales Gameplay und Handelsaktivitäten.",
+          "circleOfFortune": "Insgesamt 12 Ränge; erhalte Ruf durch normales Gameplay und das Abschließen von Prophezeiungen."
+        },
+        {
+          "category": "Bestens geeignet für",
+          "merchantsGuild": "Spieler, die eine schnellere Build-Vervollständigung, gezielte Käufe und eine marktgesteuerte Ausrüstung anstreben.",
+          "circleOfFortune": "Spieler, die es vorziehen, ihre eigene Ausrüstung zu farmen, sich an Drops anzupassen und den Self-found-Wert zu maximieren."
+        },
+        {
+          "category": "Wichtige Einschränkung",
+          "merchantsGuild": "Gegenstände, die durch Handel erworben wurden, erfordern einen Merchant's Guild Rang zum Ausrüsten, und gekaufte Gegenstände können nicht erneut gehandelt werden.",
+          "circleOfFortune": "Gegenstände, die gefunden wurden, während man Circle of Fortune angehört, erfordern einen Circle of Fortune Rang zum Ausrüsten."
+        },
+        {
+          "category": "Wechsel- und Account-Regeln",
+          "merchantsGuild": "Du kannst die Fraktion wechseln, aber das funktioniert eher wie ein Respec als ein einfaches Umschalten. Der Ruf wird accountweit geteilt, in jedem Cycle zurückgesetzt und nach Ende eines Cycles in die permanente Umgebung übertragen.",
+          "circleOfFortune": "Du kannst die Fraktion wechseln, aber das funktioniert eher wie ein Respec als ein einfaches Umschalten. Der Ruf wird accountweit geteilt, in jedem Cycle zurückgesetzt und nach Ende eines Cycles in die permanente Umgebung übertragen."
+        }
+      ]
+    },
+    "lastEpochDungeonsGuide": {
+      "title": "Last Epoch Dungeon-Leitfaden",
+      "eyebrow": "Endgame-Dungeons",
+      "displayType": "dungeonCards",
+      "subtitle": "Drei Dungeons, drei verschiedene Belohnungszyklen",
+      "intro": "Last Epoch Dungeons sind wiederholbare Endgame-Aktivitäten mit Schlüsseln, Stufenskalierung und einzigartigen Mechaniken. Jeder bietet eine andere Art von Fortschritt, von Goldumwandlung über gezieltes Glücksspiel bis hin zur legendären Fertigung.",
+      "rulesTitle": "Dungeon-Regeln auf einen Blick",
+      "rulesSummary": "Alle Dungeons sind schlüsselgebundene, wiederholbare Endgame-Inhalte mit vier Stufen und täglichen Modifikatoren. Ab Stufe 2 erhalten Durchläufe zusätzliche Modifikatoren und bessere Belohnungen.",
+      "rules": [
+        "Jeder Dungeon erfordert einen spezifischen Schlüssel, der beim Betreten verbraucht wird.",
+        "Es gibt 4 Stufen, und höhere Stufen werden nach dem Abschluss niedrigerer Stufen freigeschaltet.",
+        "Ab Stufe 2 erhältst du zusätzliche Modifikatoren und stärkere Belohnungen.",
+        "Dungeon-Schlüssel-Amulette können Durchläufe modifizieren, einschließlich eines Portal-Amuletts, das direkt zum Boss springt."
+      ],
+      "dungeons": [
+        {
+          "name": "Lightless Arbor",
+          "summary": "Ein auf Gift basierender Dungeon, der sich um Dunkelheit, Navigation und Goldumwandlung am Ende des Durchlaufs dreht.",
+          "location": "Verstörte Ära, in der Nähe des Wegpunkts „Die Oberfläche“",
+          "key": "Lightless Arbor Schlüssel",
+          "boss": "Der Berg darunter",
+          "damageType": "Gift",
+          "mechanic": "Brennender Bernstein",
+          "endReward": "Tresor des ungewissen Schicksals",
+          "bossDrops": [
+            "Tier 1+: Gipfel des Berges",
+            "Tier 2+: Fuß des Berges",
+            "Tier 3+: Antlitz des Berges",
+            "Tier 4+: Kern des Berges"
+          ]
+        },
+        {
+          "name": "Soulfire Bastion",
+          "summary": "Ein Feuer- und Nekrotik-Dungeon, bei dem Schildmanagement und das Ausgeben von Seelen den Durchlauf bestimmen.",
+          "location": "Imperiale Ära, in der Nähe des Wegpunkts „Der gefällte Wald“",
+          "key": "Soulfire Bastion Schlüssel",
+          "boss": "Feuerlich Cremorus",
+          "damageType": "Feuer und Nekrotik",
+          "mechanic": "Seelenfeuer-Seelen und Seelenfeuer-Schild",
+          "endReward": "Seelen-Glücksspieler",
+          "bossDrops": [
+            "Tier 1+: Asche der Sterblichkeit",
+            "Tier 2+: Neid des Lichs",
+            "Tier 3+: Opfergabe des Brandschatzers",
+            "Tier 4+: Scheiterhaufen des Leidens"
+          ]
+        },
+        {
+          "name": "Temporal Sanctum",
+          "summary": "Ein wertvoller Dungeon mit Ärenwechsel, gefährlichem Bossdruck und direktem Zugang zur legendären Fertigung.",
+          "location": "Verstörte Ära, in der Nähe des Wegpunkts „Die Ruinenküste“",
+          "key": "Schlüssel zum Temporalen Sanctum",
+          "boss": "Chronomantin Julra",
+          "damageType": "Gift und Leere",
+          "mechanic": "Zeitsprung",
+          "endReward": "Ewigkeits-Cache",
+          "bossDrops": [
+            "Tier 1+: Julras Sternenuhr",
+            "Tier 2+: Somnia",
+            "Tier 3+: Julras Besessenheit",
+            "Tier 4+: Gefäß des Zwists"
+          ]
+        }
+      ]
+    },
+    "lastEpochUniqueItemsGuide": {
+      "title": "Last Epoch Guide für Unique und Legendary Items",
+      "eyebrow": "Itemisierung",
+      "displayType": "systemTable",
+      "subtitle": "Wie Uniques zu langfristiger Endgame-Ausrüstung werden",
+      "intro": "In Last Epoch sind Uniques nicht nur Sammlerstücke. Sie sind das Fundament für mehrere Late-Game-Ausrüstungssysteme, insbesondere das Legendary-Crafting durch das Temporal Sanctum. Dieses Modul erklärt die Ausrüstungssysteme, nach denen Spieler wiederholt suchen, sobald sie über einfache Upgrades hinausgehen und anfangen, build-definierende Ausrüstung zu jagen.",
+      "systems": [
+        {
+          "system": "Unique Items",
+          "whatItIs": "Gegenstände mit festen, build-definierenden Modifikatoren, die Effekte gewähren können, die normalerweise nicht auf Rare oder Exalted Ausrüstung zu finden sind.",
+          "coreRule": "Sie sind oft der Ausgangspunkt für Endgame-Chase-Items, und viele Builds drehen sich um ein oder mehrere wichtige Uniques.",
+          "connection": "Gezieltes Farmen bei Bossen, Timelines, Dungeons und breiteren Loot-Systemen.",
+          "whySearch": "Spieler suchen diese normalerweise, wenn sie entscheiden, ob ein Build einen bestimmten Gegenstand benötigt oder wenn sie einen Ausrüstungswechsel planen."
+        },
+        {
+          "system": "Legendary Potential",
+          "whatItIs": "Eine Eigenschaft auf Unique Items, die von 0 bis 4 reicht.",
+          "coreRule": "Legendary Potential bestimmt, wie viele Affixe von einem Exalted Gegenstand übertragen werden können, wenn ein Legendary Item erstellt wird.",
+          "connection": "Je stärker das Basis-Unique ist, desto wertvoller kann selbst 1 LP werden.",
+          "whySearch": "LP ist der Hauptgrund, warum es Spielern wichtig ist, ob ein Unique nur brauchbar oder wirklich Endgame-würdig ist."
+        },
+        {
+          "system": "Legendary Crafting im Eternity Cache",
+          "whatItIs": "Ein Crafting-System, das nach dem Sieg über Chronomancer Julra im Temporal Sanctum freigeschaltet wird.",
+          "coreRule": "Man kombiniert ein Unique mit Legendary Potential und einen Exalted Gegenstand derselben Art, um ein Legendary Item zu erstellen. Ab Tier 2 lässt der Eternity Cache dich ein Affix garantieren.",
+          "connection": "Das Temporal Sanctum ist die praktische Brücke zwischen Unique-Drops und langfristiger Endgame-Ausrüstung.",
+          "whySearch": "Dies ist der zentrale Upgrade-Pfad, um ein gutes Unique in ein echtes Chase-Item zu verwandeln."
+        },
+        {
+          "system": "Weaver's Will",
+          "whatItIs": "Ein spezielles Unique-Item-System, das Weaver's Will anstelle des normalen Legendary Potential verwendet.",
+          "coreRule": "Weaver-Uniques droppen mit 5 bis 28 Weaver's Will und erhalten Affixe oder werten Affix-Tiers auf, während Gegner in der Nähe getötet werden, einschließlich Upgrades bis zu Tier 7.",
+          "connection": "Es schafft einen separaten Progressionspfad, bei dem sich der Gegenstand durch Benutzung weiterentwickelt, anstatt im Eternity Cache kombiniert zu werden.",
+          "whySearch": "Spieler suchen danach, wenn sie wissen wollen, ob es sich lohnt, ein Weaver-Item zu leveln, anstatt es zu ersetzen."
+        },
+        {
+          "system": "Primordial Uniques",
+          "whatItIs": "Eine Klasse extrem mächtiger Unique Items für das spätere Spiel.",
+          "coreRule": "Man kann jeweils nur einen Primordial-Gegenstand jeglicher Art ausrüsten.",
+          "connection": "Diese konkurrieren aufgrund ihres Machtbudgets als Einzelgegenstand direkt mit anderen Entscheidungen für Endgame-Slots.",
+          "whySearch": "Sie sind wichtig, wenn Spieler ihre finale Ausrüstung optimieren und entscheiden, welcher einzelne Slot mit hoher Wirkung belegt werden soll."
+        }
+      ]
+    },
+    "lastEpochIdolsGuide": {
+      "title": "Last Epoch Idol Guide",
+      "eyebrow": "Endgame-Gegenstände",
+      "displayType": "table",
+      "subtitle": "Idol nutzen ein separates Inventarraster und bieten einige der flexibelsten Kräfte im Spiel. Je größer die Formen werden, desto spezialisierter, klassenfokussierter oder Build-definierender werden sie in der Regel.",
+      "intro": "Du schaltest Idol-Platz im Laufe der Kampagne frei, und das vollständige Raster erreicht nach wichtigen Haupt- und Nebenquest-Belohnungen 20 Plätze. Kleine generische Idol lassen sich während des Levelns leicht einbauen, während größere klassenspezifische Idol zur Hauptquelle für gezielte Affixe werden, sobald dein Build Gestalt annimmt.",
+      "items": [
+        {
+          "category": "Generisch",
+          "idolFamily": "Small Idol",
+          "size": "1×1",
+          "classAccess": "Jede Klasse",
+          "dropLevel": "Droppt ab Stufe 11+",
+          "typicalStats": "Schaden über Zeit, Ausweichen, LP, Heilung, Betäubung, nicht-elementarer Widerstand, nicht-elementarer Schaden",
+          "notes": "Am besten geeignet, um einzelne offene Plätze im Idol-Raster zu füllen."
+        },
+        {
+          "category": "Generisch",
+          "idolFamily": "Humble Idol",
+          "size": "2×1",
+          "classAccess": "Jede Klasse",
+          "dropLevel": "Droppt ab Stufe 11+",
+          "typicalStats": "Blutungschance, Giftchance, Leben bei Tötung, Betäubungsdauer, Vitalität, nicht-elementarer Widerstand, nicht-elementarer Schaden",
+          "notes": "Eine kompakte Early-Game-Option für Utility- und Zustands-Setups."
+        },
+        {
+          "category": "Generisch",
+          "idolFamily": "Stout Idol",
+          "size": "1×2",
+          "classAccess": "Jede Klasse",
+          "dropLevel": "Droppt ab Stufe 11+",
+          "typicalStats": "Barriere, Entzündungschance, Schockchance, Chance auf kritische Treffer, Einfrierungsrate, Leben, Elementarwiderstand, Elementarschaden",
+          "notes": "Eine flexible generische Form für Offensive oder Defensive."
+        },
+        {
+          "category": "Gemischt",
+          "idolFamily": "Adorned Idol",
+          "size": "2×2",
+          "classAccess": "Hauptsächlich klassenspezifisch; enthält auch Adorned Silver Idol und Adorned Volcano Idol",
+          "dropLevel": "Droppt ab Stufe 20+",
+          "typicalStats": "Hauptsächlich klassenspezifische Affixe",
+          "notes": "Einstiegspunkt in die Planung größerer spezialisierter Idol."
+        },
+        {
+          "category": "Klassenspezifisch",
+          "idolFamily": "Grand Idol",
+          "size": "3×1",
+          "classAccess": "Akolythin: Grand Bone, Magier: Grand Glass, Primalist: Grand Heorot, Vagabundin: Grand Majasan, Wächter: Grand Solar",
+          "dropLevel": "Droppt ab Stufe 25+",
+          "typicalStats": "Hauptsächlich klassenspezifische Affixe, plus nicht-elementarer Widerstand und nicht-elementarer Schaden",
+          "notes": "Breites Format, das stärkere klassenfokussierte Boni einführt."
+        },
+        {
+          "category": "Klassenspezifisch",
+          "idolFamily": "Large Idol",
+          "size": "1×3",
+          "classAccess": "Magier: Large Arcane, Akolythin: Large Immortal, Primalist: Large Nomad, Wächter: Large Rahyeh, Vagabundin: Large Shadow",
+          "dropLevel": "Droppt ab Stufe 25+",
+          "typicalStats": "Hauptsächlich klassenspezifische Affixe, Schaden, defensive Boni",
+          "notes": "Hohes Format für gezielte Klassenskalierung."
+        },
+        {
+          "category": "Klassenspezifisch",
+          "idolFamily": "Ornate Idol",
+          "size": "4×1",
+          "classAccess": "Akolythin: Ornate Bone, Magier: Ornate Glass, Primalist: Ornate Heorot, Vagabundin: Ornate Majasan, Wächter: Ornate Solar",
+          "dropLevel": "Droppt ab Stufe 30+",
+          "typicalStats": "Klassenspezifische offensive Upgrades, Buffs, Zustände, nicht-elementarer Widerstand, nicht-elementarer Schaden",
+          "notes": "Eine spätere Option mit größerer Breite für starke horizontale Layouts."
+        },
+        {
+          "category": "Klassenspezifisch",
+          "idolFamily": "Huge Idol",
+          "size": "1×4",
+          "classAccess": "Magier: Huge Arcane, Akolythin: Huge Immortal, Primalist: Huge Nomad, Wächter: Huge Rahyeh, Vagabundin: Huge Shadow",
+          "dropLevel": "Droppt ab Stufe 30+",
+          "typicalStats": "Klassenspezifische Affixe, Schaden, Zustands-Effekte, defensive Boni",
+          "notes": "Eine der spezialisiertesten vertikalen Idol-Familien."
+        },
+        {
+          "category": "Einzigartig",
+          "idolFamily": "Singularity",
+          "size": "1×1",
+          "classAccess": "Jede Klasse",
+          "dropLevel": "Erfordert Stufe 42; droppt ab Stufe 11+",
+          "typicalStats": "Mehr Trefferschaden, wenn nur eine Singularity ausgerüstet ist; deaktiviert kritische Treffer",
+          "notes": "Erhalten aus dem Stargazer's Collection Einweg-Versteck im Titan's Canyon."
+        },
+        {
+          "category": "Einzigartig",
+          "idolFamily": "Throne of Ambition",
+          "size": "2×2",
+          "classAccess": "Jede Klasse",
+          "dropLevel": "Erfordert Stufe 1; droppt ab Stufe 20+",
+          "typicalStats": "Erhalte Ambition-Stapel beim Treffen eines Bosses oder seltenen Gegners; 2 % mehr Feuerschaden pro Stapel",
+          "notes": "Erhalten von Götterjäger Argentus in der Zeitlinie „The Stolen Lance“."
+        }
+      ]
+    },
+    "lastEpochWeaverTreeGuide": {
+      "title": "Last Epoch Weaver Tree Guide",
+      "eyebrow": "Monolith-Planung",
+      "displayType": "steps",
+      "subtitle": "Der Weaver Tree verändert das Verhalten deines Monolith-Netzes, daher hängt die beste Route davon ab, ob du schnelleren Fortschritt, mehr Woven-Ressourcen, Gold oder Level-Effizienz wünschst.",
+      "intro": "Der Weaver Tree ist ein auf den Monolith ausgerichteter passiver Baum und kein Charakter-Baum. Du erhältst bis zu 50 Weaver Tree-Punkte, indem du deinen Rang bei den Woven erhöhst und Woven Echoes zum ersten Mal abschließt. Der Baum enthält etwa 70 Knotenpunkte, die Belohnungen, Begegnungen und das Routing innerhalb des Monolith of Fate verändern können.",
+      "steps": [
+        {
+          "title": "Schalte das System frei und verstehe, was es verändert",
+          "description": "Der Weaver Tree modifiziert Inhalte des Monolith of Fate anstelle deiner Klasse, deiner Skills oder deines passiven Baums. Seine Knotenpunkte können Echo-Belohnungen verändern, Begegnungstypen hinzufügen oder entfernen, spezifische Drop-Muster verbessern und gezieltere Farming-Routen erstellen.",
+          "highlights": [
+            "Maximal 50 Weaver Tree-Punkte",
+            "Punkte stammen aus dem Woven-Rangfortschritt und dem erstmaligen Abschluss von Woven Echoes",
+            "Der Baum beeinflusst das Monolith-Routing, die Belohnungsdichte und spezielle Begegnungen"
+          ]
+        },
+        {
+          "title": "Beginne links, wenn dein erstes Ziel eine frühe Wirtschaft und schnelleres Baumwachstum ist",
+          "description": "Eine übliche frühe Route ist die linke Seite, da sie den Fluss zusätzlicher Belohnungen verbessert und dir hilft, mehr Weaver-Fortschritt zu erzielen.",
+          "highlights": [
+            "Enthralling Bounty: Chance, dass Echo-Belohnungen beim Abschluss verdoppelt werden",
+            "Entwined Spoils: Chance, dass Echos eine Belohnung spawnen, die Woven Echoes gewährt",
+            "Elder Sap: Chance, dass Echos mit dem Belohnungstyp Memory Amber spawnen"
+          ]
+        },
+        {
+          "title": "Gehe in Richtung Tomb- und Cemetery-Unterstützung, wenn du mehr Woven-Aktivität möchtest",
+          "description": "Nach dem frühen Wirtschaftspaket setzen viele Spieler den Weg nach Norden in den Tomb- und Cemetery-Cluster fort, da dies den Zugang zu Woven Echoes verbessert, die Dichte erhöht und zusätzliche langfristige Vorteile bietet.",
+          "highlights": [
+            "Grand Catacombs: Tombs of the Erased werden häufiger",
+            "Necropolis of the Weaver: Seltene Gegner in Tombs und Cemeteries erhalten eine zusätzliche Chance, Woven Echoes fallen zu lassen",
+            "Burial Grounds: Erhöhte Monster-Packgröße in Tombs und Cemeteries",
+            "Bountiful Sarcophagy: Seltene Gegner in Tombs und Cemeteries können die boss-spezifischen Belohnungen dieser Zeitlinie fallen lassen"
+          ]
+        },
+        {
+          "title": "Verzweige nach Fraktion und unmittelbarem Ziel",
+          "description": "Die beste nächste Verzweigung hängt davon ab, ob du mehr Gold, mehr Gunst und Rangfortschritt oder gezielteres Farming möchtest.",
+          "highlights": [
+            "Merchant's Guild-Spieler können die Wahl der Gold-Knoten auf der Südseite wie Zerrick's Aid und Golden Treasures rechtfertigen",
+            "Circle of Fortune-Spieler können es rechtfertigen, XP-fokussierte Knoten auf der rechten Seite zu priorisieren, da schnelleres Leveln auch den Gewinn an Gunst und Rang verbessert",
+            "Imprint-, Super Beacon-, Nemesis- und Arena-Konvertierungsknoten werden wertvoller, sobald du weißt, welche Inhalte du anvisieren möchtest"
+          ]
+        },
+        {
+          "title": "Respec, sobald sich dein Ziel ändert",
+          "description": "Die frühe Route muss nicht deine dauerhafte Route sein. Sobald du die gewünschten Punkte und Ressourcen hast, kannst du zum Boss-Farming, zur Champion-Jagd oder zu spezialisierterer Monolith-Manipulation übergehen.",
+          "highlights": [
+            "Der Baum kann später neu spezialisiert (respecced) werden",
+            "Wirtschaft zuerst ist stark für frühes Wachstum",
+            "XP zuerst ist stärker, wenn schnelleres Leveln das eigentliche Ziel ist",
+            "Späteres Routing kann sich auf das Entfernen von Begegnungen, gezielte Belohnungen oder höherwertige Spezialknoten konzentrieren"
+          ]
+        }
+      ],
+      "quickTips": [
+        "Beginne links für einen Wirtschafts-Snowball oder rechts für schnellere XP, abhängig von deiner saisonalen Priorität.",
+        "Tomb- und Cemetery-Knoten sind die beste Investition in der Mitte der Route für den Zugang zu Woven Echoes.",
+        "Merchant's Guild- und Circle of Fortune-Spieler sollten sich nach den frühen Knoten unterschiedlich verzweigen.",
+        "Setze den Weaver Tree zurück (Respec), sobald sich dein Farming-Ziel von Fortschritt auf gezielte Inhalte verlagert."
+      ]
+    },
+    "lastEpochBossGuide": {
+      "title": "Last Epoch Boss-Guide",
+      "eyebrow": "Bosskämpfe",
+      "displayType": "accordion",
+      "subtitle": "Boss-Hürden in Last Epoch hängen meist davon ab, Telegrafen zu lesen, die entsprechenden Resistenzen zu maximieren und zu wissen, welche Mechaniken Bewegung erzwingen.",
+      "intro": "Kampagnen- und Monolith-Bosse stoppen den Fortschritt, wenn dein Build unzureichend vorbereitet ist oder wenn ein Kampf eine wichtige Mechanik hat, die du noch nicht gelernt hast. Der schnellste Weg, Bosskämpfe zu stabilisieren, besteht darin, zuerst den Schadenstyp zu identifizieren, die entsprechenden Resistenzen zu maximieren und sich erst dann um die Schadenslaufzeit zu kümmern.",
+      "bosses": [
+        {
+          "label": "Lagon — Das Ende des Sturms",
+          "location": "Timeline: Das Ende des Sturms, Auge des Sturms",
+          "summary": "Eine Begegnung in drei Phasen und eine der größten Fortschrittshürden im Spiel.",
+          "defensiveChecks": [
+            "75 % Blitzresistenz",
+            "75 % Kälteresistenz",
+            "Hohe Bewegungsgeschwindigkeit und zuverlässige Mobilitätsfertigkeiten"
+          ],
+          "mechanics": [
+            "Mondstrahl (Kanalisiert): Lagon fegt mit einem massiven Blitz- und Kältestrahl über die Arena; renne zum gegenüberliegenden Rand, sobald er sich umdreht",
+            "Mondstrahl (Treffer): Nach 65 % LP feuert er einen frontalen Strahl ab; weiche zur Seite aus, wenn er den Kopf senkt",
+            "Mondstoß: Große weiße Boden-AoE, die schweren Kälte- und Blitzschaden verursacht",
+            "Tentakel: Phase zwei erfordert das Töten von Tentakeln, während man herannahenden Kältewellen und Betäubungsdruck ausweicht"
+          ],
+          "lootHighlights": [
+            "Alluvion",
+            "Korallene Ägis",
+            "Sturmgeschnitztes Testament",
+            "Auge der Stürme"
+          ]
+        },
+        {
+          "label": "Vulkanischer Schamane — Geister des Feuers",
+          "location": "Timeline: Geister des Feuers, Zersplittertes Feuerreich",
+          "summary": "Ein Ein-Phasen-Kampf gegen mehrere Bosse (Bhuldar, Herkir und Logi), bei dem Überschneidungen die eigentliche Gefahr darstellen.",
+          "defensiveChecks": [
+            "75 % Feuerresistenz",
+            "75 % Nekrotikresistenz",
+            "Hohe Bewegungsgeschwindigkeit und ein zuverlässiger Dash"
+          ],
+          "mechanics": [
+            "Lavaausbruch: Sich ausdehnende Feuerkreise, die Stillstehen bestrafen",
+            "Lavastrahl: Schmaler, aber schadensträchtiger frontaler Feuerstrahl",
+            "Lava-X: Verzögerte X-förmige Bodeneruption, der man leicht ausweichen kann, wenn man sich frühzeitig bewegt",
+            "Schamanengeist: Tote Schamanen bleiben als nekrotische Geister bestehen, bis alle drei besiegt sind, und verursachen zusätzliche Explosionen und Splitterfeuer"
+          ],
+          "lootHighlights": [
+            "Bhuldars Zorn",
+            "Herkirs Gefäß",
+            "Logis Hunger",
+            "Dreifaltigkeit der Flammen"
+          ]
+        },
+        {
+          "label": "Kaiser der Leichen — Herrschaft der Drachen",
+          "location": "Timeline: Herrschaft der Drachen, Verrottender Hort",
+          "summary": "Ein nekrotischer Boss mit hohem Druck, Arena-Absperrung, Add-Spawns und wiederholten Repositionierungs-Checks.",
+          "defensiveChecks": [
+            "75 % Nekrotikresistenz",
+            "75 % Physische Resistenz",
+            "Hohe Bewegungsgeschwindigkeit und regelmäßige Repositionierungswerkzeuge"
+          ],
+          "mechanics": [
+            "Nekrotische Nova: Riesige Explosion, gefolgt von einer gefährlichen Pestzone am äußeren Rand der Arena",
+            "Erschreckendes Gebrüll: Verursacht bei 70 % LP maximale Verlangsamungsstapel und beschwört Geschlachtete Diener",
+            "Nekrotische Projektilausbreitung: Überlappende Projektile, die schlechte Bewegung bestrafen und schnell Schaden anhäufen können",
+            "Geisteratem: Breiter Kegelangriff mit schwerem nekrotischem Schaden über Zeit"
+          ],
+          "lootHighlights": [
+            "Drachenflammen-Edikt",
+            "Symbol des Untergangs",
+            "Verwundenes Herz von Uhkeiros",
+            "Hörner von Uhkeiros"
+          ]
+        }
+      ]
+    },
+    "lastEpochRespecGuide": {
+      "title": "Last Epoch Respec-Guide",
+      "eyebrow": "Charakter-Umbau",
+      "displayType": "steps",
+      "subtitle": "Last Epoch unterstützt jetzt Änderungen an Passiven, Skills und Mastery, aber jede Ebene funktioniert anders. Der kluge Ansatz ist, leichte Respecs zur Verfeinerung zu nutzen und sich den Mastery-Respec für einen echten Build-Wechsel aufzusparen.",
+      "intro": "Passive und Skill-Respecs sind Teil der normalen Charakterentwicklung, während ein Mastery-Respec eine viel größere Verpflichtung darstellt, da er dein passives Setup zurücksetzt und mit steigendem Level deutlich teurer wird. Der sauberste Weg für einen Umbau ist, zuerst die Passiven zu korrigieren, dann die Skills zu tauschen und die Mastery nur dann zu ändern, wenn du wirklich eine andere Version der Klasse spielen möchtest.",
+      "steps": [
+        {
+          "title": "Passive Punkte über Chronomantin Lerinne neu verteilen",
+          "description": "Der passive Respec wird von Chronomantin Lerinne durchgeführt. Nachdem du mit ihr gesprochen hast, kannst du passive Punkte einzeln neu verteilen, ohne sie von Grund auf neu erlernen zu müssen.",
+          "highlights": [
+            "Kostet Gold",
+            "Du musst 20 Punkte in deinem Basisklassen-Baum behalten",
+            "Du kannst keine Punkte entfernen, die erforderlich sind, um tiefere passive Zweige freigeschaltet zu lassen"
+          ]
+        },
+        {
+          "title": "Skill-Bäume direkt im Skill-Menü neu verteilen",
+          "description": "Ein Skill-Respec benötigt keinen NPC und kann überall durchgeführt werden. Öffne das Skill-Menü, wähle einen spezialisierten Skill aus und klicke auf RESPEC in der oberen rechten Ecke dieses Skill-Baums.",
+          "highlights": [
+            "Entferne Skillpunkte, wenn du denselben Skill behalten, aber das Node-Layout ändern möchtest",
+            "Skill despezialisieren, wenn du ihn durch einen anderen spezialisierten Skill ersetzen möchtest",
+            "Neu verteilte Skills kehren auf ihr minimales Spezialisierungslevel zurück, anstatt komplett von vorne zu beginnen",
+            "Skills erreichen normalerweise Level 20, wobei Ausrüstung Bonuslevel hinzufügen kann"
+          ]
+        },
+        {
+          "title": "Nutze den Mastery-Respec am Ende der Zeit für einen vollständigen Klassenwechsel",
+          "description": "Seit Season 2 können Spieler gegen Gold ihre Mastery am Ende der Zeit bei Chronomantin Lerinne neu wählen. Dies setzt alle passiven Punkte zurück und lässt dich eine andere Mastery derselben Basisklasse wählen.",
+          "highlights": [
+            "Ein Mastery-Respec setzt auch alle passiven Punkte zurück",
+            "Deine Ausrüstung bleibt angelegt, passt aber möglicherweise nicht mehr gut zur neuen Mastery",
+            "Die Kosten skalieren stark mit dem Level: Level 20 = 5.000g, Level 50 = 30.000g, Level 70 = 100.000g, Level 100 = 1.000.000g"
+          ]
+        },
+        {
+          "title": "Wähle den richtigen Umbau passend zum Umfang der Änderung",
+          "description": "Nicht jedes Problem erfordert einen vollständigen Reset. Passive und Skill-Änderungen sind der schnellste Weg, um einen schwachen Build zu reparieren, während ein Mastery-Respec eher wie ein Soft-Reroll innerhalb derselben Klasse zu betrachten ist.",
+          "highlights": [
+            "Nutze den passiven Respec für Pfade, Schwellenwerte und die defensive Optimierung",
+            "Nutze den Skill-Respec, wenn der Kern-Skill richtig ist, aber das Node-Layout nicht passt",
+            "Nutze den Mastery-Respec frühzeitig, wenn du eine andere Mastery möchtest, da die Goldkosten später stark ansteigen",
+            "Plane ein, Ausrüstung und Idols nach einem Mastery-Wechsel zu überprüfen"
+          ]
+        }
+      ],
+      "quickTips": [
+        "Der passive Respec über Chronomantin Lerinne ist günstig und kann Punkt für Punkt durchgeführt werden.",
+        "Ein Skill-Respec erfordert keinen NPC – öffne überall das Skill-Menü, um Skills zu despezialisieren oder Punkte zu entfernen.",
+        "Ein Mastery-Respec setzt alle Passiven zurück und die Kosten skalieren stark mit dem Level – mache es frühzeitig, wenn du einen Wechsel planst.",
+        "Korrigiere zuerst die Passiven, tausche dann die Skills aus und ändere die Mastery nur, wenn du wirklich eine andere Unterklasse möchtest."
+      ]
+    }
+  },
+  "faq": {
+    "title": "Last Epoch",
+    "titleHighlight": "FAQ",
+    "subtitle": "Häufige Fragen zu Last Epoch-Builds, Klassen und dem Endgame",
+    "questions": [
+      {
+        "question": "Was ist Last Epoch?",
+        "answer": "Last Epoch ist ein Zeitreise-Action-RPG, das von Eleventh Hour Games entwickelt wurde. Es bietet 5 Basisklassen mit 15 Masteries, tiefgreifendes Crafting, Loot-Filter und Endgame-Systeme wie den Monolith of Fate, Dungeons und die Arena."
+      },
+      {
+        "question": "Wie viele Klassen hat Last Epoch?",
+        "answer": "Last Epoch hat 5 Basisklassen: Sentinel, Mage, Acolyte, Primalist und Rogue. Jede Basisklasse verzweigt sich in 3 Masteries, was insgesamt 15 einzigartige Unterklassen ergibt."
+      },
+      {
+        "question": "Was ist die beste Starterklasse in Last Epoch?",
+        "answer": "Der Sentinel zum Void Knight wird weithin als der sicherste Weg für den ersten Charakter in Last Epoch angesehen. Paladin und Sorcerer sind ebenfalls starke, einsteigerfreundliche Optionen mit fehlerverzeihenden Mechaniken."
+      },
+      {
+        "question": "Wie funktioniert das Crafting in Last Epoch?",
+        "answer": "Das Crafting in Last Epoch nutzt Splitter, um Affixe auf Ausrüstung hinzuzufügen oder zu verbessern. Jeder Craft verbraucht Schmiedepotenzial. Glyphen und Runen bieten zusätzliche Crafting-Optionen, und der Dungeon Temporal Sanctum ermöglicht das legendäre Crafting."
+      },
+      {
+        "question": "Was ist das Last Epoch-Endgame?",
+        "answer": "Das Last Epoch-Endgame konzentriert sich auf den Monolith of Fate, in dem man Corruption erhöht und Blessing verdient. Zusätzliche Endgame-Inhalte umfassen Dungeons mit einzigartigen Mechaniken, die Arena für das Überleben von Wellen und fraktionsbasierte Ausrüstung durch die Merchant's Guild oder den Circle of Fortune."
+      },
+      {
+        "question": "Kann man in Last Epoch respeccen?",
+        "answer": "Ja. Last Epoch ermöglicht das Respeccen von Passiven und Skills zu jeder Zeit gegen eine geringe Goldgebühr. Jüngste Updates haben auch Mastery-Respec hinzugefügt, was es Spielern ermöglicht, ihre Unterklasse zu ändern."
+      },
+      {
+        "question": "Ist Last Epoch ein Multiplayer-Spiel?",
+        "answer": "Ja. Last Epoch unterstützt Online-Koop für bis zu 4 Spieler. Du kannst auch solo offline oder im Online-Solo-Modus spielen, mit Zugriff auf die geteilte Truhe und den Handel."
+      },
+      {
+        "question": "Auf welchen Plattformen ist Last Epoch verfügbar?",
+        "answer": "Last Epoch ist auf dem PC über Steam erhältlich. Das Spiel wurde am 21. Februar 2024 nach einer längeren Early-Access-Phase vollständig veröffentlicht."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Last Epoch zu meistern?",
+    "description": "Tritt der Last Epoch-Community auf Discord bei für Builds, Guides und Endgame-Diskussionen!",
+    "joinCommunity": "Discord beitreten",
+    "joinGame": "Auf Steam spielen"
+  },
+  "footer": {
+    "title": "Last Epoch Wiki",
+    "description": "Deine zentrale Anlaufstelle für Last Epoch Builds, Klassen, Crafting, Dungeons, Fraktionen und Endgame-Guides.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Discord",
+    "twitter": "Reddit",
+    "steamCommunity": "Offizielles Forum",
+    "steamStore": "Steam Store",
+    "about": "Über uns",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Last Epoch Wiki. Nicht verbunden mit Eleventh Hour Games.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
   }
 }

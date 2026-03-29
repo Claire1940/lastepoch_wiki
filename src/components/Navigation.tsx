@@ -21,16 +21,16 @@ function getRandomArticles(articles: NavPreviewArticle[], count: number): NavPre
 }
 
 const WIKI_LINKS = [
+	{ name: 'bridgerwestern.wiki', url: 'https://www.bridgerwestern.wiki' },
+	{ name: 'reawakened.wiki', url: 'https://www.reawakened.wiki' },
+	{ name: 'bitebynight.wiki', url: 'https://www.bitebynight.wiki' },
+	{ name: 'lifeisstrangereunion.wiki', url: 'https://www.lifeisstrangereunion.wiki' },
 	{ name: 'ragnarokoriginclassic.wiki', url: 'https://www.ragnarokoriginclassic.wiki' },
 	{ name: 'tomodachilifelivingthedream.wiki', url: 'https://www.tomodachilifelivingthedream.wiki' },
 	{ name: 'cursedgearwiki.wiki', url: 'https://www.cursedgearwiki.wiki' },
-	{ name: 'dissidiaduellumfinalfantasy.wiki', url: 'https://www.dissidiaduellumfinalfantasy.wiki' },
-	{ name: 'cursedgear.wiki', url: 'https://www.cursedgear.wiki' },
 	{ name: 'dragdrivesimulator.wiki', url: 'https://www.dragdrivesimulator.wiki' },
-	{ name: 'animeoverloadwiki.wiki', url: 'https://www.animeoverloadwiki.wiki' },
+	{ name: 'dissidiaduellumfinalfantasy.wiki', url: 'https://www.dissidiaduellumfinalfantasy.wiki' },
 	{ name: 'retrorewindvideostoresimulator.wiki', url: 'https://www.retrorewindvideostoresimulator.wiki' },
-	{ name: 'bealuckyblockwiki.wiki', url: 'https://www.bealuckyblockwiki.wiki' },
-	{ name: 'starsavior.wiki', url: 'https://www.starsavior.wiki' },
 ]
 
 interface NavigationProps {

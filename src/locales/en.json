@@ -10,7 +10,12 @@
       "twitterDescription": "Last Epoch Wiki with class guides, mastery builds, loot filters, crafting help, dungeon tips, and endgame updates for PC players."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guides",
+    "builds": "Builds",
+    "classes-and-tier-list": "Classes & Tier List",
+    "season-4-and-updates": "Season 4 & Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -222,21 +227,33 @@
               "name": "Falconer Bomb Lance",
               "mastery": "Rogue / Falconer",
               "summary": "One of the strongest high-corruption pushers. Combines Falcon scaling, Rogue mobility, and powerful imprint crafting upside.",
-              "highlights": ["Excellent corruption scaling", "Fast movement and strong defensive layers", "Extremely high damage ceiling"]
+              "highlights": [
+                "Excellent corruption scaling",
+                "Fast movement and strong defensive layers",
+                "Extremely high damage ceiling"
+              ]
             },
             {
               "tier": "S",
               "name": "Curse Warlock",
               "mastery": "Acolyte / Warlock",
               "summary": "Stands out through multiplicative curse scaling and strong damage-over-time pressure. Rewards players who want a modern caster with real endgame depth.",
-              "highlights": ["Very strong curse stacking", "High DoT pressure in long fights", "Scales hard into deeper empowered timelines"]
+              "highlights": [
+                "Very strong curse stacking",
+                "High DoT pressure in long fights",
+                "Scales hard into deeper empowered timelines"
+              ]
             },
             {
               "tier": "S",
               "name": "Elemental Runemaster",
               "mastery": "Mage / Runemaster",
               "summary": "Delivers huge elemental burst and strong battlefield control once the rune system clicks. One of the best ceiling builds for high-output casters.",
-              "highlights": ["Massive burst windows", "Strong defensive passive options", "Excellent scaling with proper rune management"]
+              "highlights": [
+                "Massive burst windows",
+                "Strong defensive passive options",
+                "Excellent scaling with proper rune management"
+              ]
             }
           ]
         },
@@ -248,21 +265,33 @@
               "name": "Echo Void Knight",
               "mastery": "Sentinel / Void Knight",
               "summary": "A top boss killer built around reliable single-target Void damage and Sentinel durability. One of the cleanest ways to learn multi-phase bosses.",
-              "highlights": ["Strong single-target output", "Reliable damage uptime", "Sentinel defenses make boss progression smoother"]
+              "highlights": [
+                "Strong single-target output",
+                "Reliable damage uptime",
+                "Sentinel defenses make boss progression smoother"
+              ]
             },
             {
               "tier": "S",
               "name": "Reaper Form Lich",
               "mastery": "Acolyte / Lich",
               "summary": "Trades safety for an elite bossing ceiling. With sustain handled correctly, Reaper Form turns the class into one of the fastest dedicated boss killers.",
-              "highlights": ["Very high boss damage ceiling", "Life leech sustain enables aggressive uptime", "Best for players comfortable with health-drain mechanics"]
+              "highlights": [
+                "Very high boss damage ceiling",
+                "Life leech sustain enables aggressive uptime",
+                "Best for players comfortable with health-drain mechanics"
+              ]
             },
             {
               "tier": "S",
               "name": "Holy Aura Paladin",
               "mastery": "Sentinel / Paladin",
               "summary": "The most forgiving bossing specialist for progression-focused players. Holy Aura and Healing Hands interactions give it exceptional staying power.",
-              "highlights": ["Excellent self-sustain", "Very safe progression choice", "Great first serious bossing character"]
+              "highlights": [
+                "Excellent self-sustain",
+                "Very safe progression choice",
+                "Great first serious bossing character"
+              ]
             }
           ]
         },
@@ -274,21 +303,33 @@
               "name": "Shadow Cascade Bladedancer",
               "mastery": "Rogue / Bladedancer",
               "summary": "The gold standard for echo clear speed. Shadow-heavy setups move through regular farming content at a pace that very few other masteries can match.",
-              "highlights": ["Best-in-class movement and flow", "Exceptional echo clear speed", "Ideal for loot-per-hour focused farming"]
+              "highlights": [
+                "Best-in-class movement and flow",
+                "Exceptional echo clear speed",
+                "Ideal for loot-per-hour focused farming"
+              ]
             },
             {
               "tier": "A",
               "name": "Hail of Arrows Marksman",
               "mastery": "Rogue / Marksman",
               "summary": "Broad screen coverage with less mechanical intensity than Bladedancer. One of the best ranged farming choices for cleaner positioning.",
-              "highlights": ["Large AoE coverage per cast", "Strong ranged farming profile", "Easier to pilot than melee speed setups"]
+              "highlights": [
+                "Large AoE coverage per cast",
+                "Strong ranged farming profile",
+                "Easier to pilot than melee speed setups"
+              ]
             },
             {
               "tier": "A",
               "name": "Storm Totem Shaman",
               "mastery": "Primalist / Shaman",
               "summary": "A strong farming alternative for players who prefer totems and elemental storm setups. Tornado and Storm Totem keep damage rolling while the player moves.",
-              "highlights": ["Persistent damage while repositioning", "Good map flow for a Primalist archetype", "Strong option for players who dislike glass-cannon builds"]
+              "highlights": [
+                "Persistent damage while repositioning",
+                "Good map flow for a Primalist archetype",
+                "Strong option for players who dislike glass-cannon builds"
+              ]
             }
           ]
         }
@@ -306,21 +347,31 @@
               "name": "Forge Guard",
               "playstyle": "Defensive melee bruiser",
               "damageProfile": "Physical and Bleed",
-              "signatureTools": ["Forge Strike", "Smelter's Wrath", "Ring of Shields"],
+              "signatureTools": [
+                "Forge Strike",
+                "Smelter's Wrath",
+                "Ring of Shields"
+              ],
               "summary": "A durable mastery that leans into armor, defense, and steady weapon-based damage."
             },
             {
               "name": "Paladin",
               "playstyle": "Fire hybrid with healing support",
               "damageProfile": "Fire and defensive utility",
-              "signatureTools": ["Judgement", "Holy Aura"],
+              "signatureTools": [
+                "Judgement",
+                "Holy Aura"
+              ],
               "summary": "A forgiving mastery with excellent sustain and one of the best progression profiles for new players."
             },
             {
               "name": "Void Knight",
               "playstyle": "Aggressive void melee",
               "damageProfile": "Void and melee burst",
-              "signatureTools": ["Erasing Strike", "Anomaly"],
+              "signatureTools": [
+                "Erasing Strike",
+                "Anomaly"
+              ],
               "summary": "Built around Echo mechanics that duplicate key actions and add free damage to a simple melee loop."
             }
           ]
@@ -332,21 +383,32 @@
               "name": "Lich",
               "playstyle": "Risk-reward caster",
               "damageProfile": "Necrotic, Poison, life-drain",
-              "signatureTools": ["Reaper Form", "Death Seal"],
+              "signatureTools": [
+                "Reaper Form",
+                "Death Seal"
+              ],
               "summary": "A high-ceiling mastery that converts health management into explosive damage and strong bossing."
             },
             {
               "name": "Necromancer",
               "playstyle": "Army commander",
               "damageProfile": "Minion, Necrotic, Physical",
-              "signatureTools": ["Summon Wraith", "Dread Shade", "Assemble Abomination"],
+              "signatureTools": [
+                "Summon Wraith",
+                "Dread Shade",
+                "Assemble Abomination"
+              ],
               "summary": "The classic summoner route, built around large minion armies and easy-to-read scaling."
             },
             {
               "name": "Warlock",
               "playstyle": "Curse caster",
               "damageProfile": "Curse, Necrotic, DoT",
-              "signatureTools": ["Chaos Bolts", "Profane Veil", "Ghostflame"],
+              "signatureTools": [
+                "Chaos Bolts",
+                "Profane Veil",
+                "Ghostflame"
+              ],
               "summary": "A corruption-focused mastery that weakens enemies, stacks curses, and scales extremely well into endgame."
             }
           ]
@@ -358,21 +420,31 @@
               "name": "Sorcerer",
               "playstyle": "Pure ranged spellcaster",
               "damageProfile": "Fire, Lightning, Cold burst",
-              "signatureTools": ["Meteor", "Black Hole", "Arcane Ascendance"],
+              "signatureTools": [
+                "Meteor",
+                "Black Hole",
+                "Arcane Ascendance"
+              ],
               "summary": "One of the easiest caster entries for new players thanks to clear AoE patterns and straightforward damage scaling."
             },
             {
               "name": "Runemaster",
               "playstyle": "Tactical rune mage",
               "damageProfile": "Elemental burst and layered defenses",
-              "signatureTools": ["Runic Invocation"],
+              "signatureTools": [
+                "Runic Invocation"
+              ],
               "summary": "A high-skill, high-reward mastery that turns rune sequencing into one of the most powerful caster packages in the game."
             },
             {
               "name": "Spellblade",
               "playstyle": "Melee-caster hybrid",
               "damageProfile": "Melee plus elemental triggers",
-              "signatureTools": ["Shatter Strike", "Surge", "Firebrand"],
+              "signatureTools": [
+                "Shatter Strike",
+                "Surge",
+                "Firebrand"
+              ],
               "summary": "A close-range elemental fighter that mixes weapon hits with spell procs for a more active rhythm."
             }
           ]
@@ -384,21 +456,32 @@
               "name": "Druid",
               "playstyle": "Shapeshifter",
               "damageProfile": "Melee, nature, transformation",
-              "signatureTools": ["Entangling Roots", "Werebear Form", "Spriggan Form"],
+              "signatureTools": [
+                "Entangling Roots",
+                "Werebear Form",
+                "Spriggan Form"
+              ],
               "summary": "A flexible mastery that shifts between forms and can cover tanking, healing, and sustained melee pressure."
             },
             {
               "name": "Beastmaster",
               "playstyle": "Companion commander",
               "damageProfile": "Minion and physical pressure",
-              "signatureTools": ["Summon Raptor", "Summon Sabertooth", "Summon Frenzy Totem"],
+              "signatureTools": [
+                "Summon Raptor",
+                "Summon Sabertooth",
+                "Summon Frenzy Totem"
+              ],
               "summary": "Focused on permanent companions and beast synergy instead of temporary swarms or spell totems."
             },
             {
               "name": "Shaman",
               "playstyle": "Elemental totem caster",
               "damageProfile": "Storm, Cold, totem damage",
-              "signatureTools": ["Avalanche", "Summon Storm Totem"],
+              "signatureTools": [
+                "Avalanche",
+                "Summon Storm Totem"
+              ],
               "summary": "A stationary-control mastery that wins through repeated elemental setups and persistent damage sources."
             }
           ]
@@ -410,21 +493,30 @@
               "name": "Bladedancer",
               "playstyle": "Fast melee assassin",
               "damageProfile": "Melee burst, shadows, mobility",
-              "signatureTools": ["Dancing Strikes", "Lethal Mirage"],
+              "signatureTools": [
+                "Dancing Strikes",
+                "Lethal Mirage"
+              ],
               "summary": "The highest-tempo melee Rogue mastery, built around speed, dodge, and explosive clear patterns."
             },
             {
               "name": "Marksman",
               "playstyle": "Bow specialist",
               "damageProfile": "Ranged single-target and AoE",
-              "signatureTools": ["Hail of Arrows", "Detonating Arrow"],
+              "signatureTools": [
+                "Hail of Arrows",
+                "Detonating Arrow"
+              ],
               "summary": "A clean ranged mastery for players who want safer positioning and broad screen coverage."
             },
             {
               "name": "Falconer",
               "playstyle": "Trap and companion tactician",
               "damageProfile": "Trap burst, mobility, Falcon scaling",
-              "signatureTools": ["Falcon Strike", "Explosive Trap"],
+              "signatureTools": [
+                "Falcon Strike",
+                "Explosive Trap"
+              ],
               "summary": "A top-tier Rogue mastery that mixes setup tools, companion pressure, and excellent corruption performance."
             }
           ]
@@ -1095,7 +1187,12 @@
             "Moon Blast: large white ground AoE that detonates for heavy Cold and Lightning damage",
             "Tentacles: phase two requires killing tentacles while avoiding incoming cold waves and stun pressure"
           ],
-          "lootHighlights": ["Alluvion", "Coral Aegis", "Stormcarved Testament", "Eye of Storms"]
+          "lootHighlights": [
+            "Alluvion",
+            "Coral Aegis",
+            "Stormcarved Testament",
+            "Eye of Storms"
+          ]
         },
         {
           "label": "Volcanic Shaman — Spirits of Fire",
@@ -1112,7 +1209,12 @@
             "Lava X: delayed X-shaped ground eruption that is easy to dodge if you move early",
             "Shaman Spirit: dead shamans persist as necrotic spirits until all three are down, adding explosions and shard fire"
           ],
-          "lootHighlights": ["Bhuldar's Wrath", "Herkir's Vessel", "Logi's Hunger", "Trinity of Flames"]
+          "lootHighlights": [
+            "Bhuldar's Wrath",
+            "Herkir's Vessel",
+            "Logi's Hunger",
+            "Trinity of Flames"
+          ]
         },
         {
           "label": "Emperor of Corpses — Reign of Dragons",
@@ -1129,7 +1231,12 @@
             "Necrotic Projectile Spread: overlapping projectiles that punish poor movement and can stack damage quickly",
             "Spirit Breath: wide cone attack with heavy Necrotic damage over time"
           ],
-          "lootHighlights": ["Dragonflame Edict", "Symbol of Demise", "Twisted Heart of Uhkeiros", "Horns of Uhkeiros"]
+          "lootHighlights": [
+            "Dragonflame Edict",
+            "Symbol of Demise",
+            "Twisted Heart of Uhkeiros",
+            "Horns of Uhkeiros"
+          ]
         }
       ]
     },
@@ -1250,15 +1357,35 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
+    "guide": {
+      "title": "Last Epoch Guides",
+      "description": "Essential guides for beginners, campaign walkthroughs, passive point quests, and monolith corruption strategies in Last Epoch.",
+      "metaTitle": "Last Epoch Guides - Beginner Tips, Campaign & Endgame",
+      "metaDescription": "Complete Last Epoch guides covering beginner tips, campaign walkthroughs, passive point quests, corruption mechanics, and endgame progression strategies.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Last Epoch Guides?",
+      "whatIsDescription": "In-depth guides covering every aspect of Last Epoch, from your first steps in Eterra to mastering high-corruption monolith timelines and endgame boss encounters.",
+      "why": "Why follow Last Epoch guides?",
+      "whySteps": {
+        "step1Title": "Learn Core Mechanics",
+        "step1Description": "Understand crafting, loot filters, and passive trees from the start to avoid costly mistakes",
+        "step2Title": "Progress Efficiently",
+        "step2Description": "Follow optimized campaign routes and quest orders to reach endgame faster",
+        "step3Title": "Master Endgame",
+        "step3Description": "Learn corruption scaling, blessing farming, and monolith strategies for long-term progression"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
     "builds": {
       "title": "Last Epoch Builds",
-      "description": "Top builds for every mastery including endgame corruption pushers, boss killers, and speed farming setups.",
+      "description": "Top builds for every mastery including endgame corruption pushers, boss killers, and speed farming setups for Last Epoch.",
       "metaTitle": "Last Epoch Builds - Best Builds for Every Mastery",
       "metaDescription": "Find the best Last Epoch builds for every mastery. Endgame corruption, bossing, and speed farming builds with skill trees, passives, and gear guides.",
       "categoryLabel": "BUILDS",
-      "whatIs": "What are Builds?",
+      "whatIs": "What are Last Epoch Builds?",
       "whatIsDescription": "Complete build guides covering skill setups, passive trees, gear priorities, and endgame scaling for every mastery in Last Epoch.",
-      "why": "Why follow build guides?",
+      "why": "Why follow Last Epoch build guides?",
       "whySteps": {
         "step1Title": "Save Time",
         "step1Description": "Skip trial-and-error with proven skill and passive configurations",
@@ -1270,145 +1397,45 @@
       "featured": "Featured & Essential",
       "all": "All Builds"
     },
-    "classes": {
-      "title": "Last Epoch Classes",
-      "description": "Compare all 5 base classes and 15 masteries with playstyle breakdowns, damage profiles, and recommended first picks.",
-      "metaTitle": "Last Epoch Classes - All 15 Masteries Compared",
-      "metaDescription": "Compare all Last Epoch classes and masteries. Detailed breakdowns of Sentinel, Mage, Acolyte, Primalist, and Rogue subclasses with build recommendations.",
-      "categoryLabel": "CLASSES",
-      "whatIs": "What are Classes?",
-      "whatIsDescription": "Last Epoch has 5 base classes, each branching into 3 masteries. Each mastery has exclusive skills and a unique endgame identity.",
-      "why": "Why learn about classes?",
+    "classes-and-tier-list": {
+      "title": "Last Epoch Classes & Tier List",
+      "description": "Compare all 5 base classes, 15 masteries, and current tier rankings with detailed playstyle breakdowns for Last Epoch.",
+      "metaTitle": "Last Epoch Classes & Tier List - All 15 Masteries Ranked",
+      "metaDescription": "Compare all Last Epoch classes, masteries, and tier rankings. Detailed breakdowns of Sentinel, Mage, Acolyte, Primalist, and Rogue with build recommendations.",
+      "categoryLabel": "CLASSES & TIER LIST",
+      "whatIs": "What are Last Epoch Classes?",
+      "whatIsDescription": "Last Epoch features 5 base classes each branching into 3 masteries. Each mastery has exclusive skills and a unique endgame identity. Tier lists rank these masteries by current meta performance.",
+      "why": "Why study Last Epoch classes and tier lists?",
       "whySteps": {
         "step1Title": "Choose Wisely",
         "step1Description": "Mastery selection is permanent per character, so understanding your options is critical",
         "step2Title": "Find Your Playstyle",
         "step2Description": "Each mastery supports different fantasies from summoner to shapeshifter to void melee",
-        "step3Title": "Plan Ahead",
-        "step3Description": "Know which masteries excel at bossing, farming, or corruption pushing before you commit"
+        "step3Title": "Stay Meta-Aware",
+        "step3Description": "Know which masteries excel at bossing, farming, or corruption pushing in the current season"
       },
       "featured": "Featured & Essential",
-      "all": "All Class Guides"
+      "all": "All Class & Tier List Guides"
     },
-    "skills": {
-      "title": "Last Epoch Skills",
-      "description": "Detailed skill guides covering node breakdowns, damage tags, conversion paths, and synergies for every class.",
-      "metaTitle": "Last Epoch Skills - Skill Trees & Node Guides",
-      "metaDescription": "Complete Last Epoch skill guides with node breakdowns, damage tags, conversion paths, and build synergies for all 120+ skills.",
-      "categoryLabel": "SKILLS",
-      "whatIs": "What are Skills?",
-      "whatIsDescription": "Last Epoch has over 120 skills, each with a dedicated specialization tree. Nodes modify behavior, damage type, and scaling mechanics.",
-      "why": "Why study skill trees?",
+    "season-4-and-updates": {
+      "title": "Last Epoch Season 4 & Updates",
+      "description": "Latest news on Season 4: Shattered Omens, release dates, patch notes, and content updates for Last Epoch.",
+      "metaTitle": "Last Epoch Season 4 & Updates - Shattered Omens News",
+      "metaDescription": "Stay updated on Last Epoch Season 4: Shattered Omens. Release dates, start times, new features, patch notes, and all the latest game updates.",
+      "categoryLabel": "SEASON 4 & UPDATES",
+      "whatIs": "What is Last Epoch Season 4?",
+      "whatIsDescription": "Season 4, titled Shattered Omens, launched on March 26, 2026. It introduces Omen Windows, new legendary gear, Rogue reworks, and major corruption mechanics updates.",
+      "why": "Why follow Last Epoch season updates?",
       "whySteps": {
-        "step1Title": "Optimize Damage",
-        "step1Description": "Understand which nodes scale best for your build's damage family",
-        "step2Title": "Find Conversions",
-        "step2Description": "Discover damage type conversions that unlock powerful scaling interactions",
-        "step3Title": "Support Your Build",
-        "step3Description": "Choose utility and defensive nodes that complement your main skill setup"
+        "step1Title": "Stay Current",
+        "step1Description": "Each season brings major balance changes, new mechanics, and meta shifts that affect your builds",
+        "step2Title": "Plan Ahead",
+        "step2Description": "Know release dates and start times so you can prepare your league starters in advance",
+        "step3Title": "Discover New Content",
+        "step3Description": "Learn about new features, items, and systems as soon as they are announced or released"
       },
       "featured": "Featured & Essential",
-      "all": "All Skill Guides"
-    },
-    "loot-filter": {
-      "title": "Last Epoch Loot Filters",
-      "description": "Build, import, and customize loot filters for leveling and endgame. Keep your drops clean and your upgrades visible.",
-      "metaTitle": "Last Epoch Loot Filters - Setup & Import Guide",
-      "metaDescription": "Learn how to build and import Last Epoch loot filters. Leveling filters, endgame filters, and community-shared setups for every class.",
-      "categoryLabel": "LOOT FILTERS",
-      "whatIs": "What are Loot Filters?",
-      "whatIsDescription": "Loot filters control which item drops are shown, highlighted, or hidden. They are essential for managing screen clutter as drop rates increase.",
-      "why": "Why use loot filters?",
-      "whySteps": {
-        "step1Title": "See What Matters",
-        "step1Description": "Hide junk drops and highlight upgrades for your current build",
-        "step2Title": "Save Time",
-        "step2Description": "Stop checking every item on the ground and focus on actual upgrades",
-        "step3Title": "Target Farm",
-        "step3Description": "Highlight specific affix tiers and item bases you need for crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Loot Filter Guides"
-    },
-    "crafting": {
-      "title": "Last Epoch Crafting",
-      "description": "Master the crafting system from basic affix upgrades to legendary item creation through the Temporal Sanctum.",
-      "metaTitle": "Last Epoch Crafting Guide - Affixes, Runes & Legendary Crafting",
-      "metaDescription": "Complete Last Epoch crafting guide covering affixes, forging potential, runes, glyphs, exalted items, and legendary crafting in the Temporal Sanctum.",
-      "categoryLabel": "CRAFTING",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "Last Epoch's crafting system lets you add and upgrade affixes on equipment using shards. Advanced crafting includes sealing affixes and creating legendary items.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Gear Up Faster",
-        "step1Description": "Craft targeted upgrades instead of waiting for random drops",
-        "step2Title": "Maximize Item Power",
-        "step2Description": "Understand forging potential and glyph usage to get the most from each craft",
-        "step3Title": "Create Legendaries",
-        "step3Description": "Learn the Temporal Sanctum process to combine Unique and Exalted items"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "endgame": {
-      "title": "Last Epoch Endgame",
-      "description": "Navigate Monolith of Fate, Dungeons, Arena, and corruption pushing with optimized strategies and progression paths.",
-      "metaTitle": "Last Epoch Endgame Guide - Monolith, Dungeons & Corruption",
-      "metaDescription": "Complete Last Epoch endgame guide covering Monolith of Fate, corruption pushing, dungeons, arena, blessings, and long-term gear progression.",
-      "categoryLabel": "ENDGAME",
-      "whatIs": "What is Endgame?",
-      "whatIsDescription": "Last Epoch endgame includes Monolith of Fate, Dungeons, Arena, corruption pushing, blessing farming, and the Weaver Tree seasonal system.",
-      "why": "Why learn endgame systems?",
-      "whySteps": {
-        "step1Title": "Push Further",
-        "step1Description": "Understand corruption scaling and timeline progression for efficient farming",
-        "step2Title": "Target Rewards",
-        "step2Description": "Learn which content drops the specific items and blessings your build needs",
-        "step3Title": "Stay Efficient",
-        "step3Description": "Avoid wasting time on suboptimal endgame activities"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Endgame Guides"
-    },
-    "dungeons": {
-      "title": "Last Epoch Dungeons",
-      "description": "Detailed dungeon guides covering Temporal Sanctum, Lightless Arbor, and Soulfire Bastion with mechanics and boss strategies.",
-      "metaTitle": "Last Epoch Dungeons - Boss Guides & Rewards",
-      "metaDescription": "Complete Last Epoch dungeon guides for Temporal Sanctum, Lightless Arbor, and Soulfire Bastion. Boss mechanics, key tiers, and exclusive rewards.",
-      "categoryLabel": "DUNGEONS",
-      "whatIs": "What are Dungeons?",
-      "whatIsDescription": "Dungeons are instanced endgame challenges with unique mechanics, tiered difficulty, key requirements, and exclusive rewards including legendary crafting.",
-      "why": "Why run dungeons?",
-      "whySteps": {
-        "step1Title": "Craft Legendaries",
-        "step1Description": "Temporal Sanctum is the only way to create legendary items through the Eternity Cache",
-        "step2Title": "Target Unique Rewards",
-        "step2Description": "Each dungeon offers exclusive loot and gambling mechanics unavailable elsewhere",
-        "step3Title": "Test Your Build",
-        "step3Description": "Dungeon bosses provide challenging skill checks that validate your gear and build choices"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Dungeon Guides"
-    },
-    "factions": {
-      "title": "Last Epoch Factions",
-      "description": "Compare Merchant's Guild and Circle of Fortune to choose the right item faction for your playstyle and gearing strategy.",
-      "metaTitle": "Last Epoch Factions - Merchant's Guild vs Circle of Fortune",
-      "metaDescription": "Compare Last Epoch factions: Merchant's Guild for trading and Circle of Fortune for enhanced drops. Favor, ranks, and faction-specific features explained.",
-      "categoryLabel": "FACTIONS",
-      "whatIs": "What are Factions?",
-      "whatIsDescription": "Last Epoch has two item factions that change how you acquire gear. Merchant's Guild enables trading while Circle of Fortune boosts drop rates and adds prophecy farming.",
-      "why": "Why choose carefully?",
-      "whySteps": {
-        "step1Title": "Shape Your Gearing",
-        "step1Description": "Your faction choice fundamentally changes how you acquire and upgrade equipment",
-        "step2Title": "Build Faction Rank",
-        "step2Description": "Higher ranks unlock more powerful faction features and better rewards",
-        "step3Title": "Commit Wisely",
-        "step3Description": "Switching factions resets all progress, so understanding both options prevents wasted time"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Faction Guides"
+      "all": "All Season & Update News"
     }
   }
 }

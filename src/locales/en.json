@@ -697,85 +697,218 @@
     },
     "lastEpochBlessingsGuide": {
       "title": "Last Epoch Blessings Guide",
-      "displayType": "cards",
-      "intro": "Blessings are permanent account-shaping rewards earned by defeating Monolith timeline bosses. Each timeline offers a unique set of blessings that affect drop rates, experience, and character power.",
-      "cards": [
+      "eyebrow": "Monolith Rewards",
+      "displayType": "table",
+      "subtitle": "Pick the Right Blessings for Damage, Defense, and Farming",
+      "intro": "Blessings are permanent Monolith rewards that shape both survivability and farming efficiency. Once you enter empowered timelines, Grand Blessings become a major part of endgame optimization. This module highlights the Blessings players most often prioritize when moving from basic Monolith progression into empowered farming.",
+      "items": [
         {
-          "name": "How Blessings Work",
-          "description": "Defeat a timeline boss to choose one blessing from that timeline's pool. You can replace blessings by defeating the boss again."
+          "timeline": "The Black Sun",
+          "blessing": "Grand Emptiness of Ash",
+          "effect": "+27% to 40% Critical Strike Multiplier",
+          "role": "Offense",
+          "bestFor": "Crit builds and boss damage",
+          "why": "One of the cleanest raw damage blessings for endgame crit setups."
         },
         {
-          "name": "Grand Blessings",
-          "description": "Empowered Monolith versions of blessings are significantly stronger. Grand Strength of Mind from Fall of the Outcasts is one of the most valuable."
+          "timeline": "Ending the Storm",
+          "blessing": "Grand Light of the Moon",
+          "effect": "+60 to 90 Mana",
+          "role": "Resource",
+          "bestFor": "Mana-hungry Mage, Runemaster, and Spellblade builds",
+          "why": "A strong quality-of-life blessing when your rotation or defensive loop depends on a deeper mana pool."
         },
         {
-          "name": "Farming Blessings",
-          "description": "If you do not get the blessing you want, you can run the timeline again and defeat the boss for another chance at your target blessing."
+          "timeline": "Reign of Dragons",
+          "blessing": "Grand Resolve of Humanity",
+          "effect": "+13% to 20% to All Resistances",
+          "role": "Defense",
+          "bestFor": "Early empowered progression and resistance fixing",
+          "why": "An easy way to free up suffix pressure on gear while stabilizing a build for harder content."
+        },
+        {
+          "timeline": "Reign of Dragons",
+          "blessing": "Grand Survival of Might",
+          "effect": "+50% to 70% Critical Strike Avoidance and +51 to 90 Dodge Rating",
+          "role": "Defense",
+          "bestFor": "General survivability and early corruption pushing",
+          "why": "A popular defensive blessing because it patches two common survival problems at once."
+        },
+        {
+          "timeline": "The Age of Winter",
+          "blessing": "Grand Rage of Winter",
+          "effect": "+25% to 50% Chance to apply Shred Cold Resistance on Hit",
+          "role": "Offense",
+          "bestFor": "Cold damage builds",
+          "why": "A highly efficient blessing for cold builds that want more boss damage without changing gear."
+        },
+        {
+          "timeline": "Spirits of Fire",
+          "blessing": "Grand Body of Obsidian",
+          "effect": "+200 to 320 Armor",
+          "role": "Defense",
+          "bestFor": "Armor-based builds and general durability",
+          "why": "A straightforward defensive option that stays useful across many classes and gearing stages."
+        },
+        {
+          "timeline": "Fall of the Outcasts",
+          "blessing": "Grand Winds of Fortune",
+          "effect": "16% to 22% Increased Unique Item Drop Rate",
+          "role": "Farming",
+          "bestFor": "Players target-farming uniques",
+          "why": "One of the clearest farming blessings when your next upgrade is a specific unique item."
         }
       ]
     },
     "lastEpochFactionsGuide": {
       "title": "Last Epoch Factions Guide",
-      "displayType": "cards",
-      "intro": "Last Epoch offers two item factions: Merchant's Guild for trading and Circle of Fortune for enhanced drops. Your choice changes how you gear up and progress through endgame.",
-      "cards": [
+      "eyebrow": "Item Factions",
+      "displayType": "comparisonTable",
+      "subtitle": "Merchant's Guild or Circle of Fortune?",
+      "intro": "Factions decide how your character acquires gear in the endgame. This choice affects trading access, self-found efficiency, progression rhythm, and which item loop feels best for your build. Both factions use ranks, reputation, and Favor, but they reward very different playstyles.",
+      "factionNames": {
+        "merchantsGuild": "Merchant's Guild",
+        "circleOfFortune": "Circle of Fortune"
+      },
+      "comparisons": [
         {
-          "name": "Merchant's Guild",
-          "description": "Enables player-to-player trading through the bazaar. Best for players who want to buy or sell specific items to fill gear gaps quickly."
+          "category": "Core identity",
+          "merchantsGuild": "Trade-focused faction built around the Bazaar and player listings.",
+          "circleOfFortune": "Self-found faction built around loot quality, prophecies, and passive item-hunt bonuses."
         },
         {
-          "name": "Circle of Fortune",
-          "description": "Boosts drop rates and adds prophecy-based target farming. Best for solo players who prefer finding their own gear."
+          "category": "Main feature",
+          "merchantsGuild": "Buy and sell gear through the Bazaar using Favor alongside gold-based transactions.",
+          "circleOfFortune": "Spend Favor at the Observatory to obtain Prophecies, then use Lenses to shape what you see."
         },
         {
-          "name": "Favor and Rank",
-          "description": "Both factions use Favor currency to unlock higher ranks. Higher ranks provide stronger benefits and unlock more powerful faction features."
+          "category": "Progression",
+          "merchantsGuild": "12 ranks total; gain reputation through normal gameplay and trading activity.",
+          "circleOfFortune": "12 ranks total; gain reputation through normal gameplay and prophecy completion."
         },
         {
-          "name": "Switching Factions",
-          "description": "You can switch factions, but you lose all progress in your current faction. Consider your playstyle before committing."
+          "category": "Best for",
+          "merchantsGuild": "Players who want faster build completion, targeted purchases, and market-driven gearing.",
+          "circleOfFortune": "Players who prefer farming their own gear, adapting to drops, and maximizing self-found value."
+        },
+        {
+          "category": "Important restriction",
+          "merchantsGuild": "Items purchased through trade require Merchant's Guild rank to equip, and bought items cannot be re-traded.",
+          "circleOfFortune": "Items found while aligned with Circle of Fortune require Circle of Fortune rank to equip."
+        },
+        {
+          "category": "Switching and account rules",
+          "merchantsGuild": "You can swap factions, but it functions more like a respec than a casual toggle. Reputation is shared account-wide, resets each Cycle, and carries into the permanent environment after a Cycle ends.",
+          "circleOfFortune": "You can swap factions, but it functions more like a respec than a casual toggle. Reputation is shared account-wide, resets each Cycle, and carries into the permanent environment after a Cycle ends."
         }
       ]
     },
     "lastEpochDungeonsGuide": {
       "title": "Last Epoch Dungeons Guide",
-      "displayType": "cards",
-      "intro": "Last Epoch dungeons are instanced challenges with unique mechanics and exclusive rewards. Each dungeon requires a specific key to enter and scales in difficulty across multiple tiers.",
-      "cards": [
-        {
-          "name": "Temporal Sanctum",
-          "description": "Navigate between two time periods to reach Julra. This dungeon is required for legendary crafting through the Eternity Cache."
-        },
+      "eyebrow": "Endgame Dungeons",
+      "displayType": "dungeonCards",
+      "subtitle": "Three Dungeons, Three Different Reward Loops",
+      "intro": "Last Epoch dungeons are repeatable endgame activities with keys, tier scaling, and unique mechanics. Each one rewards a different kind of progression, from gold conversion to targeted gambling to legendary crafting.",
+      "rulesTitle": "Dungeon Rules at a Glance",
+      "rulesSummary": "All dungeons are key-gated, repeatable endgame content with four tiers and daily modifiers. From Tier 2 onward, runs gain extra modifiers and better rewards.",
+      "rules": [
+        "Each dungeon requires a specific key that is consumed on entry.",
+        "There are 4 tiers, and higher tiers unlock after clearing lower ones.",
+        "From Tier 2 onward, you receive additional modifiers and stronger rewards.",
+        "Dungeon Key Charms can modify runs, including a Portal Charm that skips directly to the boss."
+      ],
+      "dungeons": [
         {
           "name": "Lightless Arbor",
-          "description": "Fight through dark caverns and defeat the Mountain Beneath. Rewards include the Vault of Uncertain Fate for targeted loot."
+          "summary": "A poison-themed dungeon built around darkness, navigation, and gold conversion at the end of the run.",
+          "location": "Ruined Era, near The Surface Waypoint",
+          "key": "Lightless Arbor Key",
+          "boss": "The Mountain Beneath",
+          "damageType": "Poison",
+          "mechanic": "Burning Amber",
+          "endReward": "Vault of Uncertain Fate",
+          "bossDrops": [
+            "Tier 1+: Peak of the Mountain",
+            "Tier 2+: Foot of the Mountain",
+            "Tier 3+: Face of the Mountain",
+            "Tier 4+: Core of the Mountain"
+          ]
         },
         {
           "name": "Soulfire Bastion",
-          "description": "Battle through a fortress of flame and face Cremorus. Offers unique soul gambling rewards and exclusive item drops."
+          "summary": "A fire-and-necrotic dungeon where shield management and soul spending define the run.",
+          "location": "Imperial Era, near The Felled Wood Waypoint",
+          "key": "Soulfire Bastion Key",
+          "boss": "Fire Lich Cremorus",
+          "damageType": "Fire and Necrotic",
+          "mechanic": "Soulfire Souls and Soulfire Shield",
+          "endReward": "Soul Gambler",
+          "bossDrops": [
+            "Tier 1+: Ashes of Mortality",
+            "Tier 2+: Lich's Envy",
+            "Tier 3+: Immolator's Oblation",
+            "Tier 4+: Pyre of Affliction"
+          ]
         },
         {
-          "name": "Dungeon Keys and Tiers",
-          "description": "Keys drop from Monolith echoes and other content. Higher tiers increase difficulty and reward quality significantly."
+          "name": "Temporal Sanctum",
+          "summary": "A high-value dungeon with era swapping, dangerous boss pressure, and direct access to legendary crafting.",
+          "location": "Ruined Era, near The Ruined Coast Waypoint",
+          "key": "Temporal Sanctum Key",
+          "boss": "Chronomancer Julra",
+          "damageType": "Poison and Void",
+          "mechanic": "Temporal Shift",
+          "endReward": "Eternity Cache",
+          "bossDrops": [
+            "Tier 1+: Julra's Stardial",
+            "Tier 2+: Somnia",
+            "Tier 3+: Julra's Obsession",
+            "Tier 4+: Vessel of Strife"
+          ]
         }
       ]
     },
     "lastEpochUniqueItemsGuide": {
       "title": "Last Epoch Unique and Legendary Items Guide",
-      "displayType": "cards",
-      "intro": "Unique items in Last Epoch have special properties that cannot be found on rare items. Legendary Potential determines how many affixes can be transferred during legendary crafting, making LP a critical chase stat.",
-      "cards": [
+      "eyebrow": "Itemization",
+      "displayType": "systemTable",
+      "subtitle": "How Uniques Become Long-Term Endgame Gear",
+      "intro": "In Last Epoch, uniques are not just collectible items. They are the foundation for several late-game gear systems, especially Legendary crafting through Temporal Sanctum. This module explains the item systems players repeatedly search once they move beyond simple upgrades and start chasing build-defining gear.",
+      "systems": [
         {
-          "name": "Unique Items",
-          "description": "Items with fixed special modifiers that define build-enabling interactions. Some are common drops while others are extremely rare."
+          "system": "Unique Items",
+          "whatItIs": "Items with fixed, build-defining modifiers that can grant effects not normally found on rare or exalted gear.",
+          "coreRule": "They are often the starting point for endgame chase gear and many builds revolve around one or more key uniques.",
+          "connection": "Target-farmed from bosses, timelines, dungeons, and broader loot systems.",
+          "whySearch": "Players usually look these up when deciding whether a build needs a specific item or when planning a gear transition."
         },
         {
-          "name": "Legendary Potential",
-          "description": "A stat on Unique items ranging from 0 to 4. Each point of LP allows one affix to transfer from an Exalted item during legendary crafting."
+          "system": "Legendary Potential",
+          "whatItIs": "A property on unique items that ranges from 0 to 4.",
+          "coreRule": "Legendary Potential determines how many affixes from an exalted item can be transferred when creating a Legendary item.",
+          "connection": "The stronger the base unique, the more valuable even 1 LP can become.",
+          "whySearch": "LP is the main reason players care about whether a unique is just usable or truly endgame-worthy."
         },
         {
-          "name": "Eternity Cache Crafting",
-          "description": "Place a Unique and an Exalted item in the Temporal Sanctum's Eternity Cache to create a Legendary item with transferred affixes."
+          "system": "Legendary Crafting in the Eternity Cache",
+          "whatItIs": "A crafting system unlocked after beating Chronomancer Julra in Temporal Sanctum.",
+          "coreRule": "You combine a unique with Legendary Potential and an exalted item of the same kind to create a Legendary item. At Tier 2 and above, the Eternity Cache lets you guarantee one affix.",
+          "connection": "Temporal Sanctum is the practical bridge between unique drops and long-term endgame gear.",
+          "whySearch": "This is the core upgrade path for turning a good unique into a real chase item."
+        },
+        {
+          "system": "Weaver's Will",
+          "whatItIs": "A special unique-item system that uses Weaver's Will instead of normal Legendary Potential.",
+          "coreRule": "Weaver uniques drop with 5 to 28 Weaver's Will and gain affixes or upgrade affix tiers while enemies are killed nearby, including upgrades up to Tier 7.",
+          "connection": "It creates a separate progression path where the item evolves with use instead of being slammed in the Eternity Cache.",
+          "whySearch": "Players search this when they want to know whether a Weaver item is worth leveling up rather than replacing."
+        },
+        {
+          "system": "Primordial Uniques",
+          "whatItIs": "A later-game class of extremely powerful unique items.",
+          "coreRule": "You can equip only one Primordial item of any kind at a time.",
+          "connection": "These compete directly with other endgame slot decisions because of their single-item power budget.",
+          "whySearch": "They matter when players are min-maxing final gear and deciding which single high-impact slot to dedicate."
         }
       ]
     },

@@ -6,19 +6,24 @@ import {
   BookOpen,
   Check,
   ChevronDown,
+  Clock,
   Crown,
   ExternalLink,
   Filter,
   Flag,
+  Flame,
   Gem,
   GitBranch,
   Hammer,
+  KeyRound,
   Layers,
+  MapPin,
   MessageCircle,
   RefreshCw,
   Shield,
   Skull,
   Sparkles,
+  Star,
   Sword,
   Swords,
   Target,
@@ -747,20 +752,67 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
 
       {/* Module 9: Blessings Guide */}
       <section id="blessings-guide" className="scroll-mt-24 px-4 py-20">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
               <Sparkles className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span>Monolith Rewards</span>
+              <span>{t.modules.lastEpochBlessingsGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lastEpochBlessingsGuide.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lastEpochBlessingsGuide.intro}</p>
+            <p className="text-lg text-muted-foreground mb-2 max-w-3xl mx-auto">{t.modules.lastEpochBlessingsGuide.subtitle}</p>
+            <p className="text-muted-foreground max-w-3xl mx-auto">{t.modules.lastEpochBlessingsGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-4">
-            {t.modules.lastEpochBlessingsGuide.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{card.name}</h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
+
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden lg:block overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="border-b border-[hsl(var(--nav-theme)/0.3)]">
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Timeline</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Blessing</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Effect</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Role</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Best For</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.lastEpochBlessingsGuide.items.map((item: any, index: number) => (
+                  <tr key={index} className="border-b border-border/50 hover:bg-white/5 transition-colors">
+                    <td className="py-3 px-4 text-sm font-medium">{item.timeline}</td>
+                    <td className="py-3 px-4 text-sm text-[hsl(var(--nav-theme-light))]">{item.blessing}</td>
+                    <td className="py-3 px-4 text-sm text-muted-foreground">{item.effect}</td>
+                    <td className="py-3 px-4">
+                      <span className={`text-xs px-2 py-1 rounded-full ${
+                        item.role === 'Offense' ? 'bg-red-500/10 text-red-400' :
+                        item.role === 'Defense' ? 'bg-blue-500/10 text-blue-400' :
+                        item.role === 'Resource' ? 'bg-yellow-500/10 text-yellow-400' :
+                        'bg-green-500/10 text-green-400'
+                      }`}>{item.role}</span>
+                    </td>
+                    <td className="py-3 px-4 text-sm text-muted-foreground">{item.bestFor}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile cards */}
+          <div className="scroll-reveal lg:hidden space-y-4">
+            {t.modules.lastEpochBlessingsGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl">
+                <div className="flex items-center justify-between mb-3">
+                  <span className="text-sm text-muted-foreground">{item.timeline}</span>
+                  <span className={`text-xs px-2 py-1 rounded-full ${
+                    item.role === 'Offense' ? 'bg-red-500/10 text-red-400' :
+                    item.role === 'Defense' ? 'bg-blue-500/10 text-blue-400' :
+                    item.role === 'Resource' ? 'bg-yellow-500/10 text-yellow-400' :
+                    'bg-green-500/10 text-green-400'
+                  }`}>{item.role}</span>
+                </div>
+                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-1">{item.blessing}</h3>
+                <p className="text-sm text-muted-foreground mb-2">{item.effect}</p>
+                <p className="text-sm"><span className="font-medium">Best for:</span> <span className="text-muted-foreground">{item.bestFor}</span></p>
+                <p className="text-xs text-muted-foreground mt-2 italic">{item.why}</p>
               </div>
             ))}
           </div>
@@ -769,20 +821,70 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
 
       {/* Module 10: Factions Guide */}
       <section id="factions-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
               <Flag className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span>Item Factions</span>
+              <span>{t.modules.lastEpochFactionsGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lastEpochFactionsGuide.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lastEpochFactionsGuide.intro}</p>
+            <p className="text-lg text-muted-foreground mb-2 max-w-3xl mx-auto">{t.modules.lastEpochFactionsGuide.subtitle}</p>
+            <p className="text-muted-foreground max-w-3xl mx-auto">{t.modules.lastEpochFactionsGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lastEpochFactionsGuide.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{card.name}</h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
+
+          {/* Desktop comparison table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="border-b border-[hsl(var(--nav-theme)/0.3)]">
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))] w-1/5">Category</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))] w-2/5">
+                    <div className="flex items-center gap-2">
+                      <Swords className="w-4 h-4" />
+                      {t.modules.lastEpochFactionsGuide.factionNames.merchantsGuild}
+                    </div>
+                  </th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))] w-2/5">
+                    <div className="flex items-center gap-2">
+                      <Star className="w-4 h-4" />
+                      {t.modules.lastEpochFactionsGuide.factionNames.circleOfFortune}
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.lastEpochFactionsGuide.comparisons.map((row: any, index: number) => (
+                  <tr key={index} className="border-b border-border/50 hover:bg-white/5 transition-colors">
+                    <td className="py-3 px-4 text-sm font-medium">{row.category}</td>
+                    <td className="py-3 px-4 text-sm text-muted-foreground">{row.merchantsGuild}</td>
+                    <td className="py-3 px-4 text-sm text-muted-foreground">{row.circleOfFortune}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile comparison cards */}
+          <div className="scroll-reveal md:hidden space-y-4">
+            {t.modules.lastEpochFactionsGuide.comparisons.map((row: any, index: number) => (
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl">
+                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-3">{row.category}</h3>
+                <div className="space-y-3">
+                  <div>
+                    <div className="flex items-center gap-2 mb-1">
+                      <Swords className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="text-xs font-semibold">{t.modules.lastEpochFactionsGuide.factionNames.merchantsGuild}</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground pl-5">{row.merchantsGuild}</p>
+                  </div>
+                  <div className="border-t border-border/50 pt-3">
+                    <div className="flex items-center gap-2 mb-1">
+                      <Star className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="text-xs font-semibold">{t.modules.lastEpochFactionsGuide.factionNames.circleOfFortune}</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground pl-5">{row.circleOfFortune}</p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -791,44 +893,154 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
 
       {/* Module 11: Dungeons Guide */}
       <section id="dungeons-guide" className="scroll-mt-24 px-4 py-20">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
               <Sword className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span>Instanced Content</span>
+              <span>{t.modules.lastEpochDungeonsGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lastEpochDungeonsGuide.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lastEpochDungeonsGuide.intro}</p>
+            <p className="text-lg text-muted-foreground mb-2 max-w-3xl mx-auto">{t.modules.lastEpochDungeonsGuide.subtitle}</p>
+            <p className="text-muted-foreground max-w-3xl mx-auto">{t.modules.lastEpochDungeonsGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lastEpochDungeonsGuide.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{card.name}</h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
-              </div>
-            ))}
+
+          {/* Dungeon Rules */}
+          <div className="scroll-reveal mb-8 p-6 bg-white/5 border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+            <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))] flex items-center gap-2">
+              <KeyRound className="w-5 h-5" />
+              {t.modules.lastEpochDungeonsGuide.rulesTitle}
+            </h3>
+            <p className="text-sm text-muted-foreground mb-3">{t.modules.lastEpochDungeonsGuide.rulesSummary}</p>
+            <ul className="space-y-2">
+              {t.modules.lastEpochDungeonsGuide.rules.map((rule: string, index: number) => (
+                <li key={index} className="flex items-start gap-2 text-sm text-muted-foreground">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 shrink-0" />
+                  <span>{rule}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Dungeon Cards */}
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-3 gap-6">
+            {t.modules.lastEpochDungeonsGuide.dungeons.map((dungeon: any, index: number) => {
+              const dungeonIcons = [Flame, Zap, Clock]
+              const DungeonIcon = dungeonIcons[index] || Sword
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                      <DungeonIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">{dungeon.name}</h3>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-4">{dungeon.summary}</p>
+                  <div className="space-y-2 text-sm">
+                    <div className="flex items-start gap-2">
+                      <MapPin className="w-4 h-4 text-muted-foreground mt-0.5 shrink-0" />
+                      <span className="text-muted-foreground">{dungeon.location}</span>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <KeyRound className="w-4 h-4 text-muted-foreground mt-0.5 shrink-0" />
+                      <span className="text-muted-foreground">{dungeon.key}</span>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Skull className="w-4 h-4 text-muted-foreground mt-0.5 shrink-0" />
+                      <span className="text-muted-foreground">{dungeon.boss}</span>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Target className="w-4 h-4 text-muted-foreground mt-0.5 shrink-0" />
+                      <span className="text-muted-foreground">{dungeon.damageType}</span>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Gem className="w-4 h-4 text-muted-foreground mt-0.5 shrink-0" />
+                      <span className="text-muted-foreground"><span className="font-medium">Reward:</span> {dungeon.endReward}</span>
+                    </div>
+                  </div>
+                  <div className="mt-4 pt-4 border-t border-border/50">
+                    <h4 className="text-xs font-semibold text-[hsl(var(--nav-theme-light))] mb-2">Boss Drops</h4>
+                    <ul className="space-y-1">
+                      {dungeon.bossDrops.map((drop: string, dIndex: number) => (
+                        <li key={dIndex} className="text-xs text-muted-foreground">{drop}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
 
       {/* Module 12: Unique Items Guide */}
       <section id="unique-items-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
               <Gem className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-              <span>Chase Gear</span>
+              <span>{t.modules.lastEpochUniqueItemsGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lastEpochUniqueItemsGuide.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lastEpochUniqueItemsGuide.intro}</p>
+            <p className="text-lg text-muted-foreground mb-2 max-w-3xl mx-auto">{t.modules.lastEpochUniqueItemsGuide.subtitle}</p>
+            <p className="text-muted-foreground max-w-3xl mx-auto">{t.modules.lastEpochUniqueItemsGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-4">
-            {t.modules.lastEpochUniqueItemsGuide.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{card.name}</h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
-              </div>
-            ))}
+
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden lg:block overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="border-b border-[hsl(var(--nav-theme)/0.3)]">
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">System</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">What It Is</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Core Rule</th>
+                  <th className="text-left py-3 px-4 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">Connection</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.lastEpochUniqueItemsGuide.systems.map((sys: any, index: number) => (
+                  <tr key={index} className="border-b border-border/50 hover:bg-white/5 transition-colors align-top">
+                    <td className="py-3 px-4 text-sm font-medium text-[hsl(var(--nav-theme-light))] whitespace-nowrap">{sys.system}</td>
+                    <td className="py-3 px-4 text-sm text-muted-foreground">{sys.whatItIs}</td>
+                    <td className="py-3 px-4 text-sm text-muted-foreground">{sys.coreRule}</td>
+                    <td className="py-3 px-4 text-sm text-muted-foreground">{sys.connection}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile cards */}
+          <div className="scroll-reveal lg:hidden space-y-4">
+            {t.modules.lastEpochUniqueItemsGuide.systems.map((sys: any, index: number) => {
+              const sysIcons = [Crown, TrendingUp, Hammer, GitBranch, Shield]
+              const SysIcon = sysIcons[index] || Gem
+              return (
+                <div key={index} className="p-5 bg-white/5 border border-border rounded-xl">
+                  <div className="flex items-center gap-2 mb-3">
+                    <SysIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    <h3 className="font-bold text-[hsl(var(--nav-theme-light))]">{sys.system}</h3>
+                  </div>
+                  <div className="space-y-3 text-sm">
+                    <div>
+                      <span className="font-medium">What it is:</span>
+                      <p className="text-muted-foreground">{sys.whatItIs}</p>
+                    </div>
+                    <div>
+                      <span className="font-medium">Core rule:</span>
+                      <p className="text-muted-foreground">{sys.coreRule}</p>
+                    </div>
+                    <div>
+                      <span className="font-medium">Connection:</span>
+                      <p className="text-muted-foreground">{sys.connection}</p>
+                    </div>
+                    <div>
+                      <span className="font-medium">Why players search:</span>
+                      <p className="text-muted-foreground">{sys.whySearch}</p>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>

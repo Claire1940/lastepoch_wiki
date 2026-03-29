@@ -1,0 +1,301 @@
+{
+  "project": {
+    "theme": "Slayerbound",
+    "domain": "slayerbound.wiki",
+    "repo": "git@github.com:libin257/slayerbound_wiki.git",
+    "generated_at_utc": "2026-02-08T10:05:23Z",
+    "scope": "top_1_3_modules_from_homepage_plan",
+    "note": "仅包含前6个模块；不填未经来源验证的数值。"
+  },
+  "research_assessment": {
+    "is_sufficient_for_v1": true,
+    "confidence": "medium-high",
+    "what_is_sufficient": [
+      "官方游戏入口可确认（Roblox体验页）。",
+      "兑换码模块与兑换步骤有多源交叉（Pocket Tactics / Pro Game Guides / allthings.how / Twinfinite）。",
+      "Trello 作为官方资料板可确认（官方Trello链接存在）。",
+      "新手与升级路线可由社区视频资料覆盖（YouTube多条相关指南）。"
+    ],
+    "known_gaps": [
+      "官方Discord公告流需要登录/入服后抓取，公开网页可见信息有限。",
+      "官方Trailer（开发者频道）公开可验证链接不足，建议先用“社区视频”占位。"
+    ],
+    "verification_policy": {
+      "codes_and_updates": "每6小时巡检一次",
+      "trello_snapshot": "每12小时巡检一次",
+      "beginner_and_leveling_guides": "每7天复核一次"
+    }
+  },
+  "modules": [
+    {
+      "priority": 1,
+      "module_name": "Slayerbound Codes",
+      "goal": "提供最新可用兑换码与奖励类型，承接最高搜索意图流量。",
+      "content_outline": [
+        "Working codes（按最新校验时间排序）",
+        "Expired codes（保留历史，避免用户反复试错）",
+        "Rewards types（Spins / Yen / Reset）",
+        "Last verified timestamp"
+      ],
+      "frontend_display": {
+        "type": "cards + status_chips",
+        "layout": "hero_2col",
+        "elements": [
+          "code_card",
+          "reward_badge",
+          "copy_button",
+          "verified_time"
+        ]
+      },
+      "source_plan": [
+        {
+          "name": "Official Roblox Experience Page",
+          "url": "https://www.roblox.com/games/113829431520841/Slayerbound",
+          "role": "官方入口与游戏主体校验",
+          "trust_level": "high"
+        },
+        {
+          "name": "Pocket Tactics - Slayerbound codes",
+          "url": "https://www.pockettactics.com/slayerbound-codes",
+          "role": "高频更新码单（含更新时间）",
+          "trust_level": "medium"
+        },
+        {
+          "name": "Pro Game Guides - Slayerbound codes",
+          "url": "https://progameguides.com/roblox/slayerbound-codes/",
+          "role": "码单与更新日志交叉验证",
+          "trust_level": "medium"
+        },
+        {
+          "name": "allthings.how - Slayerbound codes",
+          "url": "https://allthings.how/slayerbound-codes-latest-working-list/",
+          "role": "码单与过期状态交叉验证",
+          "trust_level": "medium"
+        }
+      ],
+      "seo_targets": [
+        "slayerbound codes",
+        "slayerbound code",
+        "roblox slayerbound codes"
+      ]
+    },
+    {
+      "priority": 2,
+      "module_name": "Slayerbound Redeem Guide",
+      "goal": "减少“码能用但不会兑”的流失，提升转化与停留时长。",
+      "content_outline": [
+        "4-step兑换流程",
+        "常见报错（大小写/空格/过期码）",
+        "到账检查方式",
+        "兑换失败快速排查"
+      ],
+      "frontend_display": {
+        "type": "stepper",
+        "layout": "single_column",
+        "elements": [
+          "step_1_to_4",
+          "error_faq",
+          "quick_fix_buttons"
+        ]
+      },
+      "source_plan": [
+        {
+          "name": "Twinfinite - How to Redeem Codes in Slayerbound",
+          "url": "https://twinfinite.net/codes/slayerbound-codes/",
+          "role": "明确兑换步骤（Run game > Codes button > Enter > Claim）",
+          "trust_level": "medium"
+        },
+        {
+          "name": "allthings.how - How to redeem Slayerbound codes",
+          "url": "https://allthings.how/slayerbound-codes-latest-working-list/",
+          "role": "步骤文案交叉验证",
+          "trust_level": "medium"
+        },
+        {
+          "name": "MrGuider - FAQ redeem instructions",
+          "url": "https://www.mrguider.org/roblox/slayerbound-codes/",
+          "role": "按钮位置与流程补充",
+          "trust_level": "low-medium"
+        }
+      ],
+      "seo_targets": [
+        "how to redeem slayerbound codes",
+        "slayerbound redeem guide"
+      ]
+    },
+    {
+      "priority": 3,
+      "module_name": "Slayerbound Trello Tracker",
+      "goal": "把官方Trello重点信息可视化（风格、训练、机制），降低用户跳出。",
+      "content_outline": [
+        "Trello关键列索引",
+        "最近变更卡片（title + date）",
+        "常用机制快捷入口（Breathing / Demon Arts / Training）"
+      ],
+      "frontend_display": {
+        "type": "two_column_cards",
+        "layout": "left_updates_right_index",
+        "elements": [
+          "recent_cards",
+          "category_shortcuts",
+          "open_trello_cta"
+        ]
+      },
+      "source_plan": [
+        {
+          "name": "Official Trello Board",
+          "url": "https://trello.com/b/7IS1N5PR/slayerbound-official-trello",
+          "role": "官方资料主源",
+          "trust_level": "high"
+        },
+        {
+          "name": "Pro Game Guides mention of Official Trello",
+          "url": "https://progameguides.com/roblox/slayerbound-codes/",
+          "role": "官方资料入口佐证",
+          "trust_level": "medium"
+        },
+        {
+          "name": "Pocket Tactics mention of Official Trello",
+          "url": "https://www.pockettactics.com/slayerbound-codes",
+          "role": "官方资料入口佐证",
+          "trust_level": "medium"
+        }
+      ],
+      "seo_targets": [
+        "slayerbound trello",
+        "slayerbound official trello"
+      ]
+    },
+    {
+      "priority": 4,
+      "module_name": "Slayerbound Update Feed",
+      "goal": "首页展示“今天变了什么”，驱动回访与订阅。",
+      "content_outline": [
+        "Latest changes（codes / balancing / bugfix）",
+        "Milestone-triggered drops（visit/like相关）",
+        "更新时间与来源标签"
+      ],
+      "frontend_display": {
+        "type": "timeline",
+        "layout": "vertical_feed",
+        "elements": [
+          "feed_item",
+          "source_tag",
+          "time_ago",
+          "severity_badge"
+        ]
+      },
+      "source_plan": [
+        {
+          "name": "Slayerbound Discord (official server listing)",
+          "url": "https://disboard.org/server/1451004597824131194",
+          "role": "官方公告主阵地（需入服读取详情）",
+          "trust_level": "medium"
+        },
+        {
+          "name": "Pocket Tactics - frequent code updates",
+          "url": "https://www.pockettactics.com/slayerbound-codes",
+          "role": "更新频率与里程碑码佐证",
+          "trust_level": "medium"
+        },
+        {
+          "name": "allthings.how - milestone release pattern",
+          "url": "https://allthings.how/slayerbound-codes-latest-working-list/",
+          "role": "里程碑/补偿码发布规律佐证",
+          "trust_level": "medium"
+        }
+      ],
+      "seo_targets": [
+        "slayerbound update",
+        "slayerbound patch notes",
+        "slayerbound discord update"
+      ]
+    },
+    {
+      "priority": 5,
+      "module_name": "Slayerbound Beginner Path",
+      "goal": "给新用户首小时最短路径，减少“进来不知道干嘛”。",
+      "content_outline": [
+        "开局10分钟动作清单",
+        "第一批资源优先级",
+        "新手常见误区与回退方案"
+      ],
+      "frontend_display": {
+        "type": "checklist_cards",
+        "layout": "3_phase",
+        "elements": [
+          "phase_1_start",
+          "phase_2_growth",
+          "phase_3_transition"
+        ]
+      },
+      "source_plan": [
+        {
+          "name": "YouTube - Beginner's Guide to Slayer Bound",
+          "url": "https://www.youtube.com/watch?v=aDtCUiZlexs",
+          "role": "新手起步路径素材",
+          "trust_level": "medium"
+        },
+        {
+          "name": "YouTube - Everything You Need to Know in Slayer Bound",
+          "url": "https://www.youtube.com/watch?v=QVsY-bdujjM",
+          "role": "新手UI/控制/成长补充",
+          "trust_level": "medium"
+        },
+        {
+          "name": "Pro Game Guides - codes and early progression context",
+          "url": "https://progameguides.com/roblox/slayerbound-codes/",
+          "role": "早期资源（码）与玩法上下文",
+          "trust_level": "medium"
+        }
+      ],
+      "seo_targets": [
+        "slayerbound beginner guide",
+        "slayerbound tips"
+      ]
+    },
+    {
+      "priority": 6,
+      "module_name": "Slayerbound Leveling Route",
+      "goal": "给出分段练级路线，缩短从新手到中期的摸索成本。",
+      "content_outline": [
+        "Level bands（例如1-20/20-40/40+）",
+        "每段推荐任务与训练",
+        "每段预计时长与风险点"
+      ],
+      "frontend_display": {
+        "type": "segmented_route",
+        "layout": "horizontal_bands",
+        "elements": [
+          "level_band_card",
+          "xp_focus",
+          "do_dont"
+        ]
+      },
+      "source_plan": [
+        {
+          "name": "YouTube - A COMPLETE GUIDE ON HOW TO PLAY AND LEVEL UP IN SLAYERBOUND!",
+          "url": "https://www.youtube.com/watch?v=9ZQSL9UEEJE",
+          "role": "升级路线主素材",
+          "trust_level": "medium"
+        },
+        {
+          "name": "YouTube - Beginner's Guide to Slayer Bound",
+          "url": "https://www.youtube.com/watch?v=aDtCUiZlexs",
+          "role": "前期练级决策补充",
+          "trust_level": "medium"
+        },
+        {
+          "name": "Official Trello Board",
+          "url": "https://trello.com/b/7IS1N5PR/slayerbound-official-trello",
+          "role": "训练/机制名词校正",
+          "trust_level": "high"
+        }
+      ],
+      "seo_targets": [
+        "slayerbound leveling guide",
+        "slayerbound level up fast"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "nav": {
+    "codes": "Codes",
+    "tierList": "Tier List",
+    "units": "Units",
+    "farming": "Farming",
+    "guide": "Guide",
+    "gameplay": "Gameplay",
+    "resources": "Resources",
+    "community": "Community"
+  },
+  "common": {
+    "home": "Home",
+    "more": "More",
+    "playNow": "Play Now",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More"
+  },
+  "hero": {
+    "badge": "Deploy Legendary Anime Heroes in Epic Tower Defense Battles",
+    "title": "Anime Paradox",
+    "description": "Your ultimate hub for Anime Paradox! Deploy iconic anime heroes like Ichigo, Luffy, and Dio in strategic tower defense battles. Get working codes, tier lists, and master the meta to dominate every wave!",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
+    "stats": {
+      "stat1": {
+        "value": "4M+",
+        "label": "Total Visits"
+      },
+      "stat2": {
+        "value": "50+",
+        "label": "Units Available"
+      },
+      "stat3": {
+        "value": "10+",
+        "label": "Active Codes"
+      },
+      "stat4": {
+        "value": "24/7",
+        "label": "Daily Updates"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Anime Paradox Trailer",
+    "description": "Deploy iconic anime heroes from your favorite series! Strategically position units, unlock powerful traits, and defend your base against endless enemy waves. Collect Eternal-tier legends and dominate the meta!"
+  },
+  "tools": {
+    "title": "Anime Paradox",
+    "titleHighlight": "Essential Resources",
+    "subtitle": "Everything you need to dominate tower defense - from codes to unit guides",
+    "redeemCodes": {
+      "title": "Redeem Codes",
+      "description": "Get the latest working codes for free gems, stat chips, and trait rerolls"
+    },
+    "unitGuides": {
+      "title": "Unit Guides",
+      "description": "Master meta units like Storrk, Zid, and Sung Jin Woo with optimal placements and synergies"
+    },
+    "tierLists": {
+      "title": "Tier Lists",
+      "description": "Discover the strongest units ranked by effectiveness across all game modes"
+    },
+    "farmingStrategies": {
+      "title": "Farming Strategies",
+      "description": "Set up AFK macros with TinyTask and optimize gem farming for maximum efficiency"
+    },
+    "traits": {
+      "title": "Traits Guide",
+      "description": "Learn the best traits for each unit and how to use trait rerolls strategically"
+    },
+    "passives": {
+      "title": "Passives Database",
+      "description": "Explore unit passive abilities and understand stacking mechanics for maximum damage"
+    },
+    "materials": {
+      "title": "Materials Guide",
+      "description": "Find evolution essences, stat chips, and upgrade materials with efficient farming routes"
+    },
+    "comprehensiveGuides": {
+      "title": "Complete Guides",
+      "description": "From beginner tips to advanced tactics, master every aspect of Anime Paradox"
+    }
+  },
+  "whatIs": {
+    "title": "What is",
+    "titleHighlight": "Anime Paradox?",
+    "description": "Anime Paradox is a tower defense game on Roblox featuring iconic anime characters. Deploy units strategically, defend against waves of enemies, and collect legendary heroes from your favorite anime series.",
+    "towerDefense": {
+      "title": "Tower Defense Gameplay",
+      "description": "Strategically place units on the battlefield to defend against waves of enemies and bosses"
+    },
+    "unitCollection": {
+      "title": "Unit Collection",
+      "description": "Summon and collect powerful anime characters with unique abilities and traits"
+    },
+    "traitSystem": {
+      "title": "Trait System",
+      "description": "Customize your units with powerful traits and stat chips to enhance their combat effectiveness"
+    }
+  },
+  "topTier": {
+    "title": "Top Tier",
+    "titleHighlight": "Units",
+    "subtitle": "The most powerful units in Anime Paradox - ranked by overall effectiveness across all game modes",
+    "viewFullTierList": "View Full Tier List",
+    "units": {
+      "jinwoo": {
+        "rank": "#1",
+        "type": "Hybrid",
+        "name": "Jinwoo (Monarch)",
+        "rarity": "Secret",
+        "description": "Undisputed best character with insane damage, summoning capabilities, and ability to buff summons"
+      },
+      "ragna": {
+        "rank": "#2",
+        "type": "Hybrid",
+        "name": "Ragna (Silverite)",
+        "rarity": "Secret",
+        "description": "Powerhouse with immense damage and utility. Unique ability to power up and delete himself when used correctly"
+      },
+      "sakiya": {
+        "rank": "#3",
+        "type": "Hybrid",
+        "name": "Sakiya (Scarlet Maid)",
+        "rarity": "Virtual Shop",
+        "description": "Underrated unit with time-stop ability and consistent damage. Must-have for Infinite mode"
+      },
+      "kenpachi": {
+        "rank": "#4",
+        "type": "Hybrid",
+        "name": "Kenpachi (Berserker/Enraged)",
+        "rarity": "Mythic",
+        "description": "Strongest mythical unit. Wrecking ball of damage with abilities that shred armor and debuff enemies"
+      }
+    }
+  },
+  "rarity": {
+    "title": "Unit",
+    "titleHighlight": "Rarity Tiers",
+    "subtitle": "Understanding unit rarities and their power levels in Anime Paradox",
+    "tiers": {
+      "common": {
+        "name": "Legendary",
+        "rate": "Common Drop",
+        "description": "Starter units and farming specialists like Speedwagon and Bulma"
+      },
+      "rare": {
+        "name": "Mythic",
+        "rate": "Uncommon Drop",
+        "description": "Strong units like Brolu, Ciel, and Oreheme with solid abilities"
+      },
+      "epic": {
+        "name": "Secret",
+        "rate": "Rare Drop",
+        "description": "Elite units like Sung Jin Woo, Zid, and Igrus with powerful stacking mechanics"
+      },
+      "legendary": {
+        "name": "Paradox",
+        "rate": "Very Rare Drop",
+        "description": "Top-tier units like Storrk (Resurreccion) with map-wide AOE and game-changing abilities"
+      },
+      "mythic": {
+        "name": "Eternal",
+        "rate": "Ultra Rare Drop",
+        "description": "Ultimate variants with enhanced stats, exclusive passives, and superior scaling"
+      },
+      "secret": {
+        "name": "Limited",
+        "rate": "Event Exclusive",
+        "description": "Special units available only during limited-time events and banners"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Anime Paradox",
+    "questions": [
+      {
+        "question": "What is Anime Paradox?",
+        "answer": "Anime Paradox is a tower defense game on Roblox featuring iconic anime characters. Deploy units strategically, defend against waves of enemies, and collect legendary heroes from your favorite anime series."
+      },
+      {
+        "question": "How do I redeem codes in Anime Paradox?",
+        "answer": "Click the 'Codes' button on the right side of the screen (available after Level 5), enter the code exactly as shown (case-sensitive), and click 'Redeem Code'. Codes give free gems, stat chips, and trait rerolls!"
+      },
+      {
+        "question": "What are the best units for beginners?",
+        "answer": "Start with units like Storrk, Zid, or Sun Jin Wu. Focus on upgrading a few core units rather than spreading resources thin. Secret and Paradox units are great for early game progression."
+      },
+      {
+        "question": "How do traits work?",
+        "answer": "Traits are special bonuses that enhance your units' stats and abilities. You can reroll traits using trait reroll items from codes or rewards. Better traits significantly improve unit performance in battles."
+      },
+      {
+        "question": "How do I get more gems?",
+        "answer": "Earn gems by completing levels, redeeming active codes, participating in events, and daily login rewards. Use farming units like Speedwagon or Bulma for passive gem generation."
+      },
+      {
+        "question": "What are Eternal units and how do I get them?",
+        "answer": "Eternal units are the rarest and most powerful variants with enhanced stats and exclusive passives. They're obtained through special summon banners or by evolving Secret/Paradox units with rare essences."
+      },
+      {
+        "question": "How do I set up AFK farming?",
+        "answer": "Use farming units like Speedwagon or Bulma for passive gem generation. Set up a macro with TinyTask to automate wave clearing in Story Mode or Infinite Mode for maximum efficiency."
+      },
+      {
+        "question": "What are the best unit synergies?",
+        "answer": "Top synergies include Sun Jin Wu + Igrus (double stacking), Storrk + Zid (map-wide coverage), and Oreheme + DPS units (healing support). Focus on complementary traits and roles."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Master Anime Paradox?",
+    "description": "Join the Anime Paradox community on Discord to share strategies, find teammates, and get the latest codes!",
+    "joinCommunity": "Join the Community",
+    "joinGame": "Join the Game"
+  },
+  "footer": {
+    "title": "Anime Paradox",
+    "description": "Your complete resource hub for Anime Paradox. Find codes, guides, tier lists, and strategies to dominate every wave.",
+    "resources": "Resources",
+    "activeCodes": "Active Codes",
+    "buildGuides": "Unit Guides",
+    "combatGuides": "Farming Strategies",
+    "tierList": "Tier List",
+    "moreTools": "Community",
+    "discord": "Official Discord",
+    "playNow": "Play on Roblox",
+    "copyright": "© 2026 Anime Paradox Hub. Not affiliated with Roblox Corporation or the developers of Anime Paradox.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "homepage": {
+    "codes": {
+      "title": "Anime Paradox",
+      "titleHighlight": "Codes",
+      "subtitle": "Get free gems, stat chips, and trait rerolls to boost your progression",
+      "cta": "View All Codes & Redemption Guide",
+      "linkTo": "/codes/anime-paradox-working-codes",
+      "table": {
+        "headers": {
+          "code": "Code",
+          "reward": "Reward",
+          "status": "Status"
+        },
+        "items": [
+          {"code": "SORRYCODE", "reward": "15000 Gems + 35 Trait Rerolls", "status": "new"},
+          {"code": "GIVEGEMSPLEASE", "reward": "7000 Gems", "status": "new"},
+          {"code": "15KLIKES!", "reward": "5000 Gems + 20 Stat Chips", "status": "active"},
+          {"code": "SORRYIGRIS", "reward": "5000 Gems + 25 Trait Rerolls", "status": "active"},
+          {"code": "1MVISITS!", "reward": "3500 Gems + 20 Trait Rerolls", "status": "active"}
+        ]
+      }
+    },
+    "builds": {
+      "title": "Anime Paradox",
+      "titleHighlight": "Unit Guides",
+      "subtitle": "Master the best units and team compositions",
+      "cta": "Read Complete Unit Guide",
+      "linkTo": "/units/anime-paradox-best-units",
+      "tips": [
+        "Prioritize **Eternal** and **Mythic** rarity units for maximum power",
+        "Focus on units with **AoE damage** for efficient wave clearing",
+        "Always upgrade your **core units** first before diversifying",
+        "Use **trait rerolls** to optimize unit bonuses and stats",
+        "Place **ranged units** in the back and **melee units** in front",
+        "Save gems for **limited-time banners** with exclusive units"
+      ]
+    },
+    "combat": {
+      "title": "Anime Paradox",
+      "titleHighlight": "Farming Strategies",
+      "subtitle": "Maximize your gem and resource farming efficiency",
+      "cta": "View Full Farming Guide",
+      "linkTo": "/farming/anime-paradox-gem-farming",
+      "table": {
+        "headers": {
+          "dungeon": "Method",
+          "powerLevel": "Efficiency",
+          "rewards": "Key Rewards",
+          "difficulty": "Difficulty"
+        },
+        "items": [
+          {"dungeon": "Story Mode AFK", "powerLevel": "Very High", "rewards": "Gems, EXP, Materials", "difficulty": "easy"},
+          {"dungeon": "Infinite Mode", "powerLevel": "Extreme", "rewards": "Scaling Rewards", "difficulty": "expert"},
+          {"dungeon": "Legend Stages", "powerLevel": "High", "rewards": "Rare Essences", "difficulty": "hard"},
+          {"dungeon": "Daily Missions", "powerLevel": "High", "rewards": "Gems, Rerolls", "difficulty": "easy"},
+          {"dungeon": "Limited Events", "powerLevel": "Very High", "rewards": "Exclusive Units", "difficulty": "medium"}
+        ]
+      }
+    },
+    "guides": {
+      "title": "Anime Paradox",
+      "titleHighlight": "Guides",
+      "subtitle": "Essential tips for new and veteran players",
+      "cta": "Read Beginner's Guide",
+      "linkTo": "/guide/anime-paradox-beginner-guide",
+      "tips": [
+        "Focus on **upgrading core units** like Storrk, Zid, or Sun Jin Wu first",
+        "Use **trait rerolls** strategically on your best Eternal and Secret units",
+        "Place **farming units** (Speedwagon, Bulma) early for gem economy",
+        "Prioritize **DPS units with stacking mechanics** for Infinite Mode",
+        "Save gems for **limited-time banners** featuring exclusive Eternal units",
+        "Learn **unit synergies** like Sun Jin Wu + Igrus for maximum damage"
+      ]
+    },
+    "tierLists": {
+      "title": "Anime Paradox",
+      "titleHighlight": "Tier Lists",
+      "subtitle": "Unit ranking system from Common to Eternal rarity",
+      "cta": "View Complete Unit Rankings",
+      "linkTo": "/tier-list/anime-paradox-tier-list",
+      "table": {
+        "headers": {
+          "rank": "Rarity",
+          "powerLevel": "Power Level",
+          "traits": "Key Traits",
+          "rarity": "Drop Rate"
+        },
+        "items": [
+          {"rank": "Legendary", "powerLevel": "Starter tier", "traits": "Farming & support", "rarity": "Common"},
+          {"rank": "Mythic", "powerLevel": "Mid tier", "traits": "Solid DPS & utility", "rarity": "Uncommon"},
+          {"rank": "Secret", "powerLevel": "Elite tier", "traits": "Stacking & scaling", "rarity": "Rare"},
+          {"rank": "Paradox", "powerLevel": "Top tier", "traits": "Map-wide AOE", "rarity": "Very Rare"},
+          {"rank": "Eternal", "powerLevel": "Ultimate tier", "traits": "Enhanced variants", "rarity": "Ultra Rare"},
+          {"rank": "Limited", "powerLevel": "Event exclusive", "traits": "Unique mechanics", "rarity": "Event Only"}
+        ]
+      }
+    },
+    "gameplay": {
+      "title": "Anime Paradox",
+      "titleHighlight": "Gameplay",
+      "subtitle": "Master different game modes and maximize your rewards",
+      "cta": "View All Game Modes",
+      "linkTo": "/gameplay/anime-paradox-campaign",
+      "modes": [
+        {
+          "name": "Story Missions",
+          "description": "Progress through the main storyline to unlock new units and features",
+          "rewards": "Units, Gems, Materials"
+        },
+        {
+          "name": "Raids",
+          "description": "Team up for challenging boss battles and earn rare materials",
+          "rewards": "Rare Materials, Essences"
+        },
+        {
+          "name": "Challenges",
+          "description": "Complete daily and weekly challenges for gems and reroll items",
+          "rewards": "Gems, Reroll Items"
+        },
+        {
+          "name": "AFK World",
+          "description": "Earn passive rewards while offline for continuous progression",
+          "rewards": "EXP, Materials, Gold"
+        }
+      ]
+    },
+    "resources": {
+      "title": "Anime Paradox",
+      "titleHighlight": "Resources",
+      "subtitle": "Essential materials and items for unit progression",
+      "cta": "View All Resources",
+      "linkTo": "/resources/anime-paradox-materials",
+      "types": [
+        {
+          "name": "Food Items",
+          "description": "Essential materials for leveling up your units",
+          "source": "Story Missions, AFK World"
+        },
+        {
+          "name": "Reroll Items",
+          "description": "Reset unit traits to optimize your team composition",
+          "source": "Challenges, Shop"
+        },
+        {
+          "name": "Essences",
+          "description": "Rare materials required for unit evolution",
+          "source": "Raids, Events"
+        },
+        {
+          "name": "Evolution Materials",
+          "description": "Special items needed for high-tier unit upgrades",
+          "source": "Boss Raids, Limited Events"
+        }
+      ]
+    },
+    "community": {
+      "title": "Anime Paradox",
+      "titleHighlight": "Community",
+      "subtitle": "Join our active community for codes, updates, and strategies",
+      "cta": "Join Discord Server",
+      "linkTo": "/community/anime-paradox-discord",
+      "channels": [
+        {
+          "name": "#announcements",
+          "purpose": "Official announcements and important updates",
+          "benefit": "Stay informed about game changes"
+        },
+        {
+          "name": "#codes",
+          "purpose": "Latest working codes shared by the community",
+          "benefit": "Get free gems and rewards"
+        },
+        {
+          "name": "#game-updates",
+          "purpose": "Detailed patch notes and balance changes",
+          "benefit": "Understand meta shifts"
+        },
+        {
+          "name": "#sneak-peeks",
+          "purpose": "Preview upcoming units and features",
+          "benefit": "Plan your strategy ahead"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "codes": {
+      "title": "Anime Paradox Codes",
+      "description": "Latest working codes for free gems, stat chips, and trait rerolls. Updated daily with verified codes.",
+      "metaTitle": "Anime Paradox Codes - Free Gems & Trait Rerolls",
+      "metaDescription": "Get free gems, stat chips, and trait rerolls with active Anime Paradox codes. Updated daily with verified working codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Codes are special promotional keys released by developers that grant free gems, stat chips, trait rerolls, and other valuable resources. They're typically released during game updates, milestones, or special events.",
+      "why": "Why use codes?",
+      "whySteps": {
+        "step1Title": "Get Free Resources",
+        "step1Description": "Instantly receive gems, chips, and rerolls without spending real money",
+        "step2Title": "Accelerate Progress",
+        "step2Description": "Use free rewards to summon units and upgrade your team faster",
+        "step3Title": "Stay Competitive",
+        "step3Description": "Keep up with active players by claiming all available freebies"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "tier-list": {
+      "title": "Anime Paradox Tier Lists",
+      "description": "Comprehensive unit rankings from S-tier to D-tier. Discover the strongest units for every game mode and challenge.",
+      "metaTitle": "Anime Paradox Tier List - Best Units Ranked",
+      "metaDescription": "Complete tier list ranking all Anime Paradox units from S-tier to D-tier. Find the best units for your team composition.",
+      "categoryLabel": "TIER LISTS",
+      "whatIs": "What are Tier Lists?",
+      "whatIsDescription": "Tier lists rank all units from S-tier (best) to D-tier (weakest) based on their performance in current meta. These rankings help players identify which units to prioritize for summoning and team building.",
+      "why": "Why check tier lists?",
+      "whySteps": {
+        "step1Title": "Identify Top Units",
+        "step1Description": "Know which units are worth your gems and resources",
+        "step2Title": "Optimize Team Composition",
+        "step2Description": "Build balanced teams with the strongest available units",
+        "step3Title": "Follow Meta Trends",
+        "step3Description": "Stay updated on balance changes and shifting strategies"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tier Lists"
+    },
+    "units": {
+      "title": "Anime Paradox Units",
+      "description": "Detailed character guides covering abilities, evolution paths, and optimal strategies for every unit.",
+      "metaTitle": "Anime Paradox Units - Character Guides & Strategies",
+      "metaDescription": "Complete unit guides for Anime Paradox characters including Luffy, Ichigo, Dio, and more. Learn how to unlock and optimize every unit.",
+      "categoryLabel": "UNIT GUIDES",
+      "whatIs": "What are Unit Guides?",
+      "whatIsDescription": "Comprehensive guides covering individual units including how to obtain them, evolution requirements, optimal traits, and best team compositions. Learn everything about your favorite anime characters.",
+      "why": "Why read unit guides?",
+      "whySteps": {
+        "step1Title": "Master Acquisition",
+        "step1Description": "Learn how to unlock rare and secret units efficiently",
+        "step2Title": "Understand Evolution",
+        "step2Description": "Discover required materials and evolution paths for each unit",
+        "step3Title": "Optimize Builds",
+        "step3Description": "Find the best traits, passives, and team synergies"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Units"
+    },
+    "farming": {
+      "title": "Anime Paradox Farming",
+      "description": "Resource gathering strategies for gems, EXP, materials, and trait rerolls. Master AFK farming and automation.",
+      "metaTitle": "Anime Paradox Farming Guide - Gems, EXP & Materials",
+      "metaDescription": "Master resource farming in Anime Paradox. Learn AFK strategies, gem farming, EXP grinding, and material collection methods.",
+      "categoryLabel": "FARMING STRATEGIES",
+      "whatIs": "What is Farming?",
+      "whatIsDescription": "Farming guides focus on maximizing your resource gains including gems, EXP, materials, and trait rerolls. Learn AFK strategies, macro automation, and optimal farming locations.",
+      "why": "Why optimize farming?",
+      "whySteps": {
+        "step1Title": "Maximize Efficiency",
+        "step1Description": "Get more resources in less time with proven strategies",
+        "step2Title": "Automate Progress",
+        "step2Description": "Set up AFK farming to progress while you're away",
+        "step3Title": "Gather Materials",
+        "step3Description": "Stockpile evolution materials and upgrade resources faster"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Farming Guides"
+    },
+    "guide": {
+      "title": "Anime Paradox Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced strategies. Master tower defense and dominate every wave.",
+      "metaTitle": "Anime Paradox Guides - Beginner to Pro Strategies",
+      "metaDescription": "Complete Anime Paradox guides covering beginner tips, advanced strategies, and expert tactics for all skill levels.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "From beginner basics to advanced strategies, these guides cover everything you need to progress from noob to pro. Learn game mechanics, progression tips, and expert strategies.",
+      "why": "Why read guides?",
+      "whySteps": {
+        "step1Title": "Learn Mechanics",
+        "step1Description": "Understand core systems and avoid common beginner mistakes",
+        "step2Title": "Fast Progression",
+        "step2Description": "Follow proven paths to advance quickly through content",
+        "step3Title": "Master Strategy",
+        "step3Description": "Develop advanced tactics for endgame challenges"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "gameplay": {
+      "title": "Anime Paradox Gameplay",
+      "description": "Game modes and mechanics explained. Understand campaign, early access features, and core systems.",
+      "metaTitle": "Anime Paradox Gameplay - Modes & Mechanics Guide",
+      "metaDescription": "Learn Anime Paradox gameplay mechanics, campaign mode strategies, and how to excel in different game modes.",
+      "categoryLabel": "GAMEPLAY MECHANICS",
+      "whatIs": "What is Gameplay?",
+      "whatIsDescription": "Deep dives into gameplay systems including campaign mode, early access features, and core mechanics. Understand how different game modes work and how to excel in each.",
+      "why": "Why understand gameplay?",
+      "whySteps": {
+        "step1Title": "Master Mechanics",
+        "step1Description": "Learn how combat, summoning, and progression systems work",
+        "step2Title": "Mode Strategies",
+        "step2Description": "Develop winning tactics for campaign and special modes",
+        "step3Title": "Unlock Content",
+        "step3Description": "Access advanced features and hidden gameplay elements"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Gameplay Guides"
+    },
+    "resources": {
+      "title": "Anime Paradox Resources",
+      "description": "Game systems reference covering materials, traits, passives, gems, and more. Your complete database.",
+      "metaTitle": "Anime Paradox Resources - Materials, Traits & Passives",
+      "metaDescription": "Complete resource database for Anime Paradox including materials, traits, passives, gems, and game systems reference.",
+      "categoryLabel": "GAME RESOURCES",
+      "whatIs": "What are Resources?",
+      "whatIsDescription": "Reference guides covering in-game resources including materials, traits, passives, gems, and game information. Your go-to database for understanding all game systems.",
+      "why": "Why check resources?",
+      "whySteps": {
+        "step1Title": "Understand Systems",
+        "step1Description": "Learn what each resource does and how to use it effectively",
+        "step2Title": "Plan Allocation",
+        "step2Description": "Make informed decisions about resource spending priorities",
+        "step3Title": "Optimize Growth",
+        "step3Description": "Choose the best upgrade paths for your units and account"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Resources"
+    },
+    "community": {
+      "title": "Anime Paradox Community",
+      "description": "Official community resources including Discord, Roblox, and wiki. Connect with players and access tools.",
+      "metaTitle": "Anime Paradox Community - Discord, Wiki & Resources",
+      "metaDescription": "Join the Anime Paradox community on Discord and Roblox. Access wiki resources, community tools, and connect with players.",
+      "categoryLabel": "COMMUNITY",
+      "whatIs": "What is Community?",
+      "whatIsDescription": "Connect with the Anime Paradox community through Discord, Roblox, and wiki resources. Find the latest updates, community tools, and player discussions.",
+      "why": "Why join the community?",
+      "whySteps": {
+        "step1Title": "Get Updates",
+        "step1Description": "Stay informed about new codes, updates, and events",
+        "step2Title": "Connect with Players",
+        "step2Description": "Join active Discord servers and find teammates",
+        "step3Title": "Access Tools",
+        "step3Description": "Use community-created calculators, guides, and resources"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Community Resources"
+    }
+  }
+}

@@ -838,5 +838,86 @@
     "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
     "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "Last Epoch Guides",
+      "description": "Essenzielle Guides für Anfänger, Kampagnen-Walkthroughs, Passivpunkt-Quests und Monolith Corruption-Strategien in Last Epoch.",
+      "metaTitle": "Last Epoch Guides - Anfänger-Tipps, Kampagne & Endgame",
+      "metaDescription": "Vollständige Last Epoch Guides mit Anfänger-Tipps, Kampagnen-Walkthroughs, Passivpunkt-Quests, Corruption-Mechaniken und Endgame-Progressionsstrategien.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "Was sind Last Epoch Guides?",
+      "whatIsDescription": "Detaillierte Guides zu jedem Aspekt von Last Epoch, von den ersten Schritten in Eterra bis hin zum Meistern von High-Corruption Monolith-Zeitlinien und Endgame-Bossbegegnungen.",
+      "why": "Warum Last Epoch Guides nutzen?",
+      "whySteps": {
+        "step1Title": "Kernmechaniken lernen",
+        "step1Description": "Verstehe Crafting, Loot Filter und Passivbäume von Anfang an, um kostspielige Fehler zu vermeiden",
+        "step2Title": "Effizienter Fortschritt",
+        "step2Description": "Folge optimierten Kampagnenrouten und Quest-Reihenfolgen, um das Endgame schneller zu erreichen",
+        "step3Title": "Endgame meistern",
+        "step3Description": "Lerne Corruption-Skalierung, Blessing-Farming und Monolith-Strategien für langfristigen Fortschritt"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Guides"
+    },
+    "builds": {
+      "title": "Last Epoch Builds",
+      "description": "Top-Builds für jede Mastery, einschließlich Endgame Corruption-Pusher, Boss-Killer und Speed-Farming-Setups für Last Epoch.",
+      "metaTitle": "Last Epoch Builds - Die besten Builds für jede Mastery",
+      "metaDescription": "Finde die besten Last Epoch Builds für jede Mastery. Endgame Corruption-, Bossing- und Speed-Farming-Builds mit Skillbäumen, Passiven und Ausrüstungs-Guides.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "Was sind Last Epoch Builds?",
+      "whatIsDescription": "Vollständige Build-Guides mit Skill-Setups, Passivbäumen, Ausrüstungsprioritäten und Endgame-Skalierung für jede Mastery in Last Epoch.",
+      "why": "Warum Last Epoch Build-Guides nutzen?",
+      "whySteps": {
+        "step1Title": "Zeit sparen",
+        "step1Description": "Überspringe Trial-and-Error mit bewährten Skill- und Passiv-Konfigurationen",
+        "step2Title": "Endgame schneller erreichen",
+        "step2Description": "Folge optimierten Leveling-Pfaden, die reibungslos in das Corruption-Pushing übergehen",
+        "step3Title": "Power maximieren",
+        "step3Description": "Lerne Ausrüstungsprioritäten und Affix-Ziele kennen, die deinen Build an sein Maximum bringen"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Builds"
+    },
+    "classes-and-tier-list": {
+      "title": "Last Epoch Klassen & Tier List",
+      "description": "Vergleiche alle 5 Basisklassen, 15 Masteries und aktuelle Tier-Rankings mit detaillierten Playstyle-Analysen für Last Epoch.",
+      "metaTitle": "Last Epoch Klassen & Tier List - Alle 15 Masteries im Ranking",
+      "metaDescription": "Vergleiche alle Last Epoch Klassen, Masteries und Tier-Rankings. Detaillierte Analysen von Wächter, Magier, Akolyth, Primalist und Schurke mit Build-Empfehlungen.",
+      "categoryLabel": "KLASSEN & TIER LIST",
+      "whatIs": "Was sind Last Epoch Klassen?",
+      "whatIsDescription": "Last Epoch bietet 5 Basisklassen, die sich jeweils in 3 Masteries verzweigen. Jede Mastery hat exklusive Skills und eine einzigartige Endgame-Identität. Tier Lists bewerten diese Masteries nach der aktuellen Meta-Performance.",
+      "why": "Warum Last Epoch Klassen und Tier Lists studieren?",
+      "whySteps": {
+        "step1Title": "Klug wählen",
+        "step1Description": "Die Wahl der Mastery ist pro Charakter permanent, daher ist es entscheidend, deine Optionen zu verstehen",
+        "step2Title": "Finde deinen Spielstil",
+        "step2Description": "Jede Mastery unterstützt verschiedene Fantasien, vom Beschwörer über den Gestaltwandler bis hin zum Void-Nahkämpfer",
+        "step3Title": "Meta-bewusst bleiben",
+        "step3Description": "Wisse, welche Masteries in der aktuellen Season beim Bossing, Farming oder Corruption-Pushing glänzen"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Klassen- & Tier-List-Guides"
+    },
+    "season-4-and-updates": {
+      "title": "Last Epoch Season 4 & Updates",
+      "description": "Aktuelle Neuigkeiten zu Season 4: Shattered Omens, Veröffentlichungstermine, Patchnotizen und Inhalts-Updates für Last Epoch.",
+      "metaTitle": "Last Epoch Season 4 & Updates - Shattered Omens News",
+      "metaDescription": "Bleib auf dem Laufenden über Last Epoch Season 4: Shattered Omens. Veröffentlichungstermine, Startzeiten, neue Features, Patchnotizen und alle aktuellen Spiel-Updates.",
+      "categoryLabel": "SEASON 4 & UPDATES",
+      "whatIs": "Was ist Last Epoch Season 4?",
+      "whatIsDescription": "Season 4 mit dem Titel Shattered Omens startete am 26. März 2026. Sie führt Omen-Fenster, neue legendäre Ausrüstung, Schurken-Überarbeitungen und wichtige Updates für Corruption-Mechaniken ein.",
+      "why": "Warum Last Epoch Season-Updates verfolgen?",
+      "whySteps": {
+        "step1Title": "Aktuell bleiben",
+        "step1Description": "Jede Season bringt wichtige Balance-Änderungen, neue Mechaniken und Meta-Verschiebungen mit sich, die deine Builds beeinflussen",
+        "step2Title": "Vorausplanen",
+        "step2Description": "Kenne Veröffentlichungstermine und Startzeiten, damit du deine League-Starter im Voraus vorbereiten kannst",
+        "step3Title": "Neue Inhalte entdecken",
+        "step3Description": "Erfahre mehr über neue Features, Items und Systeme, sobald sie angekündigt oder veröffentlicht werden"
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Season- & Update-News"
+    }
+  }
 }

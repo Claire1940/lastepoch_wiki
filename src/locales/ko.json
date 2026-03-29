@@ -5,5 +5,86 @@
     "classes-and-tier-list": "클래스 & 티어리스트",
     "season-4-and-updates": "시즌 4 & 업데이트"
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "Last Epoch 가이드",
+      "description": "Last Epoch의 초보자를 위한 필수 가이드, 캠페인 공략, 패시브 포인트 퀘스트 및 Monolith Corruption 전략입니다.",
+      "metaTitle": "Last Epoch 가이드 - 초보자 팁, 캠페인 및 엔드게임",
+      "metaDescription": "초보자 팁, 캠페인 공략, 패시브 포인트 퀘스트, Corruption 메커니즘 및 엔드게임 진행 전략을 다루는 완벽한 Last Epoch 가이드입니다.",
+      "categoryLabel": "가이드",
+      "whatIs": "Last Epoch 가이드란 무엇인가요?",
+      "whatIsDescription": "Eterra에서의 첫걸음부터 고단계 Corruption Monolith 타임라인 및 엔드게임 보스전 마스터까지, Last Epoch의 모든 측면을 다루는 심층 가이드입니다.",
+      "why": "왜 Last Epoch 가이드를 따라야 하나요?",
+      "whySteps": {
+        "step1Title": "핵심 메커니즘 학습",
+        "step1Description": "제작, Loot Filter, 패시브 트리를 처음부터 이해하여 치명적인 실수를 방지하세요",
+        "step2Title": "효율적인 진행",
+        "step2Description": "최적화된 캠페인 경로와 퀘스트 순서를 따라 엔드게임에 더 빠르게 도달하세요",
+        "step3Title": "엔드게임 마스터",
+        "step3Description": "장기적인 성장을 위해 Corruption 스케일링, Blessing 파밍 및 Monolith 전략을 배우세요"
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 가이드"
+    },
+    "builds": {
+      "title": "Last Epoch 빌드",
+      "description": "엔드게임 Corruption 푸셔, 보스 킬러, 스피드 파밍 세팅을 포함한 Last Epoch의 모든 Mastery별 최고 빌드입니다.",
+      "metaTitle": "Last Epoch 빌드 - 모든 Mastery별 최적의 빌드",
+      "metaDescription": "모든 Mastery에 대한 최적의 Last Epoch 빌드를 찾아보세요. 엔드게임 Corruption, 보스전, 스피드 파밍 빌드를 스킬 트리, 패시브, 장비 가이드와 함께 제공합니다.",
+      "categoryLabel": "빌드",
+      "whatIs": "Last Epoch 빌드란 무엇인가요?",
+      "whatIsDescription": "Last Epoch의 모든 Mastery에 대한 스킬 설정, 패시브 트리, 장비 우선순위 및 엔드게임 스케일링을 다루는 완벽한 빌드 가이드입니다.",
+      "why": "왜 Last Epoch 빌드 가이드를 따라야 하나요?",
+      "whySteps": {
+        "step1Title": "시간 절약",
+        "step1Description": "검증된 스킬 및 패시브 구성을 통해 시행착오를 줄이세요",
+        "step2Title": "엔드게임에 더 빠르게 도달",
+        "step2Description": "Corruption 푸싱으로 매끄럽게 이어지는 최적화된 레벨링 경로를 따르세요",
+        "step3Title": "위력 극대화",
+        "step3Description": "빌드의 잠재력을 최대한 끌어올리는 장비 우선순위와 접사 목표를 배우세요"
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 빌드"
+    },
+    "classes-and-tier-list": {
+      "title": "Last Epoch 클래스 및 티어 리스트",
+      "description": "Last Epoch의 5개 기본 클래스, 15개 Mastery를 비교하고 상세한 플레이스타일 분석과 함께 현재 티어 순위를 확인하세요.",
+      "metaTitle": "Last Epoch 클래스 및 티어 리스트 - 15개 모든 Mastery 순위",
+      "metaDescription": "모든 Last Epoch 클래스, Mastery 및 티어 순위를 비교하세요. Sentinel, Mage, Acolyte, Primalist 및 Rogue에 대한 상세 분석과 빌드 추천을 제공합니다.",
+      "categoryLabel": "클래스 및 티어 리스트",
+      "whatIs": "Last Epoch 클래스란 무엇인가요?",
+      "whatIsDescription": "Last Epoch에는 각각 3개의 Mastery로 분기되는 5개의 기본 클래스가 있습니다. 각 Mastery는 전용 스킬과 고유한 엔드게임 정체성을 가집니다. 티어 리스트는 현재 메타 성능에 따라 이러한 Mastery의 순위를 매깁니다.",
+      "why": "왜 Last Epoch 클래스와 티어 리스트를 살펴봐야 하나요?",
+      "whySteps": {
+        "step1Title": "현명한 선택",
+        "step1Description": "Mastery 선택은 캐릭터당 영구적이므로, 옵션을 이해하는 것이 매우 중요합니다",
+        "step2Title": "플레이스타일 찾기",
+        "step2Description": "각 Mastery는 소환사부터 변신술사, 보이드 근접 딜러까지 다양한 판타지를 지원합니다",
+        "step3Title": "메타 파악",
+        "step3Description": "현재 시즌에서 어떤 Mastery가 보스전, 파밍 또는 Corruption 푸싱에 뛰어난지 확인하세요"
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 클래스 및 티어 리스트 가이드"
+    },
+    "season-4-and-updates": {
+      "title": "Last Epoch 시즌 4 및 업데이트",
+      "description": "Last Epoch 시즌 4: Shattered Omens에 대한 최신 뉴스, 출시일, 패치 노트 및 콘텐츠 업데이트입니다.",
+      "metaTitle": "Last Epoch 시즌 4 및 업데이트 - Shattered Omens 뉴스",
+      "metaDescription": "Last Epoch 시즌 4: Shattered Omens의 최신 소식을 확인하세요. 출시일, 시작 시간, 새로운 기능, 패치 노트 및 모든 최신 게임 업데이트를 제공합니다.",
+      "categoryLabel": "시즌 4 및 업데이트",
+      "whatIs": "Last Epoch 시즌 4란 무엇인가요?",
+      "whatIsDescription": "Shattered Omens라는 제목의 시즌 4는 2026년 3월 26일에 시작되었습니다. Omen Windows, 새로운 레전더리 장비, Rogue 리워크 및 주요 Corruption 메커니즘 업데이트를 도입합니다.",
+      "why": "왜 Last Epoch 시즌 업데이트를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "최신 상태 유지",
+        "step1Description": "매 시즌마다 빌드에 영향을 미치는 주요 밸런스 변경 사항, 새로운 메커니즘 및 메타 변화가 도입됩니다",
+        "step2Title": "미리 계획하기",
+        "step2Description": "출시일과 시작 시간을 파악하여 리그 스타터를 미리 준비하세요",
+        "step3Title": "새로운 콘텐츠 발견",
+        "step3Description": "새로운 기능, 아이템 및 시스템이 발표되거나 출시되는 즉시 확인하세요"
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 시즌 및 업데이트 뉴스"
+    }
+  }
 }

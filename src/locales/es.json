@@ -804,5 +804,86 @@
     "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
     "disclaimer": "Sitio web de recursos no oficial creado por fans."
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "Guías de Last Epoch",
+      "description": "Guías esenciales para principiantes, recorridos de la campaña, misiones de puntos pasivos y estrategias de Corruption en el Monolith en Last Epoch.",
+      "metaTitle": "Guías de Last Epoch - Consejos para principiantes, campaña y endgame",
+      "metaDescription": "Guías completas de Last Epoch que cubren consejos para principiantes, recorridos de la campaña, misiones de puntos pasivos, mecánicas de Corruption y estrategias de progresión en el endgame.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las guías de Last Epoch?",
+      "whatIsDescription": "Guías detalladas que cubren cada aspecto de Last Epoch, desde tus primeros pasos en Eterra hasta dominar líneas temporales del Monolith de alta Corruption y encuentros con jefes del endgame.",
+      "why": "¿Por qué seguir las guías de Last Epoch?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Entiende la artesanía, los Loot Filter y los árboles de pasivas desde el principio para evitar errores costosos",
+        "step2Title": "Progresa eficientemente",
+        "step2Description": "Sigue rutas de campaña optimizadas y órdenes de misiones para llegar al endgame más rápido",
+        "step3Title": "Domina el endgame",
+        "step3Description": "Aprende el escalado de Corruption, el farmeo de Blessing y estrategias del Monolith para una progresión a largo plazo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "builds": {
+      "title": "Builds de Last Epoch",
+      "description": "Las mejores builds para cada Mastery, incluyendo impulsores de Corruption en el endgame, matadores de jefes y configuraciones de farmeo rápido para Last Epoch.",
+      "metaTitle": "Builds de Last Epoch - Las mejores builds para cada Mastery",
+      "metaDescription": "Encuentra las mejores builds de Last Epoch para cada Mastery. Builds de Corruption en el endgame, jefes y farmeo rápido con árboles de habilidades, pasivas y guías de equipo.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "¿Qué son las builds de Last Epoch?",
+      "whatIsDescription": "Guías completas de builds que cubren configuraciones de habilidades, árboles de pasivas, prioridades de equipo y escalado de endgame para cada Mastery en Last Epoch.",
+      "why": "¿Por qué seguir las guías de builds de Last Epoch?",
+      "whySteps": {
+        "step1Title": "Ahorra tiempo",
+        "step1Description": "Evita el ensayo y error con configuraciones de habilidades y pasivas probadas",
+        "step2Title": "Llega al endgame más rápido",
+        "step2Description": "Sigue rutas de nivelación optimizadas que transicionan fluidamente hacia el impulso de Corruption",
+        "step3Title": "Maximiza el poder",
+        "step3Description": "Aprende las prioridades de equipo y los objetivos de afijos que llevan tu build a su máximo potencial"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las builds"
+    },
+    "classes-and-tier-list": {
+      "title": "Clases y Tier List de Last Epoch",
+      "description": "Compara las 5 clases base, las 15 Mastery y los rankings actuales con desgloses detallados de estilos de juego para Last Epoch.",
+      "metaTitle": "Clases y Tier List de Last Epoch - Las 15 Mastery clasificadas",
+      "metaDescription": "Compara todas las clases, Mastery y rankings de Last Epoch. Desgloses detallados de Sentinel, Mage, Acolyte, Primalist y Rogue con recomendaciones de builds.",
+      "categoryLabel": "CLASES Y TIER LIST",
+      "whatIs": "¿Qué son las clases de Last Epoch?",
+      "whatIsDescription": "Last Epoch cuenta con 5 clases base, cada una ramificándose en 3 Mastery. Cada Mastery tiene habilidades exclusivas y una identidad única en el endgame. Las tier lists clasifican estas Mastery según el rendimiento actual del meta.",
+      "why": "¿Por qué estudiar las clases y tier lists de Last Epoch?",
+      "whySteps": {
+        "step1Title": "Elige sabiamente",
+        "step1Description": "La selección de Mastery es permanente por personaje, por lo que entender tus opciones es crítico",
+        "step2Title": "Encuentra tu estilo de juego",
+        "step2Description": "Cada Mastery admite diferentes fantasías, desde invocador hasta cambiapieles o combate cuerpo a cuerpo de vacío",
+        "step3Title": "Mantente al tanto del meta",
+        "step3Description": "Conoce qué Mastery sobresalen en jefes, farmeo o impulso de Corruption en la temporada actual"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de clases y tier list"
+    },
+    "season-4-and-updates": {
+      "title": "Temporada 4 y actualizaciones de Last Epoch",
+      "description": "Últimas noticias sobre la Temporada 4: Shattered Omens, fechas de lanzamiento, notas del parche y actualizaciones de contenido para Last Epoch.",
+      "metaTitle": "Temporada 4 y actualizaciones de Last Epoch - Noticias de Shattered Omens",
+      "metaDescription": "Mantente al día con la Temporada 4 de Last Epoch: Shattered Omens. Fechas de lanzamiento, horarios de inicio, nuevas características, notas del parche y todas las últimas actualizaciones del juego.",
+      "categoryLabel": "TEMPORADA 4 Y ACTUALIZACIONES",
+      "whatIs": "¿Qué es la Temporada 4 de Last Epoch?",
+      "whatIsDescription": "La Temporada 4, titulada Shattered Omens, se lanzó el 26 de marzo de 2026. Introduce Omen Windows, nuevo equipo legendario, rediseños de Rogue y actualizaciones importantes en las mecánicas de Corruption.",
+      "why": "¿Por qué seguir las actualizaciones de temporada de Last Epoch?",
+      "whySteps": {
+        "step1Title": "Mantente al día",
+        "step1Description": "Cada temporada trae cambios importantes de equilibrio, nuevas mecánicas y cambios en el meta que afectan tus builds",
+        "step2Title": "Planifica con antelación",
+        "step2Description": "Conoce las fechas de lanzamiento y los horarios de inicio para que puedas preparar tus league starters con antelación",
+        "step3Title": "Descubre contenido nuevo",
+        "step3Description": "Entérate de nuevas características, objetos y sistemas tan pronto como se anuncien o lancen"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las noticias de temporadas y actualizaciones"
+    }
+  }
 }

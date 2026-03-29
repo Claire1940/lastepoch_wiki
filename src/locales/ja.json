@@ -804,5 +804,86 @@
     "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
     "disclaimer": "非公式のファン作成リソースサイトです。"
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "Last Epoch ガイド",
+      "description": "Last Epoch の初心者向け必須ガイド、キャンペーン攻略、パッシブポイントクエスト、Monolith の Corruption 戦略。",
+      "metaTitle": "Last Epoch ガイド - 初心者向けヒント、キャンペーン、エンドゲーム",
+      "metaDescription": "初心者向けヒント、キャンペーン攻略、パッシブポイントクエスト、Corruption の仕組み、エンドゲームの進行戦略を網羅した Last Epoch 完全ガイド。",
+      "categoryLabel": "ガイド",
+      "whatIs": "Last Epoch ガイドとは？",
+      "whatIsDescription": "Eterra での第一歩から、高 Corruption の Monolith タイムラインのマスター、エンドゲームのボス戦まで、Last Epoch のあらゆる側面を網羅した詳細ガイド。",
+      "why": "なぜ Last Epoch ガイドを参考にするのか？",
+      "whySteps": {
+        "step1Title": "コアメカニクスの学習",
+        "step1Description": "クラフト、Loot Filter、パッシブツリーを最初から理解し、手痛いミスを回避",
+        "step2Title": "効率的な進行",
+        "step2Description": "最適化されたキャンペーンルートとクエスト順序に従い、より早くエンドゲームに到達",
+        "step3Title": "エンドゲームのマスター",
+        "step3Description": "長期的な進行のために、Corruption のスケーリング、Blessing ファーミング、Monolith 戦略を学習"
+      },
+      "featured": "注目・必須ガイド",
+      "all": "すべてのガイド"
+    },
+    "builds": {
+      "title": "Last Epoch ビルド",
+      "description": "エンドゲームの Corruption プッシャー、ボス攻略、スピードファーミング用セットアップなど、各 Mastery のトップビルド。",
+      "metaTitle": "Last Epoch ビルド - 各 Mastery のベストビルド",
+      "metaDescription": "各 Mastery のベストな Last Epoch ビルドを紹介。エンドゲームの Corruption、ボス戦、スピードファーミング用ビルドを、スキルツリー、パッシブ、装備ガイドと共に掲載。",
+      "categoryLabel": "ビルド",
+      "whatIs": "Last Epoch ビルドとは？",
+      "whatIsDescription": "Last Epoch の各 Mastery におけるスキルセットアップ、パッシブツリー、装備の優先順位、エンドゲームのスケーリングを網羅した完全ビルドガイド。",
+      "why": "なぜ Last Epoch ビルドガイドを参考にするのか？",
+      "whySteps": {
+        "step1Title": "時間の節約",
+        "step1Description": "実証済みのスキルとパッシブ構成により、試行錯誤を省略",
+        "step2Title": "エンドゲームへの早期到達",
+        "step2Description": "Corruption プッシュへスムーズに移行できる、最適化されたレベリングパスに従う",
+        "step3Title": "パワーの最大化",
+        "step3Description": "ビルドの限界まで性能を引き出す装備の優先順位とアフィックスの目標を学習"
+      },
+      "featured": "注目・必須ビルド",
+      "all": "すべてのビルド"
+    },
+    "classes-and-tier-list": {
+      "title": "Last Epoch クラス＆ティアリスト",
+      "description": "Last Epoch の全5つの基本クラス、15の Mastery、現在のティアランキングを、詳細なプレイスタイルの解説と共に比較。",
+      "metaTitle": "Last Epoch クラス＆ティアリスト - 全15 Mastery のランキング",
+      "metaDescription": "Last Epoch の全クラス、Mastery、ティアランキングを比較。Sentinel、Mage、Acolyte、Primalist、Rogue の詳細な解説と推奨ビルド。",
+      "categoryLabel": "クラス＆ティアリスト",
+      "whatIs": "Last Epoch のクラスとは？",
+      "whatIsDescription": "Last Epoch には5つの基本クラスがあり、それぞれ3つの Mastery に分岐します。各 Mastery には専用スキルと独自のエンドゲームのアイデンティティがあります。ティアリストは、現在のメタにおけるパフォーマンスでこれらの Mastery をランク付けしたものです。",
+      "why": "なぜ Last Epoch のクラスとティアリストを調べるのか？",
+      "whySteps": {
+        "step1Title": "賢明な選択",
+        "step1Description": "Mastery の選択はキャラクターごとに固定されるため、選択肢を理解することが重要",
+        "step2Title": "プレイスタイルの発見",
+        "step2Description": "サモナーからシェイプシフター、ヴォイド近接攻撃まで、各 Mastery が異なるファンタジーをサポート",
+        "step3Title": "メタの把握",
+        "step3Description": "現在のシーズンで、どの Mastery がボス戦、ファーミング、Corruption プッシュに優れているかを把握"
+      },
+      "featured": "注目・必須ガイド",
+      "all": "すべてのクラス＆ティアリストガイド"
+    },
+    "season-4-and-updates": {
+      "title": "Last Epoch シーズン4＆アップデート",
+      "description": "Last Epoch シーズン4: Shattered Omens に関する最新ニュース、リリース日、パッチノート、コンテンツアップデート。",
+      "metaTitle": "Last Epoch シーズン4＆アップデート - Shattered Omens ニュース",
+      "metaDescription": "Last Epoch シーズン4: Shattered Omens の最新情報をチェック。リリース日、開始時間、新機能、パッチノート、その他すべての最新アップデート。",
+      "categoryLabel": "シーズン4＆アップデート",
+      "whatIs": "Last Epoch シーズン4とは？",
+      "whatIsDescription": "シーズン4「Shattered Omens」は2026年3月26日に開始されました。Omen Windows、新しい Legendary 装備、Rogue のリワーク、Corruption メカニクスの大幅なアップデートが導入されています。",
+      "why": "なぜ Last Epoch のシーズンアップデートを追うのか？",
+      "whySteps": {
+        "step1Title": "最新情報の維持",
+        "step1Description": "各シーズンでは、ビルドに影響を与える大幅なバランス調整、新メカニクス、メタの移行が行われる",
+        "step2Title": "事前の計画",
+        "step2Description": "リリース日と開始時間を把握し、リーグスターターを事前に準備",
+        "step3Title": "新コンテンツの発見",
+        "step3Description": "新機能、アイテム、システムが発表またはリリースされたらすぐに情報を入手"
+      },
+      "featured": "注目・必須ニュース",
+      "all": "すべてのシーズン＆アップデートニュース"
+    }
+  }
 }

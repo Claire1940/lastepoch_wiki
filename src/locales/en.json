@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Last Epoch Wiki - Builds, Classes & Endgame Guides",
+      "description": "Last Epoch Wiki with class guides, mastery builds, loot filters, crafting help, dungeon tips, faction choices, and endgame updates for PC players.",
+      "keywords": "Last Epoch, PC, builds, classes, endgame, loot filter, crafting, factions, dungeons",
+      "ogTitle": "Last Epoch Wiki - Builds, Classes & Endgame Guides",
+      "ogDescription": "Last Epoch Wiki with class guides, mastery builds, loot filters, crafting help, dungeon tips, faction choices, and endgame updates for PC players.",
+      "twitterTitle": "Last Epoch Wiki - Builds, Classes & Endgame Guides",
+      "twitterDescription": "Last Epoch Wiki with class guides, mastery builds, loot filters, crafting help, dungeon tips, and endgame updates for PC players."
     }
   },
   "nav": {
@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Time-Travel Loot ARPG",
+    "title": "Last Epoch Wiki",
+    "description": "Master classes, build crafting, dungeon progression, faction choices, loot filters, and endgame monolith guides for Last Epoch players on PC.",
+    "getFreeCodesCTA": "Read Build Guides",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Feb 21, 2024",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "59055",
+        "label": "Steam Reviews"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "15",
+        "label": "Mastery Classes"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "120+",
+        "label": "Skills"
       }
     }
   },
@@ -784,26 +784,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Master Last Epoch?",
+    "description": "Join the Last Epoch community on Discord for builds, guides, and endgame discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Last Epoch Wiki",
+    "description": "Your complete resource hub for Last Epoch builds, classes, crafting, dungeons, factions, and endgame guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "twitter": "Reddit",
+    "steamCommunity": "Official Forum",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Last Epoch Wiki. Not affiliated with Eleventh Hour Games.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  lastEpochBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  lastEpochBestBuildsTierList: { field: 'categories', nameKey: 'name' },
+  lastEpochMasteryGuide: { field: 'groups', nameKey: 'name' },
+  lastEpochLevelingGuide: { field: 'steps', nameKey: 'title' },
+  lastEpochEndgameGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochMonolithGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochCraftingGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochLootFilterGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochBlessingsGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochFactionsGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochDungeonsGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochUniqueItemsGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochIdolsGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochWeaverTreeGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochBossGuide: { field: 'cards', nameKey: 'name' },
+  lastEpochRespecGuide: { field: 'cards', nameKey: 'name' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  lastEpochBeginnerGuide: ['beginner', 'new player', 'starter', 'first character', 'campaign'],
+  lastEpochBestBuildsTierList: ['tier list', 'meta', 'best build', 'corruption', 'bossing', 'farming'],
+  lastEpochMasteryGuide: ['mastery', 'class', 'subclass', 'sentinel', 'mage', 'acolyte', 'primalist', 'rogue'],
+  lastEpochLevelingGuide: ['leveling', 'level up', 'campaign', 'progression', 'xp'],
+  lastEpochEndgameGuide: ['endgame', 'monolith', 'arena', 'corruption'],
+  lastEpochMonolithGuide: ['monolith', 'timeline', 'echo', 'corruption', 'empowered'],
+  lastEpochCraftingGuide: ['crafting', 'affix', 'forge', 'rune', 'glyph', 'legendary'],
+  lastEpochLootFilterGuide: ['loot filter', 'filter', 'item filter', 'drops'],
+  lastEpochBlessingsGuide: ['blessing', 'timeline', 'grand blessing'],
+  lastEpochFactionsGuide: ['faction', 'merchant guild', 'circle of fortune', 'trade'],
+  lastEpochDungeonsGuide: ['dungeon', 'temporal sanctum', 'lightless arbor', 'soulfire bastion'],
+  lastEpochUniqueItemsGuide: ['unique', 'legendary', 'LP', 'legendary potential'],
+  lastEpochIdolsGuide: ['idol', 'idol slot', 'passive'],
+  lastEpochWeaverTreeGuide: ['weaver', 'seasonal', 'node', 'tree'],
+  lastEpochBossGuide: ['boss', 'lagon', 'julra', 'fight'],
+  lastEpochRespecGuide: ['respec', 'reset', 'passive', 'skill'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['last', 'epoch', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text

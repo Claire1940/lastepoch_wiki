@@ -51,728 +51,759 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Last Epoch Gameplay",
+    "description": "Travel through time, master 15 mastery classes, craft legendary gear, and conquer the Monolith of Fate in this deep action RPG on PC."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Last Epoch",
+    "titleHighlight": "Guide Hub",
+    "subtitle": "Everything you need to master builds, classes, crafting, and endgame in Last Epoch",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Last Epoch Beginner Guide",
+        "description": "First-run path from class choice to Monolith"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Trophy",
+        "title": "Last Epoch Best Builds",
+        "description": "Top builds for corruption, bossing, and farming"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "icon": "Users",
+        "title": "Last Epoch Mastery Guide",
+        "description": "All 15 masteries compared at a glance"
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Last Epoch Leveling Guide",
+        "description": "Fast progression without breaking your build"
       },
       {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "icon": "Target",
+        "title": "Last Epoch Endgame Guide",
+        "description": "Monolith, Arena, corruption, and gear progression"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "icon": "Layers",
+        "title": "Last Epoch Monolith Guide",
+        "description": "Timeline progression, stability, and blessings"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "icon": "Hammer",
+        "title": "Last Epoch Crafting Guide",
+        "description": "Affixes, runes, glyphs, and legendary crafting"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "icon": "Filter",
+        "title": "Last Epoch Loot Filter Guide",
+        "description": "Build, import, and refine loot filters"
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "Sparkles",
+        "title": "Last Epoch Blessings Guide",
+        "description": "Timeline blessings and optimal farming"
       },
       {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "Flag",
+        "title": "Last Epoch Factions Guide",
+        "description": "Merchant's Guild vs Circle of Fortune"
+      },
+      {
+        "icon": "Sword",
+        "title": "Last Epoch Dungeons Guide",
+        "description": "Keys, mechanics, bosses, and unique rewards"
+      },
+      {
+        "icon": "Gem",
+        "title": "Last Epoch Unique Items Guide",
+        "description": "Legendary Potential and Eternity Cache crafting"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Last Epoch Idols Guide",
+        "description": "Idol slots, shapes, and class-specific affixes"
+      },
+      {
+        "icon": "GitBranch",
+        "title": "Last Epoch Weaver Tree Guide",
+        "description": "Node pathing, XP choices, and seasonal planning"
+      },
+      {
+        "icon": "Skull",
+        "title": "Last Epoch Boss Guide",
+        "description": "Boss mechanics, stat checks, and fight tips"
+      },
+      {
+        "icon": "RefreshCw",
+        "title": "Last Epoch Respec Guide",
+        "description": "Passive, skill, and mastery respec explained"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "lastEpochBeginnerGuide": {
+      "title": "Last Epoch Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Last Epoch rewards players who make a few good decisions early: pick a playstyle you can sustain, lock in your mastery on time, keep your gear updated with simple crafting, and move into Monoliths with a focused setup instead of scattered upgrades.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Choose a class with a clear first-character identity",
+          "description": "Last Epoch starts with 5 base classes and 15 total masteries. For a smooth first run, Sentinel into Void Knight is the safest all-round recommendation, while Sorcerer and Paladin are also strong beginner-friendly picks.",
+          "highlights": [
+            "Sentinel: tanky melee foundation with armor, shields, and strong survivability",
+            "Mage: ranged spellcasting with fast screen clear and strong AoE options",
+            "Acolyte, Primalist, and Rogue all have viable first-character routes once you know the fantasy you want"
+          ]
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Follow the campaign instead of over-farming early zones",
+          "description": "On a first playthrough, the story route is the best backbone because it naturally feeds skill points, idol slots, and key progression rewards. Keep moving forward instead of trying to perfect gear too early.",
+          "highlights": [
+            "Prioritize the main story and side quests that reward passive points or idol slots",
+            "Avoid Hardcore for a first run unless you already know the game well",
+            "Do not lock yourself into solo challenge settings if you want shared stash, gold, or grouping flexibility"
+          ]
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Unlock your mastery as soon as Chapter 4 allows it",
+          "description": "Your mastery choice defines the character. To unlock it, spend 20 points in your base class passive tree, complete the Chapter 4 mastery quest, then speak with Elder Gaspar at the End of Time.",
+          "highlights": [
+            "Mastery is permanent for that character",
+            "Skill and passive respecs are flexible, but mastery choice is not",
+            "Choose based on long-term playstyle, not only on the first few levels"
+          ]
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Build around 5 linked skills and one damage direction",
+          "description": "The fastest, cleanest characters use five specialized skills that reinforce each other and scale the same damage family. Mixing unrelated damage types slows down leveling and makes gear upgrades weaker.",
+          "highlights": [
+            "Pick one main damage focus such as Void, Fire, Necrotic, Physical, or Bleed",
+            "Use your skill trees to make one core skill stronger instead of spreading power everywhere",
+            "Respec one active skill at a time so the rest of the build keeps carrying your XP and damage"
+          ]
+        },
+        {
+          "title": "Start crafting early and keep your weapon current",
+          "description": "Crafting is one of Last Epoch's best systems and it matters during the campaign, not only at endgame. Use simple upgrades to keep damage and defenses on curve.",
+          "highlights": [
+            "Buy Rune of Shattering whenever you can and break down useful affixes into shards",
+            "Use Glyphs of Hope and craft on items with good Forging Potential",
+            "Upgrade your weapon regularly because it is your main source of damage"
+          ]
+        },
+        {
+          "title": "Prepare for endgame before the difficulty spike",
+          "description": "Before serious endgame pushing, get your character into a stable state. Around level 45 to 50, finish key campaign rewards, tighten your passives, unlock idol slots, and move into Monolith of Fate with a focused setup.",
+          "highlights": [
+            "Endgame modes are accessed from the End of Time hub",
+            "Monolith of Fate is the main progression target once the campaign is done",
+            "Empowered Monolith becomes the long-term goal as your build stabilizes"
+          ]
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Sentinel into Void Knight is the safest first-character mastery path for new players.",
+        "Always complete passive-point and idol-slot side quests before moving to endgame.",
+        "Movement speed is a real power stat during leveling: prioritize it on boots and rings.",
+        "Craft early and often instead of waiting for perfect drops to fall."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "lastEpochBestBuildsTierList": {
+      "title": "Last Epoch Best Builds Tier List",
+      "displayType": "tierGrid",
+      "intro": "In Last Epoch, the best build depends on the job. Some builds dominate high-corruption Monolith pushing, some are built to delete bosses, and others win by clearing echoes faster than everything else. This module gives you a clean at-a-glance shortlist of the current high-value archetypes.",
+      "categories": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Endgame Corruption",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "Falconer Bomb Lance",
+              "mastery": "Rogue / Falconer",
+              "summary": "One of the strongest high-corruption pushers. Combines Falcon scaling, Rogue mobility, and powerful imprint crafting upside.",
+              "highlights": ["Excellent corruption scaling", "Fast movement and strong defensive layers", "Extremely high damage ceiling"]
+            },
+            {
+              "tier": "S",
+              "name": "Curse Warlock",
+              "mastery": "Acolyte / Warlock",
+              "summary": "Stands out through multiplicative curse scaling and strong damage-over-time pressure. Rewards players who want a modern caster with real endgame depth.",
+              "highlights": ["Very strong curse stacking", "High DoT pressure in long fights", "Scales hard into deeper empowered timelines"]
+            },
+            {
+              "tier": "S",
+              "name": "Elemental Runemaster",
+              "mastery": "Mage / Runemaster",
+              "summary": "Delivers huge elemental burst and strong battlefield control once the rune system clicks. One of the best ceiling builds for high-output casters.",
+              "highlights": ["Massive burst windows", "Strong defensive passive options", "Excellent scaling with proper rune management"]
+            }
+          ]
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Bossing",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "Echo Void Knight",
+              "mastery": "Sentinel / Void Knight",
+              "summary": "A top boss killer built around reliable single-target Void damage and Sentinel durability. One of the cleanest ways to learn multi-phase bosses.",
+              "highlights": ["Strong single-target output", "Reliable damage uptime", "Sentinel defenses make boss progression smoother"]
+            },
+            {
+              "tier": "S",
+              "name": "Reaper Form Lich",
+              "mastery": "Acolyte / Lich",
+              "summary": "Trades safety for an elite bossing ceiling. With sustain handled correctly, Reaper Form turns the class into one of the fastest dedicated boss killers.",
+              "highlights": ["Very high boss damage ceiling", "Life leech sustain enables aggressive uptime", "Best for players comfortable with health-drain mechanics"]
+            },
+            {
+              "tier": "S",
+              "name": "Holy Aura Paladin",
+              "mastery": "Sentinel / Paladin",
+              "summary": "The most forgiving bossing specialist for progression-focused players. Holy Aura and Healing Hands interactions give it exceptional staying power.",
+              "highlights": ["Excellent self-sustain", "Very safe progression choice", "Great first serious bossing character"]
+            }
+          ]
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "name": "Speed Farming",
+          "builds": [
+            {
+              "tier": "S",
+              "name": "Shadow Cascade Bladedancer",
+              "mastery": "Rogue / Bladedancer",
+              "summary": "The gold standard for echo clear speed. Shadow-heavy setups move through regular farming content at a pace that very few other masteries can match.",
+              "highlights": ["Best-in-class movement and flow", "Exceptional echo clear speed", "Ideal for loot-per-hour focused farming"]
+            },
+            {
+              "tier": "A",
+              "name": "Hail of Arrows Marksman",
+              "mastery": "Rogue / Marksman",
+              "summary": "Broad screen coverage with less mechanical intensity than Bladedancer. One of the best ranged farming choices for cleaner positioning.",
+              "highlights": ["Large AoE coverage per cast", "Strong ranged farming profile", "Easier to pilot than melee speed setups"]
+            },
+            {
+              "tier": "A",
+              "name": "Storm Totem Shaman",
+              "mastery": "Primalist / Shaman",
+              "summary": "A strong farming alternative for players who prefer totems and elemental storm setups. Tornado and Storm Totem keep damage rolling while the player moves.",
+              "highlights": ["Persistent damage while repositioning", "Good map flow for a Primalist archetype", "Strong option for players who dislike glass-cannon builds"]
+            }
+          ]
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+    "lastEpochMasteryGuide": {
+      "title": "Last Epoch Mastery Guide",
+      "displayType": "masteryGrid",
+      "intro": "Mastery is the most important character commitment in Last Epoch. Every base class branches into three masteries, each with its own exclusive skills, play pattern, and endgame identity. Compare the whole board before speaking to Elder Gaspar.",
       "groups": [
         {
-          "name": "Exploration",
-          "achievements": [
+          "name": "Sentinel",
+          "masteries": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "name": "Forge Guard",
+              "playstyle": "Defensive melee bruiser",
+              "damageProfile": "Physical and Bleed",
+              "signatureTools": ["Forge Strike", "Smelter's Wrath", "Ring of Shields"],
+              "summary": "A durable mastery that leans into armor, defense, and steady weapon-based damage."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
+              "name": "Paladin",
+              "playstyle": "Fire hybrid with healing support",
+              "damageProfile": "Fire and defensive utility",
+              "signatureTools": ["Judgement", "Holy Aura"],
+              "summary": "A forgiving mastery with excellent sustain and one of the best progression profiles for new players."
             },
             {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "name": "Void Knight",
+              "playstyle": "Aggressive void melee",
+              "damageProfile": "Void and melee burst",
+              "signatureTools": ["Erasing Strike", "Anomaly"],
+              "summary": "Built around Echo mechanics that duplicate key actions and add free damage to a simple melee loop."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
+          "name": "Acolyte",
+          "masteries": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "name": "Lich",
+              "playstyle": "Risk-reward caster",
+              "damageProfile": "Necrotic, Poison, life-drain",
+              "signatureTools": ["Reaper Form", "Death Seal"],
+              "summary": "A high-ceiling mastery that converts health management into explosive damage and strong bossing."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "name": "Necromancer",
+              "playstyle": "Army commander",
+              "damageProfile": "Minion, Necrotic, Physical",
+              "signatureTools": ["Summon Wraith", "Dread Shade", "Assemble Abomination"],
+              "summary": "The classic summoner route, built around large minion armies and easy-to-read scaling."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "name": "Warlock",
+              "playstyle": "Curse caster",
+              "damageProfile": "Curse, Necrotic, DoT",
+              "signatureTools": ["Chaos Bolts", "Profane Veil", "Ghostflame"],
+              "summary": "A corruption-focused mastery that weakens enemies, stacks curses, and scales extremely well into endgame."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
+          "name": "Mage",
+          "masteries": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "name": "Sorcerer",
+              "playstyle": "Pure ranged spellcaster",
+              "damageProfile": "Fire, Lightning, Cold burst",
+              "signatureTools": ["Meteor", "Black Hole", "Arcane Ascendance"],
+              "summary": "One of the easiest caster entries for new players thanks to clear AoE patterns and straightforward damage scaling."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
+              "name": "Runemaster",
+              "playstyle": "Tactical rune mage",
+              "damageProfile": "Elemental burst and layered defenses",
+              "signatureTools": ["Runic Invocation"],
+              "summary": "A high-skill, high-reward mastery that turns rune sequencing into one of the most powerful caster packages in the game."
             },
             {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "name": "Spellblade",
+              "playstyle": "Melee-caster hybrid",
+              "damageProfile": "Melee plus elemental triggers",
+              "signatureTools": ["Shatter Strike", "Surge", "Firebrand"],
+              "summary": "A close-range elemental fighter that mixes weapon hits with spell procs for a more active rhythm."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
+          "name": "Primalist",
+          "masteries": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
+              "name": "Druid",
+              "playstyle": "Shapeshifter",
+              "damageProfile": "Melee, nature, transformation",
+              "signatureTools": ["Entangling Roots", "Werebear Form", "Spriggan Form"],
+              "summary": "A flexible mastery that shifts between forms and can cover tanking, healing, and sustained melee pressure."
             },
             {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
+              "name": "Beastmaster",
+              "playstyle": "Companion commander",
+              "damageProfile": "Minion and physical pressure",
+              "signatureTools": ["Summon Raptor", "Summon Sabertooth", "Summon Frenzy Totem"],
+              "summary": "Focused on permanent companions and beast synergy instead of temporary swarms or spell totems."
             },
             {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
+              "name": "Shaman",
+              "playstyle": "Elemental totem caster",
+              "damageProfile": "Storm, Cold, totem damage",
+              "signatureTools": ["Avalanche", "Summon Storm Totem"],
+              "summary": "A stationary-control mastery that wins through repeated elemental setups and persistent damage sources."
             }
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
+          "name": "Rogue",
+          "masteries": [
             {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
+              "name": "Bladedancer",
+              "playstyle": "Fast melee assassin",
+              "damageProfile": "Melee burst, shadows, mobility",
+              "signatureTools": ["Dancing Strikes", "Lethal Mirage"],
+              "summary": "The highest-tempo melee Rogue mastery, built around speed, dodge, and explosive clear patterns."
             },
             {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
+              "name": "Marksman",
+              "playstyle": "Bow specialist",
+              "damageProfile": "Ranged single-target and AoE",
+              "signatureTools": ["Hail of Arrows", "Detonating Arrow"],
+              "summary": "A clean ranged mastery for players who want safer positioning and broad screen coverage."
             },
             {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "name": "Falconer",
+              "playstyle": "Trap and companion tactician",
+              "damageProfile": "Trap burst, mobility, Falcon scaling",
+              "signatureTools": ["Falcon Strike", "Explosive Trap"],
+              "summary": "A top-tier Rogue mastery that mixes setup tools, companion pressure, and excellent corruption performance."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+    "lastEpochLevelingGuide": {
+      "title": "Last Epoch Leveling Guide",
       "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+      "intro": "Leveling in Last Epoch is two progress bars at once: your character level and your specialized skill levels. The best routes keep both moving together, use movement speed as a real power stat, and pivot into Monoliths with the right blessing and timeline order.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Build your campaign around one damage family",
+          "description": "Your 5 specialized skills should support each other. Gear works best when your main skills all scale from the same damage profile instead of splitting between unrelated elements.",
+          "highlights": [
+            "Character level caps at 100",
+            "Specialized skills normally cap at 20",
+            "Do not spread your active setup across different damage types while leveling"
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Take the story route and collect permanent rewards",
+          "description": "Main story progression and side quests that grant passive points or idol slots should be handled early. These permanent rewards make every later leveling method more efficient.",
+          "highlights": [
+            "Quests, enemy kills, Monoliths, Arena, and Echoes all contribute XP",
+            "Complete passive-point and idol-slot quests before serious Monolith farming",
+            "Track missing permanent rewards from the map interface"
+          ]
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Lock in your mastery when Chapter 4 opens it",
+          "description": "Spend 20 points in the base class tree, complete the mastery quest, then choose your subclass at the End of Time. Start spending into mastery scaling instead of delaying the power spike.",
+          "highlights": [
+            "Mastery selection happens through Elder Gaspar",
+            "Choosing mastery early keeps your leveling build on curve",
+            "Respec passives and skills when needed, but keep the core identity stable"
+          ]
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Use movement speed as a leveling stat",
+          "description": "Movement speed is one of the strongest campaign accelerators because it improves kill rate, zone completion speed, and access to later progression systems.",
+          "highlights": [
+            "Silver Ring gives 3 to 8 percent movement speed per ring",
+            "Advent of the Erased Boots can roll up to 20 percent movement speed",
+            "Lessons of the Metropolis Boots can roll up to 17 percent movement speed"
+          ]
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Craft often and keep replacing weak weapons",
+          "description": "Weapon damage and simple crafted affixes do more for leveling speed than waiting for perfect drops. The campaign gets much smoother when you treat the crafting bench as part of the normal route.",
+          "highlights": [
+            "Use Rune of Shattering to stock shards for future upgrades",
+            "Use Glyphs of Hope to protect item durability while crafting",
+            "Update your main weapon after major zones instead of only after bad dry streaks"
+          ]
+        },
+        {
+          "title": "Use Monolith Arena Nodes and the first XP blessing",
+          "description": "Once Monoliths open through the story, Arena Nodes are one of the best XP bursts in the game. They stay efficient until roughly level 58, then the route shifts toward the first key blessing.",
+          "highlights": [
+            "Rare and magical enemies grant 50 percent more XP than normal enemies",
+            "Arena Node farming stays strong to about level 58",
+            "Defeating the first Monolith boss grants Strength of Mind, an experience blessing"
+          ]
+        },
+        {
+          "title": "Unlock Empowered Monoliths around level 90",
+          "description": "Empowered Monoliths are the real long-form endgame engine. Clear the required timeline sequence, then return to efficient farming with higher reward scaling.",
+          "highlights": [
+            "Complete Fall of the Outcasts, Black Sun, End of the Storm, and Reign of Dragons",
+            "Then clear Spirits of Fire, The Last Ruin, and Age of Winter",
+            "After unlocking Empowered Monoliths, farm Fall of the Outcasts again for Grand Strength of Mind"
+          ]
+        }
+      ],
+      "quickTips": [
+        "Keep your weapon updated every few zones to maintain smooth kill speed.",
+        "Movement speed on boots and rings accelerates campaign progression significantly.",
+        "Arena Nodes in Monolith are one of the strongest XP sources before level 58.",
+        "Unlock Empowered Monoliths by completing the required timeline sequence starting around level 90."
+      ]
+    },
+    "lastEpochEndgameGuide": {
+      "title": "Last Epoch Endgame Guide",
+      "displayType": "cards",
+      "intro": "Last Epoch endgame branches into Monolith of Fate, Dungeons, Arena, corruption pushing, and long-term gear progression. Understanding each system helps you choose where to invest your time for the rewards you need.",
+      "cards": [
+        {
+          "name": "Monolith of Fate",
+          "description": "The main endgame progression system where you clear echoes, push corruption, and earn timeline-specific blessings."
+        },
+        {
+          "name": "Dungeons",
+          "description": "Instanced challenges with unique mechanics, key requirements, and exclusive rewards including legendary crafting access."
+        },
+        {
+          "name": "Arena",
+          "description": "Wave-based survival mode that tests build durability and rewards competitive leaderboard placement."
+        },
+        {
+          "name": "Corruption Pushing",
+          "description": "Increasing corruption raises difficulty and reward quality in Empowered Monoliths, forming the long-term power curve."
+        }
+      ]
+    },
+    "lastEpochMonolithGuide": {
+      "title": "Last Epoch Monolith of Fate Guide",
+      "displayType": "cards",
+      "intro": "Monolith of Fate is Last Epoch's core endgame system. It involves timeline progression, stability management, quest echoes, corruption scaling, empowered unlocks, and target farming strategy.",
+      "cards": [
+        {
+          "name": "Timeline Progression",
+          "description": "Clear echoes to gain stability, defeat timeline bosses, and unlock new timelines for expanded blessing and reward pools."
+        },
+        {
+          "name": "Corruption Scaling",
+          "description": "Increase corruption in Empowered Monoliths to boost item rarity and experience. Higher corruption means better drops but harder enemies."
+        },
+        {
+          "name": "Blessings and Rewards",
+          "description": "Each timeline boss drops a unique set of blessings. Choose blessings that complement your build and farming goals."
+        },
+        {
+          "name": "Empowered Monoliths",
+          "description": "The endgame within the endgame. Unlocked after completing the standard timeline sequence, offering the highest rewards in the game."
+        }
+      ]
+    },
+    "lastEpochCraftingGuide": {
+      "title": "Last Epoch Crafting Guide",
+      "displayType": "cards",
+      "intro": "Crafting is one of Last Epoch's defining systems. It covers affix crafting, forging potential management, glyphs, runes, sealing, and the path from basic upgrades into legendary crafting through the Temporal Sanctum.",
+      "cards": [
+        {
+          "name": "Affix Crafting Basics",
+          "description": "Add and upgrade prefixes and suffixes on equipment using crafting shards. Each craft consumes Forging Potential."
+        },
+        {
+          "name": "Runes and Glyphs",
+          "description": "Runes of Shattering break items into shards. Glyphs of Hope protect Forging Potential during risky crafts."
+        },
+        {
+          "name": "Exalted Items",
+          "description": "High-tier drops with T6 or T7 affixes. These form the best crafting bases for endgame gear."
+        },
+        {
+          "name": "Legendary Crafting",
+          "description": "Combine a Unique item with an Exalted item in the Temporal Sanctum to create Legendary gear with transferred affixes."
+        }
+      ]
+    },
+    "lastEpochLootFilterGuide": {
+      "title": "Last Epoch Loot Filter Guide",
+      "displayType": "cards",
+      "intro": "Loot filters keep your drops readable as item complexity rises. Last Epoch's built-in filter system lets you build, import, and refine rules for both leveling and endgame.",
+      "cards": [
+        {
+          "name": "Creating Filters",
+          "description": "Use the in-game filter editor to set visibility rules based on item type, rarity, affix tiers, and class restrictions."
+        },
+        {
+          "name": "Leveling Filters",
+          "description": "Show upgrades for your current build while hiding low-value drops. Keep filters simple and update them as you progress."
+        },
+        {
+          "name": "Endgame Filters",
+          "description": "Target specific Exalted affixes, Unique items, and crafting bases. Tighten rules as your gear improves."
+        },
+        {
+          "name": "Importing Community Filters",
+          "description": "Download and import filters from community tools like Last Epoch Tools to get started quickly with optimized setups."
+        }
+      ]
+    },
+    "lastEpochBlessingsGuide": {
+      "title": "Last Epoch Blessings Guide",
+      "displayType": "cards",
+      "intro": "Blessings are permanent account-shaping rewards earned by defeating Monolith timeline bosses. Each timeline offers a unique set of blessings that affect drop rates, experience, and character power.",
+      "cards": [
+        {
+          "name": "How Blessings Work",
+          "description": "Defeat a timeline boss to choose one blessing from that timeline's pool. You can replace blessings by defeating the boss again."
+        },
+        {
+          "name": "Grand Blessings",
+          "description": "Empowered Monolith versions of blessings are significantly stronger. Grand Strength of Mind from Fall of the Outcasts is one of the most valuable."
+        },
+        {
+          "name": "Farming Blessings",
+          "description": "If you do not get the blessing you want, you can run the timeline again and defeat the boss for another chance at your target blessing."
+        }
+      ]
+    },
+    "lastEpochFactionsGuide": {
+      "title": "Last Epoch Factions Guide",
+      "displayType": "cards",
+      "intro": "Last Epoch offers two item factions: Merchant's Guild for trading and Circle of Fortune for enhanced drops. Your choice changes how you gear up and progress through endgame.",
+      "cards": [
+        {
+          "name": "Merchant's Guild",
+          "description": "Enables player-to-player trading through the bazaar. Best for players who want to buy or sell specific items to fill gear gaps quickly."
+        },
+        {
+          "name": "Circle of Fortune",
+          "description": "Boosts drop rates and adds prophecy-based target farming. Best for solo players who prefer finding their own gear."
+        },
+        {
+          "name": "Favor and Rank",
+          "description": "Both factions use Favor currency to unlock higher ranks. Higher ranks provide stronger benefits and unlock more powerful faction features."
+        },
+        {
+          "name": "Switching Factions",
+          "description": "You can switch factions, but you lose all progress in your current faction. Consider your playstyle before committing."
+        }
+      ]
+    },
+    "lastEpochDungeonsGuide": {
+      "title": "Last Epoch Dungeons Guide",
+      "displayType": "cards",
+      "intro": "Last Epoch dungeons are instanced challenges with unique mechanics and exclusive rewards. Each dungeon requires a specific key to enter and scales in difficulty across multiple tiers.",
+      "cards": [
+        {
+          "name": "Temporal Sanctum",
+          "description": "Navigate between two time periods to reach Julra. This dungeon is required for legendary crafting through the Eternity Cache."
+        },
+        {
+          "name": "Lightless Arbor",
+          "description": "Fight through dark caverns and defeat the Mountain Beneath. Rewards include the Vault of Uncertain Fate for targeted loot."
+        },
+        {
+          "name": "Soulfire Bastion",
+          "description": "Battle through a fortress of flame and face Cremorus. Offers unique soul gambling rewards and exclusive item drops."
+        },
+        {
+          "name": "Dungeon Keys and Tiers",
+          "description": "Keys drop from Monolith echoes and other content. Higher tiers increase difficulty and reward quality significantly."
+        }
+      ]
+    },
+    "lastEpochUniqueItemsGuide": {
+      "title": "Last Epoch Unique and Legendary Items Guide",
+      "displayType": "cards",
+      "intro": "Unique items in Last Epoch have special properties that cannot be found on rare items. Legendary Potential determines how many affixes can be transferred during legendary crafting, making LP a critical chase stat.",
+      "cards": [
+        {
+          "name": "Unique Items",
+          "description": "Items with fixed special modifiers that define build-enabling interactions. Some are common drops while others are extremely rare."
+        },
+        {
+          "name": "Legendary Potential",
+          "description": "A stat on Unique items ranging from 0 to 4. Each point of LP allows one affix to transfer from an Exalted item during legendary crafting."
+        },
+        {
+          "name": "Eternity Cache Crafting",
+          "description": "Place a Unique and an Exalted item in the Temporal Sanctum's Eternity Cache to create a Legendary item with transferred affixes."
+        }
+      ]
+    },
+    "lastEpochIdolsGuide": {
+      "title": "Last Epoch Idols Guide",
+      "displayType": "cards",
+      "intro": "Idols are a unique equipment system in Last Epoch. They provide powerful passive bonuses and come in different shapes that fit into your idol inventory grid. Class-specific idol affixes make them a major source of build power.",
+      "cards": [
+        {
+          "name": "Idol Slot Unlocks",
+          "description": "Idol slots are unlocked through campaign side quests. Completing all idol quests opens the full grid for maximum passive power."
+        },
+        {
+          "name": "Idol Shapes and Sizes",
+          "description": "Idols come in different rectangular shapes. Fitting them efficiently into your grid maximizes the number of active bonuses."
+        },
+        {
+          "name": "Class-Specific Affixes",
+          "description": "Each class has access to unique idol affixes that can significantly boost specific skills and playstyles."
+        }
+      ]
+    },
+    "lastEpochWeaverTreeGuide": {
+      "title": "Last Epoch Weaver Tree Guide",
+      "displayType": "cards",
+      "intro": "The Weaver Tree is a seasonal progression system that adds account-wide bonuses through node selection. Early pathing decisions between XP and loot nodes shape your entire seasonal progression.",
+      "cards": [
+        {
+          "name": "Early Node Pathing",
+          "description": "Prioritize XP nodes early in the season to accelerate character leveling. Switch to loot nodes once your build stabilizes."
+        },
+        {
+          "name": "XP vs Loot Choices",
+          "description": "XP nodes provide faster leveling while loot nodes improve drop quality. The optimal path depends on your seasonal goals."
+        },
+        {
+          "name": "Seasonal Planning",
+          "description": "Plan your Weaver Tree path before committing points. The tree changes how Monolith farming and progression feel throughout the season."
+        }
+      ]
+    },
+    "lastEpochBossGuide": {
+      "title": "Last Epoch Boss Guide",
+      "displayType": "cards",
+      "intro": "Last Epoch bosses test your build's defensive stats, damage uptime, and mechanical awareness. Campaign bosses introduce core mechanics while Monolith and Dungeon bosses demand refined builds.",
+      "cards": [
+        {
+          "name": "Campaign Bosses",
+          "description": "Story bosses like Lagon test positioning and dodge skills. Focus on capping elemental resistances and maintaining health sustain."
+        },
+        {
+          "name": "Monolith Bosses",
+          "description": "Timeline bosses guard blessings and have fixed mechanics. Learning their patterns is essential for efficient blessing farming."
+        },
+        {
+          "name": "Dungeon Bosses",
+          "description": "Julra, Mountain Beneath, and Cremorus each have unique fight mechanics tied to their dungeon's core system."
+        },
+        {
+          "name": "Defensive Stat Checks",
+          "description": "Most boss fights require capped resistances, adequate health pool, and at least one form of health sustain to survive reliably."
+        }
+      ]
+    },
+    "lastEpochRespecGuide": {
+      "title": "Last Epoch Respec Guide",
+      "displayType": "cards",
+      "intro": "Last Epoch allows flexible respeccing of passives and skills, with recent updates also enabling mastery respec. Understanding when and how to respec saves gold and avoids unnecessary character rerolls.",
+      "cards": [
+        {
+          "name": "Passive Respec",
+          "description": "Remove passive points one at a time for a small gold cost. The cost scales with character level but remains affordable."
+        },
+        {
+          "name": "Skill Respec",
+          "description": "Despecialize a skill to free its slot. The new skill starts at specialization level 1 and needs to be leveled through combat."
+        },
+        {
+          "name": "Mastery Respec",
+          "description": "Recent updates allow mastery changes. This is a significant decision that resets mastery-specific passives and skills."
+        },
+        {
+          "name": "When to Respec vs Reroll",
+          "description": "Respec when adjusting within the same build archetype. Reroll a new character when you want a completely different class or playstyle."
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Last Epoch",
+    "titleHighlight": "FAQ",
+    "subtitle": "Common questions about Last Epoch builds, classes, and endgame",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Last Epoch?",
+        "answer": "Last Epoch is a time-travel action RPG developed by Eleventh Hour Games. It features 5 base classes with 15 masteries, deep crafting, loot filters, and endgame systems including Monolith of Fate, Dungeons, and Arena."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How many classes does Last Epoch have?",
+        "answer": "Last Epoch has 5 base classes: Sentinel, Mage, Acolyte, Primalist, and Rogue. Each base class branches into 3 masteries for a total of 15 unique subclasses."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What is the best starter class in Last Epoch?",
+        "answer": "Sentinel into Void Knight is widely considered the safest first-character path in Last Epoch. Paladin and Sorcerer are also strong beginner-friendly choices with forgiving mechanics."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How does crafting work in Last Epoch?",
+        "answer": "Last Epoch crafting uses shards to add or upgrade affixes on equipment. Each craft consumes Forging Potential. Glyphs and Runes provide additional crafting options, and the Temporal Sanctum dungeon enables legendary crafting."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What is the Last Epoch endgame?",
+        "answer": "Last Epoch endgame centers on Monolith of Fate, where you push corruption and earn blessings. Additional endgame content includes Dungeons with unique mechanics, Arena for wave survival, and faction-based gearing through Merchant's Guild or Circle of Fortune."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Can you respec in Last Epoch?",
+        "answer": "Yes. Last Epoch allows passive and skill respeccing at any time for a small gold cost. Recent updates also added mastery respec, allowing players to change their subclass."
+      },
+      {
+        "question": "Is Last Epoch multiplayer?",
+        "answer": "Yes. Last Epoch supports online co-op for up to 4 players. You can also play solo offline or in online solo mode with access to shared stash and trading."
+      },
+      {
+        "question": "What platforms is Last Epoch available on?",
+        "answer": "Last Epoch is available on PC through Steam. The game launched in full release on February 21, 2024, after an extended Early Access period."
       }
     ]
   },
@@ -800,125 +831,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "builds": {
+      "title": "Last Epoch Builds",
+      "description": "Top builds for every mastery including endgame corruption pushers, boss killers, and speed farming setups.",
+      "metaTitle": "Last Epoch Builds - Best Builds for Every Mastery",
+      "metaDescription": "Find the best Last Epoch builds for every mastery. Endgame corruption, bossing, and speed farming builds with skill trees, passives, and gear guides.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Complete build guides covering skill setups, passive trees, gear priorities, and endgame scaling for every mastery in Last Epoch.",
+      "why": "Why follow build guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Save Time",
+        "step1Description": "Skip trial-and-error with proven skill and passive configurations",
+        "step2Title": "Reach Endgame Faster",
+        "step2Description": "Follow optimized leveling paths that transition smoothly into corruption pushing",
+        "step3Title": "Maximize Power",
+        "step3Description": "Learn gear priorities and affix targets that scale your build to its ceiling"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Builds"
+    },
+    "classes": {
+      "title": "Last Epoch Classes",
+      "description": "Compare all 5 base classes and 15 masteries with playstyle breakdowns, damage profiles, and recommended first picks.",
+      "metaTitle": "Last Epoch Classes - All 15 Masteries Compared",
+      "metaDescription": "Compare all Last Epoch classes and masteries. Detailed breakdowns of Sentinel, Mage, Acolyte, Primalist, and Rogue subclasses with build recommendations.",
+      "categoryLabel": "CLASSES",
+      "whatIs": "What are Classes?",
+      "whatIsDescription": "Last Epoch has 5 base classes, each branching into 3 masteries. Each mastery has exclusive skills and a unique endgame identity.",
+      "why": "Why learn about classes?",
+      "whySteps": {
+        "step1Title": "Choose Wisely",
+        "step1Description": "Mastery selection is permanent per character, so understanding your options is critical",
+        "step2Title": "Find Your Playstyle",
+        "step2Description": "Each mastery supports different fantasies from summoner to shapeshifter to void melee",
+        "step3Title": "Plan Ahead",
+        "step3Description": "Know which masteries excel at bossing, farming, or corruption pushing before you commit"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Class Guides"
+    },
+    "skills": {
+      "title": "Last Epoch Skills",
+      "description": "Detailed skill guides covering node breakdowns, damage tags, conversion paths, and synergies for every class.",
+      "metaTitle": "Last Epoch Skills - Skill Trees & Node Guides",
+      "metaDescription": "Complete Last Epoch skill guides with node breakdowns, damage tags, conversion paths, and build synergies for all 120+ skills.",
+      "categoryLabel": "SKILLS",
+      "whatIs": "What are Skills?",
+      "whatIsDescription": "Last Epoch has over 120 skills, each with a dedicated specialization tree. Nodes modify behavior, damage type, and scaling mechanics.",
+      "why": "Why study skill trees?",
+      "whySteps": {
+        "step1Title": "Optimize Damage",
+        "step1Description": "Understand which nodes scale best for your build's damage family",
+        "step2Title": "Find Conversions",
+        "step2Description": "Discover damage type conversions that unlock powerful scaling interactions",
+        "step3Title": "Support Your Build",
+        "step3Description": "Choose utility and defensive nodes that complement your main skill setup"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Skill Guides"
+    },
+    "loot-filter": {
+      "title": "Last Epoch Loot Filters",
+      "description": "Build, import, and customize loot filters for leveling and endgame. Keep your drops clean and your upgrades visible.",
+      "metaTitle": "Last Epoch Loot Filters - Setup & Import Guide",
+      "metaDescription": "Learn how to build and import Last Epoch loot filters. Leveling filters, endgame filters, and community-shared setups for every class.",
+      "categoryLabel": "LOOT FILTERS",
+      "whatIs": "What are Loot Filters?",
+      "whatIsDescription": "Loot filters control which item drops are shown, highlighted, or hidden. They are essential for managing screen clutter as drop rates increase.",
+      "why": "Why use loot filters?",
+      "whySteps": {
+        "step1Title": "See What Matters",
+        "step1Description": "Hide junk drops and highlight upgrades for your current build",
+        "step2Title": "Save Time",
+        "step2Description": "Stop checking every item on the ground and focus on actual upgrades",
+        "step3Title": "Target Farm",
+        "step3Description": "Highlight specific affix tiers and item bases you need for crafting"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Loot Filter Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
+      "title": "Last Epoch Crafting",
+      "description": "Master the crafting system from basic affix upgrades to legendary item creation through the Temporal Sanctum.",
+      "metaTitle": "Last Epoch Crafting Guide - Affixes, Runes & Legendary Crafting",
+      "metaDescription": "Complete Last Epoch crafting guide covering affixes, forging potential, runes, glyphs, exalted items, and legendary crafting in the Temporal Sanctum.",
+      "categoryLabel": "CRAFTING",
       "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
+      "whatIsDescription": "Last Epoch's crafting system lets you add and upgrade affixes on equipment using shards. Advanced crafting includes sealing affixes and creating legendary items.",
       "why": "Why master crafting?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Gear Up Faster",
+        "step1Description": "Craft targeted upgrades instead of waiting for random drops",
+        "step2Title": "Maximize Item Power",
+        "step2Description": "Understand forging potential and glyph usage to get the most from each craft",
+        "step3Title": "Create Legendaries",
+        "step3Description": "Learn the Temporal Sanctum process to combine Unique and Exalted items"
       },
       "featured": "Featured & Essential",
       "all": "All Crafting Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "endgame": {
+      "title": "Last Epoch Endgame",
+      "description": "Navigate Monolith of Fate, Dungeons, Arena, and corruption pushing with optimized strategies and progression paths.",
+      "metaTitle": "Last Epoch Endgame Guide - Monolith, Dungeons & Corruption",
+      "metaDescription": "Complete Last Epoch endgame guide covering Monolith of Fate, corruption pushing, dungeons, arena, blessings, and long-term gear progression.",
+      "categoryLabel": "ENDGAME",
+      "whatIs": "What is Endgame?",
+      "whatIsDescription": "Last Epoch endgame includes Monolith of Fate, Dungeons, Arena, corruption pushing, blessing farming, and the Weaver Tree seasonal system.",
+      "why": "Why learn endgame systems?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Push Further",
+        "step1Description": "Understand corruption scaling and timeline progression for efficient farming",
+        "step2Title": "Target Rewards",
+        "step2Description": "Learn which content drops the specific items and blessings your build needs",
+        "step3Title": "Stay Efficient",
+        "step3Description": "Avoid wasting time on suboptimal endgame activities"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Endgame Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "dungeons": {
+      "title": "Last Epoch Dungeons",
+      "description": "Detailed dungeon guides covering Temporal Sanctum, Lightless Arbor, and Soulfire Bastion with mechanics and boss strategies.",
+      "metaTitle": "Last Epoch Dungeons - Boss Guides & Rewards",
+      "metaDescription": "Complete Last Epoch dungeon guides for Temporal Sanctum, Lightless Arbor, and Soulfire Bastion. Boss mechanics, key tiers, and exclusive rewards.",
+      "categoryLabel": "DUNGEONS",
+      "whatIs": "What are Dungeons?",
+      "whatIsDescription": "Dungeons are instanced endgame challenges with unique mechanics, tiered difficulty, key requirements, and exclusive rewards including legendary crafting.",
+      "why": "Why run dungeons?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Craft Legendaries",
+        "step1Description": "Temporal Sanctum is the only way to create legendary items through the Eternity Cache",
+        "step2Title": "Target Unique Rewards",
+        "step2Description": "Each dungeon offers exclusive loot and gambling mechanics unavailable elsewhere",
+        "step3Title": "Test Your Build",
+        "step3Description": "Dungeon bosses provide challenging skill checks that validate your gear and build choices"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Dungeon Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "factions": {
+      "title": "Last Epoch Factions",
+      "description": "Compare Merchant's Guild and Circle of Fortune to choose the right item faction for your playstyle and gearing strategy.",
+      "metaTitle": "Last Epoch Factions - Merchant's Guild vs Circle of Fortune",
+      "metaDescription": "Compare Last Epoch factions: Merchant's Guild for trading and Circle of Fortune for enhanced drops. Favor, ranks, and faction-specific features explained.",
+      "categoryLabel": "FACTIONS",
+      "whatIs": "What are Factions?",
+      "whatIsDescription": "Last Epoch has two item factions that change how you acquire gear. Merchant's Guild enables trading while Circle of Fortune boosts drop rates and adds prophecy farming.",
+      "why": "Why choose carefully?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Shape Your Gearing",
+        "step1Description": "Your faction choice fundamentally changes how you acquire and upgrade equipment",
+        "step2Title": "Build Faction Rank",
+        "step2Description": "Higher ranks unlock more powerful faction features and better rewards",
+        "step3Title": "Commit Wisely",
+        "step3Description": "Switching factions resets all progress, so understanding both options prevents wasted time"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Faction Guides"
     }
   }
 }

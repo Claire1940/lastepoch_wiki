@@ -509,94 +509,190 @@
     },
     "lastEpochEndgameGuide": {
       "title": "Last Epoch Endgame Guide",
-      "displayType": "cards",
-      "intro": "Last Epoch endgame branches into Monolith of Fate, Dungeons, Arena, corruption pushing, and long-term gear progression. Understanding each system helps you choose where to invest your time for the rewards you need.",
+      "displayType": "cardList",
+      "intro": "Last Epoch's endgame is built around repeatable systems that reward permanent power, targeted farming, and harder progression loops. Understanding which activity gives progression, loot, or build-pushing potential helps you plan your time after the campaign.",
       "cards": [
         {
           "name": "Monolith of Fate",
-          "description": "The main endgame progression system where you clear echoes, push corruption, and earn timeline-specific blessings."
+          "description": "The main endgame system. Players enter from the End of Time, clear echoes and quest objectives inside timelines, defeat the timeline boss, and earn permanent Blessings plus boss-specific unique drops.",
+          "highlights": [
+            "The first Monolith zone starts at Level 58",
+            "Each timeline has its own quests, echoes, boss, and reward pool",
+            "Blessings permanently improve character power or loot quality"
+          ]
+        },
+        {
+          "name": "Empowered Monolith",
+          "description": "Empowered Monoliths are the true long-term farming loop. They start at a much higher challenge level, let players push corruption far beyond normal timelines, and upgrade normal Blessings into Grand Blessings.",
+          "highlights": [
+            "Unlocked after clearing The Age of Winter, The Last Ruin, and The Spirits of Fire",
+            "Runs at Level 100",
+            "Supports infinite corruption farming and stronger Grand Blessings"
+          ]
         },
         {
           "name": "Dungeons",
-          "description": "Instanced challenges with unique mechanics, key requirements, and exclusive rewards including legendary crafting access."
+          "description": "Dungeons are key-gated endgame runs with their own mechanics and reward identities. Each dungeon solves a different loot or crafting goal.",
+          "highlights": [
+            "Lightless Arbor opens the Vault for gold-based chest rewards",
+            "Soulfire Bastion unlocks the Soul Gambler for rare and unique loot",
+            "Temporal Sanctum unlocks Legendary crafting through the Eternity Cache"
+          ]
         },
         {
           "name": "Arena",
-          "description": "Wave-based survival mode that tests build durability and rewards competitive leaderboard placement."
+          "description": "Arena is the endurance mode of Last Epoch. It lets players test survival, scaling damage, and consistency across long combat runs rather than short boss bursts.",
+          "highlights": [
+            "Arena of Champions ends after 40 waves and a boss",
+            "Endless Arena scales until the player retreats or dies",
+            "Runs can be compared on the leaderboard"
+          ]
         },
         {
-          "name": "Corruption Pushing",
-          "description": "Increasing corruption raises difficulty and reward quality in Empowered Monoliths, forming the long-term power curve."
+          "name": "The Woven and Woven Echoes",
+          "description": "Season 2 expanded the Monolith with Tombs, Cemeteries, Memory Amber, Woven Echoes, and the Weaver Tree. This system adds another layer of endgame routing by letting players reshape encounters and rewards inside the Monolith.",
+          "highlights": [
+            "Memory Amber is earned in Tombs and Cemeteries",
+            "The Weaver Tree grants up to 50 points",
+            "Roughly 70 Weaver Tree nodes modify Monolith rewards and encounters"
+          ]
+        },
+        {
+          "name": "Season 4 Omens and Echo Chains",
+          "description": "Season 4 added Omen Windows, Echo Chains, Timeglass Fragments, Runes of Corruption, Omen Idols, and Idol Altars. These systems tie combat, Monolith routing, idol optimization, and high-risk item crafting together.",
+          "highlights": [
+            "Five Echo Chain types launched with Season 4",
+            "Omens can drop Timeglass Fragments, Runes of Corruption, Corrupted items, Omen Idols, and Idol Altars",
+            "Timeglass Fragments can be spent at the center of the Monolith"
+          ]
         }
       ]
     },
     "lastEpochMonolithGuide": {
       "title": "Last Epoch Monolith of Fate Guide",
-      "displayType": "cards",
-      "intro": "Monolith of Fate is Last Epoch's core endgame system. It involves timeline progression, stability management, quest echoes, corruption scaling, empowered unlocks, and target farming strategy.",
-      "cards": [
+      "displayType": "steps",
+      "intro": "The Monolith of Fate is the backbone of Last Epoch's endgame progression. This guide walks you from the first Level 58 timeline to Empowered Monolith farming, boss-targeting, and corruption pushing.",
+      "steps": [
         {
-          "name": "Timeline Progression",
-          "description": "Clear echoes to gain stability, defeat timeline bosses, and unlock new timelines for expanded blessing and reward pools."
+          "title": "Enter the Monolith from the End of Time",
+          "description": "The Monolith of Fate becomes available after the campaign. Your first timeline begins at Level 58, so this is the point where your character transitions from story progress into repeatable endgame farming."
         },
         {
-          "name": "Corruption Scaling",
-          "description": "Increase corruption in Empowered Monoliths to boost item rarity and experience. Higher corruption means better drops but harder enemies."
+          "title": "Clear Echoes and Build Timeline Stability",
+          "description": "Each timeline is made of echoes with random objectives and modifiers. Completing them builds Timeline Stability, reveals more of the web, and pushes you toward the timeline's quest echoes."
         },
         {
-          "name": "Blessings and Rewards",
-          "description": "Each timeline boss drops a unique set of blessings. Choose blessings that complement your build and farming goals."
+          "title": "Finish the Timeline Quests and Kill the Boss",
+          "description": "Every timeline contains three quest stages that lead into the timeline boss. Beating the boss is what converts your run into permanent account progress through Blessings and boss-specific loot access."
         },
         {
-          "name": "Empowered Monoliths",
-          "description": "The endgame within the endgame. Unlocked after completing the standard timeline sequence, offering the highest rewards in the game."
+          "title": "Take a Blessing and Move to Higher Timelines",
+          "description": "After each boss kill, choose a Blessing. The general progression advice is to keep moving right across the Monolith islands toward higher-level timelines while collecting the Blessings and boss drops that help your build most."
+        },
+        {
+          "title": "Unlock Empowered Monoliths",
+          "description": "Clear the normal versions of The Age of Winter, The Last Ruin, and The Spirits of Fire to unlock the Empowered Monolith. Empowered timelines run at Level 100, start with much higher corruption, and replace normal Blessings with stronger Grand Blessings."
+        },
+        {
+          "title": "Push Corruption with Shade of Orobyss",
+          "description": "Corruption is the main risk-and-reward lever inside the Monolith. Higher corruption makes enemies and echoes harder, but improves experience and item quality, turning the Shade of Orobyss into a key fight for long-term farming."
+        },
+        {
+          "title": "Use Special Echoes, Woven Systems, and Echo Chains",
+          "description": "Modern Monolith routing includes Beacon Echoes, Vessel Echoes, Shade triggers, Woven Echoes, Tombs and Cemeteries, and now Echo Chains and Omen Windows. These layers let players target stability, encounters, idols, corruption tools, and specialized rewards more efficiently."
         }
+      ],
+      "quickTips": [
+        "Start moving right across the Monolith islands to unlock higher-level timelines quickly.",
+        "Always pick the Blessing that benefits your main build before farming other timelines.",
+        "Empowered Monoliths unlock after clearing three specific normal timelines.",
+        "Use the Shade of Orobyss to push corruption for better drops and XP scaling."
       ]
     },
     "lastEpochCraftingGuide": {
       "title": "Last Epoch Crafting Guide",
-      "displayType": "cards",
-      "intro": "Crafting is one of Last Epoch's defining systems. It covers affix crafting, forging potential management, glyphs, runes, sealing, and the path from basic upgrades into legendary crafting through the Temporal Sanctum.",
-      "cards": [
+      "displayType": "steps",
+      "intro": "Crafting is one of Last Epoch's defining systems, and it matters from the first upgrade all the way to high-end legendary and corruption crafting. This guide shows how the Forge works, why Forging Potential matters, and how crafting evolves into endgame progression.",
+      "steps": [
         {
-          "name": "Affix Crafting Basics",
-          "description": "Add and upgrade prefixes and suffixes on equipment using crafting shards. Each craft consumes Forging Potential."
+          "title": "Learn the Forge Basics",
+          "description": "Press F to open the Forge anywhere. Most craftable items use up to two Prefixes and two Suffixes, while Sealed Affixes can add one more locked affix slot on top of the normal four-affix structure."
         },
         {
-          "name": "Runes and Glyphs",
-          "description": "Runes of Shattering break items into shards. Glyphs of Hope protect Forging Potential during risky crafts."
+          "title": "Manage Forging Potential",
+          "description": "Forging Potential is the durability budget of an item. Common through Rare items usually have around 20 to 40 FP, while Exalted items often have 40 or more, so good crafting is really about spending that budget on the most important upgrades first."
         },
         {
-          "name": "Exalted Items",
-          "description": "High-tier drops with T6 or T7 affixes. These form the best crafting bases for endgame gear."
+          "title": "Use Shards for Core Upgrades",
+          "description": "Affix Shards are the base currency of crafting. They add or upgrade stats such as health, resistance, damage, attributes, or minion modifiers, and they are the foundation of nearly every gear improvement path in the game."
         },
         {
-          "name": "Legendary Crafting",
-          "description": "Combine a Unique item with an Exalted item in the Temporal Sanctum to create Legendary gear with transferred affixes."
+          "title": "Know the Important Glyphs",
+          "description": "Glyph of Hope gives a 25 percent chance to avoid FP cost entirely. Glyph of Order preserves value rolls when raising tiers, Glyph of Chaos rerolls an affix into another affix, Glyph of Despair seals an affix, and Glyph of Envy changes the rest of the item while leaving the upgraded affix alone."
+        },
+        {
+          "title": "Know the Important Runes",
+          "description": "Rune of Shattering turns gear into shards, Rune of Removal deletes a random affix, Rune of Discovery fills an empty slot, Rune of Refinement rerolls affix values, Rune of Shaping rerolls implicits, Rune of Ascendance upgrades a normal item into a random Unique or Set item of the same base type, and Rune of Creation duplicates an item and sets both copies to zero FP."
+        },
+        {
+          "title": "Chase Exalted and Legendary Crafting",
+          "description": "Exalted items are drops with at least one Tier 6 or Tier 7 affix. Legendary crafting then combines a Unique with Legendary Potential and an Exalted item in the Eternity Cache inside Temporal Sanctum, with LP1 to LP4 controlling how many affixes can transfer."
+        },
+        {
+          "title": "Use the Eternity Cache Correctly",
+          "description": "Temporal Sanctum controls the level cap for Legendary crafting: Tier 1 supports Uniques up to Level 50, Tier 2 up to Level 65, Tier 3 up to Level 75, and Tier 4 removes the level restriction. Tier 2 and above also let players lock in one chosen affix during the slam."
+        },
+        {
+          "title": "Expand into Modern Endgame Crafting Systems",
+          "description": "Season 2 added Woven Echoes, Woven Enchanting for class idols, Set bonus affix crafting, and Rune of Redemption support for fixing Exalted items. Season 4 then added Runes of Corruption and corrupted items, creating a new risk-heavy layer on top of the normal Forge."
         }
+      ],
+      "quickTips": [
+        "Always craft the most important affix first while Forging Potential is still high.",
+        "Glyph of Hope is your best friend for budget-conscious crafting during leveling.",
+        "Save Exalted items with good affix combinations for legendary crafting later.",
+        "Rune of Shattering on unwanted gear is the fastest way to stock up on crafting shards."
       ]
     },
     "lastEpochLootFilterGuide": {
       "title": "Last Epoch Loot Filter Guide",
-      "displayType": "cards",
-      "intro": "Loot filters keep your drops readable as item complexity rises. Last Epoch's built-in filter system lets you build, import, and refine rules for both leveling and endgame.",
-      "cards": [
+      "displayType": "steps",
+      "intro": "Loot filters are one of the highest-value quality-of-life systems in Last Epoch because they turn clutter into readable progression. This guide helps you understand what to show, what to hide, and when to make the filter stricter.",
+      "steps": [
         {
-          "name": "Creating Filters",
-          "description": "Use the in-game filter editor to set visibility rules based on item type, rarity, affix tiers, and class restrictions."
+          "title": "Understand What a Loot Filter Actually Does",
+          "description": "Loot filters highlight the affixes and item types you care about, recolor valuable drops, and hide low-value clutter. In Last Epoch, the system can highlight one wanted affix or groups of many affixes, making ground loot readable even deep into endgame."
         },
         {
-          "name": "Leveling Filters",
-          "description": "Show upgrades for your current build while hiding low-value drops. Keep filters simple and update them as you progress."
+          "title": "Start from a Shared Filter or a Simple Template",
+          "description": "A good first move is to begin with a general filter or a build filter from Last Epoch Tools, then tune it for your class and goals. This is faster than building from scratch and gives newer players a working structure immediately."
         },
         {
-          "name": "Endgame Filters",
-          "description": "Target specific Exalted affixes, Unique items, and crafting bases. Tighten rules as your gear improves."
+          "title": "Import a Filter into the Game",
+          "description": "Last Epoch Tools supports export and clipboard copy for filters. The normal workflow is to open the filter page, press Export, copy it to the clipboard, then paste it into the in-game loot filter menu so the filter is ready without manual XML editing."
         },
         {
-          "name": "Importing Community Filters",
-          "description": "Download and import filters from community tools like Last Epoch Tools to get started quickly with optimized setups."
+          "title": "Set Early-Game Priorities",
+          "description": "During leveling, the filter should show health, resistances, movement speed, your main damage affixes, and useful class idols. At this stage, the goal is not perfection; it is making obvious upgrades and shard targets easy to spot."
+        },
+        {
+          "title": "Tighten the Filter for Monolith and Dungeons",
+          "description": "Once Monolith farming starts, the filter should become stricter. Focus on wanted bases, high-value Exalted affixes, LP Uniques, class idols, crafting shard targets, and the boss or timeline drops your build is actually chasing."
+        },
+        {
+          "title": "Separate Leveling Rules from Endgame Rules",
+          "description": "A filter that works in the campaign quickly becomes too loose in Empowered Monoliths. Many players swap into a dedicated endgame filter once Exalted drops become common so the screen does not flood with low-value rares."
+        },
+        {
+          "title": "Use the New Season 4 Filter Tools",
+          "description": "Season 4 raised the rule cap to 200 and added separate customization for map icons and item beams, rule-number display options, and several new loot filter sounds. These upgrades make it much easier to build precise filters for modern endgame farming."
         }
+      ],
+      "quickTips": [
+        "Start with a community filter from Last Epoch Tools and customize it for your build.",
+        "Update your filter every time you enter a new endgame phase to avoid screen clutter.",
+        "Use separate filter profiles for leveling and endgame to keep rules clean.",
+        "Season 4 raised the rule cap to 200, giving you much more filtering precision."
       ]
     },
     "lastEpochBlessingsGuide": {

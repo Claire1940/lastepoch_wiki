@@ -1,0 +1,123 @@
+export const metadata = {
+  title: "Last Epoch Steam Deck: Guide für beste Einstellungen & Performance 2026",
+  description: "Meistern Sie Last Epoch auf dem Steam Deck mit unserem Leitfaden für optimierte Einstellungen. Erfahren Sie, wie Sie Abstürze beheben, die FPS im Endgame verbessern und die Akkulaufzeit im Jahr 2026 maximieren.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/312e81/fff?text=Last+Epoch+Steam+Deck+Guide",
+  date: "2026-03-29",
+  author: "Last Epoch Wiki Team"
+}
+
+Das Spielen eines komplexen ARPGs von unterwegs war noch nie so zugänglich, und das **Last Epoch Steam Deck**-Erlebnis hat nach dem gewaltigen „Beneath Ancient Skies“-Update seinen bisher stabilsten Zustand erreicht. Obwohl das Spiel das „Verified“-Abzeichen von Valve trägt, wissen erfahrene Reisende durch Eterra, dass eine flüssige Bildrate mehr erfordert, als nur auf „Spielen“ zu drücken. Im Jahr 2026 hat das Spiel bedeutende Backend-Optimierungen erfahren, darunter Texture-Streaming und überarbeitete Beleuchtungssysteme, was die **Last Epoch Steam Deck**-Reise weitaus angenehmer macht als zum Launch. Ob Sie sich durch die Kampagne schlagen oder hochstufige Monolithen des Schicksals grinden – der Schlüssel zu einem tragbaren Meisterwerk liegt darin, die Leistung des Decks mit den anspruchsvollen visuellen Effekten des Spiels in Einklang zu bringen.
+
+## Performance-Übersicht: Der Stand der Dinge 2026
+
+Last Epoch ist ein anspruchsvoller Titel, vor allem aufgrund der schieren Menge an Berechnungen, die während der Kämpfe stattfinden. Mit den neuesten Updates von 2026 haben die Entwickler ihre offizielle Empfehlung für Handhelds auf mittlere Einstellungen verschoben. Dennoch bleibt die Performance zweigeteilt: die frühe Kampagne und das dichte Endgame.
+
+In den ersten Kapiteln können Sie problemlos 50 bis 60 FPS mit einer Mischung aus mittleren und niedrigen Einstellungen halten. Sobald Sie die Imperiale Ära und schließlich die Monolithen erreichen, füllt sich der Bildschirm mit Dutzenden von Feinden und knalligen Fertigkeitseffekten. Ohne Optimierung können diese chaotischen Kämpfe dazu führen, dass die Bildrate auf unter 30 FPS fällt.
+
+| Spielphase | Erwartete FPS (Optimiert) | Stabilität |
+| :--- | :--- | :--- |
+| **Kampagne (Anfang)** | 50 - 60 FPS | **Hoch** |
+| **Kampagne (Ende)** | 40 - 45 FPS | **Mittel** |
+| **Endgame-Monolithen** | 30 - 40 FPS | **Variabel** |
+| **Arena/Bosskämpfe** | 35 - 45 FPS | **Mittel** |
+
+> **💡 Tipp:** Wenn Sie nach langen Spielsessions plötzliches Ruckeln bemerken, liegt das wahrscheinlich an einem Speicherleck (Memory Leak). Es wird empfohlen, das Spiel alle 90 Minuten neu zu starten, um den Arbeitsspeicher (RAM) zu leeren.
+
+## Empfohlene Einstellungen für Last Epoch auf dem Steam Deck
+
+Um das beste Gleichgewicht zwischen visueller Klarheit und Leistung zu finden, sollten Sie sich von der Voreinstellung „Sehr niedrig“ entfernen, da das Spiel dadurch matschig wirken kann und Boden-Telegrafen (Gefahrenzonen) schwerer erkennbar sind. Verwenden Sie stattdessen eine benutzerdefinierte Konfiguration basierend auf der Vorlage „Mittel“.
+
+### Optimierte Grafikkonfiguration
+
+| Einstellung | Empfohlener Wert | Auswirkung |
+| :--- | :--- | :--- |
+| **Master-Qualität** | **Mittel** | Gesamtbalance |
+| **Auflösung** | **1280 x 800** | Native Schärfe |
+| **Anzeigemodus** | **Vollbild** | Verhindert UI-Fehler |
+| **Schattenqualität** | **Niedrig** | Hoher Performance-Gewinn |
+| **Grasdichte** | **Niedrig** | Verbessert Waldzonen |
+| **Antialiasing** | **TAA** | Reduziert Flimmern |
+| **Texturqualität** | **Mittel** | Ausgewogene VRAM-Nutzung |
+| **Volumetrische Beleuchtung** | **Sehr niedrig** | Massiver FPS-Boost |
+
+Die wichtigste Einstellung, die Sie reduzieren sollten, ist die **Volumetrische Beleuchtung**. In Last Epoch belastet diese Einstellung die GPU des Steam Decks besonders stark. Wenn Sie diese auf „Sehr niedrig“ stellen, können Sie oft eine Performance-Steigerung von 10-15 % erzielen, ohne die Atmosphäre des Spiels signifikant zu beeinträchtigen.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/4WoIIBD5hrg"
+    title="Last Epoch Steam Deck Review - New Update, Better FPS?"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Erweitertes Tuning: CryoUtilities und GPU-Takt
+
+Für Spieler, die das letzte Quäntchen Leistung aus ihrem Handheld herausholen wollen, können ein paar Änderungen „unter der Haube“ das **Last Epoch Steam Deck**-Erlebnis deutlich konsistenter machen. Eine der häufigsten Beschwerden in der Community ist der „Endgame-Absturz“, bei dem sich das Spiel während Monolith-Runs mit hoher Gegnerdichte abrupt schließt.
+
+### Lösung des RAM-Problems
+Last Epoch ist berüchtigt für seine hohe RAM-Auslastung, die oft in Richtung 14 GB klettert. Auf dem Steam Deck, das sich 16 GB zwischen CPU und GPU teilt, führt dies oft zu einem systemweiten Absturz.
+*   **CryoUtilities:** Die Installation dieses Community-Tools wird dringend empfohlen. Es erhöht die Größe der Auslagerungsdatei (Swap File) und passt die Speicherverwaltung an, was verhindert, dass das Spiel das gesamte System bei RAM-Spitzen zum Absturz bringt.
+*   **Proton-Version:** Obwohl das Spiel nativ läuft, berichten viele Nutzer von besserer Stabilität unter **Proton Experimental** oder **GE-Proton**. Dies kann fehlende Texturen und flackernde UI-Elemente beheben.
+
+### GPU-Takt erzwingen
+Der „Auto“-GPU-Takt des Steam Decks kann in CPU-intensiven Momenten manchmal heruntertakten, was zu unregelmäßigen Bildraten führt.
+1. Öffnen Sie das **Schnellzugriffsmenü** (Drei-Punkte-Taste).
+2. Navigieren Sie zum Tab **Performance**.
+3. Aktivieren Sie die **Manuelle GPU-Taktsteuerung**.
+4. Stellen Sie die Frequenz auf **1600 MHz** ein.
+
+> **⚠️ Warnung:** Das Erzwingen des GPU-Takts auf 1600 MHz verbessert Ihre 1% Low-FPS, verkürzt jedoch Ihre Akkulaufzeit um etwa 20-30 Minuten.
+
+## Akkulaufzeit und Handheld-Optimierung
+
+Das Steam Deck OLED hat die Langlebigkeit der Eterra-Sessions deutlich verbessert. Im Jahr 2026 wurde der Stromverbrauch durch die neuesten Optimierungen leicht gesenkt, aber es bleibt ein energiehungriger Titel.
+
+| Gerätemodell | Einstellungen | Geschätzte Akkulaufzeit |
+| :--- | :--- | :--- |
+| **Steam Deck OLED** | Mittel / 40 FPS | **~3h 45m** |
+| **Steam Deck LCD** | Niedrig / 30 FPS | **~2h 15m** |
+| **OLED (Online-Modus)** | Mittel / 40 FPS | **~3h 20m** |
+| **OLED (Offline-Modus)** | Mittel / 30 FPS | **~4h 10m** |
+
+Um die Zeit abseits des Ladegeräts zu maximieren, sollten Sie in Erwägung ziehen, im **Offline-Modus** zu spielen. Dies deaktiviert die ständigen Netzwerk-Pings, die für soziale Funktionen und den Marktplatz erforderlich sind, und senkt den Gesamtstromverbrauch um 2-3 Watt.
+
+## Controller-Unterstützung und UI-Skalierung
+
+Das „Beneath Ancient Skies“-Update brachte eine komplette Überarbeitung des Controller-Interfaces. In der Vergangenheit mussten sich Spieler stark auf die Trackpads verlassen, um durch Menüs zu navigieren. Im Jahr 2026 ist die D-Pad-Navigation wesentlich robuster.
+
+*   **UI-Skalierung:** Navigieren Sie zu Einstellungen > Gameplay und stellen Sie die UI-Skalierung auf **Groß**. Dies macht Item-Tooltips und den Quest-Tracker auf dem 7-Zoll- oder 7,4-Zoll-Bildschirm viel besser lesbar.
+*   **Beutefilter (Loot Filter):** Dies ist eine unverzichtbare Funktion für das Steam Deck. Ein mit „Müll“-Beute überladener Bildschirm strengt nicht nur die Augen an, sondern kann tatsächlich zu kleinen Performance-Rucklern führen. Richten Sie über Ihren [offiziellen Last Epoch-Account](https://lastepoch.com/) oder im Spiel einen strengen Beutefilter ein, um nur Gegenstände anzuzeigen, die für Ihren Build relevant sind.
+*   **Virtuelle Menüs:** Wir empfehlen, die hinteren Tasten (L4/L5/R4/R5) mit gängigen Shortcuts wie Karte, Inventar und Schmiede zu belegen, um das Radialmenü zu vermeiden.
+
+## Nutzung von Lossless Scaling und FSR
+
+Wenn Sie feststellen, dass die native Auflösung im Endgame zu anspruchsvoll ist, können Sie das integrierte FSR (FidelityFX Super Resolution) des Steam Decks nutzen.
+
+1. Stellen Sie die Auflösung im Spiel auf **1152 x 720** oder **960 x 600** ein.
+2. Öffnen Sie das Steam Deck **Performance-Menü**.
+3. Stellen Sie den **Skalierungsfilter** auf **FSR**.
+4. Stellen Sie die **FSR-Schärfe** auf **5**.
+
+Dies skaliert das Bild auf 800p hoch und sorgt für einen deutlichen Schub Ihrer Bildrate. Obwohl die visuelle Schärfe leicht abnimmt, ist die erhöhte Stabilität in hochstufigen Monolithen den Kompromiss meist wert. Einige Nutzer berichten auch von Erfolgen mit Drittanbieter-Tools wie „Lossless Scaling“ im Desktop-Modus, um auf dem OLED-Modell 90 FPS zu erreichen, was jedoch zu leichtem Flimmern auf der Minikarte führen kann.
+
+## FAQ
+
+**F: Ist Last Epoch im Jahr 2026 auf dem Steam Deck voll spielbar?**
+
+A: Ja, das Spiel ist „Verified“ und sehr gut spielbar. Für das beste Erlebnis im Endgame sollten Sie jedoch mittlere Einstellungen verwenden und die Installation von CryoUtilities in Betracht ziehen, um den hohen RAM-Bedarf des Spiels zu bewältigen.
+
+**F: Warum stürzt mein Spiel in Monolithen ab?**
+
+A: Dies wird normalerweise durch ein Speicherleck oder fehlenden verfügbaren RAM verursacht. Das Erzwingen eines GPU-Takts von 1600 MHz und die Nutzung des CryoUtilities-Swap-File-Fixes beheben diese Abstürze für die **Last Epoch Steam Deck**-Community in der Regel.
+
+**F: Sollte ich die native Linux-Version oder Proton verwenden?**
+
+A: Obwohl es eine native Version gibt, finden viele Spieler, dass **Proton Experimental** eine bessere Kompatibilität mit den neuesten Windows-basierten Patches bietet und Grafikfehler wie unsichtbare Charaktermodelle oder fehlende Minikarten-Texturen behebt.
+
+**F: Wie verbessere ich die Lesbarkeit von Texten?**
+
+A: Gehen Sie in die Grafikeinstellungen und stellen Sie sicher, dass Ihre UI-Skalierung auf „Groß“ eingestellt ist. Zusätzlich kann eine höhere FSR-Schärfe helfen, Texte lesbar zu halten, wenn Sie das Spiel mit einer Auflösung unter dem nativen Standard ausführen.

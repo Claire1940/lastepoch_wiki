@@ -1,0 +1,138 @@
+export const metadata = {
+  title: "Last Epoch Loot Filter: Guia Completo e Melhor Configuração 2026",
+  description: "Domine o sistema de filtro de saque do Last Epoch com nosso guia abrangente de 2026. Aprenda a criar, importar e otimizar regras para o farm de endgame e nivelamento.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Last+Epoch+Loot+Filter+Guide",
+  date: "2026-03-29",
+  author: "Equipe da Wiki de Last Epoch"
+}
+
+No mundo acelerado de Eterra, gerenciar o enorme volume de itens que caem é essencial para uma progressão eficiente. Um **last epoch loot filter** bem configurado é a diferença entre gastar seu tempo derrotando deuses e gastá-lo vasculhando pilhas de lixo para vender. A partir de 2026, a complexidade da itemização na Temporada 4 e além exige que os jogadores tenham uma compreensão refinada de como destacar equipamentos Best-in-Slot (BIS) enquanto ocultam equipamentos irrelevantes.
+
+Seja você um novato começando seu primeiro personagem ou um veterano alcançando mais de 1.000 de Corrupção no Monólito do Destino, dominar o **last epoch loot filter** é obrigatório. Este guia o levará pela interface, explicará a lógica de prioridade das regras e fornecerá um roteiro para criar um filtro universal que escala do nível 1 ao endgame definitivo. Ao seguir estes passos, você garantirá que cada placa de nome de item que vir no chão valha a sua atenção.
+
+## Entendendo a Interface do Filtro de Saque
+
+Para começar a personalizar sua experiência, pressione **Shift + F** para abrir o menu do Filtro de Saque (Loot Filter). Esta interface permite criar novos filtros do zero, duplicar filtros existentes ou importar configurações feitas pela comunidade. Em 2026, o sistema suporta até 200 regras individuais por filtro, oferecendo espaço mais do que suficiente para microgerenciar cada tipo de item e afixo no jogo.
+
+### Opções de Visibilidade
+
+Ao criar uma regra, sua primeira decisão é a configuração de "Visibilidade". Isso determina como o jogo trata os itens que atendem às suas condições especificadas.
+
+| Visibilidade | Função | Melhor Caso de Uso |
+| :--- | :--- | :--- |
+| **Mostrar** | Exibe a placa de nome do item normalmente. | Itens gerais que você pode querer coletar. |
+| **Ocultar** | Remove completamente a placa de nome do item da visão. | Filtrar bases de nível baixo ou classes irrelevantes. |
+| **Recolorir** | Altera a cor da placa de nome e pode adicionar um efeito de ênfase. | Destacar itens **Exaltados**, **Únicos** ou **BIS**. |
+
+> **💡 Dica:** Use a opção "Enfatizar" nas regras de Recolorir para tornar o texto da placa de nome maior e em letras maiúsculas, garantindo que você nunca perca um item crítico durante combates intensos.
+
+## A Lógica de Prioridade das Regras
+
+O conceito mais importante a entender é que o **last epoch loot filter** opera em um sistema de prioridade de cima para baixo. O jogo verifica os itens que caem em relação à sua lista de regras começando pelo topo. Assim que um item corresponde a uma regra, ele segue as instruções dessa regra e ignora todas as regras abaixo dela.
+
+### Exemplo de Hierarquia de Regras
+
+| Prioridade | Tipo de Regra | Resultado |
+| :--- | :--- | :--- |
+| **Topo (1)** | Mostrar todos os **Únicos** | Qualquer item Único será mostrado, independentemente de outras regras. |
+| **Meio (2)** | Ocultar todas as **Adagas** | Todas as adagas não-Únicas agora estão ocultas. |
+| **Fundo (3)** | Mostrar **Afixos T7** | Uma Adaga T7 permanecerá oculta porque a Regra 2 já a reivindicou. |
+
+Para corrigir o exemplo acima, você moveria a regra "Mostrar Afixos T7" para cima da regra "Ocultar todas as Adagas". Isso garante que, embora a maioria das adagas esteja oculta, as excepcionalmente raras com afixos de Nível 7 ainda apareçam na sua tela.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/gdeLGcGQrjM"
+    title="Last Epoch Season 4 Universal Loot Filter"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Criando um Filtro Universal do Zero
+
+Uma estratégia popular entre os melhores jogadores em 2026 é o método "Esconder e Buscar". Isso envolve esconder quase tudo por padrão e, em seguida, "buscar" especificamente os itens que você deseja por meio de regras de maior prioridade.
+
+### Passo 1: A Regra "Ocultar Tudo"
+Crie uma regra na parte inferior da sua lista. Defina a Visibilidade como **Ocultar** e selecione as raridades: **Normal**, **Mágico** e **Raro**. Isso garante que, conforme você avança para o mid-game, não se distraia com saques de baixo valor.
+
+### Passo 2: Filtragem de Classe
+No início da campanha, você pode querer ver itens para todas as classes, mas por volta do nível 20, deve adicionar uma regra para ocultar equipamentos de classes que não está jogando. 
+*   **Condição:** Tipo de Item -> Subtipos Específicos (ex: Capacetes de Acólita, Relíquias de Primalista).
+*   **Visibilidade:** Ocultar.
+*   **Posicionamento:** Acima da regra "Ocultar Tudo".
+
+### Passo 3: Destacando Afixos para Forja
+Você precisará constantemente de [Estilhaços para forja](https://lastepoch.com/), que são obtidos usando uma **Runa de Estilhaçamento** em itens com afixos desejáveis.
+*   Crie uma regra de **Recolorir** (comumente Laranja ou Ciano).
+*   Selecione os afixos específicos que você precisa (ex: **Vida Híbrida**, **+1 para Habilidades**, **Resistência**).
+*   Defina a condição para "Com pelo menos 1 destes afixos".
+
+### Passo 4: Gerenciamento de Ídolos
+Os Ídolos são únicos porque não podem ser forjados. Você deve encontrá-los com os atributos corretos.
+*   Crie uma regra de **Recolorir** especificamente para Ídolos.
+*   Filtre pelos afixos específicos da sua classe e atributos genéricos de "Vida" ou "Resistência".
+*   Como os Ídolos são raros, muitos jogadores optam por mostrar todos os Ídolos inicialmente e depois restringir o filtro conforme a build se aproxima da conclusão.
+
+## Estratégias Avançadas: Regras de Estilhaçar, Rosa e Caos
+
+A partir das atualizações de 2026, os filtros de alto nível costumam usar códigos de cores para sinalizar exatamente o que o jogador deve fazer com um item no momento em que ele cai no chão.
+
+### A Regra de "Necessidade Urgente" (Rosa)
+Se você estiver precisando de um estilhaço específico para terminar uma criação — como **Custo de Mana de Arremesso** ou **Nível de Shurikens** — crie uma regra no topo do seu filtro para recolorir itens com esse afixo em **Rosa**. Isso sinaliza que você deve usar uma **Runa de Remoção** em vez de Estilhaçamento para garantir que receberá esses estilhaços específicos de volta.
+
+### A Técnica da Runa do Caos (Havoc)
+A **Runa do Caos (Havoc)** é uma ferramenta de forja poderosa que pode trocar os níveis dos afixos. Se um item Exaltado (Tier 7) cair com um atributo primário inútil, mas um ótimo atributo secundário, você pode usar a Runa do Caos para tentar mover esse valor T7 para o atributo que você realmente deseja.
+*   **Regra:** Recolorir itens com qualquer afixo T7 + 1 afixo desejável em **Verde**.
+*   **Ação:** Leve esses itens para a forja e use a "Runa do Caos" neles para criar equipamentos potencialmente divinos para a [Guilda dos Mercadores](https://maxroll.gg/last-epoch/resources/merchants-guild-guide) ou uso pessoal.
+
+| Cor | Significado | Ação Necessária |
+| :--- | :--- | :--- |
+| **Vermelho/Ouro** | **Best-in-Slot** | Upgrade imediato ou candidato a síntese lendária. |
+| **Laranja** | **Estilhaçar** | Use Runa de Estilhaçamento para estilhaços gerais. |
+| **Rosa** | **Necessidade Urgente** | Use Runa de Remoção para estilhaços raros específicos. |
+| **Verde** | **Ascender/Caos** | Use Runa de Ascensão ou Runa do Caos para apostas de forja. |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/rSgEAmWai_0"
+    title="Last Epoch How To Make A Loot Filter"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Filtrando para os Monólitos de Endgame
+
+Ao atingir o nível 85+, os requisitos do seu **last epoch loot filter** mudam. Nesta fase, os afixos de Tier 6 são frequentemente considerados "medíocres", e você deve transferir seu foco quase inteiramente para itens Exaltados de Tier 7 e Únicos com **Potencial Lendário (PL)**.
+
+### Definindo Requisitos de Tier
+Na condição de Afixo, clique em **Opções Avançadas**. Você pode configurar o filtro para mostrar apenas itens onde o total de tiers de afixos seja "Maior ou Igual a 20" ou onde um afixo individual seja "Tier 7". Isso reduz drasticamente a poluição visual em Monólitos de alta corrupção, permitindo manter altas velocidades de limpeza.
+
+### Segurança de Itens Únicos e de Conjunto
+Sempre mantenha uma regra no topo do seu filtro para **Mostrar** todos os itens Únicos e de Conjunto (Set) até que você esteja intimamente familiarizado com quais deles são inúteis para sua conta. Em 2026, até mesmo um Único "ruim" pode ser valioso se cair com 3 ou 4 de Potencial Lendário, pois pode ser fundido com um item Exaltado para criar um Lendário.
+
+> **⚠️ Aviso:** Nunca coloque uma regra "Ocultar" acima da sua regra "Mostrar Únicos", a menos que tenha certeza absoluta de que deseja perder esses itens. A prioridade das regras é absoluta!
+
+## FAQ
+
+**P: Posso usar um único last epoch loot filter para todos os meus personagens?**
+
+R: Sim, você pode criar um filtro "Universal". Para fazer isso funcionar, use a condição "Requisito de Classe" para mostrar itens para sua classe atual e ocultar os outros. No entanto, ao chegar no endgame, geralmente é melhor ter filtros especializados para cada build para considerar afixos BIS específicos.
+
+**P: Como faço para importar um filtro que encontrei online?**
+
+R: Copie o texto do filtro ou o conteúdo XML para sua área de transferência. Abra a interface do filtro de saque no jogo (Shift+F), clique no botão **+** e selecione "Colar Conteúdo da Área de Transferência" (Paste Clipboard Contents). O filtro será preenchido automaticamente com todas as regras predefinidas.
+
+**P: Por que alguns itens ainda estão aparecendo mesmo eu tendo uma regra "Ocultar"?**
+
+R: Verifique a prioridade das suas regras. Provavelmente existe uma regra "Mostrar" ou "Recolorir" localizada acima da sua regra "Ocultar" com a qual o item está correspondendo primeiro. Lembre-se, o jogo para de verificar as regras assim que encontra a primeira correspondência a partir do topo.
+
+**P: Qual é a melhor maneira de filtrar por Potencial Lendário?**
+
+R: Adicione uma regra com a condição **Raridade: Único** e use as **Opções Avançadas** para especificar "Potencial Lendário maior ou igual a 1". Você pode criar várias regras para dar cores diferentes a itens com 1PL, 2PL e 3PL para melhor clareza visual.

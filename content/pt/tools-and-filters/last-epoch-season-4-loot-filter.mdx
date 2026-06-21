@@ -1,0 +1,115 @@
+export const metadata = {
+  title: "Filtro de Saque da Temporada 4 de Last Epoch: Guia Completo de Configuração 2026",
+  description: "Domine o sistema de filtro de saque da Temporada 4 de Last Epoch para Shattered Omens. Aprenda a importar, personalizar e otimizar seus drops de equipamentos para o sucesso no endgame em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/312e81/fff?text=Last+Epoch+Season+4+Loot+Filter",
+  date: "2026-03-29",
+  author: "Equipe da Wiki de Last Epoch"
+}
+
+Navegar pela transição para um novo ciclo pode ser esmagador, especialmente com o enorme volume de itens que caem na atualização Shattered Omens. Utilizar um robusto **filtro de saque da temporada 4 de last epoch** não é mais opcional se você planeja alcançar os Monólitos do Destino de alto nível sem gastar horas triando lixo de vendedor. Em 2026, a complexidade da itemização atingiu um ponto onde a triagem manual é um gargalo para a sua progressão. Esteja você jogando com um Warlock de Fogo Bruxo (Witchfire Warlock) ou um Sentinela de Warpath, configurar seu **filtro de saque da temporada 4 de last epoch** corretamente garante que apenas os itens Exaltados, Únicos e de Conjunto mais relevantes apareçam na sua tela, permitindo que você se concentre inteiramente no combate acelerado e nas mecânicas de chefes.
+
+## A Importância da Filtragem em Shattered Omens (Patch 1.4)
+
+A atualização Shattered Omens, também conhecida como Patch 1.4, introduziu vários novos tipos de itens e combinações de afixos que mudaram o meta. Um filtro padrão de temporadas anteriores provavelmente ocultará algumas das novas bases mais valiosas ou falhará em destacar os afixos específicos exigidos para as builds de 2026.
+
+Os filtros de saque em Last Epoch funcionam em um sistema de prioridade "de cima para baixo". Isso significa que o jogo verifica a primeira regra da sua lista; se um item corresponder, ele segue essa regra e ignora tudo o que estiver abaixo dela. Entender essa hierarquia é a diferença entre encontrar um afixo Experimental de Tier 7 ou deixá-lo no chão.
+
+### Por que seu filtro antigo está obsoleto
+1.  **Novos Tipos de Base:** A Temporada 4 introduziu itens de base localizados que oferecem modificadores implícitos únicos.
+2.  **Escalonamento de Afixos:** Certos afixos agora têm maior peso no endgame, exigindo recolorização para visibilidade.
+3.  **Especificidades de Facção:** Dependendo se você escolher a **Guilda dos Mercadores** (Merchant's Guild) ou o **Círculo da Fortuna** (Circle of Fortune), seu filtro precisa priorizar o valor de troca versus o potencial de upgrade pessoal.
+
+## Como Importar e Configurar seu Filtro
+
+Configurar um **filtro de saque da temporada 4 de last epoch** é um processo simples, mas fazê-lo corretamente é vital para a eficiência. Você tem duas opções principais: importar uma string feita pela comunidade ou construir a sua própria do zero.
+
+### Guia de Importação Passo a Passo
+1.  Abra o menu de Filtro de Saque pressionando **Shift + F** dentro do jogo.
+2.  Clique no ícone "+" para criar um novo filtro.
+3.  Selecione "Import Filter" (Importar Filtro) e depois "Paste Clipboard Content" (Colar Conteúdo da Área de Transferência) se você tiver copiado uma string de um site como o Last Epoch Tools.
+4.  Alternativamente, selecione "Open Filter Folder" (Abrir Pasta de Filtros) para soltar manualmente arquivos `.xml` no diretório do jogo.
+
+| Recurso | Descrição | Recomendação |
+|---|---|---|
+| **Método de Importação** | Área de Transferência vs. Arquivo | **Área de Transferência** é mais rápido para atualizações rápidas. |
+| **Atualização Automática** | Atualização Manual | Verifique atualizações a cada **patch principal**. |
+| **Limite de Espaços** | Filtros Ilimitados | Mantenha um filtro por **personagem ativo**. |
+
+> **💡 Dica:** Sempre nomeie seus filtros claramente com o número da versão e a classe (ex: "S4_Warlock_Endgame_v1.4"). Isso evita confusão ao alternar entre configurações de nivelamento e de farm.
+
+## Filtros de Comunidade Recomendados para a Temporada 4
+
+Com base nos dados mais recentes do ciclo de 2026, vários autores lançaram filtros especializados que atendem ao meta atual. Estes são projetados para lidar com o aumento da densidade de itens no endgame de Shattered Omens.
+
+| Autor | Título do Filtro | Melhor Para | Rigidez |
+|---|---|---|---|
+| **xLuck** | TSM Merchant's Lootfilter v4 | Liga de Trocas / Farm de Ouro | **Muito Estrito** |
+| **Sam08g** | Witchfire Warlock | Acólito / Dano ao Longo do Tempo | **Moderado** |
+| **Dammitt** | Casual Leveling Filter | Novos Personagens (1-70) | **Relaxado** |
+| **AaronActionRPG** | Endgame Generalist | Todas as Classes / Monólitos | **Estrito** |
+
+## Construindo uma Hierarquia de Regras Personalizada
+
+Se você preferir adaptar sua experiência, construir um **filtro de saque da temporada 4 de last epoch** personalizado permite a maior precisão. Você deve estruturar suas regras para garantir que materiais de artesanato raros e afixos de alto valor nunca sejam perdidos, enquanto oculta a desordem de itens comuns.
+
+### 1. A Base "Ocultar Tudo"
+No final do seu filtro (a última regra), você deve eventualmente definir uma regra para **Ocultar** (Hide) todos os itens de raridade "Normal", "Mágica" e "Rara". Isso garante que, conforme você avança para o endgame, sua tela permaneça limpa de itens que não são mais úteis para o seu nível.
+
+### 2. Destacando Itens Exaltados e Únicos
+Acima da regra "Ocultar Tudo", você deve criar regras para **Mostrar** (Show) ou **Recolorir** (Recolor) itens de alto nível.
+*   **Únicos/Conjuntos:** Sempre mostre estes, talvez recolorindo-os para um dourado brilhante ou roxo para distingui-los do saque padrão.
+*   **Itens Exaltados:** Crie uma regra para mostrar todos os itens Exaltados, mas considere adicionar uma sub-regra para destacar aqueles com afixos específicos de alto nível (Tier 6 ou Tier 7) que se ajustem à sua build.
+
+### 3. Filtragem Específica por Afixo
+Esta é a parte mais crítica de um **filtro de saque da temporada 4 de last epoch**. Você quer destacar itens que contenham "Afixos Raros", tais como:
+*   +Nível de [Nome da Habilidade]
+*   Vida Híbrida (Hybrid Health)
+*   Afixos Experimentais (de Magos)
+*   Modificadores específicos de classe (ex: "Golpe de Raspão" do Renegado ou "Eficácia de Bloqueio" do Sentinela)
+
+| Prioridade da Regra | Ação | Alvo | Lógica |
+|---|---|---|---|
+| **1 (Mais Alta)** | **Recolorir (Vermelho)** | Afixos Tier 7 | Nunca perca um item **god-roll**. |
+| **2** | **Mostrar** | Itens Únicos/Conjunto | Essencial para criação de **Potencial Lendário**. |
+| **3** | **Recolorir (Verde)** | Específico de Classe | Almeje itens para sua **build atual**. |
+| **4** | **Ocultar** | Bases de Nível Baixo | Limpe a tela de equipamentos **desatualizados**. |
+
+## Filtragem Avançada para Facções
+
+Na Temporada 4, sua escolha de facção impacta significativamente como você deve visualizar o saque. O **filtro de saque da temporada 4 de last epoch** que você usa deve refletir se você está procurando itens para vender ou itens para usar.
+
+### Estratégia do Círculo da Fortuna (CoF)
+Se você está no Círculo da Fortuna, seu objetivo é encontrar itens com alto **Potencial Lendário (LP)**. Seu filtro deve ser configurado para destacar todos os Únicos com 2+ LP, pois estes são o núcleo do seu poder no endgame. Você também deve ser mais tolerante com itens Exaltados, pois precisará de um grande estoque deles para o Apostador de Almas (Soul Gambler) e o sistema de Ressonância.
+
+### Estratégia da Guilda dos Mercadores
+Para jogadores focados em trocas, o filtro deve focar no "Valor de Mercado". Mesmo que um item não seja bom para a sua build, se ele tiver um afixo de Tier 7 de "Aumento de Vida" em uma boa base, ele vale uma quantidade significativa de ouro. Configure seu filtro para destacar afixos genéricos de alto valor que são populares em todas as classes.
+
+> **⚠️ Aviso:** Ser muito estrito com seu filtro na Guilda dos Mercadores pode custar milhões em ouro. Certifique-se de mostrar bases genéricas de alto valor, mesmo que não correspondam à sua classe.
+
+## Otimizando o Desempenho
+
+Um problema comum em 2026 é o "Lag de Filtro", onde ter muitas regras complexas (50+) pode causar uma leve travada quando grandes grupos de inimigos morrem simultaneamente. Para otimizar seu **filtro de saque da temporada 4 de last epoch**, siga estas diretrizes:
+*   **Consolide Regras:** Em vez de ter cinco regras separadas para diferentes tipos de armas, combine-as em uma única regra com múltiplos "Sub-tipos" selecionados.
+*   **Use Grupos de Afixos:** Agrupe afixos semelhantes (ex: todas as Resistências) em uma única regra em vez de filtrar cada um individualmente.
+*   **Escalonamento por Nível:** Use a condição "Level" para ocultar itens de nível inferior automaticamente conforme você sobe de nível, em vez de atualizar manualmente o filtro a cada cinco níveis.
+
+## FAQ
+
+**P: Posso usar meu filtro da Temporada 3 para o filtro de saque da temporada 4 de last epoch?**
+
+R: Embora tecnicamente funcione, não é recomendado. A Temporada 4 (Patch 1.4) introduziu novas bases de itens e afixos que seu filtro antigo provavelmente ignorará ou ocultará. É melhor importar um modelo novo da Temporada 4 e personalizá-lo.
+
+**P: Como eu filtro itens com Potencial Lendário?**
+
+R: Dentro das regras do filtro, adicione uma condição para "Rarity" (Único) e depois adicione uma segunda condição para "Legendary Potential". Você pode ajustar o controle deslizante para mostrar apenas itens com 1, 2, 3 ou 4 LP.
+
+**P: Por que alguns itens ainda aparecem mesmo eu tendo uma regra de "Ocultar"?**
+
+R: Lembre-se que os filtros do Last Epoch funcionam de cima para baixo. Se você tiver uma regra de "Mostrar" para itens Exaltados no topo, e uma regra de "Ocultar" para tipos de armas específicos na parte inferior, o jogo mostrará o item Exaltado porque ele atendeu ao primeiro critério. Mova suas regras de "Ocultar" para cima ou adicione condições mais específicas às suas regras de "Mostrar".
+
+**P: Qual é a melhor cor para usar em afixos raros?**
+
+R: A maioria dos jogadores usa **Vermelho Brilhante** ou **Rosa Neon** para afixos Tier 7 e **Verde Brilhante** para habilidades específicas de classe. Isso cria uma dica visual de alto contraste que é difícil de perder durante o combate intenso.
+
+Ao seguir este guia e utilizar um **filtro de saque da temporada 4 de last epoch** configurado corretamente, você melhorará significativamente sua eficiência de farm no ciclo Shattered Omens. Mantenha o foco nos drops que importam e deixe o filtro cuidar do resto. Para mais atualizações sobre o meta de 2026, fique de olho no repositório oficial do [Last Epoch Tools](https://www.lastepochtools.com/loot-filters/) para obter as strings de comunidade mais recentes.

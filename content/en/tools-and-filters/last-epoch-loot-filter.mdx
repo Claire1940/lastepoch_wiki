@@ -1,0 +1,138 @@
+export const metadata = {
+  title: "Last Epoch Loot Filter: Complete Guide & Best Setup 2026",
+  description: "Master the Last Epoch loot filter system with our comprehensive 2026 guide. Learn to create, import, and optimize rules for endgame farming and leveling.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Last+Epoch+Loot+Filter+Guide",
+  date: "2026-03-29",
+  author: "Last Epoch Wiki Team"
+}
+
+In the fast-paced world of Eterra, managing the sheer volume of item drops is essential for efficient progression. A well-configured **last epoch loot filter** is the difference between spending your time slaying gods and spending it sifting through piles of vendor trash. As of 2026, the complexity of itemization in Season 4 and beyond requires players to have a nuanced understanding of how to highlight Best-in-Slot (BIS) gear while hiding irrelevant equipment.
+
+Whether you are a newcomer starting your first character or a veteran pushing 1,000+ Corruption in the Monolith of Fate, mastering the **last epoch loot filter** is mandatory. This guide will walk you through the interface, explain the logic of rule priority, and provide a roadmap for creating a universal filter that scales from level 1 to the ultimate endgame. By following these steps, you will ensure that every item nameplate you see on the ground is worth your attention.
+
+## Understanding the Loot Filter Interface
+
+To begin customizing your experience, press **Shift + F** to open the Loot Filter menu. This interface allows you to create new filters from scratch, duplicate existing ones, or import community-made configurations. In 2026, the system supports up to 200 individual rules per filter, providing more than enough room to micro-manage every item type and affix in the game.
+
+### Visibility Options
+
+When creating a rule, your first decision is the "Visibility" setting. This determines how the game treats items that meet your specified conditions.
+
+| Visibility | Function | Best Use Case |
+| :--- | :--- | :--- |
+| **Show** | Displays the item nameplate normally. | General items you might want to pick up. |
+| **Hide** | Completely removes the item nameplate from view. | Filtering out low-level bases or irrelevant classes. |
+| **Recolor** | Changes the nameplate color and can add an emphasis effect. | Highlighting **Exalted**, **Unique**, or **BIS** items. |
+
+> **💡 Tip:** Use the "Emphasize" toggle on Recolor rules to make the nameplate text larger and all-caps, ensuring you never miss a critical drop during intense combat.
+
+## The Logic of Rule Priority
+
+The most important concept to grasp is that the **last epoch loot filter** operates on a top-down priority system. The game checks item drops against your list of rules starting from the very top. Once an item matches a rule, it follows that rule's instructions and ignores all rules below it.
+
+### Rule Hierarchy Example
+
+| Priority | Rule Type | Result |
+| :--- | :--- | :--- |
+| **Top (1)** | Show all **Uniques** | Any Unique item will show, regardless of other rules. |
+| **Middle (2)** | Hide all **Daggers** | All non-Unique daggers are now hidden. |
+| **Bottom (3)** | Show **T7 Affixes** | A T7 Dagger will remain hidden because Rule 2 already claimed it. |
+
+To fix the example above, you would move the "Show T7 Affixes" rule above the "Hide all Daggers" rule. This ensures that while most daggers are hidden, the exceptionally rare ones with Tier 7 affixes still appear on your screen.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/gdeLGcGQrjM"
+    title="Last Epoch Season 4 Universal Loot Filter"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Creating a Universal Filter from Scratch
+
+A popular strategy among top players in 2026 is the "Hide and Seek" method. This involves hiding almost everything by default and then specifically "seeking" the items you want through higher-priority rules.
+
+### Step 1: The "Catch-All" Hide Rule
+Create a rule at the very bottom of your list. Set the Visibility to **Hide** and select rarities: **Normal**, **Magic**, and **Rare**. This ensures that as you progress into the mid-game, you aren't distracted by low-value loot.
+
+### Step 2: Class Filtering
+Early in the campaign, you may want to see items for all classes, but by level 20, you should add a rule to hide equipment for classes you aren't playing. 
+*   **Condition:** Item Type -> Specific Subtypes (e.g., Acolyte Helmets, Primalist Relics).
+*   **Visibility:** Hide.
+*   **Placement:** Above the Catch-All rule.
+
+### Step 3: Highlighting Affixes for Crafting
+You will constantly need [Shards for crafting](https://lastepoch.com/), which are obtained by using a **Rune of Shattering** on items with desirable affixes.
+*   Create a **Recolor** rule (commonly Orange or Teal).
+*   Select the specific affixes you need (e.g., **Hybrid Health**, **+1 to Skills**, **Resistance**).
+*   Set the condition to "With at least 1 of these affixes."
+
+### Step 4: Idol Management
+Idols are unique because they cannot be crafted. You must find them with the correct stats.
+*   Create a **Recolor** rule specifically for Idols.
+*   Filter for your class-specific affixes and generic "Health" or "Resistance" stats.
+*   Because Idols are rare, many players choose to show all Idols initially and then tighten the filter as their build nears completion.
+
+## Advanced Strategies: Shatter, Pink, and Havoc Rules
+
+As of the 2026 updates, top-tier filters often use color-coding to signal exactly what the player should do with an item the moment it hits the ground.
+
+### The "Dire Need" (Pink) Rule
+If you are missing a specific shard to finish a craft—such as **Throwing Mana Cost** or **Level of Shurikens**—create a rule at the top of your filter to recolor items with that affix in **Pink**. This signals that you should use a **Rune of Removal** instead of Shattering to guarantee you get those specific shards back.
+
+### The Rune of Havoc Technique
+The **Rune of Havoc** is a powerful crafting tool that can swap affix tiers. If a Tier 7 (Exalted) item drops with a useless primary stat but a great secondary stat, you can use Havoc to try and move that T7 value to the stat you actually want.
+*   **Rule:** Recolor items with any T7 affix + 1 desirable affix in **Green**.
+*   **Action:** Take these items to the forge and "Havoc" them to create potential god-tier gear for the [Merchants Guild](https://maxroll.gg/last-epoch/resources/merchants-guild-guide) or personal use.
+
+| Color | Meaning | Action Required |
+| :--- | :--- | :--- |
+| **Red/Gold** | **Best-in-Slot** | Immediate upgrade or legendary slam candidate. |
+| **Orange** | **Shatter** | Use Rune of Shattering for general shards. |
+| **Pink** | **Dire Need** | Use Rune of Removal for specific rare shards. |
+| **Green** | **Ascend/Havoc** | Use Rune of Ascension or Rune of Havoc for crafting gambles. |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/rSgEAmWai_0"
+    title="Last Epoch How To Make A Loot Filter"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Filtering for the Endgame Monoliths
+
+Once you reach level 85+, your **last epoch loot filter** requirements shift. At this stage, Tier 6 affixes are often considered "mediocre," and you should transition your focus almost entirely to Tier 7 Exalted items and Uniques with **Legendary Potential (LP)**.
+
+### Setting Tier Requirements
+In the Affix condition, click **Advanced Options**. You can set the filter to only show items where the total affix tiers are "More or Equal to 20" or where an individual affix is "Tier 7." This drastically reduces screen clutter in high-corruption Monoliths, allowing you to maintain high clear speeds.
+
+### Unique and Set Item Safety
+Always keep a rule at the very top of your filter to **Show** all Uniques and Set items until you are intimately familiar with which ones are useless for your account. In 2026, even a "bad" Unique can be valuable if it drops with 3 or 4 Legendary Potential, as it can be merged with an Exalted item to create a Legendary.
+
+> **⚠️ Warning:** Never put a "Hide" rule above your "Show Uniques" rule unless you are absolutely certain you want to miss those items. Rule priority is absolute!
+
+## FAQ
+
+**Q: Can I use one last epoch loot filter for all my characters?**
+
+A: Yes, you can create a "Universal" filter. To make this work, use the "Class Requirement" condition to show items for your current class and hide others. However, as you reach the endgame, it is generally better to have specialized filters for each build to account for specific BIS affixes.
+
+**Q: How do I import a filter I found online?**
+
+A: Copy the filter text or XML content to your clipboard. Open the loot filter interface in-game (Shift+F), click the **+** button, and select "Paste Clipboard Contents." The filter will automatically populate with all predefined rules.
+
+**Q: Why are some items still showing even though I have a "Hide" rule?**
+
+A: Check your rule priority. There is likely a "Show" or "Recolor" rule located above your "Hide" rule that the item is matching first. Remember, the game stops checking rules as soon as it finds the first match from the top.
+
+**Q: What is the best way to filter for Legendary Potential?**
+
+A: Add a rule with the condition **Rarity: Unique** and then use the **Advanced Options** to specify "Legendary Potential more or equal to 1." You can create multiple rules to give different colors to 1LP, 2LP, and 3LP items for better visual clarity.

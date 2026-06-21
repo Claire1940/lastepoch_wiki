@@ -1,0 +1,138 @@
+export const metadata = {
+  title: "Filtre de Butin Last Epoch : Guide Complet et Meilleure Configuration 2026",
+  description: "Maîtrisez le système de filtre de butin de Last Epoch avec notre guide complet 2026. Apprenez à créer, importer et optimiser des règles pour le farming de fin de jeu et le leveling.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Last+Epoch+Loot+Filter+Guide",
+  date: "2026-03-29",
+  author: "Équipe du Wiki Last Epoch"
+}
+
+Dans le monde effréné d'Eterra, la gestion du volume impressionnant d'objets qui tombent au sol est essentielle pour une progression efficace. Un **filtre de butin Last Epoch** bien configuré fait toute la différence entre passer votre temps à terrasser des dieux et le passer à trier des piles d'objets inutiles. En 2026, la complexité de l'itemisation de la Saison 4 et des suivantes exige des joueurs une compréhension nuancée de la manière de mettre en évidence l'équipement Best-in-Slot (BIS) tout en masquant l'équipement non pertinent.
+
+Que vous soyez un nouveau venu commençant votre premier personnage ou un vétéran dépassant les 1 000 de Corruption dans le Monolithe du Destin, maîtriser le **filtre de butin Last Epoch** est obligatoire. Ce guide vous fera découvrir l'interface, expliquera la logique de priorité des règles et fournira une feuille de route pour créer un filtre universel évoluant du niveau 1 jusqu'au contenu de haut niveau. En suivant ces étapes, vous vous assurerez que chaque nom d'objet que vous voyez au sol mérite votre attention.
+
+## Comprendre l'interface du filtre de butin
+
+Pour commencer à personnaliser votre expérience, appuyez sur **Maj + F** pour ouvrir le menu du Filtre de Butin. Cette interface vous permet de créer de nouveaux filtres de zéro, de dupliquer ceux existants ou d'importer des configurations créées par la communauté. En 2026, le système prend en charge jusqu'à 200 règles individuelles par filtre, offrant plus qu'assez d'espace pour micro-gérer chaque type d'objet et affixe du jeu.
+
+### Options de visibilité
+
+Lors de la création d'une règle, votre première décision est le paramètre "Visibilité". Celui-ci détermine comment le jeu traite les objets qui répondent à vos conditions spécifiées.
+
+| Visibilité | Fonction | Meilleur cas d'utilisation |
+| :--- | :--- | :--- |
+| **Afficher** | Affiche le nom de l'objet normalement. | Objets généraux que vous pourriez vouloir ramasser. |
+| **Masquer** | Supprime complètement le nom de l'objet de la vue. | Filtrer les bases de bas niveau ou les classes non pertinentes. |
+| **Recolorier** | Change la couleur du nom et peut ajouter un effet d'accentuation. | Mettre en évidence les objets **Exaltés**, **Uniques** ou **BIS**. |
+
+> **💡 Astuce :** Utilisez l'option "Accentuer" (Emphasize) sur les règles de recoloration pour agrandir le texte et l'afficher en majuscules, vous assurant de ne jamais manquer un objet critique lors de combats intenses.
+
+## La logique de priorité des règles
+
+Le concept le plus important à saisir est que le **filtre de butin Last Epoch** fonctionne selon un système de priorité de haut en bas. Le jeu compare les objets tombés à votre liste de règles en commençant par le haut. Dès qu'un objet correspond à une règle, il suit les instructions de cette règle et ignore toutes les règles situées en dessous.
+
+### Exemple de hiérarchie des règles
+
+| Priorité | Type de règle | Résultat |
+| :--- | :--- | :--- |
+| **Haut (1)** | Afficher tous les **Uniques** | Tout objet Unique s'affichera, quelles que soient les autres règles. |
+| **Milieu (2)** | Masquer toutes les **Dagues** | Toutes les dagues non-Uniques sont désormais masquées. |
+| **Bas (3)** | Afficher les **Affixes T7** | Une dague T7 restera masquée car la règle 2 l'a déjà traitée. |
+
+Pour corriger l'exemple ci-dessus, vous devriez déplacer la règle "Afficher les Affixes T7" au-dessus de la règle "Masquer toutes les Dagues". Cela garantit que, bien que la plupart des dagues soient masquées, les spécimens exceptionnellement rares avec des affixes de palier 7 apparaissent toujours sur votre écran.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/gdeLGcGQrjM"
+    title="Last Epoch Season 4 Universal Loot Filter"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Créer un filtre universel à partir de zéro
+
+Une stratégie populaire parmi les meilleurs joueurs en 2026 est la méthode "Cache-cache". Cela consiste à masquer presque tout par défaut, puis à "chercher" spécifiquement les objets que vous voulez via des règles de priorité plus élevée.
+
+### Étape 1 : La règle de masquage globale
+Créez une règle tout en bas de votre liste. Réglez la Visibilité sur **Masquer** et sélectionnez les raretés : **Normal**, **Magique** et **Rare**. Cela garantit qu'à mesure que vous progressez vers le milieu de jeu, vous ne soyez pas distrait par du butin de faible valeur.
+
+### Étape 2 : Filtrage par classe
+Au début de la campagne, vous voudrez peut-être voir les objets pour toutes les classes, mais vers le niveau 20, vous devriez ajouter une règle pour masquer l'équipement des classes que vous ne jouez pas. 
+*   **Condition :** Type d'objet -> Sous-types spécifiques (ex: Casques d'Acolyte, Reliques de Primaliste).
+*   **Visibilité :** Masquer.
+*   **Placement :** Au-dessus de la règle globale.
+
+### Étape 3 : Mise en évidence des affixes pour l'artisanat
+Vous aurez constamment besoin d'[Éclats pour l'artisanat](https://lastepoch.com/), qui s'obtiennent en utilisant une **Rune de fragmentation** sur des objets possédant des affixes désirables.
+*   Créez une règle **Recolorier** (souvent en orange ou bleu sarcelle).
+*   Sélectionnez les affixes spécifiques dont vous avez besoin (ex: **Santé hybride**, **+1 aux compétences**, **Résistance**).
+*   Réglez la condition sur "Avec au moins 1 de ces affixes".
+
+### Étape 4 : Gestion des idoles
+Les idoles sont uniques car elles ne peuvent pas être fabriquées. Vous devez les trouver avec les bonnes statistiques.
+*   Créez une règle **Recolorier** spécifiquement pour les idoles.
+*   Filtrez pour vos affixes spécifiques de classe et les statistiques génériques de "Santé" ou de "Résistance".
+*   Comme les idoles sont rares, de nombreux joueurs choisissent d'afficher toutes les idoles au début, puis de resserrer le filtre à mesure que leur build approche de la perfection.
+
+## Stratégies avancées : Règles de fragmentation, rose et de ravage
+
+Depuis les mises à jour de 2026, les filtres de haut niveau utilisent souvent un code couleur pour signaler exactement ce que le joueur doit faire d'un objet dès qu'il touche le sol.
+
+### La règle de "Besoin urgent" (Rose)
+S'il vous manque un éclat spécifique pour terminer une fabrication — comme le **Coût en mana des attaques de lancer** ou le **Niveau de Shurikens** — créez une règle en haut de votre filtre pour recolorer les objets avec cet affixe en **Rose**. Cela signale que vous devriez utiliser une **Rune de retrait** au lieu d'une fragmentation pour garantir la récupération de ces éclats spécifiques.
+
+### La technique de la Rune de Ravage
+La **Rune de Ravage** est un puissant outil d'artisanat qui peut échanger les paliers d'affixes. Si un objet Exalté (T7) tombe avec une statistique principale inutile mais une excellente statistique secondaire, vous pouvez utiliser le Ravage pour tenter de déplacer cette valeur T7 vers la statistique que vous voulez vraiment.
+*   **Règle :** Recolorier les objets avec n'importe quel affixe T7 + 1 affixe désirable en **Vert**.
+*   **Action :** Apportez ces objets à la forge et utilisez le "Ravage" pour tenter de créer un équipement divin pour la [Guilde des Marchands](https://maxroll.gg/last-epoch/resources/merchants-guild-guide) ou pour votre usage personnel.
+
+| Couleur | Signification | Action requise |
+| :--- | :--- | :--- |
+| **Rouge/Or** | **Best-in-Slot** | Amélioration immédiate ou candidat pour fusion légendaire. |
+| **Orange** | **Fragmentation** | Utiliser une Rune de fragmentation pour des éclats généraux. |
+| **Rose** | **Besoin urgent** | Utiliser une Rune de retrait pour des éclats rares spécifiques. |
+| **Vert** | **Ascension/Ravage** | Utiliser une Rune d'ascension ou de Ravage pour des paris d'artisanat. |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/rSgEAmWai_0"
+    title="Last Epoch How To Make A Loot Filter"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Filtrage pour les Monolithes de fin de jeu
+
+Une fois que vous atteignez le niveau 85+, les exigences de votre **filtre de butin Last Epoch** changent. À ce stade, les affixes de palier 6 sont souvent considérés comme "médiocres", et vous devriez concentrer votre attention presque entièrement sur les objets Exaltés de palier 7 et les Uniques avec du **Potentiel Légendaire (PL)**.
+
+### Paramétrage des exigences de palier (Tier)
+Dans la condition d'Affixe, cliquez sur **Options avancées**. Vous pouvez régler le filtre pour n'afficher que les objets où le total des paliers d'affixes est "Supérieur ou égal à 20" ou lorsqu'un affixe individuel est de "Palier 7". Cela réduit considérablement l'encombrement visuel dans les Monolithes à haute corruption, vous permettant de maintenir une vitesse de nettoyage élevée.
+
+### Sécurité des objets Uniques et de Set
+Gardez toujours une règle tout en haut de votre filtre pour **Afficher** tous les objets Uniques et de Set jusqu'à ce que vous sachiez parfaitement lesquels sont inutiles pour votre compte. En 2026, même un Unique "mauvais" peut être précieux s'il tombe avec 3 ou 4 de Potentiel Légendaire, car il peut être fusionné avec un objet Exalté pour créer un Légendaire.
+
+> **⚠️ Avertissement :** Ne placez jamais une règle "Masquer" au-dessus de votre règle "Afficher les Uniques", sauf si vous êtes absolument certain de vouloir rater ces objets. La priorité des règles est absolue !
+
+## FAQ
+
+**Q : Puis-je utiliser un seul filtre de butin Last Epoch pour tous mes personnages ?**
+
+R : Oui, vous pouvez créer un filtre "Universel". Pour ce faire, utilisez la condition "Exigence de classe" pour afficher les objets de votre classe actuelle et masquer les autres. Cependant, en atteignant la fin de jeu, il est généralement préférable d'avoir des filtres spécialisés pour chaque build afin de prendre en compte les affixes BIS spécifiques.
+
+**Q : Comment importer un filtre que j'ai trouvé en ligne ?**
+
+R : Copiez le texte du filtre ou le contenu XML dans votre presse-papiers. Ouvrez l'interface du filtre de butin en jeu (Maj+F), cliquez sur le bouton **+** et sélectionnez "Coller le contenu du presse-papiers". Le filtre se remplira automatiquement avec toutes les règles prédéfinies.
+
+**Q : Pourquoi certains objets s'affichent-ils encore alors que j'ai une règle "Masquer" ?**
+
+R : Vérifiez la priorité de vos règles. Il y a probablement une règle "Afficher" ou "Recolorier" située au-dessus de votre règle "Masquer" à laquelle l'objet correspond en premier. N'oubliez pas que le jeu arrête de vérifier les règles dès qu'il trouve la première correspondance en partant du haut.
+
+**Q : Quelle est la meilleure façon de filtrer pour le Potentiel Légendaire ?**
+
+R : Ajoutez une règle avec la condition **Rareté : Unique**, puis utilisez les **Options avancées** pour spécifier "Potentiel Légendaire supérieur ou égal à 1". Vous pouvez créer plusieurs règles pour donner des couleurs différentes aux objets 1PL, 2PL et 3PL pour une meilleure clarté visuelle.

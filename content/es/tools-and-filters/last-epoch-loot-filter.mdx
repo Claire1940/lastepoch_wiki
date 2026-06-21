@@ -1,0 +1,138 @@
+export const metadata = {
+  title: "Filtro de botín de Last Epoch: Guía completa y mejor configuración 2026",
+  description: "Domina el sistema de filtros de botín de Last Epoch con nuestra guía exhaustiva de 2026. Aprende a crear, importar y optimizar reglas para el farmeo de endgame y nivelación.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Last+Epoch+Loot+Filter+Guide",
+  date: "2026-03-29",
+  author: "Equipo de la Wiki de Last Epoch"
+}
+
+En el vertiginoso mundo de Eterra, gestionar el enorme volumen de botín que cae es esencial para una progresión eficiente. Un **filtro de botín de Last Epoch** bien configurado marca la diferencia entre pasar el tiempo aniquilando dioses y pasarlo revisando montones de basura de mercader. A partir de 2026, la complejidad de los objetos en la Temporada 4 y posteriores requiere que los jugadores tengan una comprensión matizada de cómo resaltar el equipo Best-in-Slot (BIS) mientras ocultan el equipo irrelevante.
+
+Ya seas un recién llegado que comienza su primer personaje o un veterano que supera los 1,000+ de Corrupción en el Monolito del Destino, dominar el **filtro de botín de Last Epoch** es obligatorio. Esta guía te llevará a través de la interfaz, explicará la lógica de la prioridad de las reglas y proporcionará una hoja de ruta para crear un filtro universal que escale desde el nivel 1 hasta el endgame definitivo. Al seguir estos pasos, te asegurarás de que cada nombre de objeto que veas en el suelo valga tu atención.
+
+## Entendiendo la interfaz del filtro de botín
+
+Para comenzar a personalizar tu experiencia, presiona **Shift + F** para abrir el menú del Filtro de Botín. Esta interfaz te permite crear nuevos filtros desde cero, duplicar los existentes o importar configuraciones hechas por la comunidad. En 2026, el sistema admite hasta 200 reglas individuales por filtro, proporcionando espacio más que suficiente para microgestionar cada tipo de objeto y afijo en el juego.
+
+### Opciones de visibilidad
+
+Al crear una regla, tu primera decisión es el ajuste de "Visibilidad" (Visibility). Esto determina cómo trata el juego a los objetos que cumplen con las condiciones especificadas.
+
+| Visibilidad | Función | Mejor caso de uso |
+| :--- | :--- | :--- |
+| **Mostrar** | Muestra el nombre del objeto normalmente. | Objetos generales que podrías querer recoger. |
+| **Ocultar** | Elimina completamente el nombre del objeto de la vista. | Filtrar bases de bajo nivel o clases irrelevantes. |
+| **Recolorar** | Cambia el color del nombre y puede añadir un efecto de énfasis. | Resaltar objetos **Exaltados**, **Únicos** o **BIS**. |
+
+> **💡 Consejo:** Usa el interruptor "Enfatizar" (Emphasize) en las reglas de Recolorar para que el texto sea más grande y esté en mayúsculas, asegurándote de no perder nunca un botín crítico durante combates intensos.
+
+## La lógica de la prioridad de las reglas
+
+El concepto más importante a entender es que el **filtro de botín de Last Epoch** funciona con un sistema de prioridad de arriba hacia abajo. El juego comprueba los objetos que caen contra tu lista de reglas comenzando desde la parte superior. Una vez que un objeto coincide con una regla, sigue las instrucciones de esa regla e ignora todas las reglas inferiores.
+
+### Ejemplo de jerarquía de reglas
+
+| Prioridad | Tipo de regla | Resultado |
+| :--- | :--- | :--- |
+| **Superior (1)** | Mostrar todos los **Únicos** | Cualquier objeto Único se mostrará, independientemente de otras reglas. |
+| **Media (2)** | Ocultar todas las **Dagas** | Todas las dagas que no sean Únicas están ahora ocultas. |
+| **Inferior (3)** | Mostrar **Afijos T7** | Una Daga T7 permanecerá oculta porque la Regla 2 ya la reclamó. |
+
+Para arreglar el ejemplo anterior, moverías la regla "Mostrar Afijos T7" por encima de la regla "Ocultar todas las Dagas". Esto asegura que, aunque la mayoría de las dagas estén ocultas, las excepcionalmente raras con afijos de Nivel 7 sigan apareciendo en tu pantalla.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/gdeLGcGQrjM"
+    title="Last Epoch Season 4 Universal Loot Filter"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Creando un filtro universal desde cero
+
+Una estrategia popular entre los mejores jugadores en 2026 es el método "Hide and Seek" (Ocultar y Buscar). Esto implica ocultar casi todo por defecto y luego "buscar" específicamente los objetos que deseas mediante reglas de mayor prioridad.
+
+### Paso 1: La regla de ocultación general
+Crea una regla al final de tu lista. Establece la Visibilidad en **Ocultar** y selecciona las rarezas: **Normal**, **Mágico** y **Raro**. Esto asegura que, a medida que progreses hacia el mid-game, no te distraigas con botín de bajo valor.
+
+### Paso 2: Filtrado por clase
+Al principio de la campaña, es posible que quieras ver objetos para todas las clases, pero al llegar al nivel 20, deberías añadir una regla para ocultar el equipo de las clases que no estés jugando. 
+*   **Condición:** Tipo de objeto -> Subtipos específicos (ej. Cascos de Acólito, Reliquias de Primigenio).
+*   **Visibilidad:** Ocultar.
+*   **Ubicación:** Por encima de la regla de ocultación general.
+
+### Paso 3: Resaltar afijos para artesanía
+Necesitarás constantemente [esquirlas para artesanía](https://lastepoch.com/), que se obtienen usando una **Runa de Despedazamiento** (Rune of Shattering) en objetos con afijos deseables.
+*   Crea una regla de **Recolorar** (comúnmente Naranja o Turquesa).
+*   Selecciona los afijos específicos que necesitas (ej. **Salud Híbrida**, **+1 a Habilidades**, **Resistencia**).
+*   Establece la condición en "Con al menos 1 de estos afijos".
+
+### Paso 4: Gestión de Ídolos
+Los ídolos son únicos porque no se pueden fabricar. Debes encontrarlos con las estadísticas correctas.
+*   Crea una regla de **Recolorar** específicamente para Ídolos.
+*   Filtra por afijos específicos de tu clase y estadísticas genéricas de "Salud" o "Resistencia".
+*   Debido a que los ídolos son raros, muchos jugadores optan por mostrar todos los ídolos inicialmente y luego ajustar el filtro a medida que su build se acerca a la finalización.
+
+## Estrategias avanzadas: Reglas de Despedazar, Rosa y Estragos
+
+A partir de las actualizaciones de 2026, los filtros de alto nivel a menudo utilizan códigos de colores para indicar exactamente qué debe hacer el jugador con un objeto en el momento en que cae al suelo.
+
+### La regla de "Necesidad Urgente" (Rosa)
+Si te falta una esquirla específica para terminar una artesanía —como **Costo de Maná de Lanzamiento** o **Nivel de Shurikens**— crea una regla en la parte superior de tu filtro para recolorar los objetos con ese afijo en **Rosa**. Esto indica que debes usar una **Runa de Eliminación** (Rune of Removal) en lugar de Despedazamiento para garantizar que recuperes esas esquirlas específicas.
+
+### La técnica de la Runa de Estragos
+La **Runa de Estragos** (Rune of Havoc) es una poderosa herramienta de artesanía que puede intercambiar niveles de afijos. Si cae un objeto de Nivel 7 (Exaltado) con una estadística principal inútil pero una estadística secundaria excelente, puedes usar Estragos para intentar mover ese valor T7 a la estadística que realmente deseas.
+*   **Regla:** Recolorar objetos con cualquier afijo T7 + 1 afijo deseable en **Verde**.
+*   **Acción:** Lleva estos objetos a la forja y usa "Estragos" en ellos para crear equipo potencialmente divino para el [Gremio de Mercaderes](https://maxroll.gg/last-epoch/resources/merchants-guild-guide) o para uso personal.
+
+| Color | Significado | Acción requerida |
+| :--- | :--- | :--- |
+| **Rojo/Dorado** | **Best-in-Slot** | Mejora inmediata o candidato para forja legendaria. |
+| **Naranja** | **Despedazar** | Usa Runa de Despedazamiento para esquirlas generales. |
+| **Rosa** | **Necesidad Urgente** | Usa Runa de Eliminación para esquirlas raras específicas. |
+| **Verde** | **Ascender/Estragos** | Usa Runa de Ascensión o Runa de Estragos para apuestas de artesanía. |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/rSgEAmWai_0"
+    title="Last Epoch How To Make A Loot Filter"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Filtrado para los Monolitos de Endgame
+
+Una vez que alcances el nivel 85+, los requisitos de tu **filtro de botín de Last Epoch** cambian. En esta etapa, los afijos de Nivel 6 a menudo se consideran "mediocres", y deberías centrar tu atención casi por completo en objetos Exaltados de Nivel 7 y Únicos con **Potencial Legendario (LP)**.
+
+### Configuración de requisitos de nivel (Tier)
+En la condición de Afijo, haz clic en **Opciones Avanzadas**. Puedes configurar el filtro para que solo muestre objetos donde los niveles totales de afijos sean "Mayores o Iguales a 20" o donde un afijo individual sea "Nivel 7". Esto reduce drásticamente el desorden en la pantalla en Monolitos de alta corrupción, permitiéndote mantener altas velocidades de limpieza.
+
+### Seguridad de objetos Únicos y de Conjunto
+Mantén siempre una regla en la parte superior de tu filtro para **Mostrar** todos los objetos Únicos y de Conjunto hasta que estés íntimamente familiarizado con cuáles son inútiles para tu cuenta. En 2026, incluso un Único "malo" puede ser valioso si cae con 3 o 4 de Potencial Legendario, ya que se puede fusionar con un objeto Exaltado para crear un Legendario.
+
+> **⚠️ Advertencia:** Nunca pongas una regla de "Ocultar" por encima de tu regla de "Mostrar Únicos" a menos que estés absolutamente seguro de que quieres perder esos objetos. ¡La prioridad de las reglas es absoluta!
+
+## FAQ
+
+**P: ¿Puedo usar un solo filtro de botín de Last Epoch para todos mis personajes?**
+
+R: Sí, puedes crear un filtro "Universal". Para que esto funcione, usa la condición de "Requisito de Clase" para mostrar objetos de tu clase actual y ocultar los demás. Sin embargo, a medida que llegas al endgame, generalmente es mejor tener filtros especializados para cada build para tener en cuenta los afijos BIS específicos.
+
+**P: ¿Cómo importo un filtro que encontré en línea?**
+
+R: Copia el texto del filtro o el contenido XML a tu portapapeles. Abre la interfaz del filtro de botín en el juego (Shift+F), haz clic en el botón **+** y selecciona "Pegar contenido del portapapeles". El filtro se completará automáticamente con todas las reglas predefinidas.
+
+**P: ¿Por qué se siguen mostrando algunos objetos aunque tengo una regla de "Ocultar"?**
+
+R: Comprueba la prioridad de tus reglas. Es probable que haya una regla de "Mostrar" o "Recolorar" situada por encima de tu regla de "Ocultar" con la que el objeto coincide primero. Recuerda, el juego deja de comprobar reglas tan pronto como encuentra la primera coincidencia desde arriba.
+
+**P: ¿Cuál es la mejor manera de filtrar por Potencial Legendario?**
+
+R: Añade una regla con la condición **Rareza: Único** y luego usa las **Opciones Avanzadas** para especificar "Potencial Legendario mayor o igual a 1". Puedes crear múltiples reglas para dar diferentes colores a los objetos con 1LP, 2LP y 3LP para una mejor claridad visual.

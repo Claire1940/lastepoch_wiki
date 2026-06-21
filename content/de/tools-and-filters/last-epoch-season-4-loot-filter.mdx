@@ -1,0 +1,115 @@
+export const metadata = {
+  title: "Last Epoch Season 4 Loot Filter: Vollständiger Setup-Guide 2026",
+  description: "Meistern Sie das Beutefilter-System von Last Epoch Season 4 für Shattered Omens. Lernen Sie, wie Sie Ihre Ausrüstungs-Drops importieren, anpassen und für den Erfolg im Endgame 2026 optimieren.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/312e81/fff?text=Last+Epoch+Season+4+Loot+Filter",
+  date: "2026-03-29",
+  author: "Last Epoch Wiki Team"
+}
+
+Der Übergang in einen neuen Zyklus kann überwältigend sein, besonders angesichts der schieren Menge an Gegenständen, die im „Shattered Omens“-Update droppen. Die Nutzung eines robusten **last epoch season 4 loot filter** ist nicht länger optional, wenn Sie planen, die hochstufigen Monolithen des Schicksals zu erreichen, ohne Stunden mit dem Sortieren von Händlerschrott zu verschwenden. Im Jahr 2026 hat die Komplexität der Itemisierung einen Punkt erreicht, an dem manuelles Sortieren zum Flaschenhals für Ihren Fortschritt wird. Egal, ob Sie einen Witchfire Warlock oder einen Warpath Sentinel spielen – die korrekte Einrichtung Ihres **last epoch season 4 loot filter** stellt sicher, dass nur die relevantesten erhabenen (Exalted), einzigartigen (Unique) und Set-Gegenstände auf Ihrem Bildschirm erscheinen, sodass Sie sich voll und ganz auf die rasanten Kämpfe und Bossmechaniken konzentrieren können.
+
+## Die Bedeutung der Filterung in Shattered Omens (Patch 1.4)
+
+Das Shattered Omens Update, auch bekannt als Patch 1.4, führte mehrere neue Gegenstandstypen und Affix-Kombinationen ein, die das Meta verschoben haben. Ein Standardfilter aus früheren Seasons wird wahrscheinlich einige der wertvollsten neuen Basen ausblenden oder die spezifischen Affixe, die für 2026-Builds erforderlich sind, nicht hervorheben.
+
+Loot-Filter in Last Epoch funktionieren nach einem „Top-Down“-Prioritätssystem. Das bedeutet, das Spiel prüft die erste Regel in Ihrer Liste; wenn ein Gegenstand zutrifft, wird diese Regel angewendet und alles darunter ignoriert. Das Verständnis dieser Hierarchie ist der entscheidende Unterschied dazwischen, ein Tier 7 Experimental-Affix zu finden oder es auf dem Boden liegen zu lassen.
+
+### Warum Ihr alter Filter veraltet ist
+1.  **Neue Basistypen:** Season 4 führte lokalisierte Basisgegenstände ein, die einzigartige implizite Modifikatoren bieten.
+2.  **Affix-Skalierung:** Bestimmte Affixe haben im Endgame nun eine höhere Gewichtung und erfordern eine farbliche Kennzeichnung zur besseren Sichtbarkeit.
+3.  **Fraktionsspezifika:** Je nachdem, ob Sie die **Merchant's Guild** oder den **Circle of Fortune** wählen, muss Ihr Filter Handelswert versus persönliches Upgrade-Potenzial priorisieren.
+
+## So importieren und konfigurieren Sie Ihren Filter
+
+Das Einrichten eines **last epoch season 4 loot filter** ist ein unkomplizierter Prozess, aber die korrekte Ausführung ist entscheidend für die Effizienz. Sie haben zwei Hauptoptionen: das Importieren eines Community-Strings oder das Erstellen eines eigenen Filters von Grund auf.
+
+### Schritt-für-Schritt-Importanleitung
+1.  Öffnen Sie das Loot-Filter-Menü im Spiel durch Drücken von **Umschalt + F**.
+2.  Klicken Sie auf das „+“-Symbol, um einen neuen Filter zu erstellen.
+3.  Wählen Sie „Filter importieren“ (Import Filter) und dann „Inhalt der Zwischenablage einfügen“ (Paste Clipboard Content), wenn Sie einen String von einer Seite wie Last Epoch Tools kopiert haben.
+4.  Alternativ wählen Sie „Filterordner öffnen“ (Open Filter Folder), um `.xml`-Dateien manuell in das Spielverzeichnis zu ziehen.
+
+| Merkmal | Beschreibung | Empfehlung |
+|---|---|---|
+| **Importmethode** | Zwischenablage vs. Datei | **Zwischenablage** ist schneller für kurze Updates. |
+| **Auto-Update** | Manueller Refresh | Prüfen Sie nach jedem **großen Patch** auf Updates. |
+| **Slot-Limit** | Unbegrenzte Filter | Behalten Sie einen Filter pro **aktivem Charakter**. |
+
+> **💡 Tipp:** Benennen Sie Ihre Filter immer klar mit der Versionsnummer und der Klasse (z. B. „S4_Warlock_Endgame_v1.4“). Dies verhindert Verwirrung beim Wechsel zwischen Leveling- und Farming-Setups.
+
+## Empfohlene Community-Filter für Season 4
+
+Basierend auf den neuesten Daten aus dem 2026-Zyklus haben mehrere Autoren spezialisierte Filter veröffentlicht, die auf das aktuelle Meta zugeschnitten sind. Diese sind darauf ausgelegt, die erhöhte Item-Dichte im Shattered Omens Endgame zu bewältigen.
+
+| Autor | Filtertitel | Bestens geeignet für | Strenge |
+|---|---|---|---|
+| **xLuck** | TSM Merchant's Lootfilter v4 | Handelsgilde / Gold-Farming | **Sehr streng** |
+| **Sam08g** | Witchfire Warlock | Akolyth / Schaden über Zeit | **Moderat** |
+| **Dammitt** | Casual Leveling Filter | Neue Charaktere (1-70) | **Locker** |
+| **AaronActionRPG** | Endgame Generalist | Alle Klassen / Monolithen | **Streng** |
+
+## Erstellung einer benutzerdefinierten Regelhierarchie
+
+Wenn Sie Ihre Erfahrung lieber individuell anpassen möchten, ermöglicht der Bau eines eigenen **last epoch season 4 loot filter** die höchste Präzision. Sie sollten Ihre Regeln so strukturieren, dass seltene Handwerksmaterialien und hochwertige Affixe niemals übersehen werden, während der Ballast gewöhnlicher Gegenstände ausgeblendet wird.
+
+### 1. Das „Alle ausblenden“-Fundament
+Ganz unten in Ihrem Filter (die letzte Regel) sollten Sie schließlich eine Regel festlegen, um alle Gegenstände der Seltenheit „Normal“, „Magisch“ und „Selten“ (Rare) **auszublenden** (Hide). Dies stellt sicher, dass Ihr Bildschirm im Endgame frei von Gegenständen bleibt, die für Ihr Level nicht mehr nützlich sind.
+
+### 2. Hervorheben von erhabenen und einzigartigen Gegenständen
+Über der „Alle ausblenden“-Regel müssen Sie Regeln erstellen, um hochstufige Gegenstände **anzuzeigen** (Show) oder **umzufärben** (Recolor).
+*   **Uniques/Sets:** Zeigen Sie diese immer an und färben Sie sie vielleicht in einem leuchtenden Gold oder Lila um, um sie von Standardbeute zu unterscheiden.
+*   **Erhabene Gegenstände (Exalted):** Erstellen Sie eine Regel, um alle erhabenen Gegenstände anzuzeigen, aber erwägen Sie eine Unterregel, um solche mit spezifischen hochstufigen Affixen (Tier 6 oder Tier 7) hervorzuheben, die zu Ihrem Build passen.
+
+### 3. Affix-spezifische Filterung
+Dies ist der kritischste Teil eines **last epoch season 4 loot filter**. Sie möchten Gegenstände hervorheben, die „seltene Affixe“ enthalten, wie zum Beispiel:
+*   +Stufe von [Skill-Name]
+*   Hybrid-Leben (Hybrid Health)
+*   Experimentelle Affixe (von Magiern)
+*   Klassenspezifische Modifikatoren (z. B. „Glancing Blow“ beim Schurken oder „Block Effectiveness“ beim Sentinel)
+
+| Regelpriorität | Aktion | Ziel | Logik |
+|---|---|---|---|
+| **1 (Höchste)** | **Umfärben (Rot)** | Tier 7 Affixe | Verpassen Sie niemals ein **God-Roll** Item. |
+| **2** | **Anzeigen** | Unique/Set Items | Essenziell für das Schmieden mit **Legendärem Potenzial**. |
+| **3** | **Umfärben (Grün)** | Klassenspezifisch | Ziele auf Items für Ihren **aktuellen Build**. |
+| **4** | **Ausblenden** | Niedrige Basen | Bildschirm von **veralteter** Ausrüstung säubern. |
+
+## Fortgeschrittene Filterung für Fraktionen
+
+In Season 4 hat Ihre Fraktionswahl erheblichen Einfluss darauf, wie Sie Beute betrachten sollten. Der **last epoch season 4 loot filter**, den Sie verwenden, sollte widerspiegeln, ob Sie nach Gegenständen zum Verkaufen oder zum Tragen suchen.
+
+### Circle of Fortune (CoF) Strategie
+Wenn Sie im Zirkel des Glücks (Circle of Fortune) sind, ist es Ihr Ziel, Gegenstände mit hohem **Legendärem Potenzial (LP)** zu finden. Ihr Filter sollte so eingestellt sein, dass alle Uniques mit 2+ LP hervorgehoben werden, da diese das Herzstück Ihrer Endgame-Power bilden. Sie sollten auch nachsichtiger mit erhabenen Gegenständen sein, da Sie einen großen Vorrat für den Soul Gambler und das Resonance-System benötigen.
+
+### Merchant's Guild Strategie
+Für handelsorientierte Spieler sollte der Filter auf den „Marktwert“ fokussiert sein. Selbst wenn ein Gegenstand nicht gut für Ihren Build ist: Wenn er ein Tier 7 „Erhöhtes Leben“-Affix auf einer guten Basis hat, ist er eine beträchtliche Menge Gold wert. Stellen Sie Ihren Filter so ein, dass hochwertige allgemeine Affixe hervorgehoben werden, die bei allen Klassen beliebt sind.
+
+> **⚠️ Warnung:** Zu streng mit Ihrem Filter in der Merchant's Guild zu sein, kann Sie Millionen an Gold kosten. Stellen Sie sicher, dass Sie hochwertige allgemeine Basen anzeigen, auch wenn sie nicht zu Ihrer Klasse passen.
+
+## Optimierung der Performance
+
+Ein häufiges Problem im Jahr 2026 ist der „Filter-Lag“, bei dem zu viele komplexe Regeln (50+) ein kurzes Ruckeln verursachen können, wenn große Gruppen von Feinden gleichzeitig sterben. Um Ihren **last epoch season 4 loot filter** zu optimieren, folgen Sie diesen Richtlinien:
+*   **Regeln konsolidieren:** Anstatt fünf separate Regeln für verschiedene Waffentypen zu haben, fassen Sie diese in einer Regel mit mehreren ausgewählten „Untertypen“ (Sub-types) zusammen.
+*   **Affix-Gruppen nutzen:** Gruppieren Sie ähnliche Affixe (z. B. alle Resistenzen) in einer einzigen Regel, anstatt für jedes einzeln zu filtern.
+*   **Level-Skalierung:** Verwenden Sie die Bedingung „Level“, um Gegenstände niedrigerer Stufen automatisch auszublenden, wenn Sie aufsteigen, anstatt den Filter alle fünf Level manuell zu aktualisieren.
+
+## FAQ
+
+**F: Kann ich meinen Season 3 Filter für den Last Epoch Season 4 Loot Filter verwenden?**
+
+A: Er wird zwar technisch funktionieren, ist aber nicht empfehlenswert. Season 4 (Patch 1.4) hat neue Item-Basen und Affixe eingeführt, die Ihr alter Filter wahrscheinlich ignorieren oder ausblenden wird. Es ist besser, ein frisches Season 4 Template zu importieren und dieses anzupassen.
+
+**F: Wie filtere ich nach Gegenständen mit Legendärem Potenzial?**
+
+A: Fügen Sie in den Filterregeln eine Bedingung für „Seltenheit“ (Rarity: Unique) hinzu und fügen Sie dann eine zweite Bedingung für „Legendäres Potenzial“ (Legendary Potential) hinzu. Sie können den Schieberegler so einstellen, dass nur Items mit 1, 2, 3 oder 4 LP angezeigt werden.
+
+**F: Warum werden einige Gegenstände immer noch angezeigt, obwohl ich eine „Ausblenden“-Regel habe?**
+
+A: Denken Sie daran, dass Last Epoch Filter von oben nach unten arbeiten. Wenn Sie oben eine „Anzeigen“-Regel für erhabene Gegenstände haben und unten eine „Ausblenden“-Regel für bestimmte Waffentypen, wird das Spiel den erhabenen Gegenstand anzeigen, weil er das erste Kriterium erfüllt hat. Verschieben Sie Ihre „Ausblenden“-Regeln weiter nach oben oder fügen Sie Ihren „Anzeigen“-Regeln spezifischere Bedingungen hinzu.
+
+**F: Was ist die beste Farbe für seltene Affixe?**
+
+A: Die meisten Spieler verwenden **Leuchtendes Rot** oder **Neonpink** für Tier 7 Affixe und **Hellgrün** für klassenspezifische Skills. Dies schafft einen kontrastreichen visuellen Hinweis, der in intensiven Kämpfen kaum zu übersehen ist.
+
+Indem Sie diesem Guide folgen und einen richtig konfigurierten **last epoch season 4 loot filter** verwenden, werden Sie Ihre Farming-Effizienz im Shattered Omens Zyklus erheblich steigern. Konzentrieren Sie sich auf die Drops, die zählen, und lassen Sie den Filter den Rest erledigen. Für weitere Updates zum Meta 2026 behalten Sie das offizielle [Last Epoch Tools](https://www.lastepochtools.com/loot-filters/) Repository für die neuesten Community-Strings im Auge.

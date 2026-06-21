@@ -1,0 +1,138 @@
+export const metadata = {
+  title: "Last Epoch Loot Filter: Vollständiger Guide & Bestes Setup 2026",
+  description: "Meistern Sie das Loot-Filter-System von Last Epoch mit unserem umfassenden Guide für 2026. Lernen Sie, Regeln für das Endgame-Farming und Leveling zu erstellen, zu importieren und zu optimieren.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Last+Epoch+Loot+Filter+Guide",
+  date: "2026-03-29",
+  author: "Last Epoch Wiki Team"
+}
+
+In der schnelllebigen Welt von Eterra ist die Verwaltung der schieren Menge an Gegenstands-Drops entscheidend für einen effizienten Fortschritt. Ein gut konfigurierter **Last Epoch Loot Filter** macht den Unterschied aus, ob man seine Zeit damit verbringt, Götter zu erschlagen oder sich durch Haufen von Händlerschrott zu wühlen. Stand 2026 erfordert die Komplexität der Itemisierung in Season 4 und darüber hinaus ein nuanciertes Verständnis dafür, wie man Best-in-Slot (BIS) Ausrüstung hervorhebt und irrelevantes Equipment ausblendet.
+
+Ob Sie ein Neuling sind, der seinen ersten Charakter erstellt, oder ein Veteran, der die Verderbnis (Corruption) im Monolith des Schicksals auf über 1.000 treibt – das Meistern des **Last Epoch Loot Filters** ist Pflicht. Dieser Guide führt Sie durch das Interface, erklärt die Logik der Regelpriorität und bietet einen Fahrplan für die Erstellung eines universellen Filters, der von Level 1 bis zum ultimativen Endgame mitskaliert. Indem Sie diesen Schritten folgen, stellen Sie sicher, dass jeder Gegenstandsname, den Sie auf dem Boden sehen, Ihre Aufmerksamkeit wert ist.
+
+## Das Loot-Filter-Interface verstehen
+
+Um mit der Anpassung zu beginnen, drücken Sie **Umschalt + F**, um das Loot-Filter-Menü zu öffnen. Dieses Interface ermöglicht es Ihnen, neue Filter von Grund auf zu erstellen, bestehende zu duplizieren oder von der Community erstellte Konfigurationen zu importieren. Im Jahr 2026 unterstützt das System bis zu 200 einzelne Regeln pro Filter, was mehr als genug Platz bietet, um jeden Gegenstandstyp und jedes Affix im Spiel mikrozumanagen.
+
+### Sichtbarkeitsoptionen
+
+Beim Erstellen einer Regel ist Ihre erste Entscheidung die Einstellung der "Sichtbarkeit". Diese bestimmt, wie das Spiel Gegenstände behandelt, die Ihre spezifizierten Bedingungen erfüllen.
+
+| Sichtbarkeit | Funktion | Bester Anwendungsfall |
+| :--- | :--- | :--- |
+| **Anzeigen** | Zeigt den Namen des Gegenstands normal an. | Allgemeine Gegenstände, die man eventuell aufheben möchte. |
+| **Ausblenden** | Entfernt den Namen des Gegenstands komplett aus der Ansicht. | Filtern von niedrigstufigen Basen oder irrelevanten Klassen. |
+| **Umfärben** | Ändert die Farbe des Namenschilds und kann einen Hervorhebungseffekt hinzufügen. | Markieren von **erhabenen (Exalted)**, **einzigartigen (Unique)** oder **BIS** Gegenständen. |
+
+> **💡 Tipp:** Nutzen Sie den "Hervorheben"-Umschalter (Emphasize) bei Umfärbe-Regeln, um den Text größer und in Großbuchstaben anzuzeigen. So verpassen Sie auch in intensiven Kämpfen keine kritischen Drops.
+
+## Die Logik der Regelpriorität
+
+Das wichtigste Konzept, das man verstehen muss, ist, dass der **Last Epoch Loot Filter** nach einem Top-Down-Prioritätssystem arbeitet. Das Spiel prüft Gegenstände gegen Ihre Liste von Regeln, beginnend ganz oben. Sobald ein Gegenstand eine Regel erfüllt, folgt er den Anweisungen dieser Regel und ignoriert alle darunter liegenden Regeln.
+
+### Beispiel für die Regelhierarchie
+
+| Priorität | Regeltyp | Ergebnis |
+| :--- | :--- | :--- |
+| **Oben (1)** | Alle **Uniques** anzeigen | Jeder Unique-Gegenstand wird angezeigt, unabhängig von anderen Regeln. |
+| **Mitte (2)** | Alle **Dolche** ausblenden | Alle nicht-Unique Dolche sind nun ausgeblendet. |
+| **Unten (3)** | **T7 Affixe** anzeigen | Ein T7-Dolch bleibt ausgeblendet, weil Regel 2 ihn bereits erfasst hat. |
+
+Um das obige Beispiel zu korrigieren, müssten Sie die Regel "T7 Affixe anzeigen" über die Regel "Alle Dolche ausblenden" verschieben. Dies stellt sicher, dass zwar die meisten Dolche ausgeblendet werden, die außergewöhnlich seltenen Exemplare mit Tier-7-Affixen aber dennoch auf Ihrem Bildschirm erscheinen.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/gdeLGcGQrjM"
+    title="Last Epoch Season 4 Universal Loot Filter"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Einen universellen Filter von Grund auf erstellen
+
+Eine beliebte Strategie unter Top-Spielern im Jahr 2026 ist die "Hide and Seek"-Methode. Dabei wird standardmäßig fast alles ausgeblendet und dann gezielt nach den gewünschten Gegenständen durch Regeln mit höherer Priorität "gesucht".
+
+### Schritt 1: Die "Catch-All" Ausblendregel
+Erstellen Sie eine Regel ganz unten in Ihrer Liste. Setzen Sie die Sichtbarkeit auf **Ausblenden** und wählen Sie die Seltenheiten: **Normal**, **Magisch** und **Selten**. Dies stellt sicher, dass Sie im mittleren Spielverlauf nicht von minderwertigem Loot abgelenkt werden.
+
+### Schritt 2: Klassen-Filterung
+Zu Beginn der Kampagne möchten Sie vielleicht Gegenstände für alle Klassen sehen, aber ab Level 20 sollten Sie eine Regel hinzufügen, um Ausrüstung für Klassen auszublenden, die Sie nicht spielen.
+*   **Bedingung:** Gegenstandstyp -> Spezifische Untertypen (z. B. Akolythen-Helme, Primalisten-Relikte).
+*   **Sichtbarkeit:** Ausblenden.
+*   **Platzierung:** Über der Catch-All-Regel.
+
+### Schritt 3: Affixe für das Crafting hervorheben
+Sie werden ständig [Splitter für das Crafting](https://lastepoch.com/) benötigen, die Sie erhalten, indem Sie eine **Rune der Zerschmetterung** auf Gegenstände mit wünschenswerten Affixen anwenden.
+*   Erstellen Sie eine **Umfärben**-Regel (üblicherweise Orange oder Türkis).
+*   Wählen Sie die spezifischen Affixe aus, die Sie benötigen (z. B. **Hybrid-Leben**, **+1 auf Fertigkeiten**, **Widerstand**).
+*   Setzen Sie die Bedingung auf "Mit mindestens 1 dieser Affixe".
+
+### Schritt 4: Idol-Management
+Idole sind einzigartig, da sie nicht gecraftet werden können. Sie müssen sie mit den richtigen Werten finden.
+*   Erstellen Sie eine **Umfärben**-Regel speziell für Idole.
+*   Filtern Sie nach Ihren klassenspezifischen Affixen und allgemeinen Werten wie "Leben" oder "Widerstand".
+*   Da Idole selten sind, entscheiden sich viele Spieler dazu, anfangs alle Idole anzuzeigen und den Filter erst zu verschärfen, wenn ihr Build fast fertig ist.
+
+## Fortgeschrittene Strategien: Zerschmetterungs-, Pink- und Havoc-Regeln
+
+Seit den Updates von 2026 verwenden Top-Filter oft Farbcodierungen, um genau zu signalisieren, was der Spieler mit einem Gegenstand tun soll, sobald er auf den Boden fällt.
+
+### Die "Dringender Bedarf" (Pink) Regel
+Wenn Ihnen ein spezifischer Splitter fehlt, um ein Crafting abzuschließen – wie etwa **Wurfangriff-Manakosten** oder **Stufe von Shuriken** – erstellen Sie eine Regel ganz oben in Ihrem Filter, um Gegenstände mit diesem Affix in **Pink** umzufärben. Dies signalisiert, dass Sie eine **Rune der Entfernung** anstelle einer Zerschmetterung verwenden sollten, um garantiert diese spezifischen Splitter zurückzuerhalten.
+
+### Die Rune des Chaos (Havoc) Technik
+Die **Rune des Chaos** ist ein mächtiges Crafting-Werkzeug, das Affix-Tiers tauschen kann. Wenn ein erhabener Gegenstand (Tier 7) mit einem nutzlosen Hauptwert, aber einem großartigen Nebenwert droppt, können Sie die Rune des Chaos verwenden, um zu versuchen, den T7-Wert auf den gewünschten Wert zu verschieben.
+*   **Regel:** Gegenstände mit beliebigem T7-Affix + 1 wünschenswertem Affix in **Grün** umfärben.
+*   **Aktion:** Bringen Sie diese Gegenstände zur Schmiede und nutzen Sie die Rune des Chaos, um potenzielles God-Tier-Gear für die [Händlergilde](https://maxroll.gg/last-epoch/resources/merchants-guild-guide) oder den Eigenbedarf zu erstellen.
+
+| Farbe | Bedeutung | Erforderliche Aktion |
+| :--- | :--- | :--- |
+| **Rot/Gold** | **Best-in-Slot** | Sofortiges Upgrade oder Kandidat für legendäres Schmieden. |
+| **Orange** | **Zerschmettern** | Rune der Zerschmetterung für allgemeine Splitter verwenden. |
+| **Pink** | **Dringender Bedarf** | Rune der Entfernung für spezifische seltene Splitter verwenden. |
+| **Grün** | **Aufsteigen/Chaos** | Rune des Aufstiegs oder Rune des Chaos für Crafting-Experimente verwenden. |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/rSgEAmWai_0"
+    title="Last Epoch How To Make A Loot Filter"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Filtern für die Endgame-Monolithen
+
+Sobald Sie Level 85+ erreichen, verschieben sich die Anforderungen an Ihren **Last Epoch Loot Filter**. In dieser Phase gelten Tier-6-Affixe oft als "mittelmäßig", und Sie sollten Ihren Fokus fast ausschließlich auf erhabene Tier-7-Gegenstände und Uniques mit **legendärem Potenzial (LP)** richten.
+
+### Tier-Anforderungen festlegen
+Klicken Sie in der Affix-Bedingung auf **Erweiterte Optionen**. Sie können den Filter so einstellen, dass nur Gegenstände angezeigt werden, bei denen die Summe der Affix-Tiers "Größer oder gleich 20" ist oder bei denen ein einzelnes Affix "Tier 7" ist. Dies reduziert das Bildschirmchaos in Monolithen mit hoher Verderbnis drastisch und ermöglicht es Ihnen, eine hohe Geschwindigkeit beim Clearen beizubehalten.
+
+### Sicherheit für Unique- und Set-Gegenstände
+Behalten Sie immer eine Regel ganz oben in Ihrem Filter, um alle Uniques und Set-Gegenstände **anzuzeigen**, bis Sie genau wissen, welche für Ihren Account wertlos sind. Im Jahr 2026 kann selbst ein "schlechtes" Unique wertvoll sein, wenn es mit 3 oder 4 legendärem Potenzial droppt, da es mit einem erhabenen Gegenstand zu einem Legendary verschmolzen werden kann.
+
+> **⚠️ Warnung:** Platzieren Sie niemals eine "Ausblenden"-Regel über Ihrer "Uniques anzeigen"-Regel, es sei denn, Sie sind absolut sicher, dass Sie diese Gegenstände verpassen wollen. Die Regelpriorität ist absolut!
+
+## FAQ
+
+**F: Kann ich einen Last Epoch Loot Filter für alle meine Charaktere verwenden?**
+
+A: Ja, Sie können einen "universellen" Filter erstellen. Verwenden Sie dazu die Bedingung "Klassenanforderung", um Gegenstände für Ihre aktuelle Klasse anzuzeigen und andere auszublenden. Im Endgame ist es jedoch meist besser, spezialisierte Filter für jeden Build zu haben, um spezifische BIS-Affixe zu berücksichtigen.
+
+**F: Wie importiere ich einen Filter, den ich online gefunden habe?**
+
+A: Kopieren Sie den Filtertext oder den XML-Inhalt in Ihre Zwischenablage. Öffnen Sie das Loot-Filter-Interface im Spiel (Umschalt+F), klicken Sie auf die Schaltfläche **+** und wählen Sie "Inhalt der Zwischenablage einfügen". Der Filter wird automatisch mit allen vordefinierten Regeln gefüllt.
+
+**F: Warum werden einige Gegenstände immer noch angezeigt, obwohl ich eine "Ausblenden"-Regel habe?**
+
+A: Überprüfen Sie Ihre Regelpriorität. Wahrscheinlich gibt es eine "Anzeigen"- oder "Umfärben"-Regel oberhalb Ihrer "Ausblenden"-Regel, die zuerst auf den Gegenstand zutrifft. Denken Sie daran: Das Spiel hört auf, Regeln zu prüfen, sobald es die erste Übereinstimmung von oben findet.
+
+**F: Was ist der beste Weg, um nach legendärem Potenzial zu filtern?**
+
+A: Fügen Sie eine Regel mit der Bedingung **Seltenheit: Unique** hinzu und nutzen Sie dann die **Erweiterten Optionen**, um "Legendäres Potenzial größer oder gleich 1" festzulegen. Sie können mehrere Regeln erstellen, um 1LP-, 2LP- und 3LP-Gegenständen für eine bessere visuelle Klarheit unterschiedliche Farben zu geben.

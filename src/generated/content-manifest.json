@@ -1,0 +1,1746 @@
+{
+  "de": {
+    "builds": [
+      {
+        "slug": "last-epoch-beastmaster-build",
+        "file": "last-epoch-beastmaster-build"
+      },
+      {
+        "slug": "last-epoch-bladedancer-build",
+        "file": "last-epoch-bladedancer-build"
+      },
+      {
+        "slug": "last-epoch-builds",
+        "file": "last-epoch-builds"
+      },
+      {
+        "slug": "last-epoch-lich-build",
+        "file": "last-epoch-lich-build"
+      },
+      {
+        "slug": "last-epoch-necromancer-build",
+        "file": "last-epoch-necromancer-build"
+      },
+      {
+        "slug": "last-epoch-runemaster-build",
+        "file": "last-epoch-runemaster-build"
+      },
+      {
+        "slug": "last-epoch-season-4-builds",
+        "file": "last-epoch-season-4-builds"
+      },
+      {
+        "slug": "last-epoch-spellblade-build",
+        "file": "last-epoch-spellblade-build"
+      }
+    ],
+    "classes-and-tier-list": [
+      {
+        "slug": "last-epoch-best-class",
+        "file": "last-epoch-best-class"
+      },
+      {
+        "slug": "last-epoch-classes",
+        "file": "last-epoch-classes"
+      },
+      {
+        "slug": "last-epoch-tier-list",
+        "file": "last-epoch-tier-list"
+      }
+    ],
+    "comparison-and-value": [
+      {
+        "slug": "last-epoch-in-2026",
+        "file": "last-epoch-in-2026"
+      },
+      {
+        "slug": "last-epoch-sale",
+        "file": "last-epoch-sale"
+      },
+      {
+        "slug": "last-epoch-vs-diablo-4",
+        "file": "last-epoch-vs-diablo-4"
+      },
+      {
+        "slug": "last-epoch-vs-path-of-exile-2",
+        "file": "last-epoch-vs-path-of-exile-2"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "last-epoch-beginner-guide",
+        "file": "last-epoch-beginner-guide"
+      },
+      {
+        "slug": "last-epoch-campaign-guide",
+        "file": "last-epoch-campaign-guide"
+      },
+      {
+        "slug": "last-epoch-corruption-monolith",
+        "file": "last-epoch-corruption-monolith"
+      },
+      {
+        "slug": "last-epoch-endgame-guide",
+        "file": "last-epoch-endgame-guide"
+      },
+      {
+        "slug": "last-epoch-passive-points-quests",
+        "file": "last-epoch-passive-points-quests"
+      },
+      {
+        "slug": "last-epoch-walkthrough",
+        "file": "last-epoch-walkthrough"
+      }
+    ],
+    "platforms-and-community": [
+      {
+        "slug": "last-epoch-forum",
+        "file": "last-epoch-forum"
+      },
+      {
+        "slug": "last-epoch-ps5",
+        "file": "last-epoch-ps5"
+      },
+      {
+        "slug": "last-epoch-reddit",
+        "file": "last-epoch-reddit"
+      },
+      {
+        "slug": "last-epoch-steam-charts",
+        "file": "last-epoch-steam-charts"
+      },
+      {
+        "slug": "last-epoch-steam-deck",
+        "file": "last-epoch-steam-deck"
+      },
+      {
+        "slug": "last-epoch-steam",
+        "file": "last-epoch-steam"
+      }
+    ],
+    "season-4-and-updates": [
+      {
+        "slug": "last-epoch-new-season",
+        "file": "last-epoch-new-season"
+      },
+      {
+        "slug": "last-epoch-patch-notes",
+        "file": "last-epoch-patch-notes"
+      },
+      {
+        "slug": "last-epoch-release-date",
+        "file": "last-epoch-release-date"
+      },
+      {
+        "slug": "last-epoch-roadmap-2026",
+        "file": "last-epoch-roadmap-2026"
+      },
+      {
+        "slug": "last-epoch-season-4-release-date",
+        "file": "last-epoch-season-4-release-date"
+      },
+      {
+        "slug": "last-epoch-season-4-start-time",
+        "file": "last-epoch-season-4-start-time"
+      },
+      {
+        "slug": "last-epoch-season-4",
+        "file": "last-epoch-season-4"
+      },
+      {
+        "slug": "last-epoch-twitch-drops",
+        "file": "last-epoch-twitch-drops"
+      }
+    ],
+    "systems-and-items": [
+      {
+        "slug": "last-epoch-blessings",
+        "file": "last-epoch-blessings"
+      },
+      {
+        "slug": "last-epoch-exalted-items",
+        "file": "last-epoch-exalted-items"
+      },
+      {
+        "slug": "last-epoch-harbinger-of-hatred",
+        "file": "last-epoch-harbinger-of-hatred"
+      },
+      {
+        "slug": "last-epoch-items",
+        "file": "last-epoch-items"
+      },
+      {
+        "slug": "last-epoch-legendary-potential",
+        "file": "last-epoch-legendary-potential"
+      },
+      {
+        "slug": "last-epoch-shade-of-orobyss",
+        "file": "last-epoch-shade-of-orobyss"
+      },
+      {
+        "slug": "last-epoch-skill-tree",
+        "file": "last-epoch-skill-tree"
+      },
+      {
+        "slug": "last-epoch-temporal-sanctum",
+        "file": "last-epoch-temporal-sanctum"
+      },
+      {
+        "slug": "last-epoch-weaver-tree",
+        "file": "last-epoch-weaver-tree"
+      }
+    ],
+    "tools-and-filters": [
+      {
+        "slug": "last-epoch-build-planner",
+        "file": "last-epoch-build-planner"
+      },
+      {
+        "slug": "last-epoch-loot-filter",
+        "file": "last-epoch-loot-filter"
+      },
+      {
+        "slug": "last-epoch-maxroll",
+        "file": "last-epoch-maxroll"
+      },
+      {
+        "slug": "last-epoch-price-check",
+        "file": "last-epoch-price-check"
+      },
+      {
+        "slug": "last-epoch-season-4-loot-filter",
+        "file": "last-epoch-season-4-loot-filter"
+      },
+      {
+        "slug": "last-epoch-tools",
+        "file": "last-epoch-tools"
+      }
+    ]
+  },
+  "en": {
+    "builds": [
+      {
+        "slug": "last-epoch-beastmaster-build",
+        "file": "last-epoch-beastmaster-build"
+      },
+      {
+        "slug": "last-epoch-bladedancer-build",
+        "file": "last-epoch-bladedancer-build"
+      },
+      {
+        "slug": "last-epoch-builds",
+        "file": "last-epoch-builds"
+      },
+      {
+        "slug": "last-epoch-lich-build",
+        "file": "last-epoch-lich-build"
+      },
+      {
+        "slug": "last-epoch-necromancer-build",
+        "file": "last-epoch-necromancer-build"
+      },
+      {
+        "slug": "last-epoch-runemaster-build",
+        "file": "last-epoch-runemaster-build"
+      },
+      {
+        "slug": "last-epoch-season-4-builds",
+        "file": "last-epoch-season-4-builds"
+      },
+      {
+        "slug": "last-epoch-spellblade-build",
+        "file": "last-epoch-spellblade-build"
+      }
+    ],
+    "classes-and-tier-list": [
+      {
+        "slug": "last-epoch-best-class",
+        "file": "last-epoch-best-class"
+      },
+      {
+        "slug": "last-epoch-classes",
+        "file": "last-epoch-classes"
+      },
+      {
+        "slug": "last-epoch-tier-list",
+        "file": "last-epoch-tier-list"
+      }
+    ],
+    "comparison-and-value": [
+      {
+        "slug": "last-epoch-in-2026",
+        "file": "last-epoch-in-2026"
+      },
+      {
+        "slug": "last-epoch-sale",
+        "file": "last-epoch-sale"
+      },
+      {
+        "slug": "last-epoch-vs-diablo-4",
+        "file": "last-epoch-vs-diablo-4"
+      },
+      {
+        "slug": "last-epoch-vs-path-of-exile-2",
+        "file": "last-epoch-vs-path-of-exile-2"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "last-epoch-beginner-guide",
+        "file": "last-epoch-beginner-guide"
+      },
+      {
+        "slug": "last-epoch-campaign-guide",
+        "file": "last-epoch-campaign-guide"
+      },
+      {
+        "slug": "last-epoch-corruption-monolith",
+        "file": "last-epoch-corruption-monolith"
+      },
+      {
+        "slug": "last-epoch-endgame-guide",
+        "file": "last-epoch-endgame-guide"
+      },
+      {
+        "slug": "last-epoch-passive-points-quests",
+        "file": "last-epoch-passive-points-quests"
+      },
+      {
+        "slug": "last-epoch-walkthrough",
+        "file": "last-epoch-walkthrough"
+      }
+    ],
+    "platforms-and-community": [
+      {
+        "slug": "last-epoch-forum",
+        "file": "last-epoch-forum"
+      },
+      {
+        "slug": "last-epoch-ps5",
+        "file": "last-epoch-ps5"
+      },
+      {
+        "slug": "last-epoch-reddit",
+        "file": "last-epoch-reddit"
+      },
+      {
+        "slug": "last-epoch-steam-charts",
+        "file": "last-epoch-steam-charts"
+      },
+      {
+        "slug": "last-epoch-steam-deck",
+        "file": "last-epoch-steam-deck"
+      },
+      {
+        "slug": "last-epoch-steam",
+        "file": "last-epoch-steam"
+      }
+    ],
+    "season-4-and-updates": [
+      {
+        "slug": "last-epoch-new-season",
+        "file": "last-epoch-new-season"
+      },
+      {
+        "slug": "last-epoch-patch-notes",
+        "file": "last-epoch-patch-notes"
+      },
+      {
+        "slug": "last-epoch-release-date",
+        "file": "last-epoch-release-date"
+      },
+      {
+        "slug": "last-epoch-roadmap-2026",
+        "file": "last-epoch-roadmap-2026"
+      },
+      {
+        "slug": "last-epoch-season-4-release-date",
+        "file": "last-epoch-season-4-release-date"
+      },
+      {
+        "slug": "last-epoch-season-4-start-time",
+        "file": "last-epoch-season-4-start-time"
+      },
+      {
+        "slug": "last-epoch-season-4",
+        "file": "last-epoch-season-4"
+      },
+      {
+        "slug": "last-epoch-twitch-drops",
+        "file": "last-epoch-twitch-drops"
+      }
+    ],
+    "systems-and-items": [
+      {
+        "slug": "last-epoch-blessings",
+        "file": "last-epoch-blessings"
+      },
+      {
+        "slug": "last-epoch-exalted-items",
+        "file": "last-epoch-exalted-items"
+      },
+      {
+        "slug": "last-epoch-harbinger-of-hatred",
+        "file": "last-epoch-harbinger-of-hatred"
+      },
+      {
+        "slug": "last-epoch-items",
+        "file": "last-epoch-items"
+      },
+      {
+        "slug": "last-epoch-legendary-potential",
+        "file": "last-epoch-legendary-potential"
+      },
+      {
+        "slug": "last-epoch-shade-of-orobyss",
+        "file": "last-epoch-shade-of-orobyss"
+      },
+      {
+        "slug": "last-epoch-skill-tree",
+        "file": "last-epoch-skill-tree"
+      },
+      {
+        "slug": "last-epoch-temporal-sanctum",
+        "file": "last-epoch-temporal-sanctum"
+      },
+      {
+        "slug": "last-epoch-weaver-tree",
+        "file": "last-epoch-weaver-tree"
+      }
+    ],
+    "tools-and-filters": [
+      {
+        "slug": "last-epoch-build-planner",
+        "file": "last-epoch-build-planner"
+      },
+      {
+        "slug": "last-epoch-loot-filter",
+        "file": "last-epoch-loot-filter"
+      },
+      {
+        "slug": "last-epoch-maxroll",
+        "file": "last-epoch-maxroll"
+      },
+      {
+        "slug": "last-epoch-price-check",
+        "file": "last-epoch-price-check"
+      },
+      {
+        "slug": "last-epoch-season-4-loot-filter",
+        "file": "last-epoch-season-4-loot-filter"
+      },
+      {
+        "slug": "last-epoch-tools",
+        "file": "last-epoch-tools"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "last-epoch-beastmaster-build",
+        "file": "last-epoch-beastmaster-build"
+      },
+      {
+        "slug": "last-epoch-bladedancer-build",
+        "file": "last-epoch-bladedancer-build"
+      },
+      {
+        "slug": "last-epoch-builds",
+        "file": "last-epoch-builds"
+      },
+      {
+        "slug": "last-epoch-lich-build",
+        "file": "last-epoch-lich-build"
+      },
+      {
+        "slug": "last-epoch-necromancer-build",
+        "file": "last-epoch-necromancer-build"
+      },
+      {
+        "slug": "last-epoch-runemaster-build",
+        "file": "last-epoch-runemaster-build"
+      },
+      {
+        "slug": "last-epoch-season-4-builds",
+        "file": "last-epoch-season-4-builds"
+      },
+      {
+        "slug": "last-epoch-spellblade-build",
+        "file": "last-epoch-spellblade-build"
+      }
+    ],
+    "classes-and-tier-list": [
+      {
+        "slug": "last-epoch-best-class",
+        "file": "last-epoch-best-class"
+      },
+      {
+        "slug": "last-epoch-classes",
+        "file": "last-epoch-classes"
+      },
+      {
+        "slug": "last-epoch-tier-list",
+        "file": "last-epoch-tier-list"
+      }
+    ],
+    "comparison-and-value": [
+      {
+        "slug": "last-epoch-in-2026",
+        "file": "last-epoch-in-2026"
+      },
+      {
+        "slug": "last-epoch-sale",
+        "file": "last-epoch-sale"
+      },
+      {
+        "slug": "last-epoch-vs-diablo-4",
+        "file": "last-epoch-vs-diablo-4"
+      },
+      {
+        "slug": "last-epoch-vs-path-of-exile-2",
+        "file": "last-epoch-vs-path-of-exile-2"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "last-epoch-beginner-guide",
+        "file": "last-epoch-beginner-guide"
+      },
+      {
+        "slug": "last-epoch-campaign-guide",
+        "file": "last-epoch-campaign-guide"
+      },
+      {
+        "slug": "last-epoch-corruption-monolith",
+        "file": "last-epoch-corruption-monolith"
+      },
+      {
+        "slug": "last-epoch-endgame-guide",
+        "file": "last-epoch-endgame-guide"
+      },
+      {
+        "slug": "last-epoch-passive-points-quests",
+        "file": "last-epoch-passive-points-quests"
+      },
+      {
+        "slug": "last-epoch-walkthrough",
+        "file": "last-epoch-walkthrough"
+      }
+    ],
+    "platforms-and-community": [
+      {
+        "slug": "last-epoch-forum",
+        "file": "last-epoch-forum"
+      },
+      {
+        "slug": "last-epoch-ps5",
+        "file": "last-epoch-ps5"
+      },
+      {
+        "slug": "last-epoch-reddit",
+        "file": "last-epoch-reddit"
+      },
+      {
+        "slug": "last-epoch-steam-charts",
+        "file": "last-epoch-steam-charts"
+      },
+      {
+        "slug": "last-epoch-steam-deck",
+        "file": "last-epoch-steam-deck"
+      },
+      {
+        "slug": "last-epoch-steam",
+        "file": "last-epoch-steam"
+      }
+    ],
+    "season-4-and-updates": [
+      {
+        "slug": "last-epoch-new-season",
+        "file": "last-epoch-new-season"
+      },
+      {
+        "slug": "last-epoch-patch-notes",
+        "file": "last-epoch-patch-notes"
+      },
+      {
+        "slug": "last-epoch-release-date",
+        "file": "last-epoch-release-date"
+      },
+      {
+        "slug": "last-epoch-roadmap-2026",
+        "file": "last-epoch-roadmap-2026"
+      },
+      {
+        "slug": "last-epoch-season-4-release-date",
+        "file": "last-epoch-season-4-release-date"
+      },
+      {
+        "slug": "last-epoch-season-4-start-time",
+        "file": "last-epoch-season-4-start-time"
+      },
+      {
+        "slug": "last-epoch-season-4",
+        "file": "last-epoch-season-4"
+      },
+      {
+        "slug": "last-epoch-twitch-drops",
+        "file": "last-epoch-twitch-drops"
+      }
+    ],
+    "systems-and-items": [
+      {
+        "slug": "last-epoch-blessings",
+        "file": "last-epoch-blessings"
+      },
+      {
+        "slug": "last-epoch-exalted-items",
+        "file": "last-epoch-exalted-items"
+      },
+      {
+        "slug": "last-epoch-harbinger-of-hatred",
+        "file": "last-epoch-harbinger-of-hatred"
+      },
+      {
+        "slug": "last-epoch-items",
+        "file": "last-epoch-items"
+      },
+      {
+        "slug": "last-epoch-legendary-potential",
+        "file": "last-epoch-legendary-potential"
+      },
+      {
+        "slug": "last-epoch-shade-of-orobyss",
+        "file": "last-epoch-shade-of-orobyss"
+      },
+      {
+        "slug": "last-epoch-skill-tree",
+        "file": "last-epoch-skill-tree"
+      },
+      {
+        "slug": "last-epoch-temporal-sanctum",
+        "file": "last-epoch-temporal-sanctum"
+      },
+      {
+        "slug": "last-epoch-weaver-tree",
+        "file": "last-epoch-weaver-tree"
+      }
+    ],
+    "tools-and-filters": [
+      {
+        "slug": "last-epoch-build-planner",
+        "file": "last-epoch-build-planner"
+      },
+      {
+        "slug": "last-epoch-loot-filter",
+        "file": "last-epoch-loot-filter"
+      },
+      {
+        "slug": "last-epoch-maxroll",
+        "file": "last-epoch-maxroll"
+      },
+      {
+        "slug": "last-epoch-price-check",
+        "file": "last-epoch-price-check"
+      },
+      {
+        "slug": "last-epoch-season-4-loot-filter",
+        "file": "last-epoch-season-4-loot-filter"
+      },
+      {
+        "slug": "last-epoch-tools",
+        "file": "last-epoch-tools"
+      }
+    ]
+  },
+  "fr": {
+    "builds": [
+      {
+        "slug": "last-epoch-beastmaster-build",
+        "file": "last-epoch-beastmaster-build"
+      },
+      {
+        "slug": "last-epoch-bladedancer-build",
+        "file": "last-epoch-bladedancer-build"
+      },
+      {
+        "slug": "last-epoch-builds",
+        "file": "last-epoch-builds"
+      },
+      {
+        "slug": "last-epoch-lich-build",
+        "file": "last-epoch-lich-build"
+      },
+      {
+        "slug": "last-epoch-necromancer-build",
+        "file": "last-epoch-necromancer-build"
+      },
+      {
+        "slug": "last-epoch-runemaster-build",
+        "file": "last-epoch-runemaster-build"
+      },
+      {
+        "slug": "last-epoch-season-4-builds",
+        "file": "last-epoch-season-4-builds"
+      },
+      {
+        "slug": "last-epoch-spellblade-build",
+        "file": "last-epoch-spellblade-build"
+      }
+    ],
+    "classes-and-tier-list": [
+      {
+        "slug": "last-epoch-best-class",
+        "file": "last-epoch-best-class"
+      },
+      {
+        "slug": "last-epoch-classes",
+        "file": "last-epoch-classes"
+      },
+      {
+        "slug": "last-epoch-tier-list",
+        "file": "last-epoch-tier-list"
+      }
+    ],
+    "comparison-and-value": [
+      {
+        "slug": "last-epoch-in-2026",
+        "file": "last-epoch-in-2026"
+      },
+      {
+        "slug": "last-epoch-sale",
+        "file": "last-epoch-sale"
+      },
+      {
+        "slug": "last-epoch-vs-diablo-4",
+        "file": "last-epoch-vs-diablo-4"
+      },
+      {
+        "slug": "last-epoch-vs-path-of-exile-2",
+        "file": "last-epoch-vs-path-of-exile-2"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "last-epoch-beginner-guide",
+        "file": "last-epoch-beginner-guide"
+      },
+      {
+        "slug": "last-epoch-campaign-guide",
+        "file": "last-epoch-campaign-guide"
+      },
+      {
+        "slug": "last-epoch-corruption-monolith",
+        "file": "last-epoch-corruption-monolith"
+      },
+      {
+        "slug": "last-epoch-endgame-guide",
+        "file": "last-epoch-endgame-guide"
+      },
+      {
+        "slug": "last-epoch-passive-points-quests",
+        "file": "last-epoch-passive-points-quests"
+      },
+      {
+        "slug": "last-epoch-walkthrough",
+        "file": "last-epoch-walkthrough"
+      }
+    ],
+    "platforms-and-community": [
+      {
+        "slug": "last-epoch-forum",
+        "file": "last-epoch-forum"
+      },
+      {
+        "slug": "last-epoch-ps5",
+        "file": "last-epoch-ps5"
+      },
+      {
+        "slug": "last-epoch-reddit",
+        "file": "last-epoch-reddit"
+      },
+      {
+        "slug": "last-epoch-steam-charts",
+        "file": "last-epoch-steam-charts"
+      },
+      {
+        "slug": "last-epoch-steam-deck",
+        "file": "last-epoch-steam-deck"
+      },
+      {
+        "slug": "last-epoch-steam",
+        "file": "last-epoch-steam"
+      }
+    ],
+    "season-4-and-updates": [
+      {
+        "slug": "last-epoch-new-season",
+        "file": "last-epoch-new-season"
+      },
+      {
+        "slug": "last-epoch-patch-notes",
+        "file": "last-epoch-patch-notes"
+      },
+      {
+        "slug": "last-epoch-release-date",
+        "file": "last-epoch-release-date"
+      },
+      {
+        "slug": "last-epoch-roadmap-2026",
+        "file": "last-epoch-roadmap-2026"
+      },
+      {
+        "slug": "last-epoch-season-4-release-date",
+        "file": "last-epoch-season-4-release-date"
+      },
+      {
+        "slug": "last-epoch-season-4-start-time",
+        "file": "last-epoch-season-4-start-time"
+      },
+      {
+        "slug": "last-epoch-season-4",
+        "file": "last-epoch-season-4"
+      },
+      {
+        "slug": "last-epoch-twitch-drops",
+        "file": "last-epoch-twitch-drops"
+      }
+    ],
+    "systems-and-items": [
+      {
+        "slug": "last-epoch-blessings",
+        "file": "last-epoch-blessings"
+      },
+      {
+        "slug": "last-epoch-exalted-items",
+        "file": "last-epoch-exalted-items"
+      },
+      {
+        "slug": "last-epoch-harbinger-of-hatred",
+        "file": "last-epoch-harbinger-of-hatred"
+      },
+      {
+        "slug": "last-epoch-items",
+        "file": "last-epoch-items"
+      },
+      {
+        "slug": "last-epoch-legendary-potential",
+        "file": "last-epoch-legendary-potential"
+      },
+      {
+        "slug": "last-epoch-shade-of-orobyss",
+        "file": "last-epoch-shade-of-orobyss"
+      },
+      {
+        "slug": "last-epoch-skill-tree",
+        "file": "last-epoch-skill-tree"
+      },
+      {
+        "slug": "last-epoch-temporal-sanctum",
+        "file": "last-epoch-temporal-sanctum"
+      },
+      {
+        "slug": "last-epoch-weaver-tree",
+        "file": "last-epoch-weaver-tree"
+      }
+    ],
+    "tools-and-filters": [
+      {
+        "slug": "last-epoch-build-planner",
+        "file": "last-epoch-build-planner"
+      },
+      {
+        "slug": "last-epoch-loot-filter",
+        "file": "last-epoch-loot-filter"
+      },
+      {
+        "slug": "last-epoch-maxroll",
+        "file": "last-epoch-maxroll"
+      },
+      {
+        "slug": "last-epoch-price-check",
+        "file": "last-epoch-price-check"
+      },
+      {
+        "slug": "last-epoch-season-4-loot-filter",
+        "file": "last-epoch-season-4-loot-filter"
+      },
+      {
+        "slug": "last-epoch-tools",
+        "file": "last-epoch-tools"
+      }
+    ]
+  },
+  "ja": {
+    "builds": [
+      {
+        "slug": "last-epoch-beastmaster-build",
+        "file": "last-epoch-beastmaster-build"
+      },
+      {
+        "slug": "last-epoch-bladedancer-build",
+        "file": "last-epoch-bladedancer-build"
+      },
+      {
+        "slug": "last-epoch-builds",
+        "file": "last-epoch-builds"
+      },
+      {
+        "slug": "last-epoch-lich-build",
+        "file": "last-epoch-lich-build"
+      },
+      {
+        "slug": "last-epoch-necromancer-build",
+        "file": "last-epoch-necromancer-build"
+      },
+      {
+        "slug": "last-epoch-runemaster-build",
+        "file": "last-epoch-runemaster-build"
+      },
+      {
+        "slug": "last-epoch-season-4-builds",
+        "file": "last-epoch-season-4-builds"
+      },
+      {
+        "slug": "last-epoch-spellblade-build",
+        "file": "last-epoch-spellblade-build"
+      }
+    ],
+    "classes-and-tier-list": [
+      {
+        "slug": "last-epoch-best-class",
+        "file": "last-epoch-best-class"
+      },
+      {
+        "slug": "last-epoch-classes",
+        "file": "last-epoch-classes"
+      },
+      {
+        "slug": "last-epoch-tier-list",
+        "file": "last-epoch-tier-list"
+      }
+    ],
+    "comparison-and-value": [
+      {
+        "slug": "last-epoch-in-2026",
+        "file": "last-epoch-in-2026"
+      },
+      {
+        "slug": "last-epoch-sale",
+        "file": "last-epoch-sale"
+      },
+      {
+        "slug": "last-epoch-vs-diablo-4",
+        "file": "last-epoch-vs-diablo-4"
+      },
+      {
+        "slug": "last-epoch-vs-path-of-exile-2",
+        "file": "last-epoch-vs-path-of-exile-2"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "last-epoch-beginner-guide",
+        "file": "last-epoch-beginner-guide"
+      },
+      {
+        "slug": "last-epoch-campaign-guide",
+        "file": "last-epoch-campaign-guide"
+      },
+      {
+        "slug": "last-epoch-corruption-monolith",
+        "file": "last-epoch-corruption-monolith"
+      },
+      {
+        "slug": "last-epoch-endgame-guide",
+        "file": "last-epoch-endgame-guide"
+      },
+      {
+        "slug": "last-epoch-passive-points-quests",
+        "file": "last-epoch-passive-points-quests"
+      },
+      {
+        "slug": "last-epoch-walkthrough",
+        "file": "last-epoch-walkthrough"
+      }
+    ],
+    "platforms-and-community": [
+      {
+        "slug": "last-epoch-forum",
+        "file": "last-epoch-forum"
+      },
+      {
+        "slug": "last-epoch-ps5",
+        "file": "last-epoch-ps5"
+      },
+      {
+        "slug": "last-epoch-reddit",
+        "file": "last-epoch-reddit"
+      },
+      {
+        "slug": "last-epoch-steam-charts",
+        "file": "last-epoch-steam-charts"
+      },
+      {
+        "slug": "last-epoch-steam-deck",
+        "file": "last-epoch-steam-deck"
+      },
+      {
+        "slug": "last-epoch-steam",
+        "file": "last-epoch-steam"
+      }
+    ],
+    "season-4-and-updates": [
+      {
+        "slug": "last-epoch-new-season",
+        "file": "last-epoch-new-season"
+      },
+      {
+        "slug": "last-epoch-patch-notes",
+        "file": "last-epoch-patch-notes"
+      },
+      {
+        "slug": "last-epoch-release-date",
+        "file": "last-epoch-release-date"
+      },
+      {
+        "slug": "last-epoch-roadmap-2026",
+        "file": "last-epoch-roadmap-2026"
+      },
+      {
+        "slug": "last-epoch-season-4-release-date",
+        "file": "last-epoch-season-4-release-date"
+      },
+      {
+        "slug": "last-epoch-season-4-start-time",
+        "file": "last-epoch-season-4-start-time"
+      },
+      {
+        "slug": "last-epoch-season-4",
+        "file": "last-epoch-season-4"
+      },
+      {
+        "slug": "last-epoch-twitch-drops",
+        "file": "last-epoch-twitch-drops"
+      }
+    ],
+    "systems-and-items": [
+      {
+        "slug": "last-epoch-blessings",
+        "file": "last-epoch-blessings"
+      },
+      {
+        "slug": "last-epoch-exalted-items",
+        "file": "last-epoch-exalted-items"
+      },
+      {
+        "slug": "last-epoch-harbinger-of-hatred",
+        "file": "last-epoch-harbinger-of-hatred"
+      },
+      {
+        "slug": "last-epoch-items",
+        "file": "last-epoch-items"
+      },
+      {
+        "slug": "last-epoch-legendary-potential",
+        "file": "last-epoch-legendary-potential"
+      },
+      {
+        "slug": "last-epoch-shade-of-orobyss",
+        "file": "last-epoch-shade-of-orobyss"
+      },
+      {
+        "slug": "last-epoch-skill-tree",
+        "file": "last-epoch-skill-tree"
+      },
+      {
+        "slug": "last-epoch-temporal-sanctum",
+        "file": "last-epoch-temporal-sanctum"
+      },
+      {
+        "slug": "last-epoch-weaver-tree",
+        "file": "last-epoch-weaver-tree"
+      }
+    ],
+    "tools-and-filters": [
+      {
+        "slug": "last-epoch-build-planner",
+        "file": "last-epoch-build-planner"
+      },
+      {
+        "slug": "last-epoch-loot-filter",
+        "file": "last-epoch-loot-filter"
+      },
+      {
+        "slug": "last-epoch-maxroll",
+        "file": "last-epoch-maxroll"
+      },
+      {
+        "slug": "last-epoch-price-check",
+        "file": "last-epoch-price-check"
+      },
+      {
+        "slug": "last-epoch-season-4-loot-filter",
+        "file": "last-epoch-season-4-loot-filter"
+      },
+      {
+        "slug": "last-epoch-tools",
+        "file": "last-epoch-tools"
+      }
+    ]
+  },
+  "ko": {
+    "builds": [
+      {
+        "slug": "last-epoch-beastmaster-build",
+        "file": "last-epoch-beastmaster-build"
+      },
+      {
+        "slug": "last-epoch-bladedancer-build",
+        "file": "last-epoch-bladedancer-build"
+      },
+      {
+        "slug": "last-epoch-builds",
+        "file": "last-epoch-builds"
+      },
+      {
+        "slug": "last-epoch-lich-build",
+        "file": "last-epoch-lich-build"
+      },
+      {
+        "slug": "last-epoch-necromancer-build",
+        "file": "last-epoch-necromancer-build"
+      },
+      {
+        "slug": "last-epoch-runemaster-build",
+        "file": "last-epoch-runemaster-build"
+      },
+      {
+        "slug": "last-epoch-season-4-builds",
+        "file": "last-epoch-season-4-builds"
+      },
+      {
+        "slug": "last-epoch-spellblade-build",
+        "file": "last-epoch-spellblade-build"
+      }
+    ],
+    "classes-and-tier-list": [
+      {
+        "slug": "last-epoch-best-class",
+        "file": "last-epoch-best-class"
+      },
+      {
+        "slug": "last-epoch-classes",
+        "file": "last-epoch-classes"
+      },
+      {
+        "slug": "last-epoch-tier-list",
+        "file": "last-epoch-tier-list"
+      }
+    ],
+    "comparison-and-value": [
+      {
+        "slug": "last-epoch-in-2026",
+        "file": "last-epoch-in-2026"
+      },
+      {
+        "slug": "last-epoch-sale",
+        "file": "last-epoch-sale"
+      },
+      {
+        "slug": "last-epoch-vs-diablo-4",
+        "file": "last-epoch-vs-diablo-4"
+      },
+      {
+        "slug": "last-epoch-vs-path-of-exile-2",
+        "file": "last-epoch-vs-path-of-exile-2"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "last-epoch-beginner-guide",
+        "file": "last-epoch-beginner-guide"
+      },
+      {
+        "slug": "last-epoch-campaign-guide",
+        "file": "last-epoch-campaign-guide"
+      },
+      {
+        "slug": "last-epoch-corruption-monolith",
+        "file": "last-epoch-corruption-monolith"
+      },
+      {
+        "slug": "last-epoch-endgame-guide",
+        "file": "last-epoch-endgame-guide"
+      },
+      {
+        "slug": "last-epoch-passive-points-quests",
+        "file": "last-epoch-passive-points-quests"
+      },
+      {
+        "slug": "last-epoch-walkthrough",
+        "file": "last-epoch-walkthrough"
+      }
+    ],
+    "platforms-and-community": [
+      {
+        "slug": "last-epoch-forum",
+        "file": "last-epoch-forum"
+      },
+      {
+        "slug": "last-epoch-ps5",
+        "file": "last-epoch-ps5"
+      },
+      {
+        "slug": "last-epoch-reddit",
+        "file": "last-epoch-reddit"
+      },
+      {
+        "slug": "last-epoch-steam-charts",
+        "file": "last-epoch-steam-charts"
+      },
+      {
+        "slug": "last-epoch-steam-deck",
+        "file": "last-epoch-steam-deck"
+      },
+      {
+        "slug": "last-epoch-steam",
+        "file": "last-epoch-steam"
+      }
+    ],
+    "season-4-and-updates": [
+      {
+        "slug": "last-epoch-new-season",
+        "file": "last-epoch-new-season"
+      },
+      {
+        "slug": "last-epoch-patch-notes",
+        "file": "last-epoch-patch-notes"
+      },
+      {
+        "slug": "last-epoch-release-date",
+        "file": "last-epoch-release-date"
+      },
+      {
+        "slug": "last-epoch-roadmap-2026",
+        "file": "last-epoch-roadmap-2026"
+      },
+      {
+        "slug": "last-epoch-season-4-release-date",
+        "file": "last-epoch-season-4-release-date"
+      },
+      {
+        "slug": "last-epoch-season-4-start-time",
+        "file": "last-epoch-season-4-start-time"
+      },
+      {
+        "slug": "last-epoch-season-4",
+        "file": "last-epoch-season-4"
+      },
+      {
+        "slug": "last-epoch-twitch-drops",
+        "file": "last-epoch-twitch-drops"
+      }
+    ],
+    "systems-and-items": [
+      {
+        "slug": "last-epoch-blessings",
+        "file": "last-epoch-blessings"
+      },
+      {
+        "slug": "last-epoch-exalted-items",
+        "file": "last-epoch-exalted-items"
+      },
+      {
+        "slug": "last-epoch-harbinger-of-hatred",
+        "file": "last-epoch-harbinger-of-hatred"
+      },
+      {
+        "slug": "last-epoch-items",
+        "file": "last-epoch-items"
+      },
+      {
+        "slug": "last-epoch-legendary-potential",
+        "file": "last-epoch-legendary-potential"
+      },
+      {
+        "slug": "last-epoch-shade-of-orobyss",
+        "file": "last-epoch-shade-of-orobyss"
+      },
+      {
+        "slug": "last-epoch-skill-tree",
+        "file": "last-epoch-skill-tree"
+      },
+      {
+        "slug": "last-epoch-temporal-sanctum",
+        "file": "last-epoch-temporal-sanctum"
+      },
+      {
+        "slug": "last-epoch-weaver-tree",
+        "file": "last-epoch-weaver-tree"
+      }
+    ],
+    "tools-and-filters": [
+      {
+        "slug": "last-epoch-build-planner",
+        "file": "last-epoch-build-planner"
+      },
+      {
+        "slug": "last-epoch-loot-filter",
+        "file": "last-epoch-loot-filter"
+      },
+      {
+        "slug": "last-epoch-maxroll",
+        "file": "last-epoch-maxroll"
+      },
+      {
+        "slug": "last-epoch-price-check",
+        "file": "last-epoch-price-check"
+      },
+      {
+        "slug": "last-epoch-season-4-loot-filter",
+        "file": "last-epoch-season-4-loot-filter"
+      },
+      {
+        "slug": "last-epoch-tools",
+        "file": "last-epoch-tools"
+      }
+    ]
+  },
+  "pt": {
+    "builds": [
+      {
+        "slug": "last-epoch-beastmaster-build",
+        "file": "last-epoch-beastmaster-build"
+      },
+      {
+        "slug": "last-epoch-bladedancer-build",
+        "file": "last-epoch-bladedancer-build"
+      },
+      {
+        "slug": "last-epoch-builds",
+        "file": "last-epoch-builds"
+      },
+      {
+        "slug": "last-epoch-lich-build",
+        "file": "last-epoch-lich-build"
+      },
+      {
+        "slug": "last-epoch-necromancer-build",
+        "file": "last-epoch-necromancer-build"
+      },
+      {
+        "slug": "last-epoch-runemaster-build",
+        "file": "last-epoch-runemaster-build"
+      },
+      {
+        "slug": "last-epoch-season-4-builds",
+        "file": "last-epoch-season-4-builds"
+      },
+      {
+        "slug": "last-epoch-spellblade-build",
+        "file": "last-epoch-spellblade-build"
+      }
+    ],
+    "classes-and-tier-list": [
+      {
+        "slug": "last-epoch-best-class",
+        "file": "last-epoch-best-class"
+      },
+      {
+        "slug": "last-epoch-classes",
+        "file": "last-epoch-classes"
+      },
+      {
+        "slug": "last-epoch-tier-list",
+        "file": "last-epoch-tier-list"
+      }
+    ],
+    "comparison-and-value": [
+      {
+        "slug": "last-epoch-in-2026",
+        "file": "last-epoch-in-2026"
+      },
+      {
+        "slug": "last-epoch-sale",
+        "file": "last-epoch-sale"
+      },
+      {
+        "slug": "last-epoch-vs-diablo-4",
+        "file": "last-epoch-vs-diablo-4"
+      },
+      {
+        "slug": "last-epoch-vs-path-of-exile-2",
+        "file": "last-epoch-vs-path-of-exile-2"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "last-epoch-beginner-guide",
+        "file": "last-epoch-beginner-guide"
+      },
+      {
+        "slug": "last-epoch-campaign-guide",
+        "file": "last-epoch-campaign-guide"
+      },
+      {
+        "slug": "last-epoch-corruption-monolith",
+        "file": "last-epoch-corruption-monolith"
+      },
+      {
+        "slug": "last-epoch-endgame-guide",
+        "file": "last-epoch-endgame-guide"
+      },
+      {
+        "slug": "last-epoch-passive-points-quests",
+        "file": "last-epoch-passive-points-quests"
+      },
+      {
+        "slug": "last-epoch-walkthrough",
+        "file": "last-epoch-walkthrough"
+      }
+    ],
+    "platforms-and-community": [
+      {
+        "slug": "last-epoch-forum",
+        "file": "last-epoch-forum"
+      },
+      {
+        "slug": "last-epoch-ps5",
+        "file": "last-epoch-ps5"
+      },
+      {
+        "slug": "last-epoch-reddit",
+        "file": "last-epoch-reddit"
+      },
+      {
+        "slug": "last-epoch-steam-charts",
+        "file": "last-epoch-steam-charts"
+      },
+      {
+        "slug": "last-epoch-steam-deck",
+        "file": "last-epoch-steam-deck"
+      },
+      {
+        "slug": "last-epoch-steam",
+        "file": "last-epoch-steam"
+      }
+    ],
+    "season-4-and-updates": [
+      {
+        "slug": "last-epoch-new-season",
+        "file": "last-epoch-new-season"
+      },
+      {
+        "slug": "last-epoch-patch-notes",
+        "file": "last-epoch-patch-notes"
+      },
+      {
+        "slug": "last-epoch-release-date",
+        "file": "last-epoch-release-date"
+      },
+      {
+        "slug": "last-epoch-roadmap-2026",
+        "file": "last-epoch-roadmap-2026"
+      },
+      {
+        "slug": "last-epoch-season-4-release-date",
+        "file": "last-epoch-season-4-release-date"
+      },
+      {
+        "slug": "last-epoch-season-4-start-time",
+        "file": "last-epoch-season-4-start-time"
+      },
+      {
+        "slug": "last-epoch-season-4",
+        "file": "last-epoch-season-4"
+      },
+      {
+        "slug": "last-epoch-twitch-drops",
+        "file": "last-epoch-twitch-drops"
+      }
+    ],
+    "systems-and-items": [
+      {
+        "slug": "last-epoch-blessings",
+        "file": "last-epoch-blessings"
+      },
+      {
+        "slug": "last-epoch-exalted-items",
+        "file": "last-epoch-exalted-items"
+      },
+      {
+        "slug": "last-epoch-harbinger-of-hatred",
+        "file": "last-epoch-harbinger-of-hatred"
+      },
+      {
+        "slug": "last-epoch-items",
+        "file": "last-epoch-items"
+      },
+      {
+        "slug": "last-epoch-legendary-potential",
+        "file": "last-epoch-legendary-potential"
+      },
+      {
+        "slug": "last-epoch-shade-of-orobyss",
+        "file": "last-epoch-shade-of-orobyss"
+      },
+      {
+        "slug": "last-epoch-skill-tree",
+        "file": "last-epoch-skill-tree"
+      },
+      {
+        "slug": "last-epoch-temporal-sanctum",
+        "file": "last-epoch-temporal-sanctum"
+      },
+      {
+        "slug": "last-epoch-weaver-tree",
+        "file": "last-epoch-weaver-tree"
+      }
+    ],
+    "tools-and-filters": [
+      {
+        "slug": "last-epoch-build-planner",
+        "file": "last-epoch-build-planner"
+      },
+      {
+        "slug": "last-epoch-loot-filter",
+        "file": "last-epoch-loot-filter"
+      },
+      {
+        "slug": "last-epoch-maxroll",
+        "file": "last-epoch-maxroll"
+      },
+      {
+        "slug": "last-epoch-price-check",
+        "file": "last-epoch-price-check"
+      },
+      {
+        "slug": "last-epoch-season-4-loot-filter",
+        "file": "last-epoch-season-4-loot-filter"
+      },
+      {
+        "slug": "last-epoch-tools",
+        "file": "last-epoch-tools"
+      }
+    ]
+  },
+  "ru": {
+    "builds": [
+      {
+        "slug": "last-epoch-beastmaster-build",
+        "file": "last-epoch-beastmaster-build"
+      },
+      {
+        "slug": "last-epoch-bladedancer-build",
+        "file": "last-epoch-bladedancer-build"
+      },
+      {
+        "slug": "last-epoch-builds",
+        "file": "last-epoch-builds"
+      },
+      {
+        "slug": "last-epoch-lich-build",
+        "file": "last-epoch-lich-build"
+      },
+      {
+        "slug": "last-epoch-necromancer-build",
+        "file": "last-epoch-necromancer-build"
+      },
+      {
+        "slug": "last-epoch-runemaster-build",
+        "file": "last-epoch-runemaster-build"
+      },
+      {
+        "slug": "last-epoch-season-4-builds",
+        "file": "last-epoch-season-4-builds"
+      },
+      {
+        "slug": "last-epoch-spellblade-build",
+        "file": "last-epoch-spellblade-build"
+      }
+    ],
+    "classes-and-tier-list": [
+      {
+        "slug": "last-epoch-best-class",
+        "file": "last-epoch-best-class"
+      },
+      {
+        "slug": "last-epoch-classes",
+        "file": "last-epoch-classes"
+      },
+      {
+        "slug": "last-epoch-tier-list",
+        "file": "last-epoch-tier-list"
+      }
+    ],
+    "comparison-and-value": [
+      {
+        "slug": "last-epoch-in-2026",
+        "file": "last-epoch-in-2026"
+      },
+      {
+        "slug": "last-epoch-sale",
+        "file": "last-epoch-sale"
+      },
+      {
+        "slug": "last-epoch-vs-diablo-4",
+        "file": "last-epoch-vs-diablo-4"
+      },
+      {
+        "slug": "last-epoch-vs-path-of-exile-2",
+        "file": "last-epoch-vs-path-of-exile-2"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "last-epoch-beginner-guide",
+        "file": "last-epoch-beginner-guide"
+      },
+      {
+        "slug": "last-epoch-campaign-guide",
+        "file": "last-epoch-campaign-guide"
+      },
+      {
+        "slug": "last-epoch-corruption-monolith",
+        "file": "last-epoch-corruption-monolith"
+      },
+      {
+        "slug": "last-epoch-endgame-guide",
+        "file": "last-epoch-endgame-guide"
+      },
+      {
+        "slug": "last-epoch-passive-points-quests",
+        "file": "last-epoch-passive-points-quests"
+      },
+      {
+        "slug": "last-epoch-walkthrough",
+        "file": "last-epoch-walkthrough"
+      }
+    ],
+    "platforms-and-community": [
+      {
+        "slug": "last-epoch-forum",
+        "file": "last-epoch-forum"
+      },
+      {
+        "slug": "last-epoch-ps5",
+        "file": "last-epoch-ps5"
+      },
+      {
+        "slug": "last-epoch-reddit",
+        "file": "last-epoch-reddit"
+      },
+      {
+        "slug": "last-epoch-steam-charts",
+        "file": "last-epoch-steam-charts"
+      },
+      {
+        "slug": "last-epoch-steam-deck",
+        "file": "last-epoch-steam-deck"
+      },
+      {
+        "slug": "last-epoch-steam",
+        "file": "last-epoch-steam"
+      }
+    ],
+    "season-4-and-updates": [
+      {
+        "slug": "last-epoch-new-season",
+        "file": "last-epoch-new-season"
+      },
+      {
+        "slug": "last-epoch-patch-notes",
+        "file": "last-epoch-patch-notes"
+      },
+      {
+        "slug": "last-epoch-release-date",
+        "file": "last-epoch-release-date"
+      },
+      {
+        "slug": "last-epoch-roadmap-2026",
+        "file": "last-epoch-roadmap-2026"
+      },
+      {
+        "slug": "last-epoch-season-4-release-date",
+        "file": "last-epoch-season-4-release-date"
+      },
+      {
+        "slug": "last-epoch-season-4-start-time",
+        "file": "last-epoch-season-4-start-time"
+      },
+      {
+        "slug": "last-epoch-season-4",
+        "file": "last-epoch-season-4"
+      },
+      {
+        "slug": "last-epoch-twitch-drops",
+        "file": "last-epoch-twitch-drops"
+      }
+    ],
+    "systems-and-items": [
+      {
+        "slug": "last-epoch-blessings",
+        "file": "last-epoch-blessings"
+      },
+      {
+        "slug": "last-epoch-exalted-items",
+        "file": "last-epoch-exalted-items"
+      },
+      {
+        "slug": "last-epoch-harbinger-of-hatred",
+        "file": "last-epoch-harbinger-of-hatred"
+      },
+      {
+        "slug": "last-epoch-items",
+        "file": "last-epoch-items"
+      },
+      {
+        "slug": "last-epoch-legendary-potential",
+        "file": "last-epoch-legendary-potential"
+      },
+      {
+        "slug": "last-epoch-shade-of-orobyss",
+        "file": "last-epoch-shade-of-orobyss"
+      },
+      {
+        "slug": "last-epoch-skill-tree",
+        "file": "last-epoch-skill-tree"
+      },
+      {
+        "slug": "last-epoch-temporal-sanctum",
+        "file": "last-epoch-temporal-sanctum"
+      },
+      {
+        "slug": "last-epoch-weaver-tree",
+        "file": "last-epoch-weaver-tree"
+      }
+    ],
+    "tools-and-filters": [
+      {
+        "slug": "last-epoch-build-planner",
+        "file": "last-epoch-build-planner"
+      },
+      {
+        "slug": "last-epoch-loot-filter",
+        "file": "last-epoch-loot-filter"
+      },
+      {
+        "slug": "last-epoch-maxroll",
+        "file": "last-epoch-maxroll"
+      },
+      {
+        "slug": "last-epoch-price-check",
+        "file": "last-epoch-price-check"
+      },
+      {
+        "slug": "last-epoch-season-4-loot-filter",
+        "file": "last-epoch-season-4-loot-filter"
+      },
+      {
+        "slug": "last-epoch-tools",
+        "file": "last-epoch-tools"
+      }
+    ]
+  }
+}

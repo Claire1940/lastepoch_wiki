@@ -1,0 +1,16 @@
+{
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no __PROTECTED_4db45638__",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais"
+  }
+}

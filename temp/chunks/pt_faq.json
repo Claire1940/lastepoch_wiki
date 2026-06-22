@@ -1,0 +1,41 @@
+{
+  "faq": {
+    "title": "Last Epoch",
+    "titleHighlight": "FAQ",
+    "subtitle": "Perguntas comuns sobre builds, classes e o endgame de Last Epoch",
+    "questions": [
+      {
+        "question": "O que é Last Epoch?",
+        "answer": "Last Epoch é um RPG de ação de viagem no tempo desenvolvido pela Eleventh Hour Games. Ele apresenta 5 classes base com 15 maestrias, um sistema profundo de crafting, filtros de saque e sistemas de endgame, incluindo o __PROTECTED_a06d2f10__ do Destino, Masmorras e Arena."
+      },
+      {
+        "question": "Quantas classes Last Epoch possui?",
+        "answer": "Last Epoch possui 5 classes base: Sentinela, Mago, Acólita, Primordialista e Renegada. Cada classe base se ramifica em 3 maestrias, totalizando 15 subclasses únicas."
+      },
+      {
+        "question": "Qual é a melhor classe inicial em Last Epoch?",
+        "answer": "Sentinela evoluindo para __PROTECTED_1dfa5faf__ é amplamente considerado o caminho mais seguro para um primeiro personagem em Last Epoch. Paladino e Feiticeiro também são escolhas fortes e amigáveis para iniciantes, com mecânicas permissivas."
+      },
+      {
+        "question": "Como funciona o crafting em Last Epoch?",
+        "answer": "O crafting de Last Epoch utiliza estilhaços para adicionar ou aprimorar afixos em equipamentos. Cada criação consome Potencial de Forja. Glifos e Runas oferecem opções adicionais de crafting, e a masmorra __PROTECTED_28696a29__ permite a criação de itens lendários."
+      },
+      {
+        "question": "O que é o endgame de Last Epoch?",
+        "answer": "O endgame de Last Epoch foca no __PROTECTED_a06d2f10__ do Destino, onde você aumenta a corrupção e recebe bênçãos. Conteúdos adicionais de endgame incluem Masmorras com mecânicas únicas, Arena para sobrevivência a hordas e progressão de equipamentos baseada em facções através do __PROTECTED_8887aea3__ ou __PROTECTED_6d8e1547__."
+      },
+      {
+        "question": "É possível resetar os pontos (respec) em Last Epoch?",
+        "answer": "Sim. Last Epoch permite o respec de passivas e habilidades a qualquer momento por um pequeno custo em ouro. Atualizações recentes também adicionaram o respec de maestria, permitindo que os jogadores alterem sua subclasse."
+      },
+      {
+        "question": "O Last Epoch é multiplayer?",
+        "answer": "Sim. Last Epoch suporta cooperativo online para até 4 jogadores. Você também pode jogar solo offline ou no modo solo online com acesso ao baú compartilhado e trocas."
+      },
+      {
+        "question": "Em quais plataformas Last Epoch está disponível?",
+        "answer": "Last Epoch está disponível para PC através do __PROTECTED_4db45638__. O jogo foi lançado em sua versão completa em 21 de fevereiro de 2024, após um longo período de Acesso Antecipado."
+      }
+    ]
+  }
+}
